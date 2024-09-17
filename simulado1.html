@@ -13,7 +13,7 @@
         // Função para iniciar o cronômetro
         function startTimer(duration, display) {
             let timer = duration, minutes, seconds;
-            setInterval(function () {
+            const interval = setInterval(function () {
                 minutes = parseInt(timer / 60, 10);
                 seconds = parseInt(timer % 60, 10);
 
@@ -23,7 +23,7 @@
                 display.textContent = minutes + ":" + seconds;
 
                 if (--timer < 0) {
-                    timer = 0;
+                    clearInterval(interval);
                     submitAnswer();
                 }
             }, 1000);
@@ -31,7 +31,7 @@
 
         // Função para obter questões e iniciar o simulado
         function startSimulado() {
-            fetch('questions_simulado1.json') // Alterado para o novo nome do arquivo
+            fetch('questions_simulado1.json') // Nome do arquivo JSON com as perguntas
                 .then(response => response.json())
                 .then(data => {
                     questions = data;
@@ -56,7 +56,7 @@
 
             question.answers.forEach((answer, index) => {
                 let label = document.createElement('label');
-                label.classList.add('answer-label'); // Adiciona a classe de estilo para alinhar
+                label.classList.add('answer-label');
                 let input = document.createElement('input');
                 input.type = 'radio';
                 input.name = 'answer';
@@ -88,25 +88,53 @@
 
         // Função para mostrar o resultado
         function showResult() {
-            // Envia os resultados para a página de resultado
-            const results = {
-                questions: questions,
-                answers: answers
-            };
-            const resultsData = encodeURIComponent(JSON.stringify(results));
-            window.location.href = `resultado.html?results=${resultsData}`;
+            document.getElementById('question-container').classList.add('hidden');
+            
+            let correctAnswers = 0;
+            questions.forEach((question, index) => {
+                if (answers[index] === question.correctAnswer) {
+                    correctAnswers++;
+                }
+            });
+            
+            let totalQuestions = questions.length;
+            let percentage = (correctAnswers / totalQuestions) * 100;
+            let resultText = '';
+            if (percentage >= 70) {
+                resultText = 'Aprovado! 🎉';
+                document.getElementById('result-text').classList.add('approved');
+            } else {
+                resultText = 'Reprovado! 😢';
+                document.getElementById('result-text').classList.add('rejected');
+            }
+            document.getElementById('result-text').textContent = resultText;
+            
+            let resultsDetails = document.getElementById('results-details');
+            resultsDetails.innerHTML = `<h3>Detalhes:</h3>`;
+            
+            questions.forEach((question, index) => {
+                let userAnswerIndex = answers[index];
+                let userAnswerText = userAnswerIndex !== undefined ? question.answers[userAnswerIndex] : 'Nenhuma';
+                let correctAnswerIndex = question.correctAnswer;
+                let correctAnswerText = question.answers[correctAnswerIndex];
+
+                let userAnswerClass = userAnswerIndex === correctAnswerIndex ? 'correct-answer' : 'incorrect-answer';
+                
+                resultsDetails.innerHTML += `
+                    <p>
+                        <strong>Pergunta ${index + 1}:</strong> ${question.question}<br>
+                        <strong>Resposta Marcada:</strong> <span class="${userAnswerClass}">${userAnswerText}</span><br>
+                        <strong>Resposta Correta:</strong> <span class="correct-answer">${correctAnswerText}</span>
+                    </p>
+                `;
+            });
+
+            document.getElementById('result-container').classList.remove('hidden');
         }
 
         // Função para reiniciar o simulado
         function restartSimulado() {
             window.location.href = 'index.html'; // Redireciona para a página inicial
-        }
-
-        // Função para cancelar o simulado
-        function cancelSimulado() {
-            if (confirm('Tem certeza de que deseja cancelar o simulado?')) {
-                window.location.href = 'index.html'; // Redireciona para a página inicial ou uma página de cancelamento
-            }
         }
 
         document.addEventListener('DOMContentLoaded', (event) => {
@@ -131,8 +159,6 @@
             <div id="results-details"></div>
             <button id="restart-button" class="button" onclick="restartSimulado()">Escolher Prova</button>
         </div>
-        <!-- Botão de cancelamento adicionado -->
-        <button id="cancel-button" class="button" onclick="cancelSimulado()">Cancelar Prova</button>
     </div>
 </body>
 </html>

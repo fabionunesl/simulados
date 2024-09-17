@@ -89,13 +89,12 @@ body {
 }
 
 /* Estilos específicos */
-.red-box {
-    background-color: #ff4d4d; /* Vermelho claro */
-    color: #fff;
-    padding: 10px;
-    border-radius: 5px;
+.correct-answer {
+    color: green;
+    font-weight: bold;
 }
 
-.highlight-red {
-    color: #ff0000; /* Vermelho */
+.incorrect-answer {
+    color: red;
+    font-weight: bold;
 }

@@ -6,6 +6,7 @@
     <title>Resultado do Simulado</title>
     <link rel="stylesheet" href="styles.css">
     <style>
+        /* Adiciona estilos específicos para esta página */
         .correct-answer {
             color: green;
             font-weight: bold;
@@ -13,6 +14,9 @@
         .incorrect-answer {
             color: red;
             font-weight: bold;
+        }
+        .answer-detail {
+            margin-bottom: 10px;
         }
     </style>
     <script>
@@ -50,19 +54,21 @@
 
             resultsDetailsElement.innerHTML = `<h3>Detalhes:</h3>`;
             results.questions.forEach((question, index) => {
-                let userAnswer = results.answers[index] !== undefined ? String.fromCharCode(65 + results.answers[index]) : 'Nenhuma';
-                let correctAnswer = String.fromCharCode(65 + question.correctAnswer);
-                let userAnswerText = question.answers[results.answers[index]] || 'Nenhuma';
-                let correctAnswerText = question.answers[question.correctAnswer];
+                let userAnswerIndex = results.answers[index];
+                let userAnswer = userAnswerIndex !== undefined ? String.fromCharCode(65 + userAnswerIndex) : 'Nenhuma';
+                let correctAnswerIndex = question.correctAnswer;
+                let correctAnswer = String.fromCharCode(65 + correctAnswerIndex);
+                let userAnswerText = question.answers[userAnswerIndex] || 'Nenhuma';
+                let correctAnswerText = question.answers[correctAnswerIndex];
 
-                let userAnswerClass = results.answers[index] === question.correctAnswer ? 'correct-answer' : 'incorrect-answer';
+                let userAnswerClass = userAnswerIndex === correctAnswerIndex ? 'correct-answer' : 'incorrect-answer';
 
                 resultsDetailsElement.innerHTML += `
-                    <p>
+                    <div class="answer-detail">
                         <strong>Pergunta ${index + 1}:</strong> ${question.question}<br>
                         <strong>Resposta Marcada:</strong> <span class="${userAnswerClass}">${userAnswer} (${userAnswerText})</span><br>
                         <strong>Resposta Correta:</strong> <span class="correct-answer">${correctAnswer} (${correctAnswerText})</span>
-                    </p>
+                    </div>
                 `;
             });
         }
