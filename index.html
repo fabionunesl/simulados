@@ -55,30 +55,38 @@
             text-transform: uppercase;
         }
 
-        .button {
-            background-color: #ff5722; /* Laranja escuro */
-            border: none;
-            color: white;
-            padding: 15px 25px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
+        .login-container {
+            margin-bottom: 30px;
+        }
+
+        .login-container input {
+            padding: 10px;
+            margin: 5px;
+            width: 80%;
             font-size: 16px;
-            margin: 10px;
-            cursor: pointer;
             border-radius: 5px;
-            transition: background-color 0.3s ease, transform 0.2s ease;
+            border: 1px solid #ccc;
+            display: block;
+            margin: 10px auto;
         }
 
-        .button:hover {
-            background-color: #e64a19; /* Laranja mais escuro */
-            transform: scale(1.05); /* Efeito de aumento */
+        .login-container button {
+            margin-top: 15px;
+            background-color: #4CAF50; /* Verde */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
         }
 
-        .simulados-lista {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        .login-container button:hover {
+            background-color: #45a049; /* Verde escuro */
+        }
+
+        .error-message {
+            color: red;
+            font-weight: bold;
         }
 
         /* Adicionando responsividade */
@@ -94,22 +102,52 @@
             }
         }
     </style>
+
+    <script>
+        function validateLogin(event) {
+            event.preventDefault(); // Evita o envio do formulário
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Lista de usuários com suas senhas e páginas de redirecionamento
+            const users = {
+                'admin': { password: 'admin', redirect: 'admin-dashboard.html' },
+                'fabio': { password: 'senha', redirect: 'user1-dashboard.html' },
+                'carol': { password: 'senha', redirect: 'user2-dashboard.html' },
+                'paula': { password: 'senha', redirect: 'user3-dashboard.html' },
+                'ariane': { password: 'senha', redirect: 'user4-dashboard.html' },
+                'joão': { password: 'senha', redirect: 'user5-dashboard.html' }
+                // Adicione mais usuários conforme necessário
+            };
+
+            const user = users[username];
+
+            if (user && password === user.password) {
+                // Redireciona para a página correspondente ao usuário
+                window.location.href = user.redirect;
+            } else {
+                document.getElementById('error-message').textContent = 'Usuário ou senha incorretos!';
+            }
+        }
+    </script>
 </head>
 <body>
     <div class="container">
-        <h1>Bem-vindo ao CFC 17º Região de São Jerônimo</h1>
-        <p class="modern-text">
+        <h1>Bem-vindo</h1>
+        <!-- <p class="modern-text">
             <span class="red-box">Mínimo 70% ACERTOS para aprovação.</span>
-        </p>
+        </p> -->
 
-        <h2>Escolha um simulado abaixo</h2>
-
-        <div class="simulados-lista">
-            <button class="button" onclick="location.href='simulado1.html'">Prova Completa - 01</button>
-            <button class="button" onclick="location.href='simulado2.html'">Em construção</button>
-            <button class="button" onclick="location.href='simulado3.html'">Em construção</button>
-            <button class="button" onclick="location.href='simulado4.html'">Em construção</button>
-            <!-- Acrescente mais simulados conforme necessário -->
+        <!-- Formulário de login -->
+        <div id="login-container" class="login-container">
+            <h2>Coloque seu usuário e senha</h2>
+            <form onsubmit="validateLogin(event)">
+                <input type="text" id="username" placeholder="Usuário" required>
+                <input type="password" id="password" placeholder="Senha" required>
+                <button type="submit">Entrar</button>
+                <p id="error-message" class="error-message"></p>
+            </form>
         </div>
     </div>
 </body>
