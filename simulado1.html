@@ -137,6 +137,13 @@
             window.location.href = 'index.html'; // Redireciona para a página inicial
         }
 
+        // Função para cancelar o simulado
+        function cancelSimulado() {
+            if (confirm('Você tem certeza que deseja cancelar o simulado?')) {
+                window.location.href = 'index.html'; // Redireciona para a página inicial
+            }
+        }
+
         document.addEventListener('DOMContentLoaded', (event) => {
             startSimulado();
         });
@@ -152,6 +159,7 @@
             <form id="question-form">
                 <div id="answers-container" class="answers"></div>
                 <button type="button" id="next-button" class="button" onclick="nextQuestion()">Próxima Pergunta</button>
+                <button type="button" id="cancel-button" class="button" onclick="cancelSimulado()">Cancelar</button>
             </form>
         </div>
         <div id="result-container" class="hidden">
