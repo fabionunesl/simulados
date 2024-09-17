@@ -69,6 +69,19 @@ body {
     background-color: #e67e22; /* Laranja escuro */
 }
 
+#next-button {
+    background-color: #28a745; /* Cor verde */
+    color: white; /* Cor do texto */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#next-button:hover {
+    background-color: #218838; /* Cor verde mais escura ao passar o mouse */
+}
+
 .hidden {
     display: none;
 }
