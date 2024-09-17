@@ -77,25 +77,257 @@
         "correctAnswer": 3
     },
     {
-        "question": "(123)", 
+        "question": "08- Segundo o Código, é infração de natureza gravíssima conduzir o veículo ", 
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "utilizando-se de fones de ouvido conectados a aparelhagem sonora ou de telefone celular;",
+            "conversando animadamente com os passageiros;",
+            "utilizando uma das mãos para segurar ou manusear o telefone celular,",
+            "sem portar o documento de habilitação;",
+            "sem equipamento obrigatório ou estando este sem condições de funcionamento."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "09- É penalizado com multa x 5 o condutor que", 
+        "answers": [
+            "ultrapassa outro veiculo pela contramão em trechos demarcados por linha amarela continua;",
+            "dirige estando com o direito de dirigir suspenso: ",
+            "disputa corrida na via pública;",
+            "participa de eventos na via sem permissão da autoridade; ",
+            "exibe manobra perigosa mediante arrancada brusca."
         ],
         "correctAnswer": 0
     },
     {
-        "question": "123", 
+        "question": "10- O condutor foi autuado por conduzir veículo com o direito de dirigir suspenso. Nesse caso, será penalizado com", 
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "multa agravada com fator multiplicador 10; ",
+            "a cassação do direito de dirigir;",
+            "nova suspensão do direito de dirigir, tornando-se reincidente; ",
+            "realização de curso de reciclagem com aprovação em prova teórica; ",
+            "remoção do veículo e recolhimento da CNH."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "11- São crimes de trânsito", 
+        "answers": [
+            "avançar o sinal vermelho/fechar cruzamentos;",
+            "dirigir sem habilitação/ estacionar em local proibido;",
+            "participar de disputas não autorizadas com dano potencial à incolumidade /omitir socorro;",
+            "transitar na contramão/transitar no acostamento; ",
+            "dirigir em excesso de velocidade/ dirigir sob efeito de álcool."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "12- Assinalar a alternativa INCORRETA sobre reciclagem, considerando também as alterações trazidas pela Lei 14.071/20.", 
+        "answers": [
+            "O condutor que exerce atividade remunerada ao veículo poderá participar de curso preventivo de reciclagem (art. 161, § 5º, Lei 14.071/20).",
+            "Será aplicada a penalidade de suspensão do direito de dirigir ao condutor que, no período de 12 meses, atingir a contagem de 20 pontos, caso constem duas ou mais infrações gravíssimas na pontuação (art. 261, 1, a, Lei 14.071/20).",
+            "O infrator (condutor ou proprietário) autuado pode optar por ser notificado por meio eletrônico também na reciclagem.",
+            "O condutor que tem seu direito de dirigir suspenso por infrações especificas que preveem essa penalidade deve ficar obrigatoriamente sem dirigir pelo período de um ano. ",
+            "Na suspensão do direito de dirigir, após cumpridas as penalidades e decorrido o prazo, o condutor passa a usufruir novamente do seu direito de dirigir."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "13- Ao efetuar curvas em rodovias, o condutor deve ", 
+        "answers": [
+            "reduzir a velocidade antes de entrar na curva e depois acelerar gradativamente;",
+            "acelerar antes da curva para, assim, aumentar o poder de tração nas rodas; ",
+            "frear durante a curva para evitar a ação da força centrifuga; ",
+            "mudar de marcha, passando para uma de menor rotação, aumentando a tração das rodas;",
+            "acelerar antes de entrar na curva e frear durante a curva."
         ],
         "correctAnswer": 0
+    },
+    {
+        "question": "14- São elementos importantes na prática da Direção Defensiva ", 
+        "answers": [
+            "Conhecimento, atenção, previsão, habilidade, ação.",
+            "Atenção, previsão, imprudência, habilidade, ação. ",
+            "Conhecimento, previsibilidade, imperícia, habilidade, atenção.",
+            "Previsão, atenção, ação, habilidade, imperícia.",
+            "Habilidade, imprudência, imperícia, negligência, ação."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "15- Para evitar uma possível colisão com o veículo que segue à frente, a atitude mais importante a tomar é", 
+        "answers": [
+            "manter velocidade constante;",
+            "sempre diminuir a velocidade;",
+            "conservar-se à direita da pista;",
+            "evitar ultrapassagens pela esquerda;",
+            "observar a regra dos dois segundos."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "16- É um tipo de atenção que o condutor utiliza para perceber também o que se passa ao redor, evitando ficar focado num só ponto da direção. Trata-se da atenção", 
+        "answers": [
+            "concentrada;",
+            "motora; ",
+            "dispersa;",
+            "sustentada;",
+            "difusa."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "17- São fatores físicos diretamente ligados ao condutor que determinam como ele se comporta no trânsito", 
+        "answers": [
+            "fadiga, atenção, audição e visão;",
+            "atenção, tempo, audição e chuva; ",
+            "tempo, atenção, neblina e audição;",
+            "veiculo, tempo, atenção e fadiga:",
+            "atenção, audição, veículo e via."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "18- Ao se aproximar do semáforo, o sinal muda para o amarelo. Você percebe que atrás vem um veiculo muito próximo ao seu. Nessa situação você deve ", 
+        "answers": [
+            "dar sinal de braço, frear intermitentemente para acionar a luz do freio alertando o condutor e tentar parar antes da faixa de segurança;",
+            "acelerar para cruzar, mesmo que corra o risco de ter de passar no sinal vermelho;",
+            "dar sinal de braço e frear bruscamente, para obrigar o outro também a parar,",
+            "frear e mudar de faixa para dar passagem ao outro condutor, ",
+            "tentar mudar de faixa para se livrar de uma possível colisão traseira."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "19- Estacionar sobre a calçada é", 
+        "answers": [
+            "permitido quando os passageiros vão embarcar ou desembarcar do veículo;",
+            "permitido apenas para veículos de duas ou três rodas: ",
+            "uma infração de trânsito e um desrespeito aos direitos dos pedestres",
+            "permitido nas proximidades de restaurantes e bares noturnos;",
+            "permitido se o veículo estiver com apenas duas rodas sobre a calçada."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "20- São componentes que podem ou não fazer parte de um capacete certificado pelo INMETRO, EXCETO (MENOS)", 
+        "answers": [
+            "sistema de retenção:",
+            "pala;",
+            "sobreviseira;",
+            "queixeira removível;",
+            "máscara."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "21- É proibido colocar película", 
+        "answers": [
+            "na viseira do capacete do condutor somente;",
+            "na viseira do capacete do condutor e nos óculos de proteção do condutor, somente;",
+            "na viseira do capacete do passageiro e nos óculos de proteção do passageiro somente;",
+            "na viseira do capacete do passageiro somente;",
+            "na viseira dos capacetes do condutor e do passageiro e nos óculos de proteção do condutor e do passageiro."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "22- Um condutor de motocicleta transita por uma via de mão dupla, numa situação de chuva muito intensa, a ponto de formar poças d'água sobre a pista. Nesse caso, o piloto deve", 
+        "answers": [
+            "andar na linha divisória da pista para desviar das poças d'água; ",
+            "aumentar a velocidade para aumentar a aderência dos pneus ao solo;",
+            "diminuir a velocidade, freando a moto constantemente para desviar das poças d'água;",
+            "diminuir a velocidade e frear a moto cada vez que tiver de passar por cima de uma poça d'água;",
+            "diminuir a velocidade e manter-se à direita da pista, transitando com cuidado."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "23- O que NÃO colabora para diminuir o consumo de combustível?", 
+        "answers": [
+            "Ao trocar as marchas, diminuir a aceleração.",
+            "Transitar com o veiculo com excesso de peso.",
+            "Trocar periodicamente o filtro de combustível.",
+            "Fazer inspeção periódica no veiculo.",
+            "Abastecer o veiculo com combustível de boa qualidade."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "24- Qual é a maneira correta de o piloto e o passageiro transitar com o capacete? ", 
+        "answers": [
+            "Colocado na cabeça e firmemente afixado por debaixo do maxilar inferior através da cinta jugular e engates.",
+            "Afixado na cabeça, da maneira que mais lhe convier.",
+            "Transportado no braço ou afixado nos suportes específicos existentes na motocicleta. ",
+            "O piloto deve usar o capacete com viseira abaixada, o que não é obrigado ao passageiro.",
+            "O uso da viseira ou óculos de proteção é obrigatório apenas ao piloto."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "25- Levando em consideração também as alterações trazidas pela Lei 14.071/20, assinale a alternativa que contém a correspondência correta entre a utilização ou não do equipamento e a natureza da infração. O piloto transita", 
+        "answers": [
+            "sem utilizar capacete de segurança - infração grave;",
+            "sem utilizar vestuário de acordo com a regulamentação do CONTRAN- infração média;",
+            "utilizando capacete com a viseira levantada (sem utilizar viseira) - infração média; ",
+            "utilizando capacete sem óculos de proteção - infração grave;",
+            "utilizando capacete sem viseira ou óculos de proteção - infração gravíssima."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "26- Componente importante do veículo para a redução dos níveis de poluição do ar ou atmosférica. Trata-se do(a) ", 
+        "answers": [
+            "silenciador;",
+            "catalisador;",
+            "cano de escapamento;",
+            "válvula de admissão;",
+            "válvula de escape."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "27- O veículo começa a falhar. O condutor estaciona no acostamento, sinalizando adequadamente. É constatado um problema na bateria, vindo o liquido a vazar sobre o braço. Nesse caso, seguindo o que recomendam os fabricantes de baterias, o que o condutor deve fazer?", 
+        "answers": [
+            "Lavar com água boricada. ",
+            "Lavar com água oxigenada.",
+            "Lavar com água corrente e depois procurar socorro médico. ",
+            "Não fazer nada e ir ao socorro médico.",
+            "Colocar gelo porque abafa o calor da queimadura."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "28 - Ao realizar uma avaliação primária numa vítima de acidente de trânsito, o PRIMEIRO item que deve ser avaliado é", 
+        "answers": [
+            "circulação e proteção da vitima; ",
+            "vias aéreas e coluna cervical;",
+            "fraturas e hemorragias; ",
+            "nível de consciência e respiração;",
+            "respiração e temperatura corporal."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "29- Num atropelamento, a vítima passa a ter respiração rápida e irregular, fica agitada e ansiosa. Isso indica que ela", 
+        "answers": [
+            "pode estar entrando em estado de choque;",
+            "está tendo uma parada cardíaca;",
+            "sofreu uma parada respiratória;",
+            "teve um desmaio;",
+            "vai ter convulsões fortes."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "30- Um acidente de trânsito aconteceu numa via de mão única, com várias faixas no mesmo sentido. Nesse caso, a sinalização, deve ser feita", 
+        "answers": [
+            "em ambos os lados da via;",
+            "no lado da via mais próximo de onde o acidente aconteceu; ",
+            "no lado oposto da via ao qual o acidente aconteceu;",
+            "somente no lado esquerdo da pista;",
+            "somente no lado direito da pista."
+        ],
+        "correctAnswer": 1
     }
+   
 ]
