@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado do Simulado</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .correct-answer {
+            color: green;
+            font-weight: bold;
+        }
+        .incorrect-answer {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+    <script>
+        // Função para carregar e exibir o resultado
+        function loadResults() {
+            // Obtém os dados da URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const resultsData = urlParams.get('results');
+            const results = JSON.parse(decodeURIComponent(resultsData));
+
+            const resultTextElement = document.getElementById('result-text');
+            const resultsDetailsElement = document.getElementById('results-details');
+            const percentageElement = document.getElementById('percentage-text');
+
+            let correctAnswers = 0;
+            results.answers.forEach((answer, index) => {
+                if (answer === results.questions[index].correctAnswer) {
+                    correctAnswers++;
+                }
+            });
+
+            let totalQuestions = results.questions.length;
+            let percentage = (correctAnswers / totalQuestions) * 100;
+            percentageElement.textContent = `Percentual de Acertos: ${percentage.toFixed(2)}%`;
+
+            let resultText = '';
+            if (percentage >= 70) {
+                resultText = 'Aprovado! 🎉';
+                resultTextElement.classList.add('approved');
+            } else {
+                resultText = 'Reprovado! 😢';
+                resultTextElement.classList.add('rejected');
+            }
+            resultTextElement.textContent = resultText;
+
+            resultsDetailsElement.innerHTML = `<h3>Detalhes:</h3>`;
+            results.questions.forEach((question, index) => {
+                let userAnswer = results.answers[index] !== undefined ? String.fromCharCode(65 + results.answers[index]) : 'Nenhuma';
+                let correctAnswer = String.fromCharCode(65 + question.correctAnswer);
+                let userAnswerText = question.answers[results.answers[index]] || 'Nenhuma';
+                let correctAnswerText = question.answers[question.correctAnswer];
+
+                let userAnswerClass = results.answers[index] === question.correctAnswer ? 'correct-answer' : 'incorrect-answer';
+
+                resultsDetailsElement.innerHTML += `
+                    <p>
+                        <strong>Pergunta ${index + 1}:</strong> ${question.question}<br>
+                        <strong>Resposta Marcada:</strong> <span class="${userAnswerClass}">${userAnswer} (${userAnswerText})</span><br>
+                        <strong>Resposta Correta:</strong> <span class="correct-answer">${correctAnswer} (${correctAnswerText})</span>
+                    </p>
+                `;
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', loadResults);
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Resultado do Simulado</h1>
+        <h2 id="result-text"></h2>
+        <p id="percentage-text"></p>
+        <div id="results-details"></div>
+        <button id="restart-button" class="button" onclick="window.location.href='index.html'">Escolher Prova</button>
+    </div>
+</body>
+</html>

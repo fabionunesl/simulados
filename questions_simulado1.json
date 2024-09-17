@@ -1,0 +1,25 @@
+[
+    {
+        "question": "01 - Qual é a capital do Brasil?", 
+        "answers": [
+            "111111111111",
+            "Brasília",
+            "São Paulo",
+            "Salvador",
+            "Curitiba"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "02 - Quem descobriu o Brasil?", 
+        "answers": [
+            "Pedro Álvares Cabral",
+            "Cristóvão Colombo",
+            "Vasco da Gama",
+            "Dom Pedro I",
+            "Fernando de Noronha"
+        ],
+        "correctAnswer": 0
+    }
+    
+]

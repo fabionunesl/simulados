@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulado 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="timer-container">
+            Tempo restante: <span id="timer"></span>
+        </div>
+        <div id="question-container">
+            <h1 id="question-text"></h1>
+            <form id="question-form">
+                <div id="answers-container"></div>
+                <button type="button" id="next-button" class="button" onclick="nextQuestion()">Próxima Pergunta</button>
+            </form>
+        </div>
+        <div id="result-container" class="hidden">
+            <h2 id="result-text"></h2>
+            <div id="results-details"></div>
+            <button id="restart-button" class="button" onclick="restartSimulado()">Escolher Prova</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        // Perguntas e respostas para o Simulado 1
+        const questions = [
+            {
+                question: "Qual a capital do Brasil?",
+                answers: ["São Paulo", "Rio de Janeiro", "Brasília", "Salvador", "Belo Horizonte"],
+                correctAnswer: 2
+            },
+            {
+                question: "Qual o maior planeta do sistema solar?",
+                answers: ["Terra", "Marte", "Júpiter", "Saturno", "Urano"],
+                correctAnswer: 2
+            }
+            // Adicione mais perguntas conforme necessário
+        ];
+
+        let currentQuestionIndex = 0;
+        let userAnswers = [];
+        const totalQuestions = questions.length;
+
+        // Configuração do cronômetro
+        const endTime = Date.now() + 45 * 60 * 1000; // 45 minutos a partir de agora
+        const timerElement = document.getElementById('timer');
+        function updateTimer() {
+            const now = Date.now();
+            const distance = endTime - now;
+
+            if (distance < 0) {
+                clearInterval(timerInterval);
+                timerElement.innerHTML = "Tempo esgotado!";
+                document.getElementById('question-form').submit(); // Enviar o formulário automaticamente
+                return;
+            }
+
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            timerElement.innerHTML = `${("0" + minutes).slice(-2)}:${("0" + seconds).slice(-2)}`;
+        }
+        const timerInterval = setInterval(updateTimer, 1000);
+
+        function showQuestion() {
+            const question = questions[currentQuestionIndex];
+            document.getElementById('question-text').innerText = question.question;
+            const answersContainer = document.getElementById('answers-container');
+            answersContainer.innerHTML = '';
+            question.answers.forEach((answer, index) => {
+                answersContainer.innerHTML += `
+                    <label>
+                        <input type="radio" name="answer" value="${index}">
+                        ${String.fromCharCode(65 + index)}. ${answer}
+                    </label>
+                `;
+            });
+        }
+
+        function nextQuestion() {
+            const selectedAnswer = document.querySelector('input[name="answer"]:checked');
+            if (selectedAnswer) {
+                userAnswers[currentQuestionIndex] = parseInt(selectedAnswer.value, 10);
+                currentQuestionIndex++;
+                if (currentQuestionIndex < totalQuestions) {
+                    showQuestion();
+                } else {
+                    showResult();
+                }
+            } else {
+                alert("Por favor, selecione uma resposta.");
+            }
+        }
+
+        function showResult() {
+            const resultContainer = document.getElementById('result-container');
+            const resultTitle = document.getElementById('result-text');
+            const resultDetails = document.getElementById('results-details');
+            let correctAnswers = 0;
+
+            questions.forEach((question, index) => {
+                const userAnswer = userAnswers[index];
+                if (userAnswer === question.correctAnswer) {
+                    correctAnswers++;
+                }
+            });
+
+            const percentage = (correctAnswers / totalQuestions) * 100;
+            resultTitle.className = percentage >= 70 ? 'approved' : 'rejected';
+            resultTitle.innerHTML = percentage >= 70 ? "Aprovado! 😊" : "Reprovado! 😞";
+
+            resultDetails.innerHTML = `
+                <h3>Resultado Final:</h3>
+                <p><strong>Total de Perguntas:</strong> ${totalQuestions}</p>
+                <p><strong>Respostas Corretas:</strong> ${correctAnswers}</p>
+                <p><strong>Percentual:</strong> ${percentage.toFixed(2)}%</p>
+                <h3>Detalhes das Respostas:</h3>
+                ${questions.map((question, index) => `
+                    <div>
+                        <p><strong>Pergunta:</strong> ${question.question}</p>
+                        <p><strong>Resposta Correta:</strong> ${String.fromCharCode(65 + question.correctAnswer)}. ${question.answers[question.correctAnswer]}</p>
+                        <p><strong>Sua Resposta:</strong> ${userAnswers[index] !== undefined ? String.fromCharCode(65 + userAnswers[index]) + '. ' + question.answers[userAnswers[index]] : 'Nenhuma resposta selecionada'}</p>
+                    </div>
+                `).join('')}
+            `;
+
+            resultContainer.classList.remove('hidden');
+            document.getElementById('question-container').classList.add('hidden');
+        }
+
+        function restartSimulado() {
+            window.location.href = 'index.html';
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            showQuestion();
+        });
+    </script>
+</body>
+</html>

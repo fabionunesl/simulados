@@ -1,0 +1,57 @@
+[
+    {
+        "question": "Qual é a capital do Brasil?",
+        "answers": [
+            "2222222222",
+            "Brasília",
+            "São Paulo",
+            "Salvador",
+            "Curitiba"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Quem descobriu o Brasil?",
+        "answers": [
+            "Pedro Álvares Cabral",
+            "Cristóvão Colombo",
+            "Vasco da Gama",
+            "Dom Pedro I",
+            "Fernando de Noronha"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Qual é o maior país da América do Sul?",
+        "answers": [
+            "Argentina",
+            "Brasil",
+            "Chile",
+            "Peru",
+            "Colômbia"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Em que ano o homem pisou na Lua pela primeira vez?",
+        "answers": [
+            "1965",
+            "1969",
+            "1970",
+            "1975",
+            "1980"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Qual é o maior oceano da Terra?",
+        "answers": [
+            "Oceano Atlântico",
+            "Oceano Índico",
+            "Oceano Ártico",
+            "Oceano Pacífico",
+            "Oceano Antártico"
+        ],
+        "correctAnswer": 3
+    }
+]
