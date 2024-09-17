@@ -107,7 +107,9 @@
                 resultText = 'Reprovado! 😢';
                 document.getElementById('result-text').classList.add('rejected');
             }
-            document.getElementById('result-text').textContent = resultText;
+            
+            // Adiciona o percentual de acertos ao resultado
+            document.getElementById('result-text').textContent = `${resultText} Você acertou ${correctAnswers} de ${totalQuestions} perguntas (${percentage.toFixed(2)}% de acerto).`;
             
             let resultsDetails = document.getElementById('results-details');
             resultsDetails.innerHTML = `<h3>Detalhes:</h3>`;
