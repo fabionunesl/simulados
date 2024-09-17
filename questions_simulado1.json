@@ -1,23 +1,45 @@
 [
     {
-        "question": "01 - Qual é a capital do Brasil?", 
+        "question": "01 - É dever de todo cidadão", 
         "answers": [
-            "111111111111",
-            "Brasília",
-            "São Paulo",
-            "Salvador",
-            "Curitiba"
+            "solicitar por escrito sinalização e fiscalização aos órgãos e entidades do sistema Nacional de Trânsito;",
+            "sugerir alterações em normas e legislação;",
+            "desenvolver trânsito seguro, deixando de praticar qualquer ato que possa constituir perigo;",
+            "ter ampla defesa;",
+            "desfrutar do trânsito em condições seguras."
         ],
-        "correctAnswer": 0
+        "correctAnswer": 2
     },
     {
-        "question": "02 - Quem descobriu o Brasil?", 
+        "question": "02 - Para ser aprovado no exame teórico, o candidato ou condutor, deve acertar, no mínimo, ", 
         "answers": [
-            "Pedro Álvares Cabral",
-            "Cristóvão Colombo",
-            "Vasco da Gama",
-            "Dom Pedro I",
-            "Fernando de Noronha"
+            "50% das questões propostas;",
+            "60% das questões propostas;",
+            "65% das questões propostas:",
+            "80% das questões propostas;",
+            "70% das questões propostas.."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "03 - Assinalar a alternativa correta.", 
+        "answers": [
+            "Desobedecer às mensagens contidas nas placas de regulamentação não constitui infração.",
+            "As placas de advertência, com fundo amarelo, têm a forma de um retângulo inclinado.",
+            "As placas de indicação têm a principal função de educar os usuários das vias.",
+            "O tráfego é de mão dupla, quando uma pista de rolamento é dividida por uma linha amarela ao longo do seu eixo.",
+            "Silvos e gestos do agente de trânsito são os principais componentes da sinalização temporária."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "123", 
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
         ],
         "correctAnswer": 0
     }
