@@ -17,7 +17,7 @@
             "60% das questões propostas;",
             "65% das questões propostas:",
             "80% das questões propostas;",
-            "70% das questões propostas.."
+            "70% das questões propostas."
         ],
         "correctAnswer": 4
     },
@@ -33,6 +33,61 @@
         "correctAnswer": 3
     },
     {
+        "question": "04 - Ficou provado que o acidente de trânsito aconteceu na via devido à falta de sinalização. De quem é a responsabilidade pelo acidente?", 
+        "answers": [
+            "Do DETRAN.",
+            "Do órgão com jurisdição sobre a via.",
+            "Do condutor do veículo que provocou o acidente.",
+            "Da Circunscrição Regional de Trânsito - CIRETRAN.",
+            "Sempre do Departamento de Infraestrutura de Transportes - DNIT."
+        ],
+        "correctAnswer": 1
+    }, 
+    {
+        "question": "05 - Assinalar a alternativa correta entre o tipo de via e a velocidade MÍNIMA que um condutor pode desenvolver ao trafegar por um trecho não abrangido pela sinalização regulamentadora de velocidade, conduzindo o veículo indicado:", 
+        "answers": [
+            "ônibus - estrada - 50km/h;",
+            "automóvel - rodovia de pista simples - 60km/h;",
+            "camioneta - rodovia de pista dupla - 55km/h;",
+            "motocicleta - via de trânsito rápido - 45km/h;",
+            "caminhão - via arterial - 35km/h."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "06 - Dois veículos circulam por uma avenida, sendo esta uma via arterial, por um trecho não abrangido pela sinalização regulamentadora de velocidade. O veículo A circula a 90km/h, e o veículo B a 70 km/h. Quem está desrespeitando a velocidade máxima permitida?", 
+        "answers": [
+            "Somente o veículo A.",
+            "Somente o veículo B.",
+            "Somente o veículo A, se for um caminhão.",
+            "Os dois veículos.",
+            "Nenhum dos dois."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "07 - Com base na legislação, considerando também a Lei 14.071/20, em relação ao transporte de crianças, é correto afirmar que", 
+        "answers": [
+            "crianças de até dois anos de idade devem viajar no banco traseiro, no colo de um adulto, usando ambos o mesmo cinto de segurança;",
+            "crianças com mais de um metro de altura podem viajar no banco dianteiro, usando cinto de segurança;",
+            "crianças entre quatro e sete anos podem viajar no banco dianteiro, utilizando cinto de segurança;",
+            "crianças com mais de sete anos e meio até dez anos, e com altura inferior a 1,45 m, devem ser transportadas no banco traseiro, utilizando cinto de segurança;",
+            "crianças com dois anos de idade devem viajar no banco traseiro utilizando bebê conforto."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "(123)", 
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
         "question": "123", 
         "answers": [
             "123",
@@ -43,5 +98,4 @@
         ],
         "correctAnswer": 0
     }
-    
 ]
