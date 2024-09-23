@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simulado 1</title>
@@ -45,47 +44,42 @@
                     startTimer(time, display);
                 });
         }
+
         window.addEventListener('beforeunload', function (e) {
-    // Verifica se o simulado está em andamento
-    if (questions.length > 0 && currentQuestionIndex < questions.length) {
-        // Define a mensagem de aviso
-        var confirmationMessage = 'Tem certeza de que deseja sair? Suas respostas serão perdidas.';
-        
-        // Necessário para que o aviso funcione em alguns navegadores
-        e.returnValue = confirmationMessage;
-        
-        // Exibe o aviso
-        return confirmationMessage;
-    }
-});
-       // Função para exibir a pergunta atual
-function showQuestion() {
-    if (questions.length === 0) return;
+            if (questions.length > 0 && currentQuestionIndex < questions.length) {
+                var confirmationMessage = 'Tem certeza de que deseja sair? Suas respostas serão perdidas.';
+                e.returnValue = confirmationMessage;
+                return confirmationMessage;
+            }
+        });
 
-    let question = questions[currentQuestionIndex];
-    document.getElementById('question-text').textContent = question.question;
-    let answersContainer = document.getElementById('answers-container');
-    answersContainer.innerHTML = '';
+        // Função para exibir a pergunta atual
+        function showQuestion() {
+            if (questions.length === 0) return;
 
-    question.answers.forEach((answer, index) => {
-        let label = document.createElement('label');
-        label.classList.add('answer-label');
-        let input = document.createElement('input');
-        input.type = 'radio';
-        input.name = 'answer';
-        input.value = index;
-        if (answers[currentQuestionIndex] === index) {
-            input.checked = true; // Marcar a opção previamente selecionada
+            let question = questions[currentQuestionIndex];
+            document.getElementById('question-text').textContent = question.question;
+            let answersContainer = document.getElementById('answers-container');
+            answersContainer.innerHTML = '';
+
+            question.answers.forEach((answer, index) => {
+                let label = document.createElement('label');
+                label.classList.add('answer-label');
+                let input = document.createElement('input');
+                input.type = 'radio';
+                input.name = 'answer';
+                input.value = index;
+                if (answers[currentQuestionIndex] === index) {
+                    input.checked = true;
+                }
+                label.appendChild(input);
+                label.appendChild(document.createTextNode(` ${String.fromCharCode(65 + index)}. ${answer}`));
+                answersContainer.appendChild(label);
+            });
+
+            document.getElementById('question-container').classList.remove('hidden');
+            document.getElementById('result-container').classList.add('hidden');
         }
-        label.appendChild(input);
-        label.appendChild(document.createTextNode(` ${String.fromCharCode(65 + index)}. ${answer}`));
-        answersContainer.appendChild(label);
-    });
-
-    document.getElementById('question-container').classList.remove('hidden');
-    document.getElementById('result-container').classList.add('hidden');
-}
-
 
         // Função para ir para a próxima pergunta
         function nextQuestion() {
@@ -102,78 +96,76 @@ function showQuestion() {
                 alert('Por favor, selecione uma resposta.');
             }
         }
+
         // Função para voltar à pergunta anterior
         function previousQuestion() {
             if (currentQuestionIndex > 0) {
-                currentQuestionIndex--; // Decrementa o índice da pergunta atual
-                showQuestion(); // Exibe a pergunta anterior
+                currentQuestionIndex--;
+                showQuestion();
             } else {
                 alert('Você já está na primeira pergunta.');
+            }
         }
-        }    
-       // Função para mostrar o resultado
-function showResult() {
-    document.getElementById('question-container').classList.add('hidden');
-    
-    let correctAnswers = 0;
-    questions.forEach((question, index) => {
-        if (answers[index] === question.correctAnswer) {
-            correctAnswers++;
+
+        // Função para mostrar o resultado
+        function showResult() {
+            document.getElementById('question-container').classList.add('hidden');
+
+            let correctAnswers = 0;
+            questions.forEach((question, index) => {
+                if (answers[index] === question.correctAnswer) {
+                    correctAnswers++;
+                }
+            });
+
+            let totalQuestions = questions.length;
+            let percentage = (correctAnswers / totalQuestions) * 100;
+            let resultText = '';
+            if (percentage >= 70) {
+                resultText = 'Aprovado! 🎉';
+                document.getElementById('result-text').classList.add('approved');
+            } else {
+                resultText = 'Reprovado! 😢';
+                document.getElementById('result-text').classList.add('rejected');
+            }
+
+            document.getElementById('result-text').textContent = `${resultText} Você acertou ${correctAnswers} de ${totalQuestions} perguntas (${percentage.toFixed(2)}% de acerto).`;
+
+            let resultsDetails = document.getElementById('results-details');
+            resultsDetails.innerHTML = `<h3>Detalhes:</h3>`;
+
+            questions.forEach((question, index) => {
+                let userAnswerIndex = answers[index];
+                let userAnswerText = userAnswerIndex !== undefined ? question.answers[userAnswerIndex] : 'Nenhuma';
+                let correctAnswerIndex = question.correctAnswer;
+                let correctAnswerText = question.answers[correctAnswerIndex];
+
+                let userAnswerClass = userAnswerIndex === correctAnswerIndex ? 'correct-answer' : 'incorrect-answer';
+
+                resultsDetails.innerHTML += `
+                    <p>
+                        <strong>Pergunta ${index + 1}:</strong> ${question.question}<br>
+                        <strong>Resposta Marcada:</strong> <span class="${userAnswerClass}">${userAnswerText}</span><br>
+                        <strong>Resposta Correta:</strong> <span class="correct-answer">${correctAnswerText}</span>
+                    </p>
+                `;
+            });
+
+            document.getElementById('result-container').classList.remove('hidden');
+
+            let userName = "Nome do Usuário"; // Ajustar para obter o nome do usuário logado
+            let timeTaken = document.getElementById('timer').textContent; // Tempo restante
+
+            let userResult = {
+                name: userName,
+                correctAnswers: correctAnswers,
+                totalQuestions: totalQuestions,
+                percentage: percentage.toFixed(2),
+                timeTaken: timeTaken
+            };
+
+            localStorage.setItem('lastResult', JSON.stringify(userResult));
         }
-    });
-    
-    let totalQuestions = questions.length;
-    let percentage = (correctAnswers / totalQuestions) * 100;
-    let resultText = '';
-    if (percentage >= 70) {
-        resultText = 'Aprovado! 🎉';
-        document.getElementById('result-text').classList.add('approved');
-    } else {
-        resultText = 'Reprovado! 😢';
-        document.getElementById('result-text').classList.add('rejected');
-    }
-    
-    // Adiciona o percentual de acertos ao resultado
-    document.getElementById('result-text').textContent = `${resultText} Você acertou ${correctAnswers} de ${totalQuestions} perguntas (${percentage.toFixed(2)}% de acerto).`;
-    
-    let resultsDetails = document.getElementById('results-details');
-    resultsDetails.innerHTML = `<h3>Detalhes:</h3>`;
-    
-    questions.forEach((question, index) => {
-        let userAnswerIndex = answers[index];
-        let userAnswerText = userAnswerIndex !== undefined ? question.answers[userAnswerIndex] : 'Nenhuma';
-        let correctAnswerIndex = question.correctAnswer;
-        let correctAnswerText = question.answers[correctAnswerIndex];
-
-        let userAnswerClass = userAnswerIndex === correctAnswerIndex ? 'correct-answer' : 'incorrect-answer';
-        
-        resultsDetails.innerHTML += `
-            <p>
-                <strong>Pergunta ${index + 1}:</strong> ${question.question}<br>
-                <strong>Resposta Marcada:</strong> <span class="${userAnswerClass}">${userAnswerText}</span><br>
-                <strong>Resposta Correta:</strong> <span class="correct-answer">${correctAnswerText}</span>
-            </p>
-        `;
-    });
-
-    document.getElementById('result-container').classList.remove('hidden');
-
-    // Salvando os resultados no localStorage
-    let userName = "Nome do Usuário"; // Ajustar para obter o nome do usuário logado
-    let timeTaken = document.getElementById('timer').textContent; // Tempo restante
-    
-    let userResult = {
-        name: userName,
-        correctAnswers: correctAnswers,
-        totalQuestions: totalQuestions,
-        percentage: percentage.toFixed(2),
-        timeTaken: timeTaken
-    };
-
-    // Salvando em localStorage
-    localStorage.setItem('lastResult', JSON.stringify(userResult));
-}
-
 
         // Função para reiniciar o simulado
         function restartSimulado() {
@@ -189,6 +181,14 @@ function showResult() {
 
         document.addEventListener('DOMContentLoaded', (event) => {
             startSimulado();
+
+            // Função para ouvir a tecla Enter e acionar a próxima pergunta
+            document.addEventListener('keydown', function(event) {
+                if (event.key === 'Enter') {
+                    event.preventDefault();
+                    nextQuestion(); 
+                }
+            });
         });
     </script>
 </head>

@@ -1,16 +1,115 @@
 [
     {
-        "question": "123",
+        "question": "01 - O cansaço e o estresse do piloto são fatores",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "normais na vida agitada dos dias de hoje, não exigindo, portanto, cuidados na direção",
+            "tão graves que impedem o condutor a dirigir;",
+            "que diminui a capacidade de concentração exigindo mais cuidados ao dirigir;",
+            "quem interfere no modo de dirigir, mas que não exigem cuidados especiais;",
+            "que não exigem atenção redobrada ao dirigir."
+        ],
+        "correctAnswer": 2
+    },
+    
+    {
+        "question": "02 -  cansaço, stress e sono são condições adversas de",
+        "answers": [
+            "condutor",
+            "via",
+            "veículo",
+            "tempo",
+            "trânsito"
         ],
         "correctAnswer": 0
     },
-    
+    {
+        "question": "03 - Você está dirigindo sozinho o seu carro.  Para garantir segurança no trânsito, o que se deve fazer com o  celular?",
+        "answers": [
+            "Desligar o aparelho ou não atender as chamadas e nem visualizar ou enviar mensagens.",
+            "Verificar quem está ligando e atender se for urgente.",
+            "somente atender as chamadas mais urgentes",
+            "Deixar o telefone no lugar fácil para utilizar.",
+            "Atender imediatamente assim que o telefone tocar"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "04 -  certas substâncias psicoativas são prejudiciais ao ato de dirigir porque",
+        "answers": [
+            "diminuir estimulam ou alteram o funcionamento do cérebro;",
+            "provoca efeitos colaterais positivos no organismo;",
+            "causa alterações no aparelho digestivo do condutor;",
+            "prejudicam a visão e a audição;",
+            "altera o funcionamento do sistema circulatório"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "05 -  Ao fazer uso de substâncias psicoativas (remédios,  álcool, entorpecentes),  você, motociclista terá",
+        "answers": [
+            "benefícios ao seu organismo;",
+            "atuação benéfica em todos os sistemas do seu organismo;",
+            "sua capacidade de atenção redobrada;",
+            "sua inteligência diminuída;",
+            "o funcionamento do seu sistema nervoso central alterado temporariamente."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "06 - O condutor que ingere álcool",
+        "answers": [
+            "tem seus reflexos alterados;",
+            "pode dirigir sem alterações no comportamento;",
+            "representa perigo somente para si mesmo;",
+            "não está cometendo infração, se dirigir;",
+            "está mostrando um comportamento normal."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "07 -  você precisa tomar um medicamento que produz sonolência.  nesse caso,",
+        "answers": [
+            "pode dirigir, desde que o faça com cuidado;",
+            "deve tomar outro medicamento que corte o sono para poder dirigir;",
+            "deve evitar dirigir enquanto estiver sob o efeito do medicamento;",
+            "deve esperar 30 minutos, podendo depois dirigir normalmente",
+            "pode dirigir normalmente ouvindo música suave."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "08 - Dirigir o seu efeito de álcool é uma ação irresponsável porque coloca em risco a segurança. no organismo do condutor, o álcool pode provocar",
+        "answers": [
+            "segurança e tranquilidade;",
+            "diminuição do tempo de reação a estímulos;",
+            "visão dupla, distorcida e fora de foco;",
+            "aumento das atividades cerebrais;",
+            "facilidade no julgamento de distâncias e velocidades."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "09 - Um grupo de amigos combina para participar de uma festa, indo todos no mesmo carro. Quem deve voltar dirigindo?",
+        "answers": [
+            "aquele que for sorteado.",
+            "o proprietário do veículo.",
+            "aquele que, por combinação, não vai tomar bebida alcoólica durante a festa.",
+            "o que tiver mais idade.",
+            "qualquer, mesmo que tenha bebido."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "10 -  Um motociclista foi insultado por um condutor de um automóvel por ter passado muito perto do veículo.  Nessa situação, a atitude correta do motociclista deve ser",
+        "answers": [
+            "Revidar o insulto, xingando o motociclista.",
+            "Andar mais perto ainda do veículo e ameaçar o motorista;",
+            "desconsiderar o Instituto e continuar seu percurso com segurança;",
+            "parar em meio ao trânsito, deixando o condutor seguir adiante;",
+            "seguir adiante e fechar o carro do motorista."
+        ],
+        "correctAnswer": 2
+    },
     {
         "question": "123",
         "answers": [

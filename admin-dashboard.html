@@ -5,35 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="styles.css">
-    <script>
-        // Função para carregar o resultado do último simulado
-        function loadLastResult() {
-            let lastResult = localStorage.getItem('lastResult');
-            if (lastResult) {
-                lastResult = JSON.parse(lastResult);
-                document.getElementById('user-name').textContent = lastResult.name;
-                document.getElementById('correct-answers').textContent = `${lastResult.correctAnswers} de ${lastResult.totalQuestions}`;
-                document.getElementById('percentage').textContent = `${lastResult.percentage}%`;
-                document.getElementById('time-taken').textContent = lastResult.timeTaken;
-            } else {
-                document.getElementById('result-container').textContent = 'Nenhum resultado disponível.';
-            }
-        }
-
-        document.addEventListener('DOMContentLoaded', (event) => {
-            loadLastResult();
-        });
-    </script>
 </head>
 <body>
     <div class="container">
-        <h1>Admin Dashboard</h1>
-        <div id="result-container">
-            <p><strong>Usuário:</strong> <span id="user-name"></span></p>
-            <p><strong>Acertos:</strong> <span id="correct-answers"></span></p>
-            <p><strong>Percentual:</strong> <span id="percentage"></span></p>
-            <p><strong>Tempo Gasto:</strong> <span id="time-taken"></span></p>
-        </div>
+        <h1>Resultados dos Simulados</h1>
+        <div id="results-container"></div>
+
+        <script>
+            // Função para carregar e exibir o resultado do último simulado
+            function loadResults() {
+                let resultsContainer = document.getElementById('results-container');
+                let lastResult = JSON.parse(localStorage.getItem('lastResult'));
+
+                if (lastResult) {
+                    resultsContainer.innerHTML = `
+                        <h2>Último Resultado</h2>
+                        <p><strong>Nome:</strong> ${lastResult.name}</p>
+                        <p><strong>Acertos:</strong> ${lastResult.correctAnswers} de ${lastResult.totalQuestions}</p>
+                        <p><strong>Porcentagem:</strong> ${lastResult.percentage}%</p>
+                        <p><strong>Tempo gasto:</strong> ${lastResult.timeTaken}</p>
+                    `;
+                } else {
+                    resultsContainer.innerHTML = '<p>Nenhum resultado encontrado.</p>';
+                }
+            }
+
+            document.addEventListener('DOMContentLoaded', (event) => {
+                loadResults();
+            });
+        </script>
     </div>
 </body>
 </html>

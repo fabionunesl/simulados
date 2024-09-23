@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escolha o Simulado</title>
+    <title>Bem-vindo ao Simulado</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         /* Estilo geral do corpo */
@@ -44,32 +44,6 @@
             font-weight: 300;
         }
 
-        .red-box {
-            background-color: #d32f2f; /* Tom de vermelho da caixa */
-            color: #fff; /* Cor do texto dentro da caixa */
-            padding: 20px; /* Espaço interno da caixa */
-            border-radius: 8px; /* Arredonda os cantos da caixa */
-            display: inline-block; /* Ajusta a caixa ao tamanho do texto */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar um efeito de profundidade */
-            font-weight: bold;
-            text-transform: uppercase;
-        }
-
-        .login-container {
-            margin-bottom: 30px;
-        }
-
-        .login-container input {
-            padding: 10px;
-            margin: 5px;
-            width: 80%;
-            font-size: 16px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-            display: block;
-            margin: 10px auto;
-        }
-
         .login-container button {
             margin-top: 15px;
             background-color: #4CAF50; /* Verde */
@@ -83,71 +57,19 @@
         .login-container button:hover {
             background-color: #45a049; /* Verde escuro */
         }
-
-        .error-message {
-            color: red;
-            font-weight: bold;
-        }
-
-        /* Adicionando responsividade */
-        @media (max-width: 600px) {
-            .button {
-                width: 90%;
-                font-size: 14px;
-                padding: 12px 20px;
-            }
-
-            .modern-text {
-                font-size: 1em;
-            }
-        }
     </style>
 
     <script>
-        function validateLogin(event) {
-            event.preventDefault(); // Evita o envio do formulário
-
-            const username = document.getElementById('username').value;
-            const password = document.getElementById('password').value;
-
-            // Lista de usuários com suas senhas e páginas de redirecionamento
-            const users = {
-                'admin': { password: 'admin', redirect: 'admin-dashboard.html' },
-                'fabio': { password: 'senha', redirect: 'user1-dashboard.html' },
-                'carol': { password: 'senha', redirect: 'user2-dashboard.html' },
-                'paula': { password: 'senha', redirect: 'user3-dashboard.html' },
-                'ariane': { password: 'senha', redirect: 'user4-dashboard.html' },
-                'joão': { password: 'senha', redirect: 'user5-dashboard.html' }
-                // Adicione mais usuários conforme necessário
-            };
-
-            const user = users[username];
-
-            if (user && password === user.password) {
-                // Redireciona para a página correspondente ao usuário
-                window.location.href = user.redirect;
-            } else {
-                document.getElementById('error-message').textContent = 'Usuário ou senha incorretos!';
-            }
+        function enterSimulado() {
+            window.location.href = 'user1-dashboard.html'; // Redireciona para a página de simulado
         }
     </script>
 </head>
 <body>
     <div class="container">
-        <h1>Bem-vindo</h1>
-        <!-- <p class="modern-text">
-            <span class="red-box">Mínimo 70% ACERTOS para aprovação.</span>
-        </p> -->
-
-        <!-- Formulário de login -->
+        <h1>Bem-vindo ao Simulado</h1>
         <div id="login-container" class="login-container">
-            <h2>Coloque seu usuário e senha</h2>
-            <form onsubmit="validateLogin(event)">
-                <input type="text" id="username" placeholder="Usuário" required>
-                <input type="password" id="password" placeholder="Senha" required>
-                <button type="submit">Entrar</button>
-                <p id="error-message" class="error-message"></p>
-            </form>
+            <button onclick="enterSimulado()">Entrar</button>
         </div>
     </div>
 </body>
