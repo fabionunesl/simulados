@@ -78,7 +78,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "08 - Dirigir o seu efeito de álcool é uma ação irresponsável porque coloca em risco a segurança. no organismo do condutor, o álcool pode provocar",
+        "question": "08 - Dirigir sob efeito de álcool é uma ação irresponsável porque coloca em risco a segurança. No organismo do condutor, o álcool pode provocar",
         "answers": [
             "segurança e tranquilidade;",
             "diminuição do tempo de reação a estímulos;",
@@ -111,14 +111,224 @@
         "correctAnswer": 2
     },
     {
-        "question": "123",
+        "question": "11 -  Ao dirigir em condições de penumbra,  você,  como condutor defensivo deve",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "ligar os faróis e manter sempre a luz alta;",
+            "redobrar a atenção e ligar a luz baixa",
+            "olhar fixamente para os últimos Raios de Sol;",
+            "aumentar a velocidade,  redobrando a atenção;",
+            "manter especial atenção aos veículos que vem atrás."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "12 - Você dirige. dirige à noite.  o que deve fazer para garantir condições de visibilidade para si e para os outros?",
+        "answers": [
+            "usar sempre luz alta;",
+            "e que para o veículo com faróis de longo alcance e mantê-lo sempre ligados.",
+            "manter os faróis limpos, alinhados e utilizá-los de acordo com as normas legais.",
+            "ligar as lanternas de posição.",
+            "manter ligada a luz de placa."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "13 - O condutor do veículo que vem em sentido contrário trafega com faróis altos,  prejudicando a sua visão.  Nessa situação, priorizando a segurança, o que você deve fazer?",
+        "answers": [
+            "Usar também farol alto para pagar com a mesma moeda;",
+            "olhar fixamente para o facho de luz alta do veículo que vem no sentido contrário.",
+            "desviar o olhar para cima Até que o veículo passe.",
+            "dar sinal de luz, manter os faróis baixos e desviar olhar para a direita orientando-se pela linha de bordo.",
+            "tapar os olhos até que o veículo passe."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "14 -  O que faz ocorrer uma aquaplanagem?",
+        "answers": [
+            "pneu careca e baixa velocidade.",
+            "alta velocidade e água sobre a pista.",
+            "água na pista e baixa velocidade.",
+            "velocidade média e pneus em boas condições.",
+            "baixa velocidade e pneus em boas condições."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "15 - Você dirige em situação de chuva tão intensa a ponto de ter a visibilidade impedida ( a ponto de não enxergar).  nesse caso, deve",
+        "answers": [
+            "diminuir a velocidade e continuar dirigindo;",
+            "parar em local seguro e aguardar condições seguras para prosseguir;",
+            "ligar os faróis E os limpadores de para-brisa e continuar dirigindo normalmente;",
+            "continuar dirigindo e usar a buzina como advertência;",
+            "redobrar a atenção e continuar dirigindo mesmo nessas condições."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "16 - Ao transitar na chuva todo piloto deve",
+        "answers": [
+            "diminuir a distância de segurança;",
+            "transitar com farol da moto desligado;",
+            "andar sem capa, Botas e capacete;",
+            "concentrar a preocupação na chuva e esquecer o trânsito;",
+            "redobrar a atenção e diminuir a velocidade."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "17 - Você transita numa via em situação de neblina intensa.  O que deve fazer?",
+        "answers": [
+            "diminuir a velocidade e ligar as luzes de emergência.",
+            "ir transitando com cuidado com pisca alerta ligado.",
+            "parar em local seguro e pedir que os outros condutores parem também.",
+            "usar luz alta  diminuir a velocidade e transitar com cuidado;",
+            "estacionar em local seguro fora da pista e aguardar a neblina passar."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "18 - Não é condição adversa de via:",
+        "answers": [
+            "sinalização ausente ou deficiente;",
+            "inundação e grande volume da água sobre pista;",
+            "pavimentação deficiente: ondulações, valetas, buraco;",
+            "falta de calçadas ou má conservação das mesmas;",
+            "declives acentuados e muitas curvas."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "19 - Você trafega à noite, num condomínio residencial sem iluminação e sem visibilidade. O que deve fazer ao se aproximar de um cruzamento?",
+        "answers": [
+            "parar, olhar com atenção e buzinar.",
+            "buzinar para alertar e acelerar.",
+            "diminuir um pouco a velocidade em entrar com confiança.",
+            "diminuir a velocidade, olhar com atenção e dar sinal de luz antes de cruzar.",
+            "buzinar e dar sinal de luz antes de cruzar."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "20 - Para cruzar sonorizadores, o piloto deve passar por sobre eles em",
+        "answers": [
+            "zig zag;",
+            "sentido oblíquo;",
+            "ângulo reto, formando 90 graus;",
+            "sentido paralelo;",
+            "sentido diagonal."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "21 - O carro atola na areia. quais os procedimentos corretos para desatolar?",
+        "answers": [
+            "pedir às pessoas que passam para embarcar no carro a fim de aumentar o peso;",
+            "Esvaziar um pouco os pneus para aumentar a aderência.",
+            "pisar na embreagem e acelerar bastante.",
+            "girar a direção ora para um lado, ora  para outro. ",
+            "Calçar os pneus com a própria areia"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "22 - Você foi surpreendentemente demitido do trabalho, perdendo o lugar para o seu melhor colega. Para a segurança do trânsito, o que você deveria fazer para voltar para casa imediatamente após a notícia?",
+        "answers": [
+            "Dirigiria seu carro,  mesmo furioso.",
+            "tomaria um ônibus,  e pediria que alguém levasse o carro no final do expediente.",
+            "Primeiro descarregaria raiva para depois dirigir normalmente o carro.",
+            "dirigiria seu carro buzinando na Via para pedir passagem.",
+            "extravasaria sua raiva no trânsito,  porque agindo assim é um comportamento seguro."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "23 - Você está dirigindo seu automóvel na cidade,  e começa a chover.  O que deve fazer em primeiro lugar?",
+        "answers": [
+            "Ligar o rádio e ouvir a previsão do tempo.",
+            "acionar os faróis de neblina.",
+            "acionar as luzes de Rodagem diurna - DRL;",
+            "ligar o desembaçador;",
+            "acionar as limpadores de para-brisa"
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "24 - O motoboy trafega por uma via de trânsito rápido e está atrasado.  para garantir segurança no,  o que deve fazer?",
+        "answers": [
+            "exceder em até 30% a velocidade máxima permitida para via;",
+            "andar por entre os corredores formados pelos outros Veículos;",
+            "ultrapassar pela direita;",
+            "continuar transitando em velocidade compatível e fazer a entrega com segurança;",
+            "passar por entre os veículos mostrando sua habilidade ao tirar fininho deles."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "25 - Você está dirigindo um veículo à noite,  e o motor começa  a falhar. Nesse caso,  o que deve fazer?",
+        "answers": [
+            "sem desligar o motor,  parar o veículo no local em que se encontrar.",
+            "desligar  o motor,  chamar o socorro e aguardar com o veículo sobre a pista de rolamento.",
+            "desligar os faróis para economizar bateria,  mas ligar o pisca-alerta.",
+            "pisar fundo no pedal do acelerador e continuar trafegando.",
+            "Sinalizar, se possível parar a direita da Via e ligar o pisca-alerta, antes de tomar as outras providências."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "26 - Você está no semáforo e abriu o sinal verde para o veículo, no entanto, um pedestre inicia a travessia, desrespeitando o sinal. Nessa situação, o que você deve fazer?",
+        "answers": [
+            "Sinaliza os outros Condutores e dar passagem ao pedestre",
+            "diminui a velocidade, desvia do pedestre e transpõe o cruzamento.",
+            "buzina para apressar o pedestre.",
+            "acelera o veículo para que o pedestre acelere o passo.",
+            "Buzinar e alertar o pedestre para o comportamento de risco que ele acaba de assumir."
         ],
         "correctAnswer": 0
+    },
+    {
+        "question": "27 -  você deu uma carona a um colega de trabalho, e ele começa a passar mal.  O que deve fazer?",
+        "answers": [
+            "levar ao hospital, mesmo que para isso tenha que exceder a velocidade máxima da Via.",
+            "não dá atenção porque ele pode estar brincando com você.",
+            "parar o veículo e chamar o socorro.",
+            "acionar a buzina, andando na contramão para chegar mais depressa Socorro.",
+            "chegar ao local do Socorro o mais depressa possível, mesmo que para isso, e, tem que cometer várias infrações de trânsito."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "28 -  Você sai da garagem do edifício. Nessa situação, o que deve fazer?",
+        "answers": [
+            "buzinar para alertar um pedestre desatento.",
+            "parar o veículo e verificar se há pedestres na calçada, dando preferência.",
+            "transitar normalmente, pois os pedestres devem esperar.",
+            "diminuir a velocidade e, em  caso de  presença de pedestres, solicitar que ele tenha preferência de passagem.",
+            "Ignorar a presença dos pedestres, se  houver, fazendo-os parar para ele poder passar"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "29 -  você está dirigindo, e um veículo da partida e ameaça entrar na sua frente nessa situação, o que deve fazer?",
+        "answers": [
+            "Frear bruscamente.",
+            "olhar pelo retrovisor,  diminuir a velocidade e deixar o condutor passar.",
+            "buzinar prolongadamente xingando o condutor.",
+            "seguir em frente, ignorando a atitude do condutor.",
+            "Buzinar, obrigando o condutor a parar o veículo, xingando pela atitude."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "30 -  em relação a marcha ré,  como condutor você NÂO deve:",
+        "answers": [
+            "manobrar em velocidade reduzida;",
+            "sair de garagens e estacionamentos de frente, sempre que possível;",
+            "tomar cuidado com crianças de pouca idade que podem ficar escondidas devido a baixa estatura;",
+            "realizar a manobra nas esquinas;",
+            "adotar cuidados para transitar com segurança."
+        ],
+        "correctAnswer": 3
     }
+    
 ]
