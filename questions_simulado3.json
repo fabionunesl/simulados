@@ -1,0 +1,178 @@
+[
+    {
+        "question": "01 - Num sinistro de trânsito, o que deve ser feito em primeiro lugar?",
+        "answers": [
+            "socorrer a vítima.",
+            "sinalizar o local.",
+            "movimentar a vítima.",
+            "afastar curiosos.",
+            "acionar o socorro."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "02 - Qual é a sequência correta das ações em caso de sinistro de trânsito?",
+        "answers": [
+            "movimentar a vítima, acionar o socorro, sinalizar o local.",
+            "acionar o socorro, socorrer a vítima, sinalizar o local.",
+            "sinalizar o local, acionar o socorro, socorrer a vítima.",
+            "socorrer a vítima, acionar o socorro, sinalizar o local",
+            "socorrer a vítima, sinalizar o local, acionar o socorro."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "03 - Em sinistro de trânsito, ao prestar socorro,  o que NÃO se deve fazer?",
+        "answers": [
+            "Sinalizar o local de forma segura.",
+            "evitar que haja mais sinistros.",
+            "manter curiosos afastados do local.",
+            "movimentar a vítima.",
+            "acionar o serviços o mais rápido possível."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "04 - Ao chamar o socorro para atender a um sinistro, o que é MENOS importante informar as equipes que farão o atendimento?",
+        "answers": [
+            "o tipo de sinistro:  colisão, atropelamento…",
+            "o local do sinistro:  rua,  rodovia,  km…",
+            "o número da placa dos veículos envolvidos.",
+            "o número aproximado de vítimas envolvidas.",
+            "se existem vítimas presas nas Ferragens."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "05 - A distância do início da sinalização em relação ao local do sinistro vai depender",
+        "answers": [
+            "da urgência em sinalizar e do tempo para chamar as equipes de Socorro.",
+            "da pessoa que vai sinalizar;",
+            "exclusivamente do tipo de sinistro;",
+            "das características físicas do local do sinistro da velocidade recomendada da Via e das condições climáticas;",
+            "exclusivamente do número de vítimas e do tipo de sinistro"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "06 - Se o sinistro aconteceu à noite, a sinalização segura deve ser feita com",
+        "answers": [
+            "Galhos de árvores e pedaços de madeira;",
+            "pedaços de tecido e de plástico;",
+            "tochas de Fogo,  isqueiros e fósforos;",
+            "lanternas,  pisca-alerta e faróis dos veículos;",
+            "cavaletes de obra, pedaços de plástico e de tecido."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "07 - Durante um sinistro, vários Condutores diminui a velocidade por curiosidade.  sendo assim,  uma pessoa pode alertar os condutores em relação aos sinistro.  essa pessoa deve ficar",
+        "answers": [
+            "de costas para o fluxo de trânsito;",
+            "na lateral da pista,  de frente para o fluxo do trânsito,  acenando com um pano colorido;",
+            "logo depois da curva mais próxima ao sinistro;",
+            "há poucos metros do local do sinistro;",
+            "sobre a pista de rolamento,  mais à direita,  para obrigar os condutores a diminuir a velocidade."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "08 - Em caso de sinistro,  o que não se deve usar para sinalizar?",
+        "answers": [
+            "tapumes e corpo da vítima;",
+            "galhos de árvores;",
+            "triângulo de segurança;",
+            "pisca alerta dos veículos;",
+            "faróis dos veículos para sinistros ocorridos à noite."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "09 - É sinalização que pode ser usada com segurança durante o dia ou à noite em caso de sinistro",
+        "answers": [
+            "galhos de árvores;",
+            "pedaços de madeiras;",
+            "isqueiros e tochas de fogo;",
+            "triângulo de segurança;",
+            "capô erguido do veículo."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "10 - Em caso de sinistro de trânsito, o que você deve fazer?",
+        "answers": [
+            "Estacionar o veículo antes do local do sinistro, ligando o pisca-alerta.",
+            "Estacionar o veículo depois do local do sinistro, ligando os faróis;",
+            "Passar pelo local sem prestar socorro, para não congestionar o local.",
+            "Não prestar socorro, somente se for solicitado",
+            "Estacionar o veículo sobre a pista de rolamento, à direita, para obrigar outros a diminuir a velocidade."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    }
+]
