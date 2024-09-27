@@ -111,3 +111,8 @@ body {
     color: red;
     font-weight: bold;
 }
+.question-image {
+    max-width: 100%; /* Ajusta a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-top: 10px; /* Espaçamento acima da imagem */
+}
