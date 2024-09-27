@@ -111,8 +111,16 @@ body {
     color: red;
     font-weight: bold;
 }
-.question-image {
-    max-width: 100%; /* Ajusta a largura da imagem */
-    height: auto; /* Mantém a proporção da imagem */
-    margin-top: 10px; /* Espaçamento acima da imagem */
+#image-container {
+    
+    top: 10px; /* Distância do topo */
+    right: 10px; /* Distância da direita */
 }
+
+.question-image {
+    width: 50px; /* Ajuste a largura da imagem */
+    height: 30px; /* Ajuste a altura da imagem */
+    object-fit: cover; /* Mantém a proporção da imagem ao recortar */
+}
+
+

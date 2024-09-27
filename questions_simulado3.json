@@ -1,6 +1,7 @@
 [
     {
-        "question": "01 - Num sinistro de trânsito, o que deve ser feito em primeiro lugar?",        
+        "question": "01 - Num sinistro de trânsito, o que deve ser feito em primeiro lugar?",
+        "image": "imagens/rotulo.png",
         "answers": [
             "socorrer a vítima.",
             "sinalizar o local.",
@@ -9,7 +10,7 @@
             "acionar o socorro."
         ],
         "correctAnswer": 1
-    },    
+    },   
     {
         "question": "02 - Qual é a sequência correta das ações em caso de sinistro de trânsito?",
         "answers": [
