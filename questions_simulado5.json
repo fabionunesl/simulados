@@ -1,0 +1,183 @@
+[
+    {
+        "question": "01 - Segundo o código de trânsito, solicitar por escrito aos órgãos a implementação de sinalização, fiscalização e alteração é um direito",
+        "image": "",
+        "answers": [
+            "do advogado.",
+            "dos engenheiros",
+            "de todo cidadão ou entidade cívil",
+            "apenas de vítimas de sinistro ",
+            "de condutores de veículos"
+        ],
+        "correctAnswer": 2
+    },   
+    {
+        "question": "02 - Segundo o CTB, o cidadão NÃO tem direito",
+        "image": "",
+        "answers": [
+            "sugerir por escrito alteração a normas do CTB",
+            "constituir obstáculo na via",
+            "educação no trânsito",
+            "trânsito em condições seguras",
+            "amplo direito de defesa"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "03 - O SNT ( Sistema Nacional de Trânsito) é composto por",
+        "image": "",
+        "answers": [
+            "Órgãos públicos e privados",
+            "Órgãos executivos e públicos",
+            "Órgãos privados e normativos",
+            "Órgãos normativos e executivos",
+            "Órgãos públicos apenas"
+        ],
+        "correctAnswer": 3
+    }, 
+    {
+        "question": "04 - Qual o órgão normativo máximo no SNT?",
+        "image": "",
+        "answers": [
+            "DETRAN",
+            "CETRAN",
+            "CONTRAN",
+            "CONTRANDIFE",
+            "CIRETRAN"
+        ],
+        "correctAnswer": 2
+    }, 
+    {
+        "question": "05 - As placas de identificação externa dos veículos, dianteira e traseira, são padrão Mercosul e convencional.  Assinale a alternativa incorreta.",
+        "image": "",
+        "answers": [
+            "É dispensada o lacre nas padrão Mercosul.",
+            "Devem obedecer às especificações do CONTRAN.",
+            "A falta do lacre, quando obrigatório, ou seu rompimento acarreta em multa e remoção do veículo.",
+            "Devem estar em boas condições de visibilidade",
+            "As placas dianteiras devem ter lacre junto a estrutura do veículo."
+        ],
+        "correctAnswer": 2
+    }, 
+    {
+        "question": "06 - É correto afirmar que as placas padrão Mercosul",
+        "image": "",
+        "answers": [
+            "Tem seus caracteres com as mesmas cores para os diferentes usos: particular,  comercial, etc.",
+            "Identificam somente veículos fabricados depois de 01 de janeiro de 2015",
+            "Identificam apenas motocicletas",
+            "Tem uma combinação alfanumérico de sete caracteres na seguinte ordem LLLNLNN",
+            "Tem tecnologia que dispensa seu uso"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "07 - O veículo deve ser registrado",
+        "image": "",
+        "answers": [
+            "Na federação de origem",
+            "Na UF de fabricação",
+            "Na capital do estado ",
+            "No município de domicílio ou residência do proprietário",
+            "Em qualquer município que tenha CRVA"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "08 - Por quantos dias consecutivos o veículo zero quilômetro pode transitar sem registro da concessionária ao DETRAN para registro?",
+        "image": "",
+        "answers": [
+            "Quinze dias",
+            "Vinte dias",
+            "Vinte cinco dias",
+            "Trinta dias",
+            "Dez dias"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "09 - Registro de veículos de propulsão humana e tração animal é de responsabilidade",
+        "image": "",
+        "answers": [
+            "SENATRANs",
+            "DETRANs",
+            "Estados",
+            "municípios",
+            "Nenhuma das alternativas"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "10 - Assinale a alternativa que tenha veículos de propulsão humana, automotores e tração animal respectivamente.",
+        "image": "",
+        "answers": [
+            "Bicicleta, caminhões,  carroça.",
+            "Automóvel, bicicleta,  charrete.",
+            "Charrete,  carro de mão,  caminhonete",
+            "Carro de mão,  carroça,  camioneta",
+            "Ônibus,  automóvel, charrete"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "11 - Veículo que for pego transitando em via pública não registrado a mais de 15 dias da saída da concessionária está sujeito há ",
+        "image": "",
+        "answers": [
+            "Advertência por escrito",
+            "Multa e remossão",
+            "Advertência verbal",
+            "Implementação da placa de identificação externa",
+            "Encaminhamento de registro"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "12 - Considere as afirmativas sobre o Certificado de Registro e Licenciamento de Veículo (CRLV-e) digital. 1 - É expedido mensalmente.  2 - Porte é obrigado.  3 - Pode ser expedido em formato impresso e/ou digital. 4 - Expedido pelo DETRAN. ",
+        "image": "",
+        "answers": [
+            "2 - 3 - 4",
+            "1 - 2 - 3",
+            "2 - 4",
+            "1 - 2 - 3 - 4",
+            "3 - 4"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "13 - A ATPV-e (Autorização para Transferência de Propriedade de Veículo) preenchida e assinada pelo vendedor e comprador encaminhada para o DETRAN serve para ",
+        "image": "",
+        "answers": [
+            "alterar as características do veículo.",
+            "comunicar a venda.",
+            "efetuar registro da transferência de propriedade;",
+            "licenciar o veículo.",
+            "mudar categoria"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "14 - João deseja trocar a cor de seu veículo, antes de fazer isso ele deve solicitar autorização prévia ao",
+        "image": "",
+        "answers": [
+            "CETRAN",
+            "DETRAN",
+            "DNIT",
+            "CONTRANDIFE",
+            "CONTRAN"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "123",
+        "image": "",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 1
+    }
+
+]
