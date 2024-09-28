@@ -111,16 +111,17 @@ body {
     color: red;
     font-weight: bold;
 }
+.question-content {
+    display: flex; /* Usar flexbox para alinhar a imagem e o texto */
+    align-items: flex-start; /* Alinhar a imagem e o texto ao topo */
+}
+
 #image-container {
-    position: absolute; /* Permite o posicionamento absoluto */
-    top: 10px; /* Distância do topo */
-    right: 10px; /* Distância da direita */
-    width: 50px; /* Largura do contêiner da imagem */
-    height: 50px; /* Altura do contêiner da imagem */
+    margin-left: 10px; /* Espaço entre o texto e a imagem */
 }
 
 .question-image {
-    width: 100%; /* A imagem ocupa 100% do contêiner */
-    height: 100%; /* A altura da imagem também ocupa 100% do contêiner */
+    width: 50px; /* Ajuste a largura da imagem */
+    height: 30px; /* Ajuste a altura da imagem */
     object-fit: cover; /* Mantém a proporção da imagem ao recortar */
 }
