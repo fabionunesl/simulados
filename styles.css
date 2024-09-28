@@ -112,15 +112,15 @@ body {
     font-weight: bold;
 }
 #image-container {
-    
+    position: absolute; /* Permite o posicionamento absoluto */
     top: 10px; /* Distância do topo */
     right: 10px; /* Distância da direita */
+    width: 50px; /* Largura do contêiner da imagem */
+    height: 50px; /* Altura do contêiner da imagem */
 }
 
 .question-image {
-    width: 50px; /* Ajuste a largura da imagem */
-    height: 30px; /* Ajuste a altura da imagem */
+    width: 100%; /* A imagem ocupa 100% do contêiner */
+    height: 100%; /* A altura da imagem também ocupa 100% do contêiner */
     object-fit: cover; /* Mantém a proporção da imagem ao recortar */
 }
-
-
