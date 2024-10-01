@@ -168,6 +168,102 @@
         "correctAnswer": 1
     },
     {
+        "question": "15 - Você deve licenciar seu veículo, como proprietário",
+        "image": "",
+        "answers": [
+            "a cada seis meses,",
+            "a cada três anos",
+            "anualmente",
+            "a cada dois anos",
+            "a cada quatro anos"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "16 - Fábio viu que chegou o prazo para efetuar o licenciamento do veículo. Segundo o art. 131 do CTB, primeiramente ele deve",
+        "image": "",
+        "answers": [
+            "pedir autorização para a prefeitura de domicilio do proprietário;",
+            "enviar copia do documento para o DETRAN;",
+            "quitar todos os débitos que constam no sistema e regularizar as pendencias de RECALL, caso existam;",
+            "somente pagar a taxa de expedição;",
+            "Solicitar pagamento por escrito."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "17 - O documento CRLV-e e CLA são documentos de porte obrigatório, mas em qual situação ele poderá ser dispensando pelo agente de trânsito?",
+        "image": "",
+        "answers": [
+            "Quando for apresentado recibo de pagamento de impostos;",
+            "Quando for apresentada cópia autenticada do documento;",
+            "Quando no momento da fiscalização, for possível constatar pelo sistema informatizado que o veículo está licenciado;",
+            "Quando tiver 'print' do documento eletrônico;",
+            "Quando condutor insistir com o agente."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "18 - Para comprovar que o veículo está licenciado, de quanto em quanto tempo o CRLV-e ou CLA devem ser emitidos?",
+        "image": "",
+        "answers": [
+            "a cada dois anos;",
+            "a cada três anos",
+            "a cada ano;",
+            "a cada cinco anos;",
+            "a cada quatro anos."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "19 - O CTB nos artigos 159 e 133 definem porte obrigatório de dois documentos, do condutor e do veículo, quais são eles?",
+        "image": "",
+        "answers": [
+            "Documento de habilitação e recibo de pagamento de multas;",
+            "Documento de habilitação e CRV;",
+            "CNH e IPVA;",
+            "Documento de habilitação e CRLV-e;",
+            "Documento de habilitação e IPVA."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "123",
+        "image": "",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "123",
+        "image": "",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "123",
+        "image": "",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 1
+    },
+    {
         "question": "123",
         "image": "",
         "answers": [
@@ -179,5 +275,4 @@
         ],
         "correctAnswer": 1
     }
-
 ]

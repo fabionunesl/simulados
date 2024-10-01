@@ -31,7 +31,7 @@
 
         // Função para obter questões e iniciar o simulado
         function startSimulado() {
-            fetch('questions_simulado5.json') // Nome do arquivo JSON com as perguntas
+            fetch('ctbSntVeiculos.json') // Nome do arquivo JSON com as perguntas
                 .then(response => response.json())
                 .then(data => {
                     questions = data;
@@ -53,42 +53,33 @@
             }
         });
 
-
+        // Função para exibir a pergunta atual
         function showQuestion() {
-    if (questions.length === 0) return;
+            if (questions.length === 0) return;
 
-    let question = questions[currentQuestionIndex];
-    document.getElementById('question-text').textContent = question.question;
+            let question = questions[currentQuestionIndex];
+            document.getElementById('question-text').textContent = question.question;
+            let answersContainer = document.getElementById('answers-container');
+            answersContainer.innerHTML = '';
 
-    let imageContainer = document.getElementById('image-container');
-    if (question.image) {
-        imageContainer.innerHTML = `<img src="${question.image}" alt="Imagem da pergunta" class="question-image">`;
-    } else {
-        imageContainer.innerHTML = ''; // Limpa o contêiner se não houver imagem
-    }
+            question.answers.forEach((answer, index) => {
+                let label = document.createElement('label');
+                label.classList.add('answer-label');
+                let input = document.createElement('input');
+                input.type = 'radio';
+                input.name = 'answer';
+                input.value = index;
+                if (answers[currentQuestionIndex] === index) {
+                    input.checked = true;
+                }
+                label.appendChild(input);
+                label.appendChild(document.createTextNode(` ${String.fromCharCode(65 + index)}. ${answer}`));
+                answersContainer.appendChild(label);
+            });
 
-    let answersContainer = document.getElementById('answers-container');
-    answersContainer.innerHTML = '';
-
-    question.answers.forEach((answer, index) => {
-        let label = document.createElement('label');
-        label.classList.add('answer-label');
-        let input = document.createElement('input');
-        input.type = 'radio';
-        input.name = 'answer';
-        input.value = index;
-        if (answers[currentQuestionIndex] === index) {
-            input.checked = true;
+            document.getElementById('question-container').classList.remove('hidden');
+            document.getElementById('result-container').classList.add('hidden');
         }
-        label.appendChild(input);
-        label.appendChild(document.createTextNode(` ${String.fromCharCode(65 + index)}. ${answer}`));
-        answersContainer.appendChild(label);
-    });
-
-    document.getElementById('question-container').classList.remove('hidden');
-    document.getElementById('result-container').classList.add('hidden');
-}
-
 
         // Função para ir para a próxima pergunta
         function nextQuestion() {
@@ -207,11 +198,7 @@
             Tempo restante: <span id="timer"></span>
         </div>
         <div id="question-container" class="hidden">
-            <div class="question-content">                
-                <h1 id="question-text"></h1>
-                <div id="image-container"></div>
-                
-            </div>
+            <h1 id="question-text"></h1>
             <form id="question-form">
                 <div id="answers-container" class="answers"></div>
                 <button type="button" id="previous-button" class="button" onclick="previousQuestion()">Voltar</button>
@@ -219,8 +206,6 @@
                 <button type="button" id="cancel-button" class="button" onclick="cancelSimulado()">Cancelar</button>
             </form>
         </div>
-        
-
         <div id="result-container" class="hidden">
             <h2 id="result-text"></h2>
             <div id="results-details"></div>
