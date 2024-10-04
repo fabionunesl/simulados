@@ -24,7 +24,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "03 - O SNT ( Sistema Nacional de Trânsito) é composto por",
+        "question": "03 - O SNT ( Sistema Nacional de Trânsito) é um conjunto de entidades composto por",
         "image": "",
         "answers": [
             "Órgãos públicos e privados",
@@ -57,7 +57,7 @@
             "Devem estar em boas condições de visibilidade",
             "As placas dianteiras devem ter lacre junto a estrutura do veículo."
         ],
-        "correctAnswer": 2
+        "correctAnswer": 4
     }, 
     {
         "question": "06 - É correto afirmar que as placas padrão Mercosul",
