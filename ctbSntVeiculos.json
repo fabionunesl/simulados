@@ -228,50 +228,134 @@
         "correctAnswer": 3
     },
     {
-        "question": "123",
+        "question": "20 - categoria que habilita condutor a dirigir  veículos automotores utilizado em transporte de CARGA, cujo o PBT (peso bruto total) seja superior a 3.500 Kg",
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Categoria A",
+            "Categoria B",
+            "Categoria C",
+            "Categoria ACC",
+            "Nenhuma das anteriores."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "21 - Quais as etapas para o processo de primeira habilitação?",
+        "image": "",
+        "answers": [
+            "Curso teórico,  prova teórica e exame prático;",
+            "Exame médico, exame psicológico e exame teórico;",
+            "Exame psicológico,  curso teórico e exame teórico;",
+            "Exame médico, exame teórico, exame prático;",
+            "Exame médico, curso teórico e exame teórico."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "22 - Para exame prático de veículos de duas ou mais rodas, o exame compreende que etapas respectivamente ",
+        "image": "",
+        "answers": [
+            "Duas etapas: baliza e condução em via pública;",
+            "Duas etapas: percurso em via pública e baliza;",
+            "Três etapas: aprovação em exame teórico, baliza e percurso em via pública;",
+            "Uma etapa: condução em via pública com estacionamento na lomba.",
+            "Quatro etapas: baliza,  percurso em via pública, estacionamento em lomba e retorno."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "23 - No exame prático de direção, o candidato é avaliado em função de faltas negativas. Quais são as faltas no exame?",
+        "image": "",
+        "answers": [
+            "Eliminatórias, graves e leves;",
+            "Eliminatórias, graves, médias e leves;",
+            "Graves, médias e leves;",
+            "Eliminatórias, médias e leves;",
+            "Eliminatórias, Grave, médias e leves."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "24 - O primeiro ano de habilitação a CNH assume a forma de permissão (PPD), nesse período probatório, quais infrações que se cometidas perde a permissão?",
+        "image": "",
+        "answers": [
+            "Grave, médias e leves;",
+            "Gravíssima, grave e reincidente em leves;",
+            "Reincidente em Grave ou Gravíssima;",
+            "Gravíssima, grave e reincidente em média.",
+            "Qualquer infração, pois está em um período de teste."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "25 - Para continuar habilitado, o condutor ou piloto, deve se submeter a exames de tempos em tempo. A periodicidade dos exames muda conforme a idade. Qual é a validade de condutores com idade inferior a 50 anos?",
+        "image": "",
+        "answers": [
+            "5 anos.",
+            "10 anos.",
+            "15 anos.",
+            "20 anos.",
+            "3 anos."
         ],
         "correctAnswer": 1
     },
     {
-        "question": "123",
+        "question": "26 - Quantos dias após o vencimento da CNH o condutor tem para renovar a habilitação?",
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
+            "nenhum dia;",
+            "5 dias;",
+            "10 dias;",
+            "20 dias;",
+            "30 dias."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "27 - Todos temos deveres e proibições no trânsito. Qual das alternativas é uma proibição?",
+        "image": "",
+        "answers": [
+            "portar o documento de habilitação;",
+            "exibir (mostrá-lo) ao agente de trânsito quando solicitado;",
+            "dirigir com o prazo de validade vencido há mais de trinta dias;",
             "123",
             "123"
         ],
-        "correctAnswer": 1
+        "correctAnswer": 2
     },
     {
-        "question": "123",
+        "question": "28 - O documento do veículo, CRV e o CRLV-e, de acordo com a lei 14.071/20 são expedidos",
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "no formato impresso obrigatoriamente e digital;",
+            "somente no formato impresso;",
+            "somente no formato digital;",
+            "no formato impresso e/ou digital, à escolha do proprietário do veículo;",
+            "somente no sistema informatizado."
         ],
-        "correctAnswer": 1
+        "correctAnswer": 3
     },
     {
-        "question": "123",
+        "question": "29 - Para dirigir veículos de transporte coletivo de passageiros,  de escolares,  de emergência ou de produtos perigosos, o condutor deve preencher também alguns requisitos",
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "ter no mínimo 22 anos completos:",
+            "ser considerado apto em exame médico apenas;",
+            "possuir somente a habilitação na categoria determinada;",
+            "não ter cometido mais que duas infrações gravíssimas;",
+            "ser considerado apto em avaliação psicológica e exame de aptidão física e mental."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "30 - Resultado positivo em exame toxicológico acarretará a Suspensão do Direito de Dirigir pelo prazo de",
+        "image": "",
+        "answers": [
+            "1 mês;",
+            "2 meses;",
+            "3 meses;",
+            "4 meses;",
+            "6 meses."
         ],
         "correctAnswer": 1
     }
