@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulado de provas </title>
+    <title>Escolha o Simulado</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         /* Estilo geral do corpo */
@@ -27,7 +27,7 @@
         }
 
         h1 {
-            font-size: 2em;
+            font-size: 2.5em;
             color: #f57c00; /* Laranja */
             margin-bottom: 20px;
             font-weight: 600;
@@ -35,13 +35,39 @@
         }
 
         .modern-text {
-            font-size: 1em;
+            font-size: 1.2em;
             color: #333;
             text-align: center;
             margin-bottom: 30px;
             letter-spacing: 0.5px;
             line-height: 1.4;
             font-weight: 300;
+        }
+
+        .red-box {
+            background-color: #d32f2f; /* Tom de vermelho da caixa */
+            color: #fff; /* Cor do texto dentro da caixa */
+            padding: 20px; /* Espaço interno da caixa */
+            border-radius: 8px; /* Arredonda os cantos da caixa */
+            display: inline-block; /* Ajusta a caixa ao tamanho do texto */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar um efeito de profundidade */
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .login-container {
+            margin-bottom: 30px;
+        }
+
+        .login-container input {
+            padding: 10px;
+            margin: 5px;
+            width: 80%;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            display: block;
+            margin: 10px auto;
         }
 
         .login-container button {
@@ -57,21 +83,75 @@
         .login-container button:hover {
             background-color: #45a049; /* Verde escuro */
         }
+
+        .error-message {
+            color: red;
+            font-weight: bold;
+        }
+
+        /* Adicionando responsividade */
+        @media (max-width: 600px) {
+            .button {
+                width: 90%;
+                font-size: 14px;
+                padding: 12px 20px;
+            }
+
+            .modern-text {
+                font-size: 1em;
+            }
+        }
     </style>
 
     <script>
-        function enterSimulado() {
-            window.location.href = 'user1-dashboard.html'; // Redireciona para a página de simulado
+        function validateLogin(event) {
+            event.preventDefault(); // Evita o envio do formulário
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Verifica se os valores são inteiros
+            if (!/^\d+$/.test(username) || !/^\d+$/.test(password)) {
+                document.getElementById('error-message').textContent = 'Usuário e senha devem conter apenas números!';
+                return;
+            }
+
+            // Lista de usuários com suas senhas e páginas de redirecionamento
+            const users = {
+                '007903': { password: '007903', redirect: 'user1-dashboard.html' },
+                '123': { password: '123', redirect: 'user1-dashboard.html' },
+                // Adicione mais usuários conforme necessário
+            };
+
+            // Se ambos os campos estiverem vazios
+            if (username === '' && password === '') {
+                window.location.href = 'simulado.html'; // Redireciona para a página de simulado
+            } else {
+                const user = users[username];
+
+                if (user && password === user.password) {
+                    // Redireciona para a página correspondente ao usuário
+                    window.location.href = user.redirect;
+                } else {
+                    document.getElementById('error-message').textContent = 'Usuário ou senha incorretos!';
+                }
+            }
         }
     </script>
 </head>
 <body>
     <div class="container">
-        <h1>Bem-vindo ao Simulado!!! <br> Clique no botao abaixo se você concorda <br> que o instrutor Fábio Lopes é o instrutor <br> 
-            mais lindão que existe...</h1>
-            
+        <h1>Bem-vindo</h1>
+
+        <!-- Formulário de login -->
         <div id="login-container" class="login-container">
-            <button onclick="enterSimulado()">Concordo</button>
+            <h2>Coloque seu usuário e senha</h2>
+            <form onsubmit="validateLogin(event)">
+                <input type="number" id="username" placeholder="Usuário" required>
+                <input type="number" id="password" placeholder="Senha" required>
+                <button type="submit">Entrar</button>
+                <p id="error-message" class="error-message"></p>
+            </form>
         </div>
     </div>
 </body>

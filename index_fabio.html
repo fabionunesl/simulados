@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulado de provas </title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilo geral do corpo */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #f5f5f5, #e0e0e0); /* Gradiente de fundo */
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 40px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: 50px;
+        }
+
+        h1 {
+            font-size: 2em;
+            color: #f57c00; /* Laranja */
+            margin-bottom: 20px;
+            font-weight: 600;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Sombra no texto */
+        }
+
+        .modern-text {
+            font-size: 1em;
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+            letter-spacing: 0.5px;
+            line-height: 1.4;
+            font-weight: 300;
+        }
+
+        .login-container button {
+            margin-top: 15px;
+            background-color: #4CAF50; /* Verde */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .login-container button:hover {
+            background-color: #45a049; /* Verde escuro */
+        }
+    </style>
+
+    <script>
+        function enterSimulado() {
+            window.location.href = 'user1-dashboard.html'; // Redireciona para a página de simulado
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Bem-vindo ao Simulado!!! <br> Clique no botao abaixo se você concorda <br> que o instrutor Fábio Lopes é o instrutor <br> 
+            mais lindão que existe...</h1>
+            
+        <div id="login-container" class="login-container">
+            <button onclick="enterSimulado()">Concordo</button>
+        </div>
+    </div>
+</body>
+</html>

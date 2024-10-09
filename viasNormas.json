@@ -1,5 +1,44 @@
 [
     {
+        "question": "01 - As vias se classificam em dois grandes grupos",
+        "image": "",
+        "answers": [
+            "De trânsito rápido e urbanas.",
+            "Urbanas e rurais;",
+            "Rurais e coletoras;",
+            "Estradas e ruas;",
+            "Rodovias e urbanas;"
+        ],
+
+        "correctAnswer": 1
+    },
+    {
+        "question": "02 - Segundo o anexo 1 do CTB (Código de Trânsito Brasileiro) as vias urbanas são aquelas",
+        "image": "",
+        "answers": [
+            "Localizadas dentro do perímetro urbano;",
+            "Localizadas dentro do perímetro rural;",
+            "Localizadas nos distritos dos municípios;",
+            "Localizadas apenas em regiões metropolitanas;",
+            "Localizadas em rodovias dentro da cidade."
+        ],
+        
+        "correctAnswer": 0
+    },
+    {
+        "question": "03 - Ao transitar em uma via não sinalizada, considerando o tipo de via, qual a velocidade máxima permitida?",
+        "image": "",
+        "answers": [
+            "Em via de trânsito rápido,  100 km/h;",
+            "Em via arterial, 60 km/h;",
+            "Em via coletora, 60 km/h;",
+            "Em via local, 40 km/h;",
+            "Em rodovias, 80 km/h."
+        ],
+        
+        "correctAnswer": 1
+    },
+    {
         "question": "123",
         "image": "",
         "answers": [
@@ -9,6 +48,7 @@
             "123",
             "123"
         ],
+        
         "correctAnswer": 2
     }
 ]
