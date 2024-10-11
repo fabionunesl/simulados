@@ -39,6 +39,227 @@
         "correctAnswer": 1
     },
     {
+        "question": "04 - Em uma rodovia de pista dupla, sem sinalização regulamentadora de velocidade, qual velocidade máxima que automóveis,  camionetas,  caminhonetes e motocicletas podem desenvolver?",
+        "image": "",
+        "answers": [
+            "Até 100 km/h;",
+            "Até 110 hm/h;",
+            "Até 80 km/h;",
+            "Até 90 km/h;",
+            "Até 120 km/h;"
+        ],
+        
+        "correctAnswer": 1
+    },
+    {
+        "question": "05 - Qual a velocidade máxima permitida para condutores de caminhões e ônibus em rodovias de pista dupla em trechos não abrangidos pela sinalização regulamentadora de velocidade? ",
+        "image": "",
+        "answers": [
+            "Até 100 km/h;",
+            "Até 110 hm/h;",
+            "Até 80 km/h;",
+            "Até 90 km/h;",
+            "Até 120 km/h;"
+        ],
+        
+        "correctAnswer": 3
+    },
+    {
+        "question": "06 - Você dirige seu automóvel com um reboque engatado em uma rodovia simples em local sem sinalização regulamentadora de velocidade,  qual a velocidade máxima que pode trafegar? ",
+        "image": "",
+        "answers": [
+            "Até 80 km/h.",
+            "Até 90 km/h.",
+            "Até 100 km/h.",
+            "Até 70 km/h.",
+            "Até 60 km/h."
+        ],
+        
+        "correctAnswer": 1
+    },
+    {
+        "question": "07 - O CTB (Código de Trânsito Brasileiro) proíbe o condutor a dirigir, menos (EXETO) ",
+        "image": "",
+        "answers": [
+            "com o veículo na banguela;",
+            "em estado físico alterado comprometendo a segurança;",
+            "apoiando o pé no pedal da embreagem;",
+            "com o braço do lado de fora do veículo;",
+            "usando uma das mãos quando estiver efetuando a troca de marcha."
+        ],
+        
+        "correctAnswer": 4
+    },
+    {
+        "question": "08 - Em relação ao código no artigo 26, todos os usuários do trânsito tem deveres, alguns deles são ",
+        "image": "",
+        "answers": [
+            "nunca abrir mão de um direito seu mesmo que isso contribua para segurança;",
+            "cuidar da existência e do bom funcionamento dos equipamentos obrigatórios e que haja combustível suficiente;",
+            "trafegar sempre pelo lado esquerdo  quando estiver de automóvel;",
+            "de se comportar como se tivesse no espaço privado de sua casa;",
+            "de constituir obstáculo desde que não seja perigoso."
+        ],
+        
+        "correctAnswer": 1
+    },
+    {
+        "question": "09 - Provas e competições em vias abertas, bem como todo ato público que interfira no trânsito...",
+        "image": "",
+        "answers": [
+            "não podem ser realizadas pois é um perigo para o trânsito;",
+            "só podem ser realizadas em áreas urbanas;",
+            "só podem ser realizadas mediante prévia autorização da autoridade de trânsito com circunscrição sobre a via;",
+            "podem ser realizadas com autorização do prefeito do município;",
+            "só serão autorizadas para provas e competições esportivas."
+        ],
+        
+        "correctAnswer": 2
+    },
+    {
+        "question": "10 - Quando uma pista de rolamento comportar várias faixas de circulação no mesmo sentido, as da direita destina-se a...",
+        "image": "",
+        "answers": [
+            "ultrapassagens;",
+            "motocicletas;",
+            "deslocamento de veículos mais lentos e de maior porte;",
+            "destinada a veículos mais rápidos;",
+            "destinada a veículos com reboque."
+        ],
+        
+        "correctAnswer": 2
+    },
+    {
+        "question": "11 - Diante da mudança do sinal verde para o amarelo em um semáforo, o condutor deve...",
+        "image": "",
+        "answers": [
+            "atravessar rapidamente o semáforo; ",
+            "parar o veículo com segurança;",
+            "ligar o pisca alerta;",
+            "frear bruscamente;",
+            "dar a preferência."
+        ],
+        
+        "correctAnswer": 1
+    },
+    {
+        "question": "12 - Quais veículos tem preferência em transitar pela esquerda em vias com várias faixas de trânsito no mesmo sentido?",
+        "image": "",
+        "answers": [
+            "Os maiores e mais pesados.",
+            "Os leves e mais rápidos.",
+            "Os de ano de fabricação mais recente.",
+            "Os maiores e mais leves.",
+            "Os pesados e mais rápidos."
+        ],
+        
+        "correctAnswer": 1
+    },
+    {
+        "question": "13 - Quando a luz do semáforo estiver piscando intermitente ...",
+        "image": "",
+        "answers": [
+            "significa parada obrigatória;",
+            "atenção, preferência do condutor à direita;",
+            "preferência de quem está na esquerda;",
+            "estrada interrompida;",
+            "reduza velocidade."
+        ],
+        
+        "correctAnswer": 1
+    },
+    {
+        "question": "14 - Ao transitar por fluxos que se cruzem em locais não sinalizados ...",
+        "image": "",
+        "answers": [
+            "terá preferência de passagem o que vier pela direita do condutor;",
+            "terá preferência de passagem o que vier pela esquerda do condutor;",
+            "veículos maiores terão prioridade de passagem;",
+            "a preferência é  do primeiro condutor que chegar ao cruzamento;",
+            "veículos mais rápidos tem a preferência."
+        ],
+        
+        "correctAnswer": 0
+    },
+    {
+        "question": "15 - Ao transitar por uma rotatória não sinalizada, terá preferência de passagem ...",
+        "image": "",
+        "answers": [
+            "quem estiver dirigindo a esquerda do outro condutor;",
+            "quem estiver dirigindo a direita do outro condutor;",
+            "o veículo mais rápido;",
+            "o veículo de porte menor;",
+            "o veículo que já estiver circulando por ela."
+        ],
+        
+        "correctAnswer": 4
+    },
+    {
+        "question": "16 - Em que circunstância o condutor pode ultrapassar pela direita?",
+        "image": "",
+        "answers": [
+            "Se o condutor a frente iniciar uma ultrapassagem.",
+            "Se o veículo da frente sinalizar que vai entrar à esquerda.",
+            "Se não houver visibilidade para ultrapassar a esquerda.",
+            "Se o veículo a frente for de menor porte.",
+            "Se não houver espaço suficiente para ultrapassar pela esquerda."
+        ],
+        
+        "correctAnswer": 1
+    },
+    {
+        "question": "17 - São dever do condutor ",
+        "image": "",
+        "answers": [
+            "Dar prioridade de passagem a veículos de socorro quando em serviço de urgência.",
+            "Dar sinal de luz a outros condutores avisando de fiscalização.",
+            "Acionar a buzina em cruzamentos entre as 22h e 6h.",
+            "Transitar pelo acostamento em congestionamentos.",
+            "Dar prioridade a veículos de grande porte."
+        ],
+        
+        "correctAnswer": 0
+    },
+    {
+        "question": "18 - Para conversão à esquerda nas rodovias o condutor deve ...",
+        "image": "",
+        "answers": [
+            "se posicionar ao centro da pista;",
+            "se posicionar a esquerda da pista;",
+            "cruzar sem fazer parada;",
+            "aguardar a direita no acostamento;",
+            "acionar o pisca alerta e parar sobre a pista."
+        ],
+        
+        "correctAnswer": 3
+    },
+    {
+        "question": "123",
+        "image": "",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        
+        "correctAnswer": 2
+    },
+    {
+        "question": "123",
+        "image": "",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        
+        "correctAnswer": 2
+    },
+    {
         "question": "123",
         "image": "",
         "answers": [
