@@ -222,7 +222,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "18 - Para conversão à esquerda nas rodovias o condutor deve ...",
+        "question": "18 - Para conversão (dobrar) à esquerda nas rodovias o condutor deve ...",
         "image": "",
         "answers": [
             "se posicionar ao centro da pista;",
@@ -287,68 +287,107 @@
         "correctAnswer": 4
     },
     {
-        "question": "123",
+        "question": "23 - Durante o dia, os veículos que não dispuserem de (DRV) luzes de rodagem diurna devem utilizar luz baixa (farol) ao transitar em vias situadas",
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "fora do perímetro urbano, em rodovias de pista simples;",
+            "dentro do perímetro urbano quando em transito rápido;",
+            "dentro do perímetro urbano quando em vias arteriais;",
+            "fora do perímetro urbano, em rodovias de pista simples e dupla;",
+            "fora do perímetro urbano, em estradas. "
+        ],
+        
+        "correctAnswer": 0
+    },
+    {
+        "question": "24 - A norma de prioridade de passagem é aquela que está acima da preferência de passagem. Em que situação os veículos destinados a socorro tem prioridade de passagem?",
+        "image": "",
+        "answers": [
+            "Sempre que desejarem.",
+            "Quando tiverem com a luz piscante (giroflex) ligado.",
+            "Sempre que estiverem transitando com situações adversas no trânsito.",
+            "Sempre que estiverem identificados com alarme sonoro e luz piscante (giroflex).",
+            "Quando necessário em qualquer situação."
+        ],
+        
+        "correctAnswer": 3
+    },
+    {
+        "question": "25 - A manobra de maior risco no trânsito é a ultrapassagem. Em relação a ela é certo afirmar que",
+        "image": "",
+        "answers": [
+            "as ultrapassagem devem serem feitas com todas as condições de segurança;",
+            "o condutor deve ultrapassar quando a sinalização no eixo estiver tracejada;",
+            "quando tiver excesso de veículo na pista, o condutor pode ultrapassar pela direita;",
+            "nunca deve ser feito ultrapassagens em aclives acentuados mesmo que a sinalização permita;",
+            "o condutor deve ficar bem perto do carro da frente para facilitar a manobra."
+        ],
+        
+        "correctAnswer": 0
+    },
+    {
+        "question": "26 - Ao trafegar em uma via de fluxo de sentidos opostos, quando estaria transitando pela contramão?",
+        "image": "",
+        "answers": [
+            "Quando o trânsito estiver muito congestionado.",
+            "Em caso de ultrapassagem, pelo tempo necessário para a manobra.",
+            "Toda vez para dar passagem ao veículo de trás.",
+            "Quando a faixa da esquerda tiver livre.",
+            "Em nenhuma situação"
+        ],
+        
+        "correctAnswer": 1
+    },
+    {
+        "question": "27 - A manobra que o condutor deve fazer no menor espaço possível, ou seja, no menor ângulo trata-se",
+        "image": "",
+        "answers": [
+            "retorno de canteiro central;",
+            "retorno de três pontas;",
+            "conversão à direita;",
+            "conversão à esquerda em vias de sentidos opostos;",
+            "transposição de faixa."
         ],
         
         "correctAnswer": 2
     },
     {
-        "question": "123",
+        "question": "28 - O condutor liga a seta e se aproxima da linha divisória (eixo). Esse comportamento indica que",
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "o condutor vai converter a esquerda e a via é de sentido único.",
+            "o condutor vai converter para direita e a via é de sentido oposto.",
+            "o condutor vai realizar um retorno de canteiro central.",
+            "o condutor vai converter a esquerda e a via é de sentido oposto.",
+            "o condutor vai converter a direita e a via é de sentido único."
+        ],
+        
+        "correctAnswer": 3
+    },
+    {
+        "question": "29 - A buzina é um equipamento obrigatório no automóvel. Em relação a ela é correto afirmar que",
+        "image": "",
+        "answers": [
+            "deve ser usada de forma prolongada e sucessiva para chamar a atenção;",
+            "pode ser usada de forma estridentes e prolongadas em situação de emergência;",
+            "pode ser usada com toques breves (curtos) como advertência para evitar sinistros;",
+            "pode ser usada para cumprimentar um amigo;",
+            "permitida das 22 horas até as 6 da manhã."
         ],
         
         "correctAnswer": 2
     },
     {
-        "question": "123",
+        "question": "30 - Qual a idade mínima que uma criança pode ter para ser transportada em uma motocicleta?",
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "7 anos e meio.",
+            "8 anos.",
+            "8 anos e meio.",
+            "9 anos.",
+            "10 anos"
         ],
         
-        "correctAnswer": 2
-    },
-    {
-        "question": "123",
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        
-        "correctAnswer": 2
-    },
-    {
-        "question": "123",
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        
-        "correctAnswer": 2
+        "correctAnswer": 4
     }
 ]
