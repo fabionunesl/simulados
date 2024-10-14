@@ -261,6 +261,84 @@
         "correctAnswer": 2
     },
     {
+        "question": "21  - Observe a situação abaixo, para entrar na rodovia o que o veículo A (amarelo) deve fazer?",
+        "image": "imagens/preferenciaRodovia.jpg",
+        "answers": [
+            "Entrar na rodovia, pois tem preferencia sobre o outro condutor.",
+            "Buzinar intensamente para avisar que está entrando na rodovia.",
+            "Aumentar a velocidade e entrar na frente do outro condutor.",
+            "Parar, aguardar até a passagem do veículo B (azul) para depois entrar na rodovia.",
+            "Dar sinal de luz indicando que está entrando na rodovia."
+        ],
+        
+        "correctAnswer": 3
+    },
+    {
+        "question": "22 - Ao transitar durante o dia, em túneis, chuva, neblina ou cerração, você, como condutor deve",
+        "image": "",
+        "answers": [
+            "acionar o farol de neblina;",
+            "acionar as luzes de posição;",
+            "usar farol alto;",
+            "transitar sem usar o farol baixo, somente as luzes de posição;",
+            "usar farol baixo."
+        ],
+        
+        "correctAnswer": 4
+    },
+    {
+        "question": "123",
+        "image": "",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        
+        "correctAnswer": 2
+    },
+    {
+        "question": "123",
+        "image": "",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        
+        "correctAnswer": 2
+    },
+    {
+        "question": "123",
+        "image": "",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        
+        "correctAnswer": 2
+    },
+    {
+        "question": "123",
+        "image": "",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        
+        "correctAnswer": 2
+    },
+    {
         "question": "123",
         "image": "",
         "answers": [
