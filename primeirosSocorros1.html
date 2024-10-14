@@ -53,42 +53,45 @@
             }
         });
 
-
+        // Função para exibir a pergunta atual
         function showQuestion() {
-    if (questions.length === 0) return;
+            if (questions.length === 0) return;
 
-    let question = questions[currentQuestionIndex];
-    document.getElementById('question-text').textContent = question.question;
+            let question = questions[currentQuestionIndex];
+            document.getElementById('question-text').textContent = question.question;
 
-    let imageContainer = document.getElementById('image-container');
-    if (question.image) {
-        imageContainer.innerHTML = `<img src="${question.image}" alt="Imagem da pergunta" class="question-image">`;
-    } else {
-        imageContainer.innerHTML = ''; // Limpa o contêiner se não houver imagem
-    }
+            // Adiciona a imagem, se existir
+            let imageElement = document.getElementById('image-element');
+            let imageContainer = document.getElementById('image-container');
 
-    let answersContainer = document.getElementById('answers-container');
-    answersContainer.innerHTML = '';
+            if (question.image) {
+                imageElement.src = question.image;
+                imageContainer.classList.remove('hidden'); // Mostra o contêiner da imagem
+            } else {
+                imageContainer.classList.add('hidden'); // Esconde o contêiner se não houver imagem
+            }
 
-    question.answers.forEach((answer, index) => {
-        let label = document.createElement('label');
-        label.classList.add('answer-label');
-        let input = document.createElement('input');
-        input.type = 'radio';
-        input.name = 'answer';
-        input.value = index;
-        if (answers[currentQuestionIndex] === index) {
-            input.checked = true;
+            let answersContainer = document.getElementById('answers-container');
+            answersContainer.innerHTML = '';
+
+            question.answers.forEach((answer, index) => {
+                let label = document.createElement('label');
+                label.classList.add('answer-label');
+                let input = document.createElement('input');
+                input.type = 'radio';
+                input.name = 'answer';
+                input.value = index;
+                if (answers[currentQuestionIndex] === index) {
+                    input.checked = true;
+                }
+                label.appendChild(input);
+                label.appendChild(document.createTextNode(` ${String.fromCharCode(65 + index)}. ${answer}`));
+                answersContainer.appendChild(label);
+            });
+
+            document.getElementById('question-container').classList.remove('hidden');
+            document.getElementById('result-container').classList.add('hidden');
         }
-        label.appendChild(input);
-        label.appendChild(document.createTextNode(` ${String.fromCharCode(65 + index)}. ${answer}`));
-        answersContainer.appendChild(label);
-    });
-
-    document.getElementById('question-container').classList.remove('hidden');
-    document.getElementById('result-container').classList.add('hidden');
-}
-
 
         // Função para ir para a próxima pergunta
         function nextQuestion() {
@@ -184,7 +187,7 @@
         // Função para cancelar o simulado
         function cancelSimulado() {
             if (confirm('Você tem certeza que deseja cancelar o simulado?')) {
-                window.location.href = 'index.html'; // Redireciona para a página inicial
+                window.location.href = 'user1-dashboard.html'; // Redireciona para a página inicial
             }
         }
 
@@ -207,10 +210,9 @@
             Tempo restante: <span id="timer"></span>
         </div>
         <div id="question-container" class="hidden">
-            <div class="question-content">                
-                <h1 id="question-text"></h1>
-                <div id="image-container"></div>
-                
+            <h1 id="question-text"></h1>
+            <div id="image-container" class="hidden">
+                <img src="" alt="Imagem da pergunta" class="question-image" id="image-element"> <!-- Contêiner da imagem -->
             </div>
             <form id="question-form">
                 <div id="answers-container" class="answers"></div>
@@ -219,8 +221,6 @@
                 <button type="button" id="cancel-button" class="button" onclick="cancelSimulado()">Cancelar</button>
             </form>
         </div>
-        
-
         <div id="result-container" class="hidden">
             <h2 id="result-text"></h2>
             <div id="results-details"></div>

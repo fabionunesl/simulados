@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2; /* Cinza claro */
     color: #333;
-    text-align: center;
+    text-align: center; /* Centraliza todo o texto */
     margin: 0;
     padding: 0;
 }
@@ -26,7 +26,7 @@ body {
 #question-text {
     font-size: 28px;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: center; /* Centraliza o texto da pergunta */
 }
 
 .answers {
@@ -55,7 +55,7 @@ body {
     margin-right: 10px;
 }
 
-.button {
+.button, .button-exit {
     padding: 10px 20px;
     background-color: #ff8c00; /* Laranja */
     color: #fff;
@@ -64,23 +64,13 @@ body {
     cursor: pointer;
     font-size: 16px;
     margin-top: 20px;
+    min-width: 150px; /* Largura mínima para todos os botões */
+    text-align: center; /* Centraliza o texto */
+    white-space: nowrap; /* Evita quebra de linha no texto */
 }
 
 .button:hover {
     background-color: #e67e22; /* Laranja escuro */
-}
-
-#next-button {
-    background-color: #28a745; /* Cor verde */
-    color: white; /* Cor do texto */
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-#next-button:hover {
-    background-color: #218838; /* Cor verde mais escura ao passar o mouse */
 }
 
 .hidden {
@@ -112,17 +102,31 @@ body {
     color: red;
     font-weight: bold;
 }
-.question-content {
-    display: flex; /* Usar flexbox para alinhar a imagem e o texto */
-    align-items: flex-start; /* Alinhar a imagem e o texto ao topo */
-}
 
-#image-container {
-    margin-left: 10px; /* Espaço entre o texto e a imagem */
+.question-content {
+    display: flex; /* Manter o flex para o texto */
+    flex-direction: column; /* Colocar o texto acima da imagem */
+    align-items: center; /* Centraliza horizontalmente */
+    margin-bottom: 20px; /* Espaço abaixo do conteúdo */
 }
 
 .question-image {
-    width: 50px; /* Ajuste a largura da imagem */
-    height: 30px; /* Ajuste a altura da imagem */
-    object-fit: cover; /* Mantém a proporção da imagem ao recortar */
+    max-width: 100%; /* Ajusta a largura da imagem ao contêiner */
+    height: auto;    /* Mantém a proporção da imagem */
+    display: block;  /* Faz a imagem se comportar como um bloco */
+    margin: 0 auto;  /* Centraliza a imagem, se desejado */
+}
+
+#image-container {
+    width: 100%; /* Contêiner ocupa toda a largura */
+    overflow: hidden; /* Esconde partes da imagem que saem do contêiner */
+}
+
+#next-button {
+    background-color: green;
+    color: white; /* Cor do texto para melhor contraste */
+}
+
+.button-exit:hover {
+    background-color: #c62828; /* Vermelho mais escuro ao passar o mouse */
 }

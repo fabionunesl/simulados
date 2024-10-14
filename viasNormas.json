@@ -1,4 +1,5 @@
 [
+    
     {
         "question": "01 - As vias se classificam em dois grandes grupos",
         "image": "",
@@ -11,7 +12,7 @@
         ],
 
         "correctAnswer": 1
-    },
+    },    
     {
         "question": "02 - Segundo o anexo 1 do CTB (Código de Trânsito Brasileiro) as vias urbanas são aquelas",
         "image": "",
@@ -234,27 +235,27 @@
         "correctAnswer": 3
     },
     {
-        "question": "123",
+        "question": "19 - Qual tipo de vias não pode ser utilizado na condução de ciclomotor?",
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Rodovias.",
+            "Coletoras.",
+            "Estradas.",
+            "Trânsito rápido.",
+            "Arteriais."
         ],
         
-        "correctAnswer": 2
+        "correctAnswer": 3
     },
     {
-        "question": "123",
-        "image": "",
+        "question": "20 - Observe a figura. Os condutores trafegam por um cruzamento não sinalizado. Nessa situação, respeitada a norma, quem tem a preferencia de passagem?",
+        "image": "imagens/cruzamentoNaoSinalizado.jpg",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Do condutor do carro azul, porque está à esquerda do outro condutor.",
+            "Do condutor do carro azul, porque segue em frente.",
+            "Do condutor do carro amarelo, porque segue em frente.",
+            "Do condutor do carro amarelo, porque está a direito do outro condutor.",
+            "Do condutor que tiver chegado primeiro."
         ],
         
         "correctAnswer": 2

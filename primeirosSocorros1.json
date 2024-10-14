@@ -1,7 +1,7 @@
 [
     {
         "question": "01 - Num sinistro de trânsito, o que deve ser feito em primeiro lugar?",
-        "image": "imagens/rotulo.png",
+        "image": "imagens/cruzamentoNaoSinalizado.jpg",
         "answers": [
             "socorrer a vítima.",
             "sinalizar o local.",
@@ -197,19 +197,7 @@
             "123"
         ],
         "correctAnswer": 0
-    },
-    {
-        "question": "19 -  andando pela rodovia,  você percebe que a caminhonete que vai à sua frente transporta produto perigoso identificado com o rótulo de risco ao lado.  de repente,  esse veículo se envolve em um sinistro.  do celular,  o passageiro vai informar ao socorro que esse veículo transportava produto",
-        "image": "irotulo_inflamavel.png",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0        
-    },
+    },    
     {
         "question": "123",
         "answers": [
