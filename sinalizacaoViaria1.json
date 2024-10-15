@@ -36,20 +36,128 @@
         "correctAnswer": 1
     },
     {
-        "question": "123",
-        "image": "",
+        "question": "04 - Assinale a alternativa correta em relação à placa R-6c",
+        "image": "imagens/r-6c.jpg",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "proibido estacionar o veículo;",
+            "proibido estacionar, embarque e desembarque permitido;",
+            "parada permitida somente com o pisca-alerta;",
+            "parada permitida por um curto tempo;",
+            "proibido parar e estacionar o veículo."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "05 - Qual o significado da placa de regulamentação R-2?",
+        "image": "imagens/r-2.jpg",
+        "answers": [
+            "Obrigação de o condutor parar;",
+            "Orienta o condutor de pista dividida;",
+            "Adverte a um cruzamento à frente;",
+            "Avisa o condutor sobre o inicio de canteiro central;",
+            "Obrigação de dar a preferencia de passagem ao veículo da via que pretende entrar."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "06 - Devido a condições técnicas de uma via, no trecho abrangido pela placa R-14, só podem circular na via veículos com",
+        "image": "imagens/r-14.jpg",
+        "answers": [
+            "peso bruto total (PBT) de até dez toneladas;",
+            "altura máxima permitida;",
+            "largura máxima permitida;",
+            "peso máximo permitido por eixo.",
+            "Comprimento máximo permitido."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "07 - Você está procurando um lugar para estacionar em uma quadra, então percebe que a frente tem a placa R-6b. Isso significa que",
+        "image": "imagens/r-6b.jpg",
+        "answers": [
+            "você não pode estacionar;",
+            "você não pode parar;",
+            "o estacionamento é regulamentado;",
+            "o estacionamento é apenas para clientes;",
+            "você pode estacionar mas não por muito tempo."
         ],
         "correctAnswer": 2
     },
     {
+        "question": "08 - O condutor ao chegar a um cruzamento percebe que na via transversal existe uma sinalização vertical de regulamentação R-24a, assim ele entende que",
+        "image": "imagens/r-24a.jpg",
+        "answers": [
+            "é proibido virar para direita;",
+            "é proibido seguir em frente;",
+            "tem a obrigação de virar à direita;",
+            "a via transversal tem sentido único de circulação;",
+            "é uma passagem obrigatória."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "09 - Qual significado da placa R-26?",
+        "image": "imagens/r-26.jpg",
+        "answers": [
+            "Sentido único de circulação.",
+            "Siga em frente.",
+            "Proibido virar esquerda.",
+            "Proibido virar à direita.",
+            "Proibido virar à direita e a esquerda."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "10 - Você precisa pegar uma passageiro, ao circular pela via percebe que em toda sua extensão está sinalizado com a placa R-6a, isso quer dizer que",
+        "image": "imagens/r-6a.jpg",
+        "answers": [
+            "deve obrigatoriamente procurar um lugar que não tenha a placa;",
+            "só pode parar no local sinalizado para embarcar o passageiro ou desembarcar;",
+            "deve ficar pelo tempo que desejar estacionado, desde que esteja com o carro ligado;",
+            "pode estacionar o veículo esperando o passageiro chegar, desde que esteja dentro do carro;",
+            "nunca pode estacionar nem parar o veículo."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "11 - Ao observar a figura abaixo, percebemos que são duas sinalizações verticais, quais são elas respectivamente?",
+        "image": "imagens/r1R2Costas.jpg",
+        "answers": [
+            "Parada obrigatória; Passagem sinalizada de pedestre.",
+            "Dê a preferência; Parada obrigatória.",
+            "Dê a preferência; Sinalização regulamentada.",
+            "Parada obrigatória; Proibido ultrapassar.",
+            "Parada Obrigatória; Dê a preferência."
+        ],
+        "correctAnswer": 4
+    },
+    ,{
+        "question": "12 - Na Figura abaixo mostra uma sinalização vertical de costas. Quando chegar a um cruzamento e perceber que essa sinalização está na via transversal, o que deve fazer?",
+        "image": "imagens/r1Costas.jpg",
+        "answers": [
+            "Parar obrigatoriamente, pois a sinalização é para todos no cruzamento.",
+            "Dar preferência ao veículo que vier na via transversal.",
+            "Passar sem diminuir a velocidade nem se importar, pois o veículo que tiver na transversal é obrigado a parar.",
+            "Seguir na preferêncial, diminuindo a velocidade no cruzamento, mesmo sabendo que o outro veículo é que deve parar.",
+            "Parar o veículo no cruzamento sempre, pois o outro veículo pode não ter visto a placa."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "13 - Ao se aproximar de um cruzamento e perceber que na via transversal existe uma sinalização vertical com o mesmo formato da figura abaixo, o que deve ser feito pelo condutor?",
+        "image": "imagens/r2Costas.jpg",
+        "answers": [
+            "Passar sem diminuir a velocidade nem se importar, pois o veículo que tiver na transversal é obrigado a dar a preferência.",
+            "Dar preferência ao veículo que vier na via transversal.",
+            "Dar a preferência obrigatoriamente, pois a sinalização é para todos no cruzamento.",
+            "Parar o veículo no cruzamento sempre, pois o outro veículo pode não ter visto você.",
+            "Seguir na preferêncial, diminuindo a velocidade no cruzamento, mesmo sabendo que o outro veículo é que deve parar."
+        ],
+        "correctAnswer": 4
+    },
+    {
         "question": "123",
-        "image": "",
+        "image": "imagens/r-26.jpg",
         "answers": [
             "123",
             "123",
@@ -57,7 +165,8 @@
             "123",
             "123"
         ],
-        "correctAnswer": 2
-    }   
+        "correctAnswer": 4
+    }
+
    
 ]
