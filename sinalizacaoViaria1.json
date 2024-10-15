@@ -1,0 +1,63 @@
+[
+    {
+        "question": "01 - As placas que informam as condições, proibições, obrigações ou restrições no uso das vias são:",
+        "image": "",
+        "answers": [
+            "advertência;",
+            "informativas;",
+            "regulamentação;",
+            "indicadoras;",
+            "serviços."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "02 - As placas de advertência no uso das vias são de cores:",
+        "image": "",
+        "answers": [
+            "Azul, preta e branca;",
+            "Amarela e preta;",
+            "Amarela, branca e preta;",
+            "Vermelha, branca e preta;",
+            "Verde, Azul, preta e branca."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "03 - A placa R-1 regulamenta que o condutor deve",
+        "image": "imagens/r-1.jpg",
+        "answers": [
+            "dar a preferência de passagem;",
+            "parar o veículo completamente e prestar atenção no trânsito;",
+            "diminuir a velocidade, olhar para os dois lados e não vindo ninguém, continuar;",
+            "verificar se não tem outros condutores na via que pretende entrar;",
+            "dar preferência de passagem e se necessário parar o veículo."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "123",
+        "image": "",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "123",
+        "image": "",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 2
+    }   
+   
+]
