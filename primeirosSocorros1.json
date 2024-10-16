@@ -133,73 +133,8 @@
         "correctAnswer": 0
     },
     {
-        "question": "13",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "14",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "15",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "16",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "17",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "18",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },    
-    {
         "question": "123",
+        "image": "imagens/r-18.jpg",
         "answers": [
             "123",
             "123",
@@ -207,17 +142,6 @@
             "123",
             "123"
         ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
+        "correctAnswer": 4
     }
 ]
