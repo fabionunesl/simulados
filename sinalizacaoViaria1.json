@@ -156,17 +156,208 @@
         "correctAnswer": 4
     },
     {
-        "question": "123",
-        "image": "imagens/r-26.jpg",
+        "question": "14 - As placas R-1 e R-2 são as únicas que não tem formato redondo, por quê?",
+        "image": "imagens/r1R2Costas.jpg",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Porque fica diferente das placas de advertência.",
+            "Porque mostrar a todos no cruzamento que devem parar.",
+            "Porque elas informam suas mensagens mesmo de costas.",
+            "Para informar os condutores da presença de um cruzamento.",
+            "Para informar que todos os condutores devem diminuir a velocidade."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "15 - Cumprindo a legislação, diante da placa R-19, o condutor",
+        "image": "imagens/r-19.jpg",
+        "answers": [
+            "deve trafegar na velocidade indicada;",
+            "não pode trafegar em velocidade inferior ao indicado;",
+            "pode desenvolver a velocidade até o indicado, não inferior a 40 km/h;",
+            "pode trafegar em velocidade superior a indicada até 20%;",
+            "somente veículos pesados devem trafegar na velocidade indicada."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "16 - Observe a figura abaixo. Qual o significado das placas respectivamente?",
+        "image": "imagens/r24bR24a.jpg",
+        "answers": [
+            "Passagem obrigatória; Sentido de circulação da via.",
+            "Passagem obrigatória; Vira à direita.",
+            "Sentido de circulação da via; Passagem obrigatória.",
+            "Passe por aqui; Sentido único.",
+            "Passe por aqui; Siga para a direita."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "17 - Qual o significado da placa R-21?",
+        "image": "imagens/r-21.jpg",
+        "answers": [
+            "Informando ao condutor o sentido contrário;",
+            "Informar os veículos que a existência de ponte à frente;",
+            "Indicando aos usuários o sentido de fluxo da via;",
+            "Indicando a presença de aduana, onde a parada é obrigatória. Alfândega.",
+            "Indicando aos usuários que existia uma aduana (fiscalização)."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "18 - O que não se deve fazer depois da sinalização vertical de regulamentação R-7?",
+        "image": "imagens/r-7.jpg",
+        "answers": [
+            "Proibido andar um carro ao lado do outro.",
+            "Proibido ultrapassagens.",
+            "Proibido andar em fila indiana todos os veículos.",
+            "Não fazer ultrapassagens de risco.",
+            "Ultrapassar somente em situações de emergência."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "19 - No trecho abrangido pela sinalização vertical de regulamentação R-10 são proibidos o trânsito de",
+        "image": "imagens/r-10.jpg",
+        "answers": [
+            "motocicletas, motonetas e ciclomotores;",
+            "qualquer tipo de veículo de pequeno porte;",
+            "qualquer tipo de veículos automotores;",
+            "veículos automotores que cheguem até 3.500 kg de PBT;",
+            "automóveis apenas."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "20 - Ao conduzir seu carro em uma via, você se depara com a sinalização vertical de regulamentação R-39, o que a placa está sinalizando? ",
+        "image": "imagens/r-39.jpg",
+        "answers": [
+            "Proibido trânsito de veículos automotores. ",
+            "Permitido caminhões, carretas e caminhão trator",
+            "Permitido apenas caminhos e carros. ",
+            "Somente podem transitar caminhos, sendo proibido o trânsito de qualquer outra espécie de veículos automotores. ",
+            "Permitido trânsito de caminhos desde que não ultrapasse o PBT de 3.500kg."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "21 - Quando é necessário acrescentar informações adicionais nas placas de regulamentação, é utilizada",
+        "image": "",
+        "answers": [
+            "uma placa adicional acima da mesma.",
+            "uma placa retangular abaixo da mesma, com cores diferentes para contrastar com as de regulamentação. ",
+            "uma placa retangular nas mesmas cores do sinal de regulamentação, ficando abaixo ou junto a ela formando um só conjunto.",
+            "uma segunda placa mais a frente para complementar a informação. ",
+            "não é permitido acrescentar informações nas placas de regulamentação."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "22 - A sinalização vertical de regulamentação R-32 permite",
+        "image": "imagens/r-32.jpg",
+        "answers": [
+            "A circulação exclusiva de veículos de tração animal.",
+            "A circulação exclusiva de ônibus. ",
+            "A circulação exclusiva de bonde.",
+            "A circulação exclusiva de veículos pesados. ",
+            "A circulação exclusiva de automotores."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "23 - Quando estamos na via e vemos que nela está situada a sinalização vertical de regulamentação R-34 devemos",
+        "image": "imagens/r-34.jpg",
+        "answers": [
+            "circular apenas de a pé. ",
+            "circular apenas com veículo de tração humana",
+            "circular apenas com bicicletas ou bicicletas elétricas. ",
+            "circular apenas com ciclomotores e bicicletas. ",
+            "circular apenas de bicicleta não sendo permitido qualquer outro trânsito."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "24 - Qual o significa das placas R-25a e R-25b respectivamente? ",
+        "image": "imagens/r25aR25b.jpg",
+        "answers": [
+            "Proibido virar a esquerda;  Proibido virar a direita. ",
+            "Vire à esquerda; Vire à direita. ",
+            "Vire à direita; Vire à esquerda. ",
+            "Vire à esquerda; Proibido virar a esquerda. ",
+            "Vire à esquerda ou direita."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "25 - A placa R-8b indica ao condutor que, no trecho abrangido pela sinalização, é proibido",
+        "image": "imagens/r-8B.jpg",
+        "answers": [
+            "mudar de faixa de trânsito da direita para esquerda;",
+            "usar a faixa da esquerda para ultrapassar outro veículo;",
+            "mudar de faixa de trânsito da esquerda para direita;",
+            "passar pelo canteiro central;",
+            "converter para esquerda."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "26 - A sinalização vertical de regulamentação  tem mensagem imperativas e seu desrespeito constitui em",
+        "image": "",
+        "answers": [
+            "uma falta de educação no trânsito;",
+            "um desrespeito com os outros na via;",
+            "uma multa;",
+            "uma advertência por escrito;",
+            "uma infração."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "27 - Observe as figuras A, B, C e D abaixo. Qual delas obriga o condutor a manter o veículo à direita da pista de rolamento, deixando livre(s) a(s) faixa(s) da esquerda?",
+        "image": "imagens/r23R25bR24aA2bR24b.jpg",
+        "answers": [
+            "E",
+            "D",
+            "C",
+            "B",
+            "A"
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "28 - O formato octogonal, triangular e redondo com cores vermelha, branco e preto caracteriza-se a sinalização",
+        "image": "",
+        "answers": [
+            "educação;",
+            "indicação;",
+            "regulamentação;",
+            "advertência;",
+            "serviços."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "29 - Na gravura abaixo vimos à placa R-31, o que ela está orientado o pedestre a fazer?",
+        "image": "imagens/r-31.jpg",
+        "answers": [
+            "Pedestre, andar na calçada.",
+            "Pedestre, andar a direita.",
+            "Pedestre, saia da pista.",
+            "Pedestre, não obstrua a via.",
+            "Pedestre, Ande pela direita."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "30 - A placa R-18 indica ao condutor que, o trecho abrangido pela sinalização",
+        "image": "imagens/r-18.jpg",
+        "answers": [
+            "é para circulação apenas para caminhões;",
+            "regulamenta o tamanho máximo do veículo ou combinação de veículo;",
+            "regulamenta a largura dos veículos;",
+            "regulamenta o peso bruto total dos caminhões (10 toneladas);",
+            "regulamenta a distancia segura que deve ser mantido de veículos pesados."
         ],
         "correctAnswer": 4
     }
-
    
 ]
