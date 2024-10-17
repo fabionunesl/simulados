@@ -15,7 +15,7 @@
         "question": "02 - As placas de regulamentação informam condições, proibições, obrigações e restrições. Qual a finalidade das placas de advertência?",
         "image": "",
         "answers": [            
-            "Tema a mesma função que as de regulamentação.",
+            "Tem  a mesma função que as de regulamentação.",
             "Indicam o serviço que estão dispostos aos usuários.",
             "Complementas as de regulamentação.",
             "Alerta os usuários das vias para condições de perigo.",
@@ -53,7 +53,7 @@
         "answers": [
             "parada obrigatória;",
             "parar antes passar por ela;",
-            "parada obrigatória à frente;",
+            "adverte sobre parada obrigatória à frente;",
             "parada imediata;",
             "cuidado ai parar."
         ],
@@ -69,11 +69,11 @@
             "serviço;",
             "de advertência."
         ],
-        "correctAnswer": 2
+        "correctAnswer": 4
     },
     {
         "question": "07 - Quais a diferença entre a sinalização vertical de advertência A-35 e A-36?",
-        "image": "imagens/a36A37.jpg",
+        "image": "imagens/a35A36.jpg",
         "answers": [
             "A-35 adverte sobre perímetro rural; A-36 adverte sobre animais selvagens.",
             "A-35 adverte sobre animais; A-36 adverte sobre perímetro rural.",
@@ -84,7 +84,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "08 - Qual a principal função da placa de advertência com indicação de lombada A-18? ",
+        "question": "08 - Qual a principal função da placa de advertência A-18? ",
         "image": "imagens/a-18.jpg",
         "answers": [
             "Informar a velocidade máxima permitida.",

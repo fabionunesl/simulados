@@ -31,7 +31,7 @@
 
         // Função para obter questões e iniciar o simulado
         function startSimulado() {
-            fetch('sinalizacaoViaria2.json') // Nome do arquivo JSON com as perguntas
+            fetch('sinalizacaoViaria3.json') // Nome do arquivo JSON com as perguntas
                 .then(response => response.json())
                 .then(data => {
                     questions = data;
@@ -94,22 +94,20 @@
         }
 
         // Função para ir para a próxima pergunta
-function nextQuestion() {
-    let selectedOption = document.querySelector('input[name="answer"]:checked');
-    if (selectedOption) {
-        answers[currentQuestionIndex] = parseInt(selectedOption.value);
-        currentQuestionIndex++;
-        if (currentQuestionIndex >= questions.length) {
-            showResult();
-        } else {
-            showQuestion();
-            window.scrollTo(0, 0); // Rola a página para o topo
+        function nextQuestion() {
+            let selectedOption = document.querySelector('input[name="answer"]:checked');
+            if (selectedOption) {
+                answers[currentQuestionIndex] = parseInt(selectedOption.value);
+                currentQuestionIndex++;
+                if (currentQuestionIndex >= questions.length) {
+                    showResult();
+                } else {
+                    showQuestion();
+                }
+            } else {
+                alert('Por favor, selecione uma resposta.');
+            }
         }
-    } else {
-        alert('Por favor, selecione uma resposta.');
-    }
-}
-
 
         // Função para voltar à pergunta anterior
         function previousQuestion() {
