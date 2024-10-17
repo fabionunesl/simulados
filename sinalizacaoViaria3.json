@@ -180,38 +180,182 @@
         "correctAnswer": 1
     },
     {
-        "question": "123",
-        "image": "imagens/linhaBrancaTracejada.jpg",
+        "question": "16 - Uma linha dupla amarela contínua no centro da via significa",
+        "image": "imagens/linhaDuplaAmarela.jpg",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "área exclusiva para ônibus;",
+            "proibido ultrapassagem;",
+            "faixa de ciclovia;",
+            "zona de estacionamento;",
+            "área de carga e descarga."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "17 - O que a pintura de linhas zebradas no pavimento indica?",
+        "image": "imagens/linhasZebradas.jpg",
+        "answers": [
+            "Local de parada obrigatória.",
+            "Proibição de parada e estacionamento.",
+            "Zona de velocidade reduzida.",
+            "Área de pedestres.",
+            "Zona de ultrapassagem."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "18 - Linhas diagonais pintadas em uma faixa indicam",
+        "image": "imagens/estacionamentoObliquo.jpg",
+        "answers": [
+            "travessia de pedestres;",
+            "área de segurança que não deve ser utilizada para tráfego;",
+            "ciclovia;",
+            "zona de carga e descarga;",
+            "local de estacionamento oblíquo."
         ],
         "correctAnswer": 4
     },
     {
-        "question": "123",
+        "question": "19 - Qual é a principal função dos tachões ou tachas refletivas instaladas nas vias? ",
+        "image": "imagens/tachaoTacha.jpg",
+        "answers": [
+            "Indicar áreas de estacionamento proibido",
+            "Melhorar a visibilidade das faixas de divisão de pista, especialmente à noite e em condições climáticas adversas.",
+            "Sinalizar a presença de pedágios à frente.",
+            "Informar a localização de radares de velocidade.",
+            "Demarcar áreas de carga e descarga."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "20 - Existem diversos dispositivos auxiliares no trânsito sendo que as barreiras de concreto conhecidas como 'New Jersey' são comumente usadas para: ",
         "image": "imagens/linhaBrancaTracejada.jpg",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "delimitar ciclovias e áreas de pedestres;",
+            "sinalizar a entrada em uma área de baixa velocidade;",
+            "conter e redirecionar veículos desgovernados;",
+            "marcar pontos de parada obrigatória;",
+            "indicar o início de uma zona escolar;"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "21 - Em trechos de rodovias onde são instalados sonorizadores no pavimento, qual é a principal função desse dispositivo e como ele influencia o comportamento do motorista? ",
+        "image": "",
+        "answers": [
+            "Servir apenas como elemento estético para delimitar faixas de rodagem.",
+            "Aumentar a aderência dos pneus em condições de chuva intensa.",
+            "Alertar os motoristas por meio de vibrações e ruídos quando o veículo passa sobre eles, incentivando uma redução na velocidade e aumentando a atenção em locais críticos, como aproximações de curvas perigosas, pedágios ou áreas de travessia de pedestres.",
+            "Indicar a proximidade de um radar de velocidade oculto.",
+            "Funcionar como um sistema de drenagem de água para evitar poças na pista."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "22 - Qual é a principal função dos gradis instalados ao longo das calçadas em áreas urbanas? ",
+        "image": "imagens/gradis.jpg",
+        "answers": [
+            "Delimitar áreas de estacionamento exclusivo.",
+            "Sinalizar a entrada de uma rodovia.",
+            "Marcar a área para ciclistas.",
+            "Impedir que pedestres atravessem a rua em locais não permitidos, direcionando-os para pontos de travessia segura.",
+            "Indicar a presença de um radar de velocidade."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "23 - Qual é o objetivo principal da sinalização temporária em áreas de obras ou eventos no trânsito? ",
+        "image": "",
+        "answers": [
+            "Melhorar a estética da via durante as obras.",
+            "Informar e orientar os motoristas sobre alterações provisórias nas condições de circulação, garantindo a segurança de todos.",
+            "Delimitar áreas de estacionamento de veículos pesados.",
+            "Sinalizar áreas de lazer temporárias para pedestres.",
+            "Controlar automaticamente a velocidade dos veículos."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "24 - Quando um motorista encontra cones de sinalização na pista, qual deve ser a sua reação imediata? ",
+        "image": "imagens/conesSinalizacao.jpg",
+        "answers": [
+            "Aumentar a velocidade para passar rapidamente pela área.",
+            "Manter a mesma velocidade e direção, ignorando os cones.",
+            "Reduzir a velocidade e seguir as indicações para desviar da área em obras ou obstáculos sinalizados.",
+            "Estacionar imediatamente próximo aos cones.",
+            "Trocar de faixa sem verificar os espelhos retrovisores."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "25 - As placas de sinalização temporária costumam ter fundo de qual cor para chamar a atenção dos motoristas em áreas de obras? ",
+        "image": "",
+        "answers": [
+            "Laranja.",
+            "Vermelho.",
+            "Azul.",
+            "Verde.",
+            "Branco."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "26 - Qual é a diferença principal entre a sinalização permanente e a sinalização temporária no trânsito? ",
+        "image": "",
+        "answers": [
+            "A sinalização permanente é usada apenas em zonas rurais, enquanto a temporária é usada em áreas urbanas.",
+            "A sinalização temporária é utilizada para alertar sobre mudanças provisórias nas condições da via, como obras e desvios, enquanto a sinalização permanente indica regras e condições fixas da via.",
+            "Ambas são usadas para indicar obras de longo prazo.",
+            "A sinalização temporária tem uma cor menos chamativa para não distrair os motoristas.",
+            "A sinalização permanente é obrigatória apenas durante o dia."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "27 - Qual é a principal função da sinalização de indicação? ",
+        "image": "imagens/linhaBrancaTracejada.jpg",
+        "answers": [
+            "Alertar sobre perigos na via.",
+            "Sinalizar áreas de ultrapassagem.",
+            "Informar e orientar os motoristas sobre rotas, serviços e destinos disponíveis.",
+            "Controlar o fluxo de tráfego em cruzamentos.",
+            "Indicar a presença de radares de velocidade."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "28 - Quais cores são comumente usadas nas placas de sinalização de indicação? ",
+        "image": "imagens/linhaBrancaTracejada.jpg",
+        "answers": [
+            "Vermelha, azul e verde.",
+            "Amarela, branca e azul.",
+            "Verde, amarelo e preta.",
+            "Branca, vermelha e verde.",
+            "Azul, verde e branca."
         ],
         "correctAnswer": 4
     },
     {
-        "question": "123",
-        "image": "imagens/linhaBrancaTracejada.jpg",
+        "question": "29 - Em uma rodovia, um motorista se depara com uma placa azul que indica a localização de um restaurante e um ícone de um banheiro. Qual é a importância dessa sinalização para a experiência do motorista em uma viagem longa, e como essa informação pode impactar a segurança no trânsito? ",
+        "image": "imagens/sanitarioRestaurante.jpg",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Essa sinalização é apenas decorativa e não impacta a experiência do motorista.",
+            "A placa fornece informações úteis sobre serviços disponíveis, permitindo que o motorista planeje paradas para refeições e descanso, o que pode ajudar a reduzir a fadiga e, consequentemente, o risco de acidentes durante a viagem.",
+            "A sinalização é irrelevante, pois os motoristas devem estar atentos apenas à estrada.",
+            "Indica que a rodovia está fechada para manutenção e não deve ser utilizada.",
+            "Serve apenas para indicar a presença de um posto de gasolina próximo."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "30 - A placa com o pictograma SAU - 27, informa os motoristas sobre",
+        "image": "imagens/sau27.jpg",
+        "answers": [
+            "a presença de um posto de gasolina nas proximidades;",
+            "o trecho ter um dispositivo de cobrança automática de pedágio, evitando paradas e agilizando o fluxo de tráfego;",
+            "a proibição de tráfego de veículos pesados na via;",
+            "a proximidade de uma área de descanso para motoristas;",
+            "a localização de um centro de saúde nas proximidades;"
         ],
         "correctAnswer": 4
     }
