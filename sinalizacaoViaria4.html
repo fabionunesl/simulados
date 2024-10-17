@@ -31,7 +31,7 @@
 
         // Função para obter questões e iniciar o simulado
         function startSimulado() {
-            fetch('sinalizacaoViaria3.json') // Nome do arquivo JSON com as perguntas
+            fetch('sinalizacaoViaria4.json') // Nome do arquivo JSON com as perguntas
                 .then(response => response.json())
                 .then(data => {
                     questions = data;
@@ -103,6 +103,7 @@
                     showResult();
                 } else {
                     showQuestion();
+                    window.scrollTo(0, 0); // Rola a página para o topo
                 }
             } else {
                 alert('Por favor, selecione uma resposta.');
@@ -226,8 +227,6 @@
             <div id="results-details"></div>
             <button id="restart-button" class="button" onclick="restartSimulado()">Escolher Prova</button>
         </div>
-        <h1><br></h1>
-        <h1><br></h1>
     </div>
 </body>
 </html>

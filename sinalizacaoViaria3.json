@@ -1,7 +1,187 @@
 [
     {
+        "question": "01 - Qual é a função das linhas brancas contínuas no centro (eixo) de uma via?",
+        "image": "",
+        "answers": [
+            "Indicar a proibição de ultrapassagens e transposições.",
+            "Sinalizar estacionamento permitido.",
+            "Marcar as faixas de pedestres.",
+            "Delimitar ciclovias.",
+            "Separar áreas de carga e descarga."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "02 - As linhas de bordo brancas contínuas ao longo da via indicam que o motorista deve",
+        "image": "",
+        "answers": [
+            "ultrapassar outros veículos pela direita;",
+            "estacionar em qualquer local;",
+            "permanecer dentro da pista de rolamento indicando o limite onde os veículos podem trafegar;",
+            "fazer uma conversão brusca;",
+            "aumentar a velocidade;"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "03 - O que indica a linha amarela contínua no centro da pista?",
+        "image": "imagens/linhaAmarelaContinua.jpg",
+        "answers": [
+            "Área de carga e descarga",
+            "Separar o trânsito de sentido contrário e proibição de ultrapassagem",
+            "Estacionamento permitido",
+            "Zona de pedestres",
+            "Travessia de animais"
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "04 - Linhas brancas tracejadas ou seccionadas são usadas para",
+        "image": "imagens/linhaBrancaTracejada.jpg",
+        "answers": [
+            "dividir faixas de mesmo sentido e permissão de ultrapassagem;",
+            "indicar estacionamento e limite de tráfego na lateral;",
+            "marcar locais para paradas de ônibus;",
+            "delimitar zonas escolares;",
+            "separar ciclovias;"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "05 - Qual é a cor das linhas que indicam uma ciclovia ou ciclofaixa?",
+        "image": "",
+        "answers": [
+            "Verde.",
+            "Azul.",
+            "Amarelo.",
+            "Vermelho.",
+            "Branco."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "06 - As setas pintadas no chão indicam",
+        "image": "imagens/setasNaVia.jpg",
+        "answers": [
+            "posição de semáforos.",
+            "direções permitidas na via.",
+            "proibição de estacionar.",
+            "largura da faixa.",
+            "altura máxima permitida."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "07 - O que significa uma linha amarela tracejada ou seccionada no centro (eixo) da via?",
+        "image": "imagens/linhaAmarelaTracejada.jpg",
+        "answers": [
+            "Ultrapassagem permitida",
+            "Proibição de estacionar.",
+            "Zona de pedestres.",
+            "Área de carga.",
+            "Limite de velocidade."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "08 - As faixas de pedestres são pintadas de qual cor?",
+        "image": "",
+        "answers": [
+            "Azul",
+            "Branco",
+            "Amarelo",
+            "Verde",
+            "Vermelho"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "09 - Observe a foto. O que uma linha de retenção indica para os motoristas?",
+        "image": "imagens/linhaRetencao.jpg",
+        "answers": [
+            "Limite de estacionamento.",
+            "Delimita o limite máximo que os veículos podem parar.",
+            "Proibição de ultrapassagem.",
+            "Área de carga e descarga.",
+            "Zonas escolares."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "10 - Uma faixa azul no pavimento indica",
+        "image": "",
+        "answers": [
+            "área de pedestres;",
+            "estacionamento para deficientes;",
+            "ciclovia;",
+            "zona de carga;",
+            "travessia de animais."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "11 - Qual é o objetivo de uma linha branca contínua entre faixas de tráfego no mesmo sentido?",
+        "image": "imagens/linhaBrancaContinua.jpg",
+        "answers": [
+            "Dividir ciclovias",            
+            "Marcar estacionamento",
+            "Sinalizar zona de pedestres",
+            "Indicar ponto de ônibus",
+            "Proibir a mudança de faixa"
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "12 - O que as linhas amarelas na borda da pista indicam?",
+        "image": "imagens/linhaBordoAmarela.jpg",
+        "answers": [
+            "Ponto de ônibus.",
+            "Proíbido estacionar.",
+            "Divisão de fluxos opostos.",
+            "Delimitar controle de áreas onde é proibido ou regulamentado o estacionamento quando associadas a sinalização verfical de regulamentação.",
+            "Proibido parar."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "13 - Linhas de demarcação para vagas de estacionamento geralmente são de que cor?",
+        "image": "",
+        "answers": [
+            "Vermelho.",
+            "Preto.",
+            "Branco.",
+            "Azul.",
+            "Verde."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "14 - Uma linha de divisão de fluxos opostos é pintada em qual cor?",
+        "image": "",
+        "answers": [
+            "Branco.",
+            "Azul.",
+            "Amarelo.",
+            "Vermelho.",
+            "Verde."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "15 - A palavra PARE escritas no pavimento servem para",
+        "image": "",
+        "answers": [
+            "indicar fim de via;",
+            "alertar para parar o veículo;",
+            "sinalizar travessia de animais;",
+            "marcar zona escolar;",
+            "delimitar área de carga;"
+        ],
+        "correctAnswer": 1
+    },
+    {
         "question": "123",
-        "image": "imagens/r23R25bR24aA2bR24b.jpg",
+        "image": "imagens/linhaBrancaTracejada.jpg",
         "answers": [
             "123",
             "123",
@@ -13,7 +193,7 @@
     },
     {
         "question": "123",
-        "image": "imagens/r23R25bR24aA2bR24b.jpg",
+        "image": "imagens/linhaBrancaTracejada.jpg",
         "answers": [
             "123",
             "123",
@@ -25,19 +205,7 @@
     },
     {
         "question": "123",
-        "image": "imagens/r23R25bR24aA2bR24b.jpg",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 4
-    },
-    {
-        "question": "123",
-        "image": "imagens/r23R25bR24aA2bR24b.jpg",
+        "image": "imagens/linhaBrancaTracejada.jpg",
         "answers": [
             "123",
             "123",

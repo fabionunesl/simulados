@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CTB SNT Veiculos Condutor</title>
+    <title>Simulado 1</title>
     <link rel="stylesheet" href="styles.css">
     <script>
         let questions = [];
@@ -59,6 +59,18 @@
 
             let question = questions[currentQuestionIndex];
             document.getElementById('question-text').textContent = question.question;
+
+            // Adiciona a imagem, se existir
+            let imageElement = document.getElementById('image-element');
+            let imageContainer = document.getElementById('image-container');
+
+            if (question.image) {
+                imageElement.src = question.image;
+                imageContainer.classList.remove('hidden'); // Mostra o contêiner da imagem
+            } else {
+                imageContainer.classList.add('hidden'); // Esconde o contêiner se não houver imagem
+            }
+
             let answersContainer = document.getElementById('answers-container');
             answersContainer.innerHTML = '';
 
@@ -91,6 +103,7 @@
                     showResult();
                 } else {
                     showQuestion();
+                    window.scrollTo(0, 0); // Rola a página para o topo
                 }
             } else {
                 alert('Por favor, selecione uma resposta.');
@@ -175,7 +188,7 @@
         // Função para cancelar o simulado
         function cancelSimulado() {
             if (confirm('Você tem certeza que deseja cancelar o simulado?')) {
-                window.location.href = 'index.html'; // Redireciona para a página inicial
+                window.location.href = 'user1-dashboard.html'; // Redireciona para a página inicial
             }
         }
 
@@ -199,6 +212,9 @@
         </div>
         <div id="question-container" class="hidden">
             <h1 id="question-text"></h1>
+            <div id="image-container" class="hidden">
+                <img src="" alt="Imagem da pergunta" class="question-image" id="image-element"> <!-- Contêiner da imagem -->
+            </div>
             <form id="question-form">
                 <div id="answers-container" class="answers"></div>
                 <button type="button" id="previous-button" class="button" onclick="previousQuestion()">Voltar</button>
@@ -211,8 +227,6 @@
             <div id="results-details"></div>
             <button id="restart-button" class="button" onclick="restartSimulado()">Escolher Prova</button>
         </div>
-        <h1><br></h1>
-        <h1><br></h1>
     </div>
 </body>
 </html>

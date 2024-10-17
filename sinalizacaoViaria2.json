@@ -1,6 +1,6 @@
 [
     {
-        "question": "01 - A placa A-2b adverte os condutores de que logo adiante existe uma(s)",
+        "question": "01 - A placa A-2b adverte os condutores de que logo adiante existe uma ou umas",
         "image": "imagens/a-2b.jpg",
         "answers": [
             "curva a direita;",
@@ -72,7 +72,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "07 - Quais a diferença entre a sinalização vertical de advertência A-35 e A-36?",
+        "question": "07 - Qual a diferença entre a sinalização vertical de advertência A-35 e A-36?",
         "image": "imagens/a35A36.jpg",
         "answers": [
             "A-35 adverte sobre perímetro rural; A-36 adverte sobre animais selvagens.",
@@ -349,7 +349,7 @@
     },
     {
         "question": "30 - A placa de advertência A-12 é comum antes de chegar em uma rotatória. Como o condutor deve se preparar ao visualizar essa sinalização?",
-        "image": "imagens/r23R25bR24aA2bR24b.jpg",
+        "image": "imagens/a-12.jpg",
         "answers": [
             "Ignorar a placa e atravessar a interseção em alta velocidade",
             "Reduzir a velocidade e ceder passagem aos veículos que já estão na rotatória",

@@ -110,16 +110,21 @@ body {
     margin-bottom: 20px; /* Espaço abaixo do conteúdo */
 }
 
+/* Estilo para a imagem da pergunta */
 .question-image {
-    max-width: 100%; /* Ajusta a largura da imagem ao contêiner */
+    max-width: 100%; /* Ajusta a largura da imagem ao tamanho do contêiner */
     height: auto;    /* Mantém a proporção da imagem */
     display: block;  /* Faz a imagem se comportar como um bloco */
-    margin: 0 auto;  /* Centraliza a imagem, se desejado */
+    margin: 0 auto;  /* Centraliza a imagem dentro do contêiner */
 }
 
+/* Estilo para o contêiner da imagem */
 #image-container {
-    width: 100%; /* Contêiner ocupa toda a largura */
+    width: 80%; /* O contêiner ocupa 80% da largura disponível */
+    max-width: 150px; /* Limita o tamanho máximo do contêiner para telas grandes */
+    margin: 0 auto; /* Centraliza o contêiner da imagem */
     overflow: hidden; /* Esconde partes da imagem que saem do contêiner */
+    padding: 10px 0; /* Adiciona um pequeno espaço em volta da imagem */
 }
 
 #next-button {

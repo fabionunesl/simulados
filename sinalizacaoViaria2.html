@@ -94,22 +94,21 @@
         }
 
         // Função para ir para a próxima pergunta
-function nextQuestion() {
-    let selectedOption = document.querySelector('input[name="answer"]:checked');
-    if (selectedOption) {
-        answers[currentQuestionIndex] = parseInt(selectedOption.value);
-        currentQuestionIndex++;
-        if (currentQuestionIndex >= questions.length) {
-            showResult();
-        } else {
-            showQuestion();
-            window.scrollTo(0, 0); // Rola a página para o topo
+        function nextQuestion() {
+            let selectedOption = document.querySelector('input[name="answer"]:checked');
+            if (selectedOption) {
+                answers[currentQuestionIndex] = parseInt(selectedOption.value);
+                currentQuestionIndex++;
+                if (currentQuestionIndex >= questions.length) {
+                    showResult();
+                } else {
+                    showQuestion();
+                    window.scrollTo(0, 0); // Rola a página para o topo
+                }
+            } else {
+                alert('Por favor, selecione uma resposta.');
+            }
         }
-    } else {
-        alert('Por favor, selecione uma resposta.');
-    }
-}
-
 
         // Função para voltar à pergunta anterior
         function previousQuestion() {
@@ -228,8 +227,6 @@ function nextQuestion() {
             <div id="results-details"></div>
             <button id="restart-button" class="button" onclick="restartSimulado()">Escolher Prova</button>
         </div>
-        <h1><br></h1>
-        <h1><br></h1>
     </div>
 </body>
 </html>
