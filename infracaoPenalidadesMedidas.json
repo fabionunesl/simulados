@@ -1,15 +1,15 @@
 [
     {
-        "question": "123",
-        "image": "imagens/r23R25bR24aA2bR24b.jpg",
+        "question": "01 - Qual é a principal diferença entre uma infração de trânsito e uma penalidade de trânsito, de acordo com o Código de Trânsito Brasileiro (CTB)? ",
+        "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Infração é a conduta ilegal, desobediência, cometida pelo motorista, enquanto penalidade é a punição prevista em lei.",
+            "Infração é a multa aplicada, e penalidade é a suspensão da CNH.",
+            "Infração se refere às leis de trânsito, e penalidade se refere ao comportamento do motorista.",
+            "Infração é uma advertência por escrito, enquanto penalidade é a perda de pontos na CNH.",
+            "Não há diferença entre infração e penalidade, pois são sinônimos."
         ],
-        "correctAnswer": 4
+        "correctAnswer": 0
     },
     {
         "question": "123",
