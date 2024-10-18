@@ -44,30 +44,19 @@
             font-weight: 300;
         }
 
-        .red-box {
-            background-color: #d32f2f; /* Tom de vermelho da caixa */
-            color: #fff; /* Cor do texto dentro da caixa */
-            padding: 20px; /* Espaço interno da caixa */
-            border-radius: 8px; /* Arredonda os cantos da caixa */
-            display: inline-block; /* Ajusta a caixa ao tamanho do texto */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar um efeito de profundidade */
-            font-weight: bold;
-            text-transform: uppercase;
-        }
-
         .login-container {
             margin-bottom: 30px;
         }
 
         .login-container input {
             padding: 10px;
-            margin: 5px;
-            width: 80%;
+            margin: 5px auto; /* Centraliza horizontalmente */
+            width: 60%; /* Ajusta a largura para centralizar */
             font-size: 16px;
             border-radius: 5px;
             border: 1px solid #ccc;
             display: block;
-            margin: 10px auto;
+            text-align: center; /* Centraliza o texto dentro do campo */
         }
 
         .login-container button {
@@ -107,34 +96,28 @@
         function validateLogin(event) {
             event.preventDefault(); // Evita o envio do formulário
 
-            const username = document.getElementById('username').value;
-            const password = document.getElementById('password').value;
+            const cpf = document.getElementById('cpf').value;
 
-            // Verifica se os valores são inteiros
-            if (!/^\d+$/.test(username) || !/^\d+$/.test(password)) {
-                document.getElementById('error-message').textContent = 'Usuário e senha devem conter apenas números!';
+            // Verifica se o campo contém apenas números
+            if (!/^\d+$/.test(cpf)) {
+                document.getElementById('error-message').textContent = 'O CPF deve conter apenas números!';
                 return;
             }
 
-            // Lista de usuários com suas senhas e páginas de redirecionamento
+            // Lista de usuários válidos com seus respectivos CPFs
             const users = {
-                '007903': { password: '007903', redirect: 'user1-dashboard.html' },
-                '123': { password: '123', redirect: 'user1-dashboard.html' },
-                // Adicione mais usuários conforme necessário
+                '00790378019': { redirect: 'termos.html' },
+                '123': { redirect: 'termos.html' },
+                // Adicione mais CPFs conforme necessário
             };
 
-            // Se ambos os campos estiverem vazios
-            if (username === '' && password === '') {
-                window.location.href = 'simulado.html'; // Redireciona para a página de simulado
-            } else {
-                const user = users[username];
+            const user = users[cpf];
 
-                if (user && password === user.password) {
-                    // Redireciona para a página correspondente ao usuário
-                    window.location.href = user.redirect;
-                } else {
-                    document.getElementById('error-message').textContent = 'Usuário ou senha incorretos!';
-                }
+            if (user) {
+                // Redireciona para a página correspondente ao CPF
+                window.location.href = user.redirect;
+            } else {
+                document.getElementById('error-message').textContent = 'CPF não encontrado!';
             }
         }
     </script>
@@ -145,10 +128,9 @@
 
         <!-- Formulário de login -->
         <div id="login-container" class="login-container">
-            <h2>Coloque seu usuário e senha</h2>
+            <h2>Coloque seu CPF</h2>
             <form onsubmit="validateLogin(event)">
-                <input type="number" id="username" placeholder="Usuário" required>
-                <input type="number" id="password" placeholder="Senha" required>
+                <input type="text" id="cpf" placeholder="Digite seu CPF" required>
                 <button type="submit">Entrar</button>
                 <p id="error-message" class="error-message"></p>
             </form>

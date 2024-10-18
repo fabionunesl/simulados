@@ -288,16 +288,16 @@
         "correctAnswer": 2
     },
     {
-        "question": "25 - As placas de sinalização temporária costumam ter fundo de qual cor para chamar a atenção dos motoristas em áreas de obras? ",
+        "question": "Qual é o significado de dois silvos breves dados pelo apito do agente de trânsito?",
         "image": "",
         "answers": [
-            "Laranja.",
-            "Vermelho.",
-            "Azul.",
-            "Verde.",
-            "Branco."
+            "Siga em frente.",
+            "Pare.",
+            "Diminua a velocidade.",
+            "Siga à direita.",
+            "Siga à esquerda."
         ],
-        "correctAnswer": 0
+        "correctAnswer": 1
     },
     {
         "question": "26 - Qual é a diferença principal entre a sinalização permanente e a sinalização temporária no trânsito? ",

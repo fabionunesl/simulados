@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termos de Uso</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #f5f5f5, #e0e0e0);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 40px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: 50px;
+        }
+
+        h1 {
+            font-size: 2em;
+            color: #f57c00;
+            margin-bottom: 20px;
+        }
+
+        .terms-text {
+            text-align: left;
+            margin: 20px 0;
+            font-size: 1em;
+            line-height: 1.6; /* Melhor espaçamento entre as linhas para leitura */
+        }
+
+        .terms-section {
+            margin-bottom: 15px;
+        }
+
+        .terms-section h2 {
+            font-size: 1.2em;
+            color: #f57c00; /* Cor laranja para destacar os títulos das seções */
+            margin-bottom: 5px;
+        }
+
+        .accept-button {
+            margin-top: 20px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .accept-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Termos de Uso</h1>
+        <div class="terms-text">
+            <div class="terms-section">
+                <h2>Acesso Pessoal e Intransferível</h2>
+                <p>O acesso ao sistema é pessoal e intransferível. O usuário concorda em não compartilhar seu usuário com terceiros. A violação desta condição poderá resultar no bloqueio imediato do acesso ao sistema e na exclusão da conta do usuário.</p>
+               <p>Eu concordo com a coleta e o tratamento do meu CPF para fins de autenticação e acesso ao sistema, conforme descrito nos <a href="termosDeUso.html">Termos de Uso</a> e na <a href="politica-de-privacidade.html">Política de Privacidade</a></p>
+            </div> 
+        </div>
+        <button class="accept-button" onclick="acceptTerms()">Aceitar</button>
+    </div>
+    
+
+    <script>
+        function acceptTerms() {
+            // Redireciona para a página principal após aceitar os termos
+            window.location.href = 'user1-dashboard.html';
+        }
+    </script>
+</body>
+</html>
