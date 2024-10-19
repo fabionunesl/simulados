@@ -121,7 +121,7 @@ body {
 /* Estilo para o contêiner da imagem */
 #image-container {
     width: 80%; /* O contêiner ocupa 80% da largura disponível */
-    max-width: 150px; /* Limita o tamanho máximo do contêiner para telas grandes */
+    max-width: 350px; /* Limita o tamanho máximo do contêiner para telas grandes */
     margin: 0 auto; /* Centraliza o contêiner da imagem */
     overflow: hidden; /* Esconde partes da imagem que saem do contêiner */
     padding: 10px 0; /* Adiciona um pequeno espaço em volta da imagem */

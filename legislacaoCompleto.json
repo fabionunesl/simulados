@@ -60,293 +60,304 @@
         "correctAnswer": 0
     },
     {
-        "question": "123",
+        "question": "06 - Uma motocicleta, um carro e um ônibus trafegam em uma rodovia de pista dupla em lugar não abrangido pela sinalização ou não sinalizado. Seguindo a norma, qual é a velocidade máxima que cada um pode desenvolver, respectivamente?",
+        "image": "",
+        "answers": [
+            "80 km/h, 100 km/h e 90 km/h.",
+            "110 km/h, 100 km/h e 80 km/h.",
+            "100 km/h, 110 km/h e 90 km/h.",
+            "90 km/h, 90 km/h e 80 km/h.",
+            "110 km/h, 110 km/h e 90 km/h."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "07 - Um condutor de automóvel desenvolve uma velocidade de 70 km/h em uma estrada (via rural não pavimentada) sem sinalização regulamentadora de velocidade. Com essa conduta, ele mostra que:",
         "image": "imagens/xxxxx.jpg",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Está acima do limite de velocidade permitido para a via.",
+            "Está dentro do limite seguro para áreas urbanas, mas acima do permitido em rodovias.",
+            "Respeita o limite máximo de velocidade para estradas não sinalizadas.",
+            "Está em desacordo com a legislação, pois está abaixo da velocidade mínima da via;",
+            "Pode transitar sem preocupações, pois não existe regulamentação para esse tipo de estrada."
         ],
         "correctAnswer": 0
     },
     {
-        "question": "123",
-        "image": "imagens/xxxxx.jpg",
+        "question": "08 - Observe as figuras 1, 2, 3, 4. Qual dos veículos um condutor habilitado somente na categoria D não pode dirigir?",
+        "image": "imagens/CategoriasABCD.jpg",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Figuras 1 e 3.",
+            "Somente figuras 3.",
+            "Figuras 2 e 4.",
+            "Somente figura 4.",
+            "Figuras 3 e 4."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "09 - Lourenço é condutor habilitado na categoria B e não exerce atividade remunerada. Hoje ele cometeu duas infrações, um avanço de sinal vermelho e foi pego com a CNH vencida há mais de 20 dias. Se antes de 12 meses ele continuar cometendo mais infrações, ele terá seu direito de dirigir suspenso quando atingir quantos pontos?",
+        "image": "",
+        "answers": [
+            "20 pontos.",
+            "30 pontos.",
+            "40 pontos.",
+            "50 pontos.",
+            "60 pontos."
         ],
         "correctAnswer": 0
     },
     {
-        "question": "123",
-        "image": "imagens/xxxxx.jpg",
+        "question": "10 - Benjamim saiu de casa com seu automóvel e, ao começar a chover, ele liga as luzes de posição e o farol de milha. Nessa situação, Benjamim está:",
+        "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "agindo corretamente, pois as luzes de posição são suficientes para aumentar a visibilidade;",
+            "cometendo infração, pois deveria usar o farol baixo em condições de chuva;",
+            "utilizando os equipamentos de iluminação de forma adequada para a situação;",
+            "permitido usar o farol de milha durante a chuva em áreas urbanas;",
+            "necessário apenas ligar as luzes de posição em rodovias."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "11 - Segundo o CTB no art. 312, em caso de sinistro de trânsito, o condutor que passar informações falsas ou adulteradas para enganar ou induzir ao erro o juiz, o perito ou o agente policial está cometendo:",
+        "image": "",
+        "answers": [
+            "infração administrativa leve, sujeita a advertência por escrito;",
+            "crime de trânsito, passível de ser punido com detenção, ou multa;",
+            "apenas uma infração de trânsito sem consequências penais;",
+            "conduta irregular, sujeita a multa gravíssima e suspensão da CNH;",
+            "infração de trânsito gravíssima com penalidade de multa e apreensão do veículo."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "12 - A CNH (Carteira Nacional de Habilitação) deve ser expedida:",
+        "image": "",
+        "answers": [
+            "em meio físico e digital;",
+            "somente em meio físico;",
+            "somente em meio digital;",
+            " meio físico e digital, à escolha do condutor;",
+            "não é preciso ser expedida."
         ],
         "correctAnswer": 0
     },
     {
-        "question": "123",
-        "image": "imagens/xxxxx.jpg",
+        "question": "13 - Ao se aproximar de qualquer tipo de cruzamento, de acordo com o Código de Trânsito, no art. 44, você deve:",
+        "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "aumentar a velocidade para passar rapidamente;",
+            "demonstrar prudência especial, transitando em velocidade moderada;",
+            "ignorar a sinalização se não houver outros veículos;",
+            "parar obrigatoriamente em todos os cruzamentos;",
+            "continuar na mesma velocidade se não houver sinais."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "14 - Mesmo que a indicação luminosa do semáforo lhe seja favorável, nenhum condutor pode entrar em uma interseção se houver possibilidade de:",
+        "image": "",
+        "answers": [
+            "ser ultrapassado por outro condutor;",
+            "conseguir completar a travessia do cruzamento;",
+            "ser abordado por agentes de trânsito;",
+            "avançar o sinal verde de outro semáforo;",
+            "ser obrigado a imobilizar o veículo na área do cruzamento, obstruindo ou impedindo a passagem do trânsito transversal."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "15 - Ao transpor faixa, ou seja, fazer uma transposição ou mudança de faixa, o condutor deve:",
+        "image": "",
+        "answers": [
+            "sinalizar a manobra com antecedência, verificando se há veículos na faixa para onde deseja mudar;",
+            "acelerar para não ser ultrapassado enquanto muda de faixa;",
+            "olhar apenas pelo espelho retrovisor antes de mudar de faixa;",
+            "mudar de faixa sem sinalizar se a via estiver livre;",
+            "reduzir a velocidade e parar completamente antes de transpor a faixa."
         ],
         "correctAnswer": 0
     },
     {
-        "question": "123",
-        "image": "imagens/xxxxx.jpg",
+        "question": "16 - O automóvel estacionado paralelo junto à guia da calçada deve estar:",
+        "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "com o veículo posicionado a uma distância de até 50 cm da guia, no sentido do fluxo do trânsito e não inferior a 5 metros do bordo da linha transversal;",
+            "em um ângulo de 90 graus em relação à calçada, para facilitar a saída do veículo;",
+            "com o veículo a uma distância de 1 metro da guia, para evitar obstruções;",
+            "com a frente do veículo voltada para a calçada e as luzes de emergência acionadas;",
+            "com o veículo alinhado à guia, sinalizando a intenção de estacionar com a seta e garantindo a segurança dos pedestres."
         ],
         "correctAnswer": 0
     },
     {
-        "question": "123",
-        "image": "imagens/xxxxx.jpg",
+        "question": "17 - Ligar a seta (pisca-pisca), aproximar-se do eixo da via ou sinalização longitudinal divisor de fluxo e dar preferência, se for o caso, é conduta de que deslocamento lateral?",
+        "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Mudança de faixa de rolamento.",
+            "Conversão à direita.",
+            "Conversão à esquerda.",
+            "Deslocamento para estacionamento.",
+            "Retorno em via pública."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "18 - Quais devem ser sempre as três primeiras atitudes de um condutor que deseja fazer um deslocamento lateral em uma rodovia quando não houver lugar apropriado para manobra?",
+        "image": "",
+        "answers": [
+            "Aumentar a velocidade, buzinar e ir para o acostamento.",
+            "Olhar no retrovisor, sinalizar com a mão e ir para o acostamento.",
+            "Aumentar a velocidade, mudar de faixa para esquerda e ir para o acostamento.",
+            "Ligar a seta, diminuir a velocidade e converter para esquerda.",
+            "Ligar a seta, reduzir a velocidade e sem parar sair para o acostamento."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "19 - Qual o significado da sinalização vertical de regulamentação R-20?",
+        "image": "imagens/r-20.jpg",
+        "answers": [
+            "Proibição de estacionar.",
+            "Proibição de parar e estacionar.",
+            "Proibição de transitar.",
+            "Proibição de usar a buzina.",
+            "Autorização para estacionar."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "20 - A placa R-34 informa que no trecho abrangido pela sinalização é permitido apenas o trânsito de:",
+        "image": "imagens/r-34.jpg",
+        "answers": [
+            "Veículos motorizados de passeio;",
+            "motocicletas;",
+            "veículos de carga;",
+            "bicicletas;",
+            "veículos de emergência;"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "21 - Quando é permitido para condutores transitarem sobre a calçada?",
+        "image": "",
+        "answers": [
+            "Apenas para entrar e sair de imóveis ou lotes lindeiros.",
+            "Quando o condutor estiver em situação de emergência e não houver outro caminho.",
+            "Quando a calçada estiver sem movimento de pedestres.",
+            "Para diminuir o caminho.",
+            "É proibido transitar sobre a calçada em qualquer situação."
         ],
         "correctAnswer": 0
     },
     {
-        "question": "123",
-        "image": "imagens/xxxxx.jpg",
+        "question": "22 - O não uso do cinto de segurança, tanto pelo condutor quanto por qualquer outro passageiro do veículo, incorre em uma infração de trânsito de natureza:",
+        "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "leve; passível de advertência por escrito;",
+            "média; passível de multa;",
+            "grave; passível de multa e retenção do veículo;",
+            "gravíssima; passível de multa e suspensão do direito de dirigir;",
+            "nenhuma infração, pois não é obrigatório."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "23 - Deixar de sinalizar a intenção de deslocamento lateral, ou seja, de mudança de direção do veículo, é infração de trânsito de natureza:",
+        "image": "",
+        "answers": [
+            "leve; passível de advertência por escrito;",
+            "média; passível de multa;",
+            "grave; passível de multa;",
+            "gravíssima; passível de multa e suspensão do direito de dirigir;",
+            "nenhuma infração, pois não é necessário sinalizar."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "24 - No primeiro ano de habilitação, o candidato passa por um período probatório, onde não pode cometer quais infrações?",
+        "image": "",
+        "answers": [
+            "Infrações leves, médias e reincidências em graves.",
+            "Infrações médias, graves e reincidência em gravíssimas.",
+            "Infrações gravíssimas, médias e reincidência em graves.",
+            "Infrações gravíssimas, graves, médias e reincidências em leves.",
+            "Infrações gravíssimas, graves e reincidência em médias."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "25 - Um automóvel e um ônibus estão transitando em uma rodovia de pista simples, o motorista do automóvel está a 100 km/h, enquanto o motorista do ônibus está a 90 km/h. Nesse caso, de acordo com a norma, eles estão:",
+        "image": "",
+        "answers": [
+            "Ambos em velocidade permitida, sem infrações.",
+            "O automóvel em velocidade acima da permitida, o ônibus em velocidade permitida.",
+            "O ônibus em velocidade acima da permitida, o automóvel em velocidade permitida.",
+            "Ambos em velocidade acima da permitida.",
+            "O automóvel em velocidade permitida e o ônibus em velocidade abaixo da permitida."
         ],
         "correctAnswer": 0
     },
     {
-        "question": "123",
-        "image": "imagens/xxxxx.jpg",
+        "question": "26 - Marcadores de obstáculo, marcadores de alinhamento e marcadores de perigo são dispositivos de sinalização: ",
+        "image": "imagens/dispositivoSinalizacaoAlerta.jpg",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "temporária;",
+            "regulamentadores;",
+            "de indicação;",
+            "de alerta.",
+            "de proteção para pedestres e ciclistas."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "27 - Você conduz em uma via onde um agente de trânsito na sua frente está com o braço estendido na horizontal, com a palma da mão para baixo, fazendo movimentos verticais com um silvo longo. Isso significa que você deve: ",
+        "image": "imagens/gestosAgente.jpg",
+        "answers": [
+            "acelerar e passar rapidamente pelo agente;",
+            "parar e aguardar a sinalização do agente;",
+            "reduzir a velocidade e continuar a marcha;",
+            "mudar de faixa imediatamente;",
+            "descer do veículo e se aproximar do agente."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "28 - Os condutores que, ao se aproximar de estações de embarque e desembarque, escolas, hospitais ou áreas com grande movimentação de pedestres, circulam em velocidade incompatível com a segurança viária, gerando perigo de dano, estão cometendo:",
+        "image": "",
+        "answers": [
+            "infração leve, sujeita a advertência;",
+            "infração média, passível de multa;",
+            "infração grave, sujeita a multa e suspensão do direito de dirigir;",
+            "crime de trânsito;",
+            "nenhuma infração, desde que não machuque ninguém."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "29 - Fagner desenvolve uma velocidade de 110 km/h em uma rodovia de pista dupla fora do perímetro urbano, em trecho não abrangido por sinalização. Nesse caso, ele está:",
+        "image": "",
+        "answers": [
+            "dentro da velocidade permitida, pois não há sinalização.",
+            "cometendo uma infração de natureza média sujeito à advertência por escrito.",
+            "cometendo uma infração de natureza grave sujeito à multa;",
+            "cometendo uma infração grave sujeito à multa;",
+            "cometendo uma infração leve não superior em 20% à velocidade permitida da via."
         ],
         "correctAnswer": 0
     },
     {
-        "question": "123",
-        "image": "imagens/xxxxx.jpg",
+        "question": "30 - Considere a seguinte situação: Ronaldo trabalha como motorista de aplicativo e exerce atividade remunerada na habilitação (EAR). Ele terá sua habilitação suspensa quando atingir a pontuação no prontuário de sua CNH:",
+        "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "20 pontos;",
+            "30 pontos;",
+            "40 pontos;",
+            "30 pontos se constar uma infração gravíssima pontos;",
+            "20 pontos se constar duas infrações gravíssimas."
         ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "imagens/xxxxx.jpg",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "imagens/xxxxx.jpg",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "imagens/xxxxx.jpg",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "imagens/xxxxx.jpg",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "imagens/xxxxx.jpg",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "imagens/xxxxx.jpg",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "imagens/xxxxx.jpg",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "imagens/xxxxx.jpg",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "imagens/xxxxx.jpg",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "imagens/xxxxx.jpg",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "imagens/xxxxx.jpg",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "imagens/xxxxx.jpg",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "imagens/xxxxx.jpg",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "imagens/xxxxx.jpg",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "imagens/xxxxx.jpg",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-
+        "correctAnswer": 2
+    }
    
 ]
