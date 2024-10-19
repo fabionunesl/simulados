@@ -1,14 +1,352 @@
 [
     {
+        "question": "01 - Observe a figura abaixo. Um pedestre espera na faixa de pedestre com semáforo. Quem tem a preferência de passagem?",
+        "image": "imagens/faixaPedestreSemaforo.jpg",
+        "answers": [
+            "O pedestre, pois está na faixa de pedestre.",
+            "O veículo por estar na pista de rolamento.",
+            "O pedestre, pois é mais frágil que os demais integrantes do trânsito.;",
+            "O motorista, pois o semáforo está verde para ele e vermelho para o pedestre.",
+            "O pedestre, porque está segurando o celular."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "02 - Quando o agente de trânsito poderá deixar de solicitar que você, como condutor, apresente o CRLV-e ou CLA?",
+        "image": "",
+        "answers": [
+            "Quando o agente de trânsito não tiver acesso a sistemas eletrônicos para verificar a regularidade do veículo.",
+            "Quando o condutor estiver transportando passageiros em situação de emergência.",
+            "Quando o veículo estiver em situação de emergência e não puder ser abordado.",
+            "Quando o agente de trânsito tiver acesso a sistemas eletrônicos que permitam verificar a regularidade do licenciamento do veículo.",
+            "Quando o condutor estiver acompanhado de um passageiro com a documentação do veículo."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "03 - Um condutor na categoria B pretende adicionar a categoria A. Para isso, ele deve: ",
+        "image": "",
+        "answers": [
+            "apenas realizar um exame prático de moto;",
+            "realizar exame de aptidão física e mental (médico), curso de prática de direção e aprovação no exame prático;",
+            "realizar exame de aptidão física e mental (médico), não ter cometido nenhuma infração gravíssima nos últimos 12 meses e prova prática;",
+            "participar de um curso teórico de 20 horas e fazer o exame prático de moto;",
+            "curso teórico de legislação, aprovação no exame teórico e aulas práticas."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "04 - Qual é a idade mínima para um condutor se habilitar para as categorias D e E?",
+        "image": "",
+        "answers": [
+            "18 anos.",
+            "19 anos.",
+            "20 anos.",
+            "21 anos.",
+            "22 anos."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "05 - Observando a figura, quais são as categorias que habilitam um condutor a dirigir os veículos, respectivamente?",
+        "image": "imagens/categoriasBAD.jpg",
+        "answers": [
+            "A, B e C",
+            "B, C e A.",
+            "C, D e B.",
+            "D, E e A.",
+            "B, A e D."
+        ],
+        "correctAnswer": 0
+    },
+    {
         "question": "123",
-        "image": "imagens/a-2b.jpg",
+        "image": "imagens/xxxxx.jpg",
         "answers": [
             "123",
             "123",
-            "123;",
+            "123",
             "123",
             "123"
         ],
         "correctAnswer": 0
-    }
+    },
+    {
+        "question": "123",
+        "image": "imagens/xxxxx.jpg",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "image": "imagens/xxxxx.jpg",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "image": "imagens/xxxxx.jpg",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "image": "imagens/xxxxx.jpg",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "image": "imagens/xxxxx.jpg",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "image": "imagens/xxxxx.jpg",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "image": "imagens/xxxxx.jpg",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "image": "imagens/xxxxx.jpg",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "image": "imagens/xxxxx.jpg",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "image": "imagens/xxxxx.jpg",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "image": "imagens/xxxxx.jpg",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "image": "imagens/xxxxx.jpg",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "image": "imagens/xxxxx.jpg",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "image": "imagens/xxxxx.jpg",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "image": "imagens/xxxxx.jpg",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "image": "imagens/xxxxx.jpg",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "image": "imagens/xxxxx.jpg",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "image": "imagens/xxxxx.jpg",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "image": "imagens/xxxxx.jpg",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "image": "imagens/xxxxx.jpg",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "image": "imagens/xxxxx.jpg",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "image": "imagens/xxxxx.jpg",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "123",
+        "image": "imagens/xxxxx.jpg",
+        "answers": [
+            "123",
+            "123",
+            "123",
+            "123",
+            "123"
+        ],
+        "correctAnswer": 0
+    },
+
+   
 ]
