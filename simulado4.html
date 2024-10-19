@@ -31,7 +31,7 @@
 
         // Função para obter questões e iniciar o simulado
         function startSimulado() {
-            fetch('questions_simulado4.json') // Nome do arquivo JSON com as perguntas
+            fetch('questoes/questions_simulado4.json') // Nome do arquivo JSON com as perguntas
                 .then(response => response.json())
                 .then(data => {
                     questions = data;
