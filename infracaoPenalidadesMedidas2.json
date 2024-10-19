@@ -1,6 +1,18 @@
 [
     {
-        "question": "01 - Para qual das infrações abaixo está prevista a medida administrativa de remoção do veículo?",
+        "question": "01 - De acordo com a Lei 14.071/20, quais são as penas para os crimes de homicídio culposo e lesão corporal culposa praticados na direção sob efeito de álcool?",
+        "image": "",
+        "answers": [
+            "Privativas de liberdade e pecuniárias.",
+            "Pecuniárias e restritivas de direito.",
+            "Privativas de liberdade.",
+            "Pecuniárias e restritivas de direito.",
+            "Restritivas de direito."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "02 - Para qual das infrações abaixo está prevista a medida administrativa de remoção do veículo?",
         "image": "",
         "answers": [
             "Estacionar em local permitido, mas sem o uso do cinto de segurança.",
@@ -12,364 +24,340 @@
         "correctAnswer": 2
     },
     {
-        "question": "123",
+        "question": "03 - O condutor que ingere álcool pode estar cometendo infração ou crime de trânsito. A conduta é configurada como crime quando:",
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "o condutor se recusa a fazer o teste do bafômetro;",
+            "o nível de álcool no sangue é superior ao permitido para infração administrativa;",
+            "o condutor se envolve em acidente com danos materiais;",
+            "Há risco de causar danos ao próprio veículo;",
+            "o condutor, sob efeito de álcool, causa lesão corporal ou morte na direção do veículo;"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "04 - Caroline dirige seu automóvel em via pública e é parada na fiscalização. O agente de trânsito percebe que na sua CNH consta a observação da obrigatoriedade do uso de lentes corretivas. Nesse caso, ela está cometendo uma infração de trânsito gravíssima e fica sujeita a",
+        "image": "",
+        "answers": [
+            "multa e apreensão do veículo;",
+            "multa, retenção do veículo até a regularização e suspensão do direito de dirigir;",
+            "advertência verbal;",
+            "multa e registro de pontos na CNH;",
+            "multa e curso de reciclagem obrigatório;"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "05 - Segundo o CTB, é obrigatório o uso de capacete para:",
+        "image": "",
+        "answers": [
+            "Apenas o piloto da motocicleta.",
+            "Apenas o passageiro da motocicleta.",
+            "Somente em rodovias.",
+            "O piloto e o passageiro da motocicleta.",
+            "Apenas quando em áreas urbanas."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "06 - Benjamim circula com o carro emprestado do amigo e fica sem combustível. Para não bloquear o trânsito, ele empurra o carro para a calçada para ir buscar combustível. Qual ou quais infrações ele estaria cometendo?",
+        "image": "",
+        "answers": [
+            "Apenas estacionar em local proibido.",
+            "Estacionar na calçada e falta de combustível.",
+            "Parada irregular em via pública.",
+            "Apenas transitar com veículo na calçada.",
+            "Falta de combustível."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "07 - Fagner está conduzindo seu veículo e decide parar em uma faixa de pedestres para atender uma ligação importante. Nesse caso, qual ou quais infrações ele estaria cometendo?",
+        "image": "",
+        "answers": [
+            "Apenas estacionar em local proibido.",
+            "Parar o veículo sobre a faixa de pedestres.",
+            "Usar celular ao volante e estacionar em local proibido.",
+            "Parar sobre a faixa de pedestres e usar celular ao volante.",
+            "Nenhuma infração, pois ele estava parado."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "08 -Respeitadas as condições para a aplicação da penalidade de advertência por escrito, segundo a Lei 14.071/20, qual das infrações abaixo pode resultar nessa penalidade?",
+        "image": "",
+        "answers": [
+            "Dirigir sem possuir CNH.",
+            "Estacionar em local proibido.",
+            "Transitar em velocidade superior à máxima permitida até 20%.",
+            "Ultrapassar em local proibido.",
+            "Uso do celular quando está parado no semáforo."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "09 - Durante a condução em uma estrada bem iluminada, Ronaldo decide manter os faróis altos. Qual infração ele está cometendo?",
+        "image": "",
+        "answers": [
+            "Uso inadequado de faróis; infração leve.",
+            "Uso inadequado de faróis; multa grave.",
+            "Uso inadequado de faróis; infração média.",
+            "Uso de luz alta em local urbano; advertência por escrito.",
+            "Nenhuma infração, pois os faróis altos são permitidos."
         ],
         "correctAnswer": 0
     },
     {
-        "question": "123",
+        "question": "10 - Eva utiliza a buzina de seu veículo de forma excessiva em um ambiente urbano, mesmo quando não há perigo iminente. Qual a infração que está cometendo?",
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Infração leve.",
+            "Advertência por escrito.",
+            "Infração gravíssima.",
+            "Infração média.",
+            "Infração grave."
         ],
         "correctAnswer": 0
     },
     {
-        "question": "123",
+        "question": "11 - De acordo com a legislação, qual penalidade é aplicada ao condutor que acumula 40 pontos na CNH exercendo atividade remunerada em um período de 12 meses?",
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Multa.",
+            "Advertência por escrito.",
+            "Suspensão do direito de dirigir.",
+            "Apreensão do veículo.",
+            "Curso de reciclagem."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "12 - Qual das infrações a seguir pode resultar em penalidade de multa e apreensão do veículo?",
+        "image": "",
+        "answers": [
+            "Conduzir o veículo com a CNH vencida há menos de 30 dias.",
+            "Circular sem o uso de faróis em dias de chuva.",
+            "Não respeitar a sinalização de trânsito.",
+            "Estacionar em vaga reservada para deficientes sem credencial.",
+            "Dirigir com excesso de velocidade em até 50%."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "13 - Segundo a legislação de trânsito, qual das seguintes infrações resulta em penalidade de multa e é considerada gravíssima?",
+        "image": "",
+        "answers": [
+            "Não usar cinto de segurança.",
+            "Transitar em velocidade superior a 20% da máxima permitida.",
+            "Parar em local proibido.",
+            "Ultrapassar em local proibido.",
+            "Deixar de sinalizar mudança de direção."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "14 - Qual das infrações abaixo resulta em penalidade de suspensão do direito de dirigir, conforme a legislação de trânsito?",
+        "image": "",
+        "answers": [
+            "Dirigir sob efeito de álcool.",
+            "Estacionar em área de carga e descarga.",
+            "Não utilizar faróis baixos durante o dia.",
+            "Dirigir em velocidade inferior à permitida.",
+            "Realizar manobra de retorno em local proibido."
         ],
         "correctAnswer": 0
     },
     {
-        "question": "123",
+        "question": "15 - Ao estacionar à noite em um local permitido para desembarcar um passageiro, Júlio Cesar utiliza apenas as luzes de posição. Qual infração ele comete e qual é a penalidade correspondente?",
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Uso inadequado de faróis; advertência por escrito.",
+            "Deixar de acender as luzes de posição; multa leve.",
+            "Não usar faróis em horário noturno; multa gravíssima.",
+            "Deixar de usar faróis baixos; multa média.",
+            "Nenhuma infração."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "16 - Fábio está dirigindo a 60 km/h em uma via onde a velocidade máxima permitida é de 50 km/h. Qual infração ele comete e qual a penalidade correspondente?",
+        "image": "",
+        "answers": [
+            "Excesso de velocidade; multa leve.",
+            "Excesso de velocidade; multa média.",
+            "Excesso de velocidade; multa gravíssima.",
+            "Nenhuma infração, pois está dentro do limite.",
+            "Apenas advertência por escrito."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "17 - Você transita na via com uma motocicleta usando capacete, mas sem viseira de proteção. Qual é a infração, penalidade e medida administrativa para esse comportamento?",
+        "image": "",
+        "answers": [
+            "Infração: Gravíssima; Penalidade: Multa gravíssima; Medida Administrativa: Apreensão do veículo.",
+            "Infração: Média; Penalidade: Multa média; Medida Administrativa: Retenção do veículo até regularização.",
+            "Infração: Média; Penalidade: Multa leve; Medida Administrativa: Suspensão do direito de dirigir.",
+            "Infração: Média; Penalidade: Multa média; Medida Administrativa: Advertência por escrito.",
+            "Infração: Gravíssima; Penalidade: Multa gravíssima; Medida Administrativa: Suspensão do veículo."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "18 - Transitar com veículo automotor com a CNH vencida há mais de trinta dias, o sujeito está cometendo:",
+        "image": "",
+        "answers": [
+            "Infração: Gravíssima; Penalidade: Multa gravíssima; Medida Administrativa: Retenção do veículo até a regularização da CNH ou apresentação de condutor habilitado.",
+            "Infração: Gravíssima; Penalidade: Multa média; Medida Administrativa: Apreensão do veículo.",
+            "Infração: Gravíssima; Penalidade: Multa gravíssima; Medida Administrativa: Suspensão do direito de dirigir.",
+            "Infração: Média; Penalidade: Multa leve; Medida Administrativa: Advertência por escrito.",
+            "Infração: Média; Penalidade: Multa média; Medida Administrativa: Retenção do veículo."
         ],
         "correctAnswer": 0
     },
     {
-        "question": "123",
+        "question": "19 - Em que situação não é infração de trânsito a conversão à direita mesmo com o semáforo no sinal vermelho?",
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Quando o condutor faz a conversão rapidamente, sem parar.",
+            "Quando a conversão é feita após a parada obrigatória e sem haver sinalização contrária.",
+            "Quando não há outros veículos no cruzamento.",
+            "Quando existir sinalização indicando a livre conversão à direita.",
+            "Quando o semáforo está piscando na cor amarela."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "20 - Um veículo está estacionado sobre a faixa de pedestres, mesmo que apenas parte do veículo. O condutor está cometendo qual infração e sujeito a qual medida administrativa?",
+        "image": "",
+        "answers": [
+            "Infração: Gravíssima; Penalidade: Multa gravíssima; Medida Administrativa: Remoção do veículo.",
+            "Infração: Gravíssima; Penalidade: Multa média; Medida Administrativa: Retenção do veículo até a regularização.",
+            "Infração: Gravíssima; Penalidade: Multa média; Medida Administrativa: Advertência por escrito.",
+            "Infração: Média; Penalidade: Multa média; Medida Administrativa: Apreensão do veículo.",
+            "Infração: Grave; Penalidade: Multa grave; Medida Administrativa: Remoção do veículo."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "21 - Quando a infração por participar de exibição/demonstração de perícia em manobra de veículo, em desacordo com o CONTRAN, é considerada gravíssima, a penalidade pode ser agravada por quanto?",
+        "image": "",
+        "answers": [
+            "2 vezes.",
+            "3 vezes.",
+            "4 vezes.",
+            "5 vezes.",
+            "10 vezes."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "22 - Dirigir com a CNH cassada é uma infração de trânsito de natureza gravíssima em que o condutor fica sujeito a:",
+        "image": "",
+        "answers": [
+            "Apreensão do veículo e suspensão do direito de dirigir.",
+            "Multa x 3,  recolhimento da CNH e retenção do veículo até regularização.",
+            "Apreensão do veículo.",
+            "Advertência por escrito.",
+            "Suspensão do direito de dirigir."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "23 - Caroline foi ao salão de beleza com sua motoneta, mas esqueceu de acender o farol (luz baixa). Nesse caso, ela cometeu uma infração de trânsito de natureza:",
+        "image": "",
+        "answers": [
+            "leve, passível de advertência por escrito;",
+            "média, passível de multa;",
+            "Grave e multa;",
+            "Gravíssima e multa;",
+            "Se for de dia não precisa ligar o farol."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "24 - Ultrapassar outro veículo em local proibido pela sinalização, o condutor está cometendo uma infração de natureza gravíssima, sujeito a qual penalidade?",
+        "image": "",
+        "answers": [
+            "Multa x 2 e suspensão do direito de dirigir.",
+            "Multa x 3 e apreensão do veículo.",
+            "Multa x 5 e advertência por escrito.",
+            "Multa x 5.",
+            "Multa x 10."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "25 - Se você deixar passar mais de 30 dias para efetuar o registro de um veículo junto ao DETRAN, a qual infração e medida administrativa ficará sujeito?",
+        "image": "",
+        "answers": [
+            "Média; Penalidade: Multa média; Medida Administrativa: Retenção do veículo até regularização.",
+            "Infração: Média; Penalidade: Multa média; Medida Administrativa: Apreensão do veículo.",
+            "Infração: Gravíssima; Penalidade: Multa gravíssima; Medida Administrativa: Apreensão do veículo.",
+            "Infração: Leve; Penalidade: Multa leve; Medida Administrativa: Advertência por escrito.",
+            "Infração: Grave; Penalidade: Multa grave; Medida Administrativa: Suspensão do direito de dirigir."
         ],
         "correctAnswer": 0
     },
     {
-        "question": "123",
+        "question": "26 - Quando o condutor deixar de ligar a luz baixa (farol) durante o dia, constitui infração de trânsito em qual das situações?",
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Quando estiver transitando em vias urbanas durante o dia.",
+            "Quando estiver transitando em rodovias de pista dupla, independente da visibilidade.",
+            "Quando houver neblina ou cerração.",
+            "Quando estiver transitando em áreas de pouco movimento.",
+            "Quando a iluminação pública estiver acesa."
         ],
-        "correctAnswer": 0
+        "correctAnswer": 2
     },
     {
-        "question": "123",
+        "question": "27 - Qual a idade mínima que uma criança deve ter para ser transportada em uma motocicleta para não ser configurado infração gravíssima, multa e suspensão do direito de dirigir?",
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "5 anos.",
+            "6 anos.",
+            "7 anos.",
+            "8 anos.",
+            "10 anos."
         ],
-        "correctAnswer": 0
+        "correctAnswer": 4
     },
     {
-        "question": "123",
+        "question": "28 - Lourenço trafega em velocidade superior à máxima permitida em mais de 50%, medida por instrumento regulador de velocidade. Ele está cometendo uma infração gravíssima e fica sujeito a:",
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "multa x 2  e remoção do veículo;",
+            "multa x 3 e apreensão do veículo;",
+            "multa x 5 e retenção do veículo.",
+            "lta x 3 e suspensão do direito de dirigir;",
+            "multa x 10 e cassação."
         ],
-        "correctAnswer": 0
+        "correctAnswer": 3
     },
     {
-        "question": "123",
+        "question": "29 - Quando parado em uma fiscalização de trânsito e o agente imobiliza o veículo para sanar uma irregularidade, essa conduta é caracterizada como:",
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Apreensão do veículo.",
+            "Retenção do veículo.",
+            "Suspensão do direito de dirigir.",
+            "Interdição do veículo.",
+            "Multa administrativa."
         ],
-        "correctAnswer": 0
+        "correctAnswer": 1
     },
     {
-        "question": "123",
+        "question": "30 - Nas infrações listadas abaixo, qual delas deve resultar na medida administrativa de retenção do veículo, além da multa?",
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Velocidade incompatível com a via.",
+            "Estacionar em local proibido.",
+            "Veículo imobilizado na via por falta de combustível.",
+            "Passar sinal vermelho.",
+            "Problemas com equipamentos obrigatórios."
         ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "question": "123",
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 0
+        "correctAnswer": 4
     }
 
 ]
