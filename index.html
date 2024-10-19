@@ -78,6 +78,25 @@
             font-weight: bold;
         }
 
+        /* Estilos para a seção de contato */
+        .contact-container {
+            margin-top: 30px;
+        }
+
+        .contact-button {
+            background-color: #25D366; /* Verde do WhatsApp */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .contact-button:hover {
+            background-color: #128C7E; /* Verde escuro do WhatsApp */
+        }
+
         /* Adicionando responsividade */
         @media (max-width: 600px) {
             .button {
@@ -134,6 +153,15 @@
                 <button type="submit">Entrar</button>
                 <p id="error-message" class="error-message"></p>
             </form>
+        </div>
+
+        <!-- Seção de contato para adquirir provas simuladas -->
+        <div class="contact-container">
+            <h2>Deseja adquirir as provas simuladas?</h2>
+            <p>Entre em contato pelo Whatsapp clicando no botão abaixo:</p>
+            <a href="https://wa.me/5551999100145" target="_blank">
+                <button class="contact-button">Contato pelo WhatsApp</button>
+            </a>
         </div>
     </div>
 </body>
