@@ -1,13 +1,361 @@
 [   
     {
-        "question": "123",
-        "image": "imagens/xxxxxx.jpg",
+        "question": "01 - Caracteriza-se direção defensiva...",
+        "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Acidente de trânsito com terceiros",
+            "Ultrapassagem segura em rodovias",
+            "Negligência no trânsito",
+            "Conjunto de técnicas para evitar acidentes e garantir segurança no trânsito",
+            "Técnica de segurança para caminhões de grande porte"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "02 - Todo evento que resulte em dano ao veículo ou à sua carga e/ou lesões a pessoas e/ou animais, e que possa trazer dano material ou prejuízos ao trânsito, à via ou ao meio ambiente, é a definição de...",
+        "image": "",
+        "answers": [
+            "Crime",
+            "Agravantes",
+            "Sinistro",
+            "Imperícia",
+            "Negligência"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "03 - A responsabilidade de segurança no trânsito é dever...",
+        "image": "",
+        "answers": [
+            "Dos condutores e passageiros",
+            "Dos condutores, passageiros e pedestres",
+            "Dos veículos de maior porte",
+            "Dos fiscais de trânsito",
+            "Do DNIT (Departamento Nacional de Infraestrutura de Transportes)"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "04 - Em qual circunstância é obrigatório o uso do cinto de segurança?",
+        "image": "",
+        "answers": [
+            "Em grandes áreas urbanas",
+            "Apenas do condutor quando estiver em trânsito",
+            "Do condutor e passageiros sempre que o automóvel estiver em movimento",
+            "Em rodovias estaduais",
+            "Em áreas com fiscalização"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "05 - Para reduzir a área do ponto cego, deve-se manter os espelhos retrovisores na inclinação de quantos graus?",
+        "image": "",
+        "answers": [
+            "50°",
+            "60°",
+            "70°",
+            "80°",
+            "90°"
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "06 - Qual a velocidade ideal para transitar?",
+        "image": "",
+        "answers": [
+            "A menor velocidade permitida",
+            "A maior velocidade permitida",
+            "Velocidade regulada pelo condutor defensivo, sem desrespeitar a velocidade máxima permitida",
+            "Quanto menor o veículo, maior a velocidade",
+            "Veículos de carga devem andar na velocidade mínima permitida"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "07 - Qual a distância única e padrão frontal de segurança de um veículo para outro?",
+        "image": "",
+        "answers": [
+            "Não existe uma distância padrão",
+            "5 metros",
+            "10 metros",
+            "20 metros",
+            "30 metros"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "08 - Conforme regulamentação do CONTRAN, o motociclista profissional deve...",
+        "image": "",
+        "answers": [
+            "Usar somente viseira cristal",
+            "Usar roupas claras ao pilotar",
+            "Usar capacete integral fechado com viseira",
+            "Usar colete com elementos retrorrefletivos amarelo fluorescente",
+            "Roupas com tecido resistente"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "09 - Existem diversos tipos de atenção que o condutor utiliza enquanto está dirigindo. O que caracteriza a atenção difusa?",
+        "image": "",
+        "answers": [
+            "A que mantém o condutor no foco de forma contínua no que está fazendo",
+            "É aquela que mantém o condutor concentrado na direção do veículo",
+            "É aquela em que o condutor mantém o foco na parte traseira do veículo",
+            "É aquela que tem a capacidade de fazer o condutor perceber o que se passa ao redor",
+            "É aquela em que o piloto se concentra nos retrovisores"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "10 - Quando tiver de utilizar o celular ao dirigir, você deve...",
+        "image": "",
+        "answers": [
+            "Colocar a ligação em modo alto-falante",
+            "Estacionar em local seguro",
+            "Optar por chamadas de vídeo",
+            "Usar fones de ouvido",
+            "Apenas enviar mensagens de voz ao dirigir"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "11 - À medida que a concentração de álcool no sangue se torna mais elevada, o risco de envolvimento em sinistro aumenta rapidamente. Na literatura encontra-se a seguinte equivalência: uma taxa de alcoolemia de 1,20 g/l aumenta o risco em...",
+        "image": "",
+        "answers": [
+            "2 vezes",
+            "4 vezes",
+            "5 vezes",
+            "10 vezes",
+            "16 vezes"
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "12 - Ao conduzir em situação adversa com ausência de luz solar, você deve...",
+        "image": "",
+        "answers": [
+            "Andar sempre em luz alta",
+            "Não baixar os faróis, mesmo que venha outro veículo à frente",
+            "Reduzir a velocidade e aumentar a distância segura de seguimento",
+            "Usar sempre o farolete",
+            "Dirigir com pisca-alerta acionado"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "13 - Durante uma aquaplanagem, qual atitude deve ser tomada?",
+        "image": "",
+        "answers": [
+            "Frear bruscamente",
+            "Fazer movimentos bruscos com a direção",
+            "Acionar o freio de mão",
+            "Tirar o pé do acelerador e fazer movimentos leves com o volante",
+            "Acelerar para manter a estabilidade do veículo"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "14 - Quando o capacete deve ser trocado?",
+        "image": "",
+        "answers": [
+            "Quando a pintura estiver desbotada",
+            "Após um ano de uso",
+            "Quando estiver arranhado na parte externa",
+            "Quando sofrer fortes impactos ou tiver trincas",
+            "Quando não tiver viseira"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "15 - Ao utilizar o capacete sem viseira, é obrigatório o uso de qual item?",
+        "image": "",
+        "answers": [
+            "Óculos de sol",
+            "Óculos de proteção inquebrável",
+            "Óculos corretivos",
+            "Óculos de construção civil",
+            "Pala"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "16 - Qual tipo de viseira é regulamentada para utilizar de dia e à noite?",
+        "image": "",
+        "answers": [
+            "Fumê",
+            "Cristal",
+            "Qualquer uma",
+            "Cinza",
+            "Espelhada"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "17 - Qual das opções a seguir é uma prática recomendada na direção defensiva?",
+        "image": "",
+        "answers": [
+            "Aumentar a velocidade ao aproximar-se de cruzamentos",
+            "Manter uma distância segura do veículo à frente",
+            "Ignorar sinais de trânsito em áreas com pouco movimento",
+            "Usar o celular enquanto dirige, desde que não olhe para a tela",
+            "Fazer mudanças de faixa sem sinalizar, para evitar confusão"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "18 - Durante a condução, qual atitude é considerada uma prática de direção defensiva?",
+        "image": "",
+        "answers": [
+            "Conduzir com os faróis apagados durante o dia",
+            "Sempre verificar os espelhos retrovisores antes de mudar de faixa",
+            "Acelerar ao se aproximar de um sinal amarelo",
+            "Manter os pés no pedal do acelerador, mesmo em paradas",
+            "Ignorar pedestres na faixa de segurança"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "19 - Qual é a principal finalidade da direção defensiva?",
+        "image": "",
+        "answers": [
+            "Aumentar a velocidade para chegar ao destino mais rápido",
+            "Conduzir apenas em condições climáticas favoráveis",
+            "Ignorar as regras de trânsito em situações de emergência",
+            "Prevenir acidentes e garantir a segurança de todos na estrada",
+            "Focar apenas na própria direção, desconsiderando outros motoristas"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "20 - Qual das seguintes ações é a mais adequada ao conduzir em condições de chuva intensa?",
+        "image": "",
+        "answers": [
+            "Aumentar a velocidade para reduzir o tempo de exposição à pista molhada",
+            "Manter uma distância maior do veículo à frente e reduzir a velocidade gradualmente",
+            "Usar faróis altos para melhorar a visibilidade",
+            "Realizar ultrapassagens com frequência, evitando ficar atrás de outros veículos",
+            "Ignorar os sinais de trânsito, já que a visibilidade é reduzida"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "21 - Qual das seguintes opções é a mais segura ao dirigir em uma estrada coberta de gelo?",
+        "image": "",
+        "answers": [
+            "Acelerar rapidamente para ganhar tração.",
+            "Utilizar os freios de forma brusca para parar rapidamente.",
+            "Manter uma velocidade constante e aumentar a distância de seguimento.",
+            "Fazer curvas acentuadas para evitar derrapagens.",
+            "Usar o controle de cruzeiro para manter a velocidade."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "22 - Qual é a melhor prática ao dirigir em uma estrada com neblina densa?",
+        "image": "",
+        "answers": [
+            "Usar apenas os faróis altos para maximizar a visibilidade.",
+            "Parar no acostamento até a neblina diminuir.",
+            "Manter a velocidade normal e confiar na sinalização da estrada.",
+            "Ultrapassar veículos lentos rapidamente para sair da neblina.",
+            "Reduzir a velocidade e utilizar os faróis baixos."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "23 - Qual é a melhor estratégia ao descer um declive acentuado?",
+        "image": "",
+        "answers": [
+            "Acelerar para ganhar velocidade e descer rapidamente.",
+            "Usar o freio constantemente para controlar a velocidade.",
+            "Engatar uma marcha baixa (freio motor) e controlar a velocidade com o motor.",
+            "Fazer mudanças frequentes de faixa para evitar ficar atrás de outros veículos.",
+            "Descer com os faróis altos ligados para melhorar a visibilidade."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "24 - Qual das seguintes ações é a mais adequada ao conduzir em condições de chuva intensa?",
+        "image": "",
+        "answers": [
+            "Aumentar a velocidade para reduzir o tempo de exposição à pista molhada.",
+            "Manter uma distância maior do veículo à frente, reduzir a velocidade gradualmente e redobrar a atenção.",
+            "Usar faróis altos para melhorar a visibilidade.",
+            "Realizar ultrapassagens com frequência, evitando ficar atrás de outros veículos.",
+            "Ignorar os sinais de trânsito, já que a visibilidade é reduzida."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "25 - Qual é a consequência mais grave do uso de substâncias psicoativas ao dirigir?",
+        "image": "",
+        "answers": [
+            "Aumento da confiança ao volante.",
+            "Melhora na capacidade de concentração.",
+            "Diminuição da capacidade de reação e julgamento.",
+            "Aumento da percepção de risco.",
+            "Redução da fadiga durante longas viagens."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "26 - Ao dirigir em via sem sinalização, qual medida defensiva deve ser adotada?",
+        "image": "",
+        "answers": [
+            "Andar devagar e redobrar os cuidados ao dirigir, prestando atenção às curvas, aclives e declives.",
+            "Usar faróis altos para melhorar a visibilidade.",
+            "Realizar ultrapassagens com frequência, evitando ficar atrás de outros veículos.",
+            "Ignorar os sinais de trânsito, já que a visibilidade é reduzida.",
+            "Confiar na experiência de direção."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "27 - O passageiro de uma motocicleta deve manter uma postura correta. Qual a posição recomendada?",
+        "image": "",
+        "answers": [
+            "Sentar longe do piloto e manter postura reta.",
+            "Sentar próximo ao piloto e manter a postura inclinada para a direita.",
+            "Manter o corpo inclinado para trás.",
+            "Sentar próximo ao piloto, segurar-se firme e acompanhar a inclinação do piloto.",
+            "Manter o corpo inclinado para a esquerda, sem apoiar os pés nas pedaleiras."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "28 - Qual alternativa a seguir é uma preocupação importante ao dirigir à noite?",
+        "image": "",
+        "answers": [
+            "Evitar usar farol alto.",
+            "Manter os faróis alinhados e utilizar de acordo com a necessidade.",
+            "Usar somente luz alta.",
+            "Usar faróis de longo alcance.",
+            "Manter os faróis desligados para economizar bateria."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "29 - Ao dirigir sobre uma via com neblina intensa, o que você deve fazer?",
+        "image": "",
+        "answers": [
+            "Aumentar a velocidade para sair rapidamente da neblina.",
+            "Manter uma distância segura do veículo à frente e usar faróis baixos.",
+            "Usar faróis altos para aumentar a visibilidade.",
+            "Dirigir com as janelas abertas para aumentar a visibilidade.",
+            "Parar em local seguro e esperar a neblina passar."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "30 - Ao dirigir na cidade e começar a chover, o que você deve fazer?",
+        "image": "",
+        "answers": [
+            "Acionar o desembaçador.",
+            "Acender a luz alta.",
+            "Acionar faróis de neblina.",
+            "Ligar o rádio para ouvir a previsão do tempo.",
+            "Acionar o limpador de para-brisa."
         ],
         "correctAnswer": 4
     }
