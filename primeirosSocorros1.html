@@ -3,8 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulado 1</title>
+    <title>CTB SNT Veículos e Condutores</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilo para destacar as letras das opções de resposta */
+        .answer-label-letter {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #FF6600; /* Cor laranja para destacar as letras */
+            margin-right: 5px;
+        }
+    </style>
     <script>
         let questions = [];
         let currentQuestionIndex = 0;
@@ -58,6 +67,8 @@
             if (questions.length === 0) return;
 
             let question = questions[currentQuestionIndex];
+            document.getElementById('question-number').textContent = `Pergunta ${currentQuestionIndex + 1}`;
+
             document.getElementById('question-text').textContent = question.question;
 
             // Adiciona a imagem, se existir
@@ -84,8 +95,14 @@
                 if (answers[currentQuestionIndex] === index) {
                     input.checked = true;
                 }
+
+                let letterSpan = document.createElement('span');
+                letterSpan.classList.add('answer-label-letter');
+                letterSpan.textContent = `${String.fromCharCode(65 + index)}.`;
+
                 label.appendChild(input);
-                label.appendChild(document.createTextNode(` ${String.fromCharCode(65 + index)}. ${answer}`));
+                label.appendChild(letterSpan);
+                label.appendChild(document.createTextNode(` ${answer}`));
                 answersContainer.appendChild(label);
             });
 
@@ -103,6 +120,7 @@
                     showResult();
                 } else {
                     showQuestion();
+                    window.scrollTo(0, 0); // Rola a página para o topo
                 }
             } else {
                 alert('Por favor, selecione uma resposta.');
@@ -164,19 +182,6 @@
             });
 
             document.getElementById('result-container').classList.remove('hidden');
-
-            let userName = "Nome do Usuário"; // Ajustar para obter o nome do usuário logado
-            let timeTaken = document.getElementById('timer').textContent; // Tempo restante
-
-            let userResult = {
-                name: userName,
-                correctAnswers: correctAnswers,
-                totalQuestions: totalQuestions,
-                percentage: percentage.toFixed(2),
-                timeTaken: timeTaken
-            };
-
-            localStorage.setItem('lastResult', JSON.stringify(userResult));
         }
 
         // Função para reiniciar o simulado
@@ -184,12 +189,60 @@
             window.location.href = 'user-dashboard.html'; // Redireciona para a página inicial
         }
 
-        // Função para cancelar o simulado
-        function cancelSimulado() {
-            if (confirm('Você tem certeza que deseja cancelar o simulado?')) {
-                window.location.href = 'user-dashboard.html'; // Redireciona para a página inicial
+        // Função para mostrar resultados parciais, apenas as questões respondidas
+function showPartialResult() {
+    document.getElementById('question-container').classList.add('hidden');
+
+    let correctAnswers = 0;
+    let totalRespondidas = 0;
+    let resultsDetails = document.getElementById('results-details');
+    resultsDetails.innerHTML = `<h3>Detalhes:</h3>`;
+
+    questions.forEach((question, index) => {
+        let userAnswerIndex = answers[index];
+        if (userAnswerIndex !== undefined) { // Só exibe questões que foram respondidas
+            totalRespondidas++;
+            let userAnswerText = question.answers[userAnswerIndex];
+            let correctAnswerIndex = question.correctAnswer;
+            let correctAnswerText = question.answers[correctAnswerIndex];
+
+            let userAnswerClass = userAnswerIndex === correctAnswerIndex ? 'correct-answer' : 'incorrect-answer';
+            if (userAnswerIndex === correctAnswerIndex) {
+                correctAnswers++;
             }
+
+            resultsDetails.innerHTML += `
+                <p>
+                    <strong>Pergunta ${index + 1}:</strong> ${question.question}<br>
+                    <strong>Resposta Marcada:</strong> <span class="${userAnswerClass}">${userAnswerText}</span><br>
+                    <strong>Resposta Correta:</strong> <span class="correct-answer">${correctAnswerText}</span>
+                </p>
+            `;
         }
+    });
+
+    let percentage = (correctAnswers / totalRespondidas) * 100;
+    let resultText = '';
+    if (percentage >= 70) {
+        resultText = 'Aprovado! 🎉';
+        document.getElementById('result-text').classList.add('approved');
+    } else {
+        resultText = 'Reprovado! 😢';
+        document.getElementById('result-text').classList.add('rejected');
+    }
+
+    document.getElementById('result-text').textContent = `${resultText} Você acertou ${correctAnswers} de ${totalRespondidas} perguntas (${percentage.toFixed(2)}% de acerto).`;
+    document.getElementById('result-container').classList.remove('hidden');
+}
+
+// Função para cancelar o simulado e mostrar resultados parciais
+function cancelSimulado() {
+    if (confirm('Você tem certeza que deseja cancelar o simulado?')) {
+        showPartialResult(); // Mostra apenas as questões que foram respondidas
+        
+    }
+}
+
 
         document.addEventListener('DOMContentLoaded', (event) => {
             startSimulado();
@@ -206,13 +259,15 @@
 </head>
 <body>
     <div class="container">
-        <div id="timer-container">
+        <h2 id="question-number"></h2> <!-- Novo elemento para mostrar o número da pergunta -->
+        <div id="timer-container">            
             Tempo restante: <span id="timer"></span>
         </div>
         <div id="question-container" class="hidden">
+            
             <h1 id="question-text"></h1>
             <div id="image-container" class="hidden">
-                <img src="" alt="Imagem da pergunta" class="question-image" id="image-element"> <!-- Contêiner da imagem -->
+                <img src="" alt="Imagem da pergunta" class="question-image" id="image-element">
             </div>
             <form id="question-form">
                 <div id="answers-container" class="answers"></div>
@@ -221,13 +276,13 @@
                 <button type="button" id="cancel-button" class="button" onclick="cancelSimulado()">Cancelar</button>
             </form>
         </div>
+        
         <div id="result-container" class="hidden">
             <h2 id="result-text"></h2>
             <div id="results-details"></div>
             <button id="restart-button" class="button" onclick="restartSimulado()">Escolher Prova</button>
+            <h1><br></h1> 
         </div>
-        <h1><br></h1>
-        <h1><br></h1>
     </div>
 </body>
 </html>

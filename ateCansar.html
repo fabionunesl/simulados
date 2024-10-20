@@ -101,20 +101,27 @@
             let answersContainer = document.getElementById('answers-container');
             answersContainer.innerHTML = '';
 
+            // Atualiza a criação das opções de resposta para incluir a letra em um span
             question.answers.forEach((answer, index) => {
-                let label = document.createElement('label');
-                label.classList.add('answer-label');
-                let input = document.createElement('input');
-                input.type = 'radio';
-                input.name = 'answer';
-                input.value = index;
-                if (answers[currentQuestionIndex] === index) {
-                    input.checked = true;
-                }
-                label.appendChild(input);
-                label.appendChild(document.createTextNode(` ${String.fromCharCode(65 + index)}. ${answer}`));
-                answersContainer.appendChild(label);
-            });
+                    let label = document.createElement('label');
+    label.classList.add('answer-label');
+
+    let input = document.createElement('input');
+    input.type = 'radio';
+    input.name = 'answer';
+    input.value = index;
+    if (answers[currentQuestionIndex] === index) {
+        input.checked = true;
+    }
+
+    let letterSpan = document.createElement('span');
+    letterSpan.textContent = String.fromCharCode(65 + index); // Adiciona a letra (A, B, C, D, E)
+
+    label.appendChild(input);
+    label.appendChild(letterSpan); // Adiciona a letra destacada
+    label.appendChild(document.createTextNode(`. ${answer}`)); // Adiciona o texto da resposta
+    answersContainer.appendChild(label);
+});
 
             document.getElementById('feedback-container').innerHTML = ''; // Limpa feedback anterior
             document.getElementById('question-container').classList.remove('hidden');
@@ -131,51 +138,17 @@
                 // Exibe feedback
                 let feedbackContainer = document.getElementById('feedback-container');
                 if (userAnswerIndex === correctAnswerIndex) {
-                    feedbackContainer.innerHTML = `<span class="correct-feedback">Correto! 🎉</span>`;
+                    feedbackContainer.innerHTML = `<span class="correct-feedback">Acertou! Clique abaixo para continuar! 🎉</span>`;
                 } else {
                     feedbackContainer.innerHTML = `<span class="incorrect-feedback">Incorreto! A resposta correta era ${String.fromCharCode(65 + correctAnswerIndex)}.</span>`;
                 }
+                // Adiciona a classe 'show' para aplicar a animação
+                feedbackContainer.classList.add('show');
                 answers[currentQuestionIndex] = userAnswerIndex; // Armazena a resposta do usuário
             } else {
                 document.getElementById('feedback-container').innerHTML = ''; // Limpa feedback se não houver resposta
             }
-        }
-
-        // Função para ir para a próxima pergunta
-        function nextQuestion() {
-            checkAnswer(); // Verifica a resposta antes de avançar
-
-            if (answers[currentQuestionIndex] !== undefined) {
-                const correctAnswerIndex = questions[currentQuestionIndex].correctAnswer;
-
-                // Mostra a resposta correta antes de avançar
-                let feedbackContainer = document.getElementById('feedback-container');
-                feedbackContainer.innerHTML = `<span class="correct-feedback">A resposta correta era ${String.fromCharCode(65 + correctAnswerIndex)}: ${questions[currentQuestionIndex].answers[correctAnswerIndex]}</span>`;
-                
-                // Aguarda 2 segundos antes de avançar para a próxima pergunta
-                setTimeout(() => {
-                    currentQuestionIndex++;
-                    if (currentQuestionIndex >= questions.length) {
-                        showResult();
-                    } else {
-                        showQuestion();
-                        window.scrollTo(0, 0); // Rola a página para o topo
-                    }
-                }, 2000); // 2000 milissegundos = 2 segundos
-            } else {
-                alert('Por favor, selecione uma resposta.');
-            }
-        }
-
-        // Função para voltar à pergunta anterior
-        function previousQuestion() {
-            if (currentQuestionIndex > 0) {
-                currentQuestionIndex--;
-                showQuestion();
-            } else {
-                alert('Você já está na primeira pergunta.');
-            }
-        }
+        }          
 
         // Função para mostrar o resultado
         function showResult() {
@@ -253,8 +226,13 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        h1, #question-title {
+        /* Estilo do título da pergunta */
+        #question-title {
+            font-size: 19px; /* Reduz o tamanho do texto */
+            font-weight: bold;
+            color: #333;
             text-align: center;
+            margin-bottom: 10px;
         }
 
         .hidden {
@@ -273,10 +251,45 @@
             align-items: center; /* Alinha ao centro */
         }
 
+        /* Estilo das opções de resposta */
         .answer-label {
             display: block;
             margin: 5px 0;
+            font-size: 18px; /* Aumenta o tamanho do texto */
+            color: #333; /* Cor padrão do texto */
         }
+        .answer-label span {
+            font-size: 21px; /* Aumenta o tamanho das letras A, B, C, D, E */
+            font-weight: bold; /* Deixa as letras em negrito */
+            color: #FF8C00; /* Define uma cor laranja para destacar */
+            margin-right: 5px; /* Espaçamento entre a letra e o texto */
+        }
+
+
+        /* Estilo do cronômetro */
+        #timer {
+            font-size: 22px; /* Aumenta o tamanho do texto */
+            color: #FF8C00; /* Cor laranja */
+            font-weight: bold; /* Deixa o cronômetro em negrito */
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .answer-label::first-letter {
+            font-size: 20px; /* Aumenta o tamanho das letras A, B, C, D, E */
+            font-weight: bold; /* Deixa as letras em negrito */
+            color: #333; /* Define uma cor destacada */
+        }
+
+        .feedback {
+    transition: opacity 0.5s ease-in-out; /* Transição suave */
+    opacity: 0; /* Inicia invisível */
+}
+
+.feedback.show {
+    opacity: 1; /* Torna visível quando a classe "show" é adicionada */
+}
+
 
         .correct-feedback {
             color: green;
@@ -306,14 +319,21 @@
             padding-top: 10px;
         }
 
+        /* Estilo do contêiner da imagem */
         #image-container {
-            text-align: center;
-            margin-bottom: 10px;
+            width: 80%; /* O contêiner ocupa 80% da largura disponível */
+            max-width: 350px; /* Limita o tamanho máximo do contêiner para telas grandes */
+            margin: 0 auto; /* Centraliza o contêiner da imagem */
+            overflow: hidden; /* Esconde partes da imagem que saem do contêiner */
+            padding: 10px 0; /* Adiciona um pequeno espaço em volta da imagem */
         }
 
+        /* Estilo da imagem */
         img {
-            max-width: 100%;
-            height: auto;
+            max-width: 80%; /* Reduz o tamanho da imagem para 80% da largura do contêiner */
+            height: auto; /* Mantém a proporção da imagem */
+            border-radius: 5px; /* Adiciona bordas arredondadas */
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Adiciona uma leve sombra */
         }
 
         /* Estilo dos botões */
@@ -338,11 +358,39 @@
             background-color: #FF8C00; /* Laranja mais escuro */
         }
 
+        /* Estilo da caixa de diálogo de feedback */
+        #feedback-dialog {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            border: 2px solid #333;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            z-index: 1000;
+            display: none; /* Oculto por padrão */
+        }
+
+        #feedback-dialog.hidden {
+            display: none;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
     </style>
 </head>
 <body>
     <div id="container">
         <h1 id="question-title">Pergunta 1</h1>
+        
+
         <div id="timer">00:00</div>
         <div id="greeting-text"></div>
         <div id="question-container" class="hidden">
@@ -352,18 +400,161 @@
             <div id="question-text"></div>
             <div id="answers-container"></div>
             <div id="feedback-container"></div>
-            <button onclick="nextQuestion()">Próxima Pergunta</button>
-            <button onclick="previousQuestion()">Pergunta Anterior</button>
+            <div id="button-container">
+                <!-- <button onclick="previousQuestion()">Pergunta Anterior</button> -->
+                <button id="check-btn" onclick="nextQuestion()">Corrigir Resposta</button>
+                <button id="next-btn" onclick="proceedToNextQuestion()" style="display: none;">Próxima Pergunta</button>
+                <!-- Botão para voltar ao dashboard -->
+                <button class="logout-button" onclick="goToDashboard()">VOLTAR PARA TELA DE PROVAS</button>
+            </div>
+            <h1><br></h1>            
         </div>
         <div id="result-container" class="hidden">
             <div id="result-text"></div>
             <div id="results-details"></div>
             <button onclick="startSimulado()">Novo Simulado</button>
         </div>
+        <!-- Caixa de diálogo para correção -->
+        <div id="correction-dialog" class="hidden">
+            <div id="correction-message"></div>
+            <button onclick="nextQuestion()">Próxima Pergunta</button>
+        </div>
     </div>
-    <script>
+
+    <script> 
+        // Função para passar para a próxima pergunta
+        let nextQuestionTimer; // Variável para armazenar o timer
+
+        function nextQuestion() {
+    checkAnswer(); // Verifica a resposta antes de avançar
+
+    if (answers[currentQuestionIndex] !== undefined) {
+        const correctAnswerIndex = questions[currentQuestionIndex].correctAnswer;
+        const answerElements = document.getElementById('answers-container').children;
+
+        // Aplica cor nas respostas
+        for (let i = 0; i < answerElements.length; i++) {
+    answerElements[i].classList.remove('correct-answer', 'wrong-answer'); // Remove classes antigas
+    if (i === correctAnswerIndex) {
+        answerElements[i].classList.add('correct-answer');
+    } else {
+        answerElements[i].classList.add('wrong-answer');
+    }
+}
+
+        // Exibe botões para corrigir e prosseguir
+        document.getElementById('next-btn').style.display = 'block'; // Exibe o botão para a próxima pergunta
+        document.getElementById('check-btn').style.display = 'none'; // Esconde o botão de correção
+
+        // Remove o temporizador
+        clearTimeout(nextQuestionTimer);
+    } else {
+        alert('Por favor, selecione uma resposta.');
+    }
+}
+
+// Função para prosseguir para a próxima pergunta
+function proceedToNextQuestion() {
+    currentQuestionIndex++;
+    if (currentQuestionIndex >= questions.length) {
+        showResult();
+    } else {
+        showQuestion();
+        window.scrollTo(0, 0); // Rola a página para o topo
+    }
+
+    // Esconde o botão de prosseguir
+    document.getElementById('next-btn').style.display = 'none'; // Esconde o botão para a próxima pergunta
+    document.getElementById('check-btn').style.display = 'block'; // Mostra o botão de correção novamente
+}
+function goToDashboard() {
+        window.location.href = 'user-dashboard.html';
+    }
+
         // Inicia o simulado ao carregar a página
         window.onload = startSimulado;
+
     </script>
+
+    <style>
+        /* CSS para o estilo geral e dos botões */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        /* Adicione isso ao seu arquivo style.css ou dentro de uma tag <style> no seu HTML */
+            .logout-button {
+                background-color: #FF5733; /* Cor de fundo do botão */
+                color: white; /* Cor do texto */
+                border: none; /* Sem borda */
+                padding: 10px 20px; /* Espaçamento interno */
+                font-size: 16px; /* Tamanho da fonte */
+                cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+                border-radius: 5px; /* Bordas arredondadas */
+                transition: background-color 0.3s; /* Efeito de transição */
+}
+
+        /* Efeito ao passar o mouse */
+            .logout-button:hover {
+                background-color: #C70039; /* Cor de fundo ao passar o mouse */
+}
+
+
+        #container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #button-container {
+            display: flex;
+            justify-content: space-between; /* Distribui espaço entre os botões */
+            margin-top: 15px; /* Adiciona espaço acima dos botões */
+        }
+
+        button {
+            background-color: #28a745; /* Verde */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;            
+            margin: 0 5px; /* Adiciona espaçamento entre os botões */
+        }
+
+        button:hover {
+            background-color: #218838; /* Verde escuro */
+        }
+
+        .finalize-button {
+            background-color: #dc3545; /* Vermelho para o botão Finalizar Simulado */
+        }
+
+        .finalize-button:hover {
+            background-color: #c82333; /* Vermelho escuro */
+        }
+
+        #correction-dialog.hidden {
+            display: none;
+        }
+
+        /* Estilo das respostas corretas e erradas */
+        .correct-answer {
+    border: 2px solid green; /* Borda verde para respostas corretas */
+    background-color: #d4edda; /* Fundo claro verde */
+}
+
+.wrong-answer {
+    border: 2px solid red; /* Borda vermelha para respostas erradas */
+    background-color: #f8d7da; /* Fundo claro vermelho */
+}
+    </style>
 </body>
+
 </html>
