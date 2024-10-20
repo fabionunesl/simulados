@@ -1,7 +1,7 @@
 [
     
     {
-        "question": "01 - As vias se classificam em dois grandes grupos",
+        "question": "As vias se classificam em dois grandes grupos",
         "image": "",
         "answers": [
             "De trânsito rápido e urbanas.",
@@ -14,7 +14,7 @@
         "correctAnswer": 1
     },    
     {
-        "question": "02 - Segundo o anexo 1 do CTB (Código de Trânsito Brasileiro) as vias urbanas são aquelas",
+        "question": "Segundo o anexo 1 do CTB (Código de Trânsito Brasileiro) as vias urbanas são aquelas",
         "image": "",
         "answers": [
             "Localizadas dentro do perímetro urbano;",
@@ -27,7 +27,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "03 - Ao transitar em uma via não sinalizada, considerando o tipo de via, qual a velocidade máxima permitida?",
+        "question": "Ao transitar em uma via não sinalizada, considerando o tipo de via, qual a velocidade máxima permitida?",
         "image": "",
         "answers": [
             "Em via de trânsito rápido,  100 km/h;",
@@ -40,7 +40,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "04 - Em uma rodovia de pista dupla, sem sinalização regulamentadora de velocidade, qual velocidade máxima que automóveis,  camionetas,  caminhonetes e motocicletas podem desenvolver?",
+        "question": "Em uma rodovia de pista dupla, sem sinalização regulamentadora de velocidade, qual velocidade máxima que automóveis,  camionetas,  caminhonetes e motocicletas podem desenvolver?",
         "image": "",
         "answers": [
             "Até 100 km/h;",
@@ -53,7 +53,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "05 - Qual a velocidade máxima permitida para condutores de caminhões e ônibus em rodovias de pista dupla em trechos não abrangidos pela sinalização regulamentadora de velocidade? ",
+        "question": "Qual a velocidade máxima permitida para condutores de caminhões e ônibus em rodovias de pista dupla em trechos não abrangidos pela sinalização regulamentadora de velocidade? ",
         "image": "",
         "answers": [
             "Até 100 km/h;",
@@ -66,7 +66,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "06 - Você dirige seu automóvel com um reboque engatado em uma rodovia simples em local sem sinalização regulamentadora de velocidade,  qual a velocidade máxima que pode trafegar? ",
+        "question": "Você dirige seu automóvel com um reboque engatado em uma rodovia simples em local sem sinalização regulamentadora de velocidade,  qual a velocidade máxima que pode trafegar? ",
         "image": "",
         "answers": [
             "Até 80 km/h.",
@@ -79,7 +79,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "07 - O CTB (Código de Trânsito Brasileiro) proíbe o condutor a dirigir, menos (EXETO) ",
+        "question": "O CTB (Código de Trânsito Brasileiro) proíbe o condutor a dirigir, menos (EXETO) ",
         "image": "",
         "answers": [
             "com o veículo na banguela;",
@@ -92,7 +92,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "08 - Em relação ao código no artigo 26, todos os usuários do trânsito tem deveres, alguns deles são ",
+        "question": "Em relação ao código no artigo 26, todos os usuários do trânsito tem deveres, alguns deles são ",
         "image": "",
         "answers": [
             "nunca abrir mão de um direito seu mesmo que isso contribua para segurança;",
@@ -105,7 +105,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "09 - Provas e competições em vias abertas, bem como todo ato público que interfira no trânsito...",
+        "question": "Provas e competições em vias abertas, bem como todo ato público que interfira no trânsito...",
         "image": "",
         "answers": [
             "não podem ser realizadas pois é um perigo para o trânsito;",
@@ -118,7 +118,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "10 - Quando uma pista de rolamento comportar várias faixas de circulação no mesmo sentido, as da direita destina-se a...",
+        "question": "Quando uma pista de rolamento comportar várias faixas de circulação no mesmo sentido, as da direita destina-se a...",
         "image": "",
         "answers": [
             "ultrapassagens;",
@@ -131,7 +131,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "11 - Diante da mudança do sinal verde para o amarelo em um semáforo, o condutor deve...",
+        "question": "Diante da mudança do sinal verde para o amarelo em um semáforo, o condutor deve...",
         "image": "",
         "answers": [
             "atravessar rapidamente o semáforo; ",
@@ -144,7 +144,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "12 - Quais veículos tem preferência em transitar pela esquerda em vias com várias faixas de trânsito no mesmo sentido?",
+        "question": "Quais veículos tem preferência em transitar pela esquerda em vias com várias faixas de trânsito no mesmo sentido?",
         "image": "",
         "answers": [
             "Os maiores e mais pesados.",
@@ -157,7 +157,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "13 - Quando a luz do semáforo estiver piscando intermitente ...",
+        "question": "Quando a luz do semáforo estiver piscando intermitente ...",
         "image": "",
         "answers": [
             "significa parada obrigatória;",
@@ -170,7 +170,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "14 - Ao transitar por fluxos que se cruzem em locais não sinalizados ...",
+        "question": "Ao transitar por fluxos que se cruzem em locais não sinalizados ...",
         "image": "",
         "answers": [
             "terá preferência de passagem o que vier pela direita do condutor;",
@@ -183,7 +183,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "15 - Ao transitar por uma rotatória não sinalizada, terá preferência de passagem ...",
+        "question": "Ao transitar por uma rotatória não sinalizada, terá preferência de passagem ...",
         "image": "",
         "answers": [
             "quem estiver dirigindo a esquerda do outro condutor;",
@@ -196,7 +196,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "16 - Em que circunstância o condutor pode ultrapassar pela direita?",
+        "question": "Em que circunstância o condutor pode ultrapassar pela direita?",
         "image": "",
         "answers": [
             "Se o condutor a frente iniciar uma ultrapassagem.",
@@ -209,7 +209,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "17 - São dever do condutor ",
+        "question": "São dever do condutor ",
         "image": "",
         "answers": [
             "Dar prioridade de passagem a veículos de socorro quando em serviço de urgência.",
@@ -222,7 +222,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "18 - Para conversão (dobrar) à esquerda nas rodovias o condutor deve ...",
+        "question": "Para conversão (dobrar) à esquerda nas rodovias o condutor deve ...",
         "image": "",
         "answers": [
             "se posicionar ao centro da pista;",
@@ -235,7 +235,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "19 - Qual tipo de vias não pode ser utilizado na condução de ciclomotor?",
+        "question": "Qual tipo de vias não pode ser utilizado na condução de ciclomotor?",
         "image": "",
         "answers": [
             "Rodovias.",
@@ -248,7 +248,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "20 - Observe a figura. Os condutores trafegam por um cruzamento não sinalizado. Nessa situação, respeitada a norma, quem tem a preferencia de passagem?",
+        "question": "Observe a figura. Os condutores trafegam por um cruzamento não sinalizado. Nessa situação, respeitada a norma, quem tem a preferencia de passagem?",
         "image": "imagens/cruzamentoNaoSinalizado.jpg",
         "answers": [
             "Do condutor do carro azul, porque está à esquerda do outro condutor.",
@@ -261,7 +261,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "21  - Observe a situação abaixo, para entrar na rodovia o que o veículo A (amarelo) deve fazer?",
+        "question": "Observe a situação abaixo, para entrar na rodovia o que o veículo A (amarelo) deve fazer?",
         "image": "imagens/preferenciaRodovia.jpg",
         "answers": [
             "Entrar na rodovia, pois tem preferencia sobre o outro condutor.",
@@ -274,7 +274,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "22 - Ao transitar durante o dia, em túneis, chuva, neblina ou cerração, você, como condutor deve",
+        "question": "Ao transitar durante o dia, em túneis, chuva, neblina ou cerração, você, como condutor deve",
         "image": "",
         "answers": [
             "acionar o farol de neblina;",
@@ -287,7 +287,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "23 - Durante o dia, os veículos que não dispuserem de (DRV) luzes de rodagem diurna devem utilizar luz baixa (farol) ao transitar em vias situadas",
+        "question": "Durante o dia, os veículos que não dispuserem de (DRV) luzes de rodagem diurna devem utilizar luz baixa (farol) ao transitar em vias situadas",
         "image": "",
         "answers": [
             "fora do perímetro urbano, em rodovias de pista simples;",
@@ -300,7 +300,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "24 - A norma de prioridade de passagem é aquela que está acima da preferência de passagem. Em que situação os veículos destinados a socorro tem prioridade de passagem?",
+        "question": "A norma de prioridade de passagem é aquela que está acima da preferência de passagem. Em que situação os veículos destinados a socorro tem prioridade de passagem?",
         "image": "",
         "answers": [
             "Sempre que desejarem.",
@@ -313,7 +313,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "25 - A manobra de maior risco no trânsito é a ultrapassagem. Em relação a ela é certo afirmar que",
+        "question": "A manobra de maior risco no trânsito é a ultrapassagem. Em relação a ela é certo afirmar que",
         "image": "",
         "answers": [
             "as ultrapassagem devem serem feitas com todas as condições de segurança;",
@@ -326,7 +326,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "26 - Ao trafegar em uma via de fluxo de sentidos opostos, quando estaria transitando pela contramão?",
+        "question": "Ao trafegar em uma via de fluxo de sentidos opostos, quando estaria transitando pela contramão?",
         "image": "",
         "answers": [
             "Quando o trânsito estiver muito congestionado.",
@@ -339,7 +339,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "27 - A manobra que o condutor deve fazer no menor espaço possível, ou seja, no menor ângulo trata-se",
+        "question": "A manobra que o condutor deve fazer no menor espaço possível, ou seja, no menor ângulo trata-se",
         "image": "",
         "answers": [
             "retorno de canteiro central;",
@@ -352,7 +352,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "28 - O condutor liga a seta e se aproxima da linha divisória (eixo). Esse comportamento indica que",
+        "question": "O condutor liga a seta e se aproxima da linha divisória (eixo). Esse comportamento indica que",
         "image": "",
         "answers": [
             "o condutor vai converter a esquerda e a via é de sentido único.",
@@ -365,7 +365,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "29 - A buzina é um equipamento obrigatório no automóvel. Em relação a ela é correto afirmar que",
+        "question": "A buzina é um equipamento obrigatório no automóvel. Em relação a ela é correto afirmar que",
         "image": "",
         "answers": [
             "deve ser usada de forma prolongada e sucessiva para chamar a atenção;",
@@ -378,7 +378,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "30 - Qual a idade mínima que uma criança pode ter para ser transportada em uma motocicleta?",
+        "question": "Qual a idade mínima que uma criança pode ter para ser transportada em uma motocicleta?",
         "image": "",
         "answers": [
             "7 anos e meio.",

@@ -1,6 +1,6 @@
 [
     {
-        "question": "01 - Qual é a principal diferença entre uma infração de trânsito e uma penalidade de trânsito, de acordo com o Código de Trânsito Brasileiro (CTB)? ",
+        "question": "Qual é a principal diferença entre uma infração de trânsito e uma penalidade de trânsito, de acordo com o Código de Trânsito Brasileiro (CTB)? ",
         "image": "",
         "answers": [
             "Infração é a conduta ilegal, desobediência, cometida pelo motorista, enquanto penalidade é a punição prevista em lei.",
@@ -12,7 +12,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "02 - Entre as alternativas abaixo, qual é considerada uma medida administrativa aplicada pelo agente de trânsito no momento de uma infração? ",
+        "question": "Entre as alternativas abaixo, qual é considerada uma medida administrativa aplicada pelo agente de trânsito no momento de uma infração? ",
         "image": "",
         "answers": [
             "Multa.",
@@ -24,7 +24,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "03 - De acordo com o CTB, qual é o objetivo principal das penalidades aplicadas aos motoristas que cometem infrações de trânsito? ",
+        "question": "De acordo com o CTB, qual é o objetivo principal das penalidades aplicadas aos motoristas que cometem infrações de trânsito? ",
         "image": "",
         "answers": [
             "Arrecadar recursos financeiros para os cofres públicos.",
@@ -36,7 +36,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "04 - Qual é a penalidade para o condutor que utiliza o celular ao dirigir, de acordo com o Código de Trânsito Brasileiro (CTB)? ",
+        "question": "Qual é a penalidade para o condutor que utiliza o celular ao dirigir, de acordo com o Código de Trânsito Brasileiro (CTB)? ",
         "image": "",
         "answers": [
             "Multa leve e três pontos na CNH.",
@@ -48,7 +48,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "05 - Qual das seguintes infrações é considerada gravíssima no trânsito? ",
+        "question": "Qual das seguintes infrações é considerada gravíssima no trânsito? ",
         "image": "",
         "answers": [
             "Deixar de usar cinto de segurança",
@@ -60,7 +60,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "06 - Dirigir um veículo sob a influência de álcool, não estando o indivíduo alterado em razão do álcool, é considerado uma infração de que natureza? ",
+        "question": "Dirigir um veículo sob a influência de álcool, não estando o indivíduo alterado em razão do álcool, é considerado uma infração de que natureza? ",
         "image": "",
         "answers": [
             "Leve.",
@@ -72,7 +72,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "07 - Quando um condutor comete duas ou mais infrações no mesmo tempo, são aplicada",
+        "question": "Quando um condutor comete duas ou mais infrações no mesmo tempo, são aplicada",
         "image": "",
         "answers": [
             "a penalidade com maior risco a segurança;",
@@ -84,7 +84,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "08 - As infrações de trânsito classificam-se em quatro categorias. Quais são elas?",
+        "question": "As infrações de trânsito classificam-se em quatro categorias. Quais são elas?",
         "image": "",
         "answers": [
             "Leves, médias, graves e gravíssimas.",
@@ -96,7 +96,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "09 - Imagine que você seja o proprietário de um veículo automotor, mas não é quem dirige, ficando sua filha como condutora. Segundo o Código de Trânsito Brasileiro (CTB), o que você pode fazer?",
+        "question": "Imagine que você seja o proprietário de um veículo automotor, mas não é quem dirige, ficando sua filha como condutora. Segundo o Código de Trânsito Brasileiro (CTB), o que você pode fazer?",
         "image": "",
         "answers": [
             "Nada, pois a responsabilidade é sempre do condutor no momento da infração",
@@ -108,7 +108,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "10 - Você emprestou o seu carro para um amigo, e ele, ao dirigir em via pública, passou em um radar com excesso de velocidade. Segundo o Código de Trânsito Brasileiro (CTB), o que você deve fazer?",
+        "question": "Você emprestou o seu carro para um amigo, e ele, ao dirigir em via pública, passou em um radar com excesso de velocidade. Segundo o Código de Trânsito Brasileiro (CTB), o que você deve fazer?",
         "image": "",
         "answers": [
             "Pagar a multa e aceitar os pontos na sua CNH",
@@ -120,7 +120,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "11 - Segundo a Lei 14.229/21, quando for constatada uma infração em veículo de pessoa jurídica e não houver identificação do condutor, o que acontece?",
+        "question": "Segundo a Lei 14.229/21, quando for constatada uma infração em veículo de pessoa jurídica e não houver identificação do condutor, o que acontece?",
         "image": "",
         "answers": [
             "A multa é automaticamente cancelada.",
@@ -132,7 +132,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "12 - Segundo a Lei 14.071/20, a criação do Registro Nacional Positivo de Condutores (RNPC) tem como objetivo:",
+        "question": "Segundo a Lei 14.071/20, a criação do Registro Nacional Positivo de Condutores (RNPC) tem como objetivo:",
         "image": "",
         "answers": [
             "Identificar condutores reincidentes em infrações de trânsito",
@@ -144,7 +144,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "13 - Segundo o Código de Trânsito Brasileiro (CTB), no art. 260, o que é considerado penalidade?",
+        "question": "Segundo o Código de Trânsito Brasileiro (CTB), no art. 260, o que é considerado penalidade?",
         "image": "",
         "answers": [
             "Uma advertência verbal dada pelo agente de trânsito.",
@@ -156,7 +156,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "14 - A infração gravíssima poderá ter o valor da penalidade multa agravada quando:",
+        "question": "A infração gravíssima poderá ter o valor da penalidade multa agravada quando:",
         "image": "",
         "answers": [
             "for cometida por um motorista novato;",
@@ -168,7 +168,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "15 - Fábio emprestou o carro para seu filho Benjamim, que ao dirigir em via pública cometeu uma infração de trânsito sujeita a multa. Segundo o art. 282, §3º do CTB, de quem é a responsabilidade de pagar a multa?",
+        "question": "Fábio emprestou o carro para seu filho Benjamim, que ao dirigir em via pública cometeu uma infração de trânsito sujeita a multa. Segundo o art. 282, §3º do CTB, de quem é a responsabilidade de pagar a multa?",
         "image": "",
         "answers": [
             "Fábio, como proprietário do veículo.",
@@ -180,7 +180,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "16 - Qual é a infração de conduzir o veículo sem os documentos de porte obrigatório quando exigido, segundo o art. 232 do CTB?",
+        "question": "Qual é a infração de conduzir o veículo sem os documentos de porte obrigatório quando exigido, segundo o art. 232 do CTB?",
         "image": "",
         "answers": [
             "Infração leve.",
@@ -192,7 +192,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "17 - Segundo o Código de Trânsito Brasileiro (CTB), no art. 261, o que é a penalidade de suspensão do direito de dirigir?",
+        "question": "Segundo o Código de Trânsito Brasileiro (CTB), no art. 261, o que é a penalidade de suspensão do direito de dirigir?",
         "image": "",
         "answers": [
             "Uma medida educativa aplicada ao condutor infrator para melhorar sua habilidade de condução.",
@@ -204,7 +204,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "18 - Qual das alternativas é uma atitude incorreta como proprietário de veículo automotor?",
+        "question": "Qual das alternativas é uma atitude incorreta como proprietário de veículo automotor?",
         "image": "",
         "answers": [
             "Manter o veículo em boas condições de manutenção e funcionamento.",
@@ -216,7 +216,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "19 - O veículo que fica imobilizado na via por falta de combustível comete que infração e está sujeito a que medida administrativa?",
+        "question": "O veículo que fica imobilizado na via por falta de combustível comete que infração e está sujeito a que medida administrativa?",
         "image": "",
         "answers": [
             "Comete uma infração leve e está sujeito a advertência verbal.",
@@ -228,7 +228,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "20 - Assinale a alternativa que configura uma infração de trânsito, de acordo com o Código de Trânsito Brasileiro (CTB):",
+        "question": "Assinale a alternativa que configura uma infração de trânsito, de acordo com o Código de Trânsito Brasileiro (CTB):",
         "image": "",
         "answers": [
             "Conduzir um veículo automotor sem o uso do cinto de segurança, mesmo que o condutor não seja o único ocupante do veículo.",
@@ -240,7 +240,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "21 - Quando um carro à sua frente está lento e você ultrapassa ele em uma curva, você está cometendo:",
+        "question": "Quando um carro à sua frente está lento e você ultrapassa ele em uma curva, você está cometendo:",
         "image": "",
         "answers": [
             "uma infração leve, pois a ultrapassagem é permitida em qualquer situação;",
@@ -252,7 +252,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "22 - Você ultrapassa um veículo em um cruzamento, mesmo não tendo nenhuma sinalização impedindo a manobra. Assim, você está:",
+        "question": "Você ultrapassa um veículo em um cruzamento, mesmo não tendo nenhuma sinalização impedindo a manobra. Assim, você está:",
         "image": "",
         "answers": [
             "cometendo uma infração leve, pois a ultrapassagem é permitida em locais sem sinalização;",
@@ -264,7 +264,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "23 - Um veículo ultrapassa outro em uma interseção em lugar onde não há sinalização informando a proibição de ultrapassagem. Dessa forma, o condutor pode:",
+        "question": "Um veículo ultrapassa outro em uma interseção em lugar onde não há sinalização informando a proibição de ultrapassagem. Dessa forma, o condutor pode:",
         "image": "",
         "answers": [
             "Ser multado por cometer uma infração leve, já que não havia sinalização explícita;",
@@ -276,7 +276,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "24 - A penalidade que envolve pagamento de dinheiro e normalmente pontuação na CNH do condutor trata-se de:",
+        "question": "A penalidade que envolve pagamento de dinheiro e normalmente pontuação na CNH do condutor trata-se de:",
         "image": "",
         "answers": [
             "advertência verbal, que não resulta em penalização financeira nem em pontos na CNH.",
@@ -288,7 +288,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "25 - A penalidade que não envolve pagamento, ficando a infração anotada no prontuário do infrator e tem a finalidade educativa é:",
+        "question": "A penalidade que não envolve pagamento, ficando a infração anotada no prontuário do infrator e tem a finalidade educativa é:",
         "image": "",
         "answers": [
             "advertência verbal, que é uma medida informal e não resulta em registro no prontuário;",
@@ -300,7 +300,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "26 - A suspensão do direito de dirigir é uma penalidade à qual o condutor fica temporariamente impedido de dirigir. Ela é imposta em dois casos:",
+        "question": "A suspensão do direito de dirigir é uma penalidade à qual o condutor fica temporariamente impedido de dirigir. Ela é imposta em dois casos:",
         "image": "",
         "answers": [
             "quando o condutor acumula 40 pontos na CNH em um período de 12 meses e quando a infração prevê de forma específica a penalidade;",
@@ -312,7 +312,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "27 - A cassação da Carteira Nacional de Habilitação é uma penalidade que:",
+        "question": "A cassação da Carteira Nacional de Habilitação é uma penalidade que:",
         "image": "",
         "answers": [
             "é aplicada apenas a condutores que cometem infrações leves, resultando na perda temporária da CNH por até 6 meses;",
@@ -324,7 +324,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "28 - Segundo o CTB, o que é medida administrativa?",
+        "question": "Segundo o CTB, o que é medida administrativa?",
         "image": "",
         "answers": [
             "Uma penalidade aplicada a condutores que cometem infrações leves, resultando em advertências verbais e orientação sobre o comportamento correto no trânsito.",
@@ -336,7 +336,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "29 - Segundo o CTB no art. 179, fazer ou deixar que se faça reparo em veículo em via pública pode acarretar em:",
+        "question": "Segundo o CTB no art. 179, fazer ou deixar que se faça reparo em veículo em via pública pode acarretar em:",
         "image": "",
         "answers": [
             "advertência verbal, pois é uma prática comum em áreas urbanas.",
@@ -348,7 +348,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "30 - Segundo o CTB, o condutor que cometer duas ou mais infrações gravíssimas em um período de 12 meses terá seu direito de dirigir suspenso ao atingir quantos pontos?",
+        "question": "Segundo o CTB, o condutor que cometer duas ou mais infrações gravíssimas em um período de 12 meses terá seu direito de dirigir suspenso ao atingir quantos pontos?",
         "image": "",
         "answers": [
             "10 pontos, que resulta em advertência e necessidade de reciclagem.",

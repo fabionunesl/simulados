@@ -1,6 +1,6 @@
 [
     {
-        "question": "01 - Observe a figura abaixo. Um pedestre espera na faixa de pedestre com semáforo. Quem tem a preferência de passagem?",
+        "question": "Observe a figura abaixo. Um pedestre espera na faixa de pedestre com semáforo. Quem tem a preferência de passagem?",
         "image": "imagens/faixaPedestreSemaforo.jpg",
         "answers": [
             "O pedestre, pois está na faixa de pedestre.",
@@ -12,7 +12,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "02 - Quando o agente de trânsito poderá deixar de solicitar que você, como condutor, apresente o CRLV-e ou CLA?",
+        "question": "Quando o agente de trânsito poderá deixar de solicitar que você, como condutor, apresente o CRLV-e ou CLA?",
         "image": "",
         "answers": [
             "Quando o agente de trânsito não tiver acesso a sistemas eletrônicos para verificar a regularidade do veículo.",
@@ -24,7 +24,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "03 - Um condutor na categoria B pretende adicionar a categoria A. Para isso, ele deve: ",
+        "question": "Um condutor na categoria B pretende adicionar a categoria A. Para isso, ele deve: ",
         "image": "",
         "answers": [
             "apenas realizar um exame prático de moto;",
@@ -36,7 +36,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "04 - Qual é a idade mínima para um condutor se habilitar para as categorias D e E?",
+        "question": "Qual é a idade mínima para um condutor se habilitar para as categorias D e E?",
         "image": "",
         "answers": [
             "18 anos.",
@@ -48,7 +48,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "05 - Observando a figura, quais são as categorias que habilitam um condutor a dirigir os veículos, respectivamente?",
+        "question": "Observando a figura, quais são as categorias que habilitam um condutor a dirigir os veículos, respectivamente?",
         "image": "imagens/categoriasBAD.jpg",
         "answers": [
             "A, B e C",
@@ -60,7 +60,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "06 - Uma motocicleta, um carro e um ônibus trafegam em uma rodovia de pista dupla em lugar não abrangido pela sinalização ou não sinalizado. Seguindo a norma, qual é a velocidade máxima que cada um pode desenvolver, respectivamente?",
+        "question": "Uma motocicleta, um carro e um ônibus trafegam em uma rodovia de pista dupla em lugar não abrangido pela sinalização ou não sinalizado. Seguindo a norma, qual é a velocidade máxima que cada um pode desenvolver, respectivamente?",
         "image": "",
         "answers": [
             "80 km/h, 100 km/h e 90 km/h.",
@@ -72,8 +72,8 @@
         "correctAnswer": 4
     },
     {
-        "question": "07 - Um condutor de automóvel desenvolve uma velocidade de 70 km/h em uma estrada (via rural não pavimentada) sem sinalização regulamentadora de velocidade. Com essa conduta, ele mostra que:",
-        "image": "imagens/xxxxx.jpg",
+        "question": "Um condutor de automóvel desenvolve uma velocidade de 70 km/h em uma estrada (via rural não pavimentada) sem sinalização regulamentadora de velocidade. Com essa conduta, ele mostra que:",
+        "image": "",
         "answers": [
             "Está acima do limite de velocidade permitido para a via.",
             "Está dentro do limite seguro para áreas urbanas, mas acima do permitido em rodovias.",
@@ -84,7 +84,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "08 - Observe as figuras 1, 2, 3, 4. Qual dos veículos um condutor habilitado somente na categoria D não pode dirigir?",
+        "question": "Observe as figuras 1, 2, 3, 4. Qual dos veículos um condutor habilitado somente na categoria D não pode dirigir?",
         "image": "imagens/CategoriasABCD.jpg",
         "answers": [
             "Figuras 1 e 3.",
@@ -96,7 +96,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "09 - Lourenço é condutor habilitado na categoria B e não exerce atividade remunerada. Hoje ele cometeu duas infrações, um avanço de sinal vermelho e foi pego com a CNH vencida há mais de 20 dias. Se antes de 12 meses ele continuar cometendo mais infrações, ele terá seu direito de dirigir suspenso quando atingir quantos pontos?",
+        "question": "Lourenço é condutor habilitado na categoria B e não exerce atividade remunerada. Hoje ele cometeu duas infrações, um avanço de sinal vermelho e foi pego com a CNH vencida há mais de 20 dias. Se antes de 12 meses ele continuar cometendo mais infrações, ele terá seu direito de dirigir suspenso quando atingir quantos pontos?",
         "image": "",
         "answers": [
             "20 pontos.",
@@ -108,7 +108,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "10 - Benjamim saiu de casa com seu automóvel e, ao começar a chover, ele liga as luzes de posição e o farol de milha. Nessa situação, Benjamim está:",
+        "question": "Benjamim saiu de casa com seu automóvel e, ao começar a chover, ele liga as luzes de posição e o farol de milha. Nessa situação, Benjamim está:",
         "image": "",
         "answers": [
             "agindo corretamente, pois as luzes de posição são suficientes para aumentar a visibilidade;",
@@ -120,7 +120,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "11 - Segundo o CTB no art. 312, em caso de sinistro de trânsito, o condutor que passar informações falsas ou adulteradas para enganar ou induzir ao erro o juiz, o perito ou o agente policial está cometendo:",
+        "question": "Segundo o CTB no art. 312, em caso de sinistro de trânsito, o condutor que passar informações falsas ou adulteradas para enganar ou induzir ao erro o juiz, o perito ou o agente policial está cometendo:",
         "image": "",
         "answers": [
             "infração administrativa leve, sujeita a advertência por escrito;",
@@ -132,7 +132,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "12 - A CNH (Carteira Nacional de Habilitação) deve ser expedida:",
+        "question": "A CNH (Carteira Nacional de Habilitação) deve ser expedida:",
         "image": "",
         "answers": [
             "em meio físico e digital;",
@@ -144,7 +144,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "13 - Ao se aproximar de qualquer tipo de cruzamento, de acordo com o Código de Trânsito, no art. 44, você deve:",
+        "question": "Ao se aproximar de qualquer tipo de cruzamento, de acordo com o Código de Trânsito, no art. 44, você deve:",
         "image": "",
         "answers": [
             "aumentar a velocidade para passar rapidamente;",
@@ -156,7 +156,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "14 - Mesmo que a indicação luminosa do semáforo lhe seja favorável, nenhum condutor pode entrar em uma interseção se houver possibilidade de:",
+        "question": "Mesmo que a indicação luminosa do semáforo lhe seja favorável, nenhum condutor pode entrar em uma interseção se houver possibilidade de:",
         "image": "",
         "answers": [
             "ser ultrapassado por outro condutor;",
@@ -168,7 +168,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "15 - Ao transpor faixa, ou seja, fazer uma transposição ou mudança de faixa, o condutor deve:",
+        "question": "Ao transpor faixa, ou seja, fazer uma transposição ou mudança de faixa, o condutor deve:",
         "image": "",
         "answers": [
             "sinalizar a manobra com antecedência, verificando se há veículos na faixa para onde deseja mudar;",
@@ -180,7 +180,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "16 - O automóvel estacionado paralelo junto à guia da calçada deve estar:",
+        "question": "O automóvel estacionado paralelo junto à guia da calçada deve estar:",
         "image": "",
         "answers": [
             "com o veículo posicionado a uma distância de até 50 cm da guia, no sentido do fluxo do trânsito e não inferior a 5 metros do bordo da linha transversal;",
@@ -192,7 +192,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "17 - Ligar a seta (pisca-pisca), aproximar-se do eixo da via ou sinalização longitudinal divisor de fluxo e dar preferência, se for o caso, é conduta de que deslocamento lateral?",
+        "question": "Ligar a seta (pisca-pisca), aproximar-se do eixo da via ou sinalização longitudinal divisor de fluxo e dar preferência, se for o caso, é conduta de que deslocamento lateral?",
         "image": "",
         "answers": [
             "Mudança de faixa de rolamento.",
@@ -204,7 +204,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "18 - Quais devem ser sempre as três primeiras atitudes de um condutor que deseja fazer um deslocamento lateral em uma rodovia quando não houver lugar apropriado para manobra?",
+        "question": "Quais devem ser sempre as três primeiras atitudes de um condutor que deseja fazer um deslocamento lateral em uma rodovia quando não houver lugar apropriado para manobra?",
         "image": "",
         "answers": [
             "Aumentar a velocidade, buzinar e ir para o acostamento.",
@@ -216,7 +216,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "19 - Qual o significado da sinalização vertical de regulamentação R-20?",
+        "question": "Qual o significado da sinalização vertical de regulamentação R-20?",
         "image": "imagens/r-20.jpg",
         "answers": [
             "Proibição de estacionar.",
@@ -228,7 +228,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "20 - A placa R-34 informa que no trecho abrangido pela sinalização é permitido apenas o trânsito de:",
+        "question": "A placa R-34 informa que no trecho abrangido pela sinalização é permitido apenas o trânsito de:",
         "image": "imagens/r-34.jpg",
         "answers": [
             "Veículos motorizados de passeio;",
@@ -240,7 +240,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "21 - Quando é permitido para condutores transitarem sobre a calçada?",
+        "question": "Quando é permitido para condutores transitarem sobre a calçada?",
         "image": "",
         "answers": [
             "Apenas para entrar e sair de imóveis ou lotes lindeiros.",
@@ -252,7 +252,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "22 - O não uso do cinto de segurança, tanto pelo condutor quanto por qualquer outro passageiro do veículo, incorre em uma infração de trânsito de natureza:",
+        "question": "O não uso do cinto de segurança, tanto pelo condutor quanto por qualquer outro passageiro do veículo, incorre em uma infração de trânsito de natureza:",
         "image": "",
         "answers": [
             "leve; passível de advertência por escrito;",
@@ -264,7 +264,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "23 - Deixar de sinalizar a intenção de deslocamento lateral, ou seja, de mudança de direção do veículo, é infração de trânsito de natureza:",
+        "question": "Deixar de sinalizar a intenção de deslocamento lateral, ou seja, de mudança de direção do veículo, é infração de trânsito de natureza:",
         "image": "",
         "answers": [
             "leve; passível de advertência por escrito;",
@@ -276,7 +276,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "24 - No primeiro ano de habilitação, o candidato passa por um período probatório, onde não pode cometer quais infrações?",
+        "question": "No primeiro ano de habilitação, o candidato passa por um período probatório, onde não pode cometer quais infrações?",
         "image": "",
         "answers": [
             "Infrações leves, médias e reincidências em graves.",
@@ -288,7 +288,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "25 - Um automóvel e um ônibus estão transitando em uma rodovia de pista simples, o motorista do automóvel está a 100 km/h, enquanto o motorista do ônibus está a 90 km/h. Nesse caso, de acordo com a norma, eles estão:",
+        "question": "Um automóvel e um ônibus estão transitando em uma rodovia de pista simples, o motorista do automóvel está a 100 km/h, enquanto o motorista do ônibus está a 90 km/h. Nesse caso, de acordo com a norma, eles estão:",
         "image": "",
         "answers": [
             "Ambos em velocidade permitida, sem infrações.",
@@ -300,7 +300,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "26 - Marcadores de obstáculo, marcadores de alinhamento e marcadores de perigo são dispositivos de sinalização: ",
+        "question": "Marcadores de obstáculo, marcadores de alinhamento e marcadores de perigo são dispositivos de sinalização: ",
         "image": "imagens/dispositivoSinalizacaoAlerta.jpg",
         "answers": [
             "temporária;",
@@ -312,7 +312,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "27 - Você conduz em uma via onde um agente de trânsito na sua frente está com o braço estendido na horizontal, com a palma da mão para baixo, fazendo movimentos verticais com um silvo longo. Isso significa que você deve: ",
+        "question": "Você conduz em uma via onde um agente de trânsito na sua frente está com o braço estendido na horizontal, com a palma da mão para baixo, fazendo movimentos verticais com um silvo longo. Isso significa que você deve: ",
         "image": "imagens/gestosAgente.jpg",
         "answers": [
             "acelerar e passar rapidamente pelo agente;",
@@ -324,7 +324,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "28 - Os condutores que, ao se aproximar de estações de embarque e desembarque, escolas, hospitais ou áreas com grande movimentação de pedestres, circulam em velocidade incompatível com a segurança viária, gerando perigo de dano, estão cometendo:",
+        "question": "Os condutores que, ao se aproximar de estações de embarque e desembarque, escolas, hospitais ou áreas com grande movimentação de pedestres, circulam em velocidade incompatível com a segurança viária, gerando perigo de dano, estão cometendo:",
         "image": "",
         "answers": [
             "infração leve, sujeita a advertência;",
@@ -336,7 +336,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "29 - Fagner desenvolve uma velocidade de 110 km/h em uma rodovia de pista dupla fora do perímetro urbano, em trecho não abrangido por sinalização. Nesse caso, ele está:",
+        "question": "Fagner desenvolve uma velocidade de 110 km/h em uma rodovia de pista dupla fora do perímetro urbano, em trecho não abrangido por sinalização. Nesse caso, ele está:",
         "image": "",
         "answers": [
             "dentro da velocidade permitida, pois não há sinalização.",
@@ -348,7 +348,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "30 - Considere a seguinte situação: Ronaldo trabalha como motorista de aplicativo e exerce atividade remunerada na habilitação (EAR). Ele terá sua habilitação suspensa quando atingir a pontuação no prontuário de sua CNH:",
+        "question": "Considere a seguinte situação: Ronaldo trabalha como motorista de aplicativo e exerce atividade remunerada na habilitação (EAR). Ele terá sua habilitação suspensa quando atingir a pontuação no prontuário de sua CNH:",
         "image": "",
         "answers": [
             "20 pontos;",

@@ -1,6 +1,6 @@
 [
     {
-        "question": "01 - A placa A-2b adverte os condutores de que logo adiante existe uma ou umas",
+        "question": "A placa A-2b adverte os condutores de que logo adiante existe uma ou umas",
         "image": "imagens/a-2b.jpg",
         "answers": [
             "curva a direita;",
@@ -12,7 +12,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "02 - As placas de regulamentação informam condições, proibições, obrigações e restrições. Qual a finalidade das placas de advertência?",
+        "question": "As placas de regulamentação informam condições, proibições, obrigações e restrições. Qual a finalidade das placas de advertência?",
         "image": "",
         "answers": [            
             "Tem  a mesma função que as de regulamentação.",
@@ -24,7 +24,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "03 - A placa A-1a orienta o condutor que logo a frente existe",
+        "question": "A placa A-1a orienta o condutor que logo a frente existe",
         "image": "imagens/a-1a.jpg",
         "answers": [
             "curva a direita;",
@@ -36,7 +36,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "04 - As placas de advertência no uso das vias são das seguintes cores",
+        "question": "As placas de advertência no uso das vias são das seguintes cores",
         "image": "",
         "answers": [
             "azul, preta e branca;",
@@ -48,7 +48,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "05 - A placa A-15 quando virada para o condutor indica que ele deve",
+        "question": "A placa A-15 quando virada para o condutor indica que ele deve",
         "image": "imagens/a-15.jpg",
         "answers": [
             "parada obrigatória;",
@@ -60,7 +60,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "06 - O formato de um losango (quadrado inclinado), e de cores amarela e preta são características da sinalização vertical",
+        "question": "O formato de um losango (quadrado inclinado), e de cores amarela e preta são características da sinalização vertical",
         "image": "",
         "answers": [
             "de regulamentação;",
@@ -72,7 +72,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "07 - Qual a diferença entre a sinalização vertical de advertência A-35 e A-36?",
+        "question": "Qual a diferença entre a sinalização vertical de advertência A-35 e A-36?",
         "image": "imagens/a35A36.jpg",
         "answers": [
             "A-35 adverte sobre perímetro rural; A-36 adverte sobre animais selvagens.",
@@ -84,7 +84,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "08 - Qual a principal função da placa de advertência A-18? ",
+        "question": "Qual a principal função da placa de advertência A-18? ",
         "image": "imagens/a-18.jpg",
         "answers": [
             "Informar a velocidade máxima permitida.",
@@ -96,7 +96,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "09 - O que indica uma placa de advertência A-33a, com um desenho de crianças e adulto?",
+        "question": "O que indica uma placa de advertência A-33a, com um desenho de crianças e adulto?",
         "image": "imagens/a-33a.jpg",
         "answers": [
             "Área de escola.",
@@ -108,7 +108,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "10 - Qual o significado da placa de advertência A-28 que mostra um carro derrapando? ",
+        "question": "Qual o significado da placa de advertência A-28 que mostra um carro derrapando? ",
         "image": "imagens/a-28.jpg",
         "answers": [
             "Chuva à frente",
@@ -120,7 +120,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "11 - O que a placa de advertência A-26b em forma de losango com uma seta dupla em direções opostas indica? ",
+        "question": "O que a placa de advertência A-26b em forma de losango com uma seta dupla em direções opostas indica? ",
         "image": "imagens/a-26b.jpg",
         "answers": [
             "Adverte o condutor de mão única.",
@@ -132,7 +132,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "12 - Qual a cor predominante das placas de sinalização de advertência? ",
+        "question": "Qual a cor predominante das placas de sinalização de advertência? ",
         "image": "",
         "answers": [
             "Vermelho",
@@ -144,7 +144,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "13 - Uma placa de advertência A-22 indica que: ",
+        "question": "Uma placa de advertência A-22 indica que: ",
         "image": "imagens/a-22.jpg",
         "answers": [
             "há uma curva fechada logo à frente;",
@@ -156,7 +156,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "14 - Qual é a forma mais comum das placas de advertência? ",
+        "question": "Qual é a forma mais comum das placas de advertência? ",
         "image": "",
         "answers": [
             "Circular.",
@@ -168,7 +168,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "15 - Observe a imagem abaixo. Ao passar por essa sinalização, você como condutor deve",
+        "question": "Observe a imagem abaixo. Ao passar por essa sinalização, você como condutor deve",
         "image": "imagens/a-20a.jpg",
         "answers": [
             "acelerar o veículo para manter a tração;",
@@ -180,7 +180,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "16 - Qual o significado da placa de advertência A-6, uma cruz preta sobre fundo amarelo, significa? ",
+        "question": "Qual o significado da placa de advertência A-6, uma cruz preta sobre fundo amarelo, significa? ",
         "image": "imagens/a-6.jpg",
         "answers": [
             "Hospital próximo",
@@ -192,7 +192,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "17 - A placa de advertência A-3a que mostra uma linha em zigue-zague indica: ",
+        "question": "A placa de advertência A-3a que mostra uma linha em zigue-zague indica: ",
         "image": "imagens/a-3a.jpg",
         "answers": [
             "pista sinuosa à esquerda;",
@@ -204,7 +204,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "18 - O que a placa A-24 adverte ao condutor da via?",
+        "question": "O que a placa A-24 adverte ao condutor da via?",
         "image": "imagens/a-24.jpg",
         "answers": [
             "Área de obras ou manutenção na via.",
@@ -216,7 +216,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "19 - Qual a diferença entre as sinalizações de advertência A-30a e A-30b respectivamente?",
+        "question": "Qual a diferença entre as sinalizações de advertência A-30a e A-30b respectivamente?",
         "image": "imagens/a30aA30b.jpg",
         "answers": [
             "A-30a adverte ao condutor de um trecho onde ciclistas andam pela pista; A-30b adverte ao condutor que existe adiante uma faixa sinalizada de ciclista;",
@@ -228,7 +228,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "20 - A placa de advertência A-11b é utilizada para informar os motoristas sobre a presença de junções sucessivas contrárias, ou seja, entradas consecutivas em sentidos opostos. Qual das alternativas a seguir descreve corretamente a situação em que essa placa deve ser observada e como o condutor deve agir?",
+        "question": "A placa de advertência A-11b é utilizada para informar os motoristas sobre a presença de junções sucessivas contrárias, ou seja, entradas consecutivas em sentidos opostos. Qual das alternativas a seguir descreve corretamente a situação em que essa placa deve ser observada e como o condutor deve agir?",
         "image": "imagens/a-11b.jpg",
         "answers": [
             "A placa A-11b indica a presença de uma área de estacionamento à frente, sugerindo ao motorista que reduza a velocidade para procurar uma vaga.",
@@ -240,7 +240,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "21 - A placa de advertência A-32b tem como objetivo alertar os motoristas sobre a necessidade de redobrar a atenção e reduzir a velocidade ao se aproximar de uma faixa de pedestres. Considerando esse tipo de sinalização, qual das alternativas a seguir está correta?",
+        "question": "A placa de advertência A-32b tem como objetivo alertar os motoristas sobre a necessidade de redobrar a atenção e reduzir a velocidade ao se aproximar de uma faixa de pedestres. Considerando esse tipo de sinalização, qual das alternativas a seguir está correta?",
         "image": "imagens/a-32b.jpg",
         "answers": [
             "A placa de passagem sinalizada de pedestre é utilizada apenas em cruzamentos com semáforos, onde a travessia é controlada por sinal luminoso.",
@@ -252,7 +252,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "22 - A placa de advertência A-25 é frequentemente utilizada em locais onde a via deixa de ser de sentido único e passa a ter tráfego nos dois sentidos. Como um motorista deve proceder ao se deparar com essa placa?",
+        "question": "A placa de advertência A-25 é frequentemente utilizada em locais onde a via deixa de ser de sentido único e passa a ter tráfego nos dois sentidos. Como um motorista deve proceder ao se deparar com essa placa?",
         "image": "imagens/a-25.jpg",
         "answers": [
             "Manter a mesma velocidade, já que a sinalização não altera a condição da via.",
@@ -264,7 +264,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "23 - Quando um motorista se aproxima de uma área com a placa de advertência A-42b, qual é a ação mais segura a ser tomada?",
+        "question": "Quando um motorista se aproxima de uma área com a placa de advertência A-42b, qual é a ação mais segura a ser tomada?",
         "image": "imagens/a-42b.jpg",
         "answers": [
             "Continuar dirigindo na mesma faixa sem se preocupar com mudanças na pista.",
@@ -276,7 +276,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "24 - Ao encontrar a placa A-15, como o condutor deve interpretar essa sinalização em relação ao seu destino?",
+        "question": "Ao encontrar a placa A-15, como o condutor deve interpretar essa sinalização em relação ao seu destino?",
         "image": "imagens/a-15.jpg",
         "answers": [
             "Planejar rotas alternativas, já que a rua termina sem conexão com outras vias.",
@@ -288,7 +288,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "25 - A placa A-48 é instalada em vias onde há restrições quanto ao tamanho dos veículos que podem trafegar. Qual a principal medida que o condutor de um veículo de grande porte deve adotar ao avistar essa placa?",
+        "question": "A placa A-48 é instalada em vias onde há restrições quanto ao tamanho dos veículos que podem trafegar. Qual a principal medida que o condutor de um veículo de grande porte deve adotar ao avistar essa placa?",
         "image": "imagens/a-48.jpg",
         "answers": [
             "Continuar dirigindo sem restrições, pois a placa se aplica apenas a veículos leves.",
@@ -300,7 +300,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "26 - Quando o motorista encontra uma placa de advertência A-23, qual deve ser a atitude esperada para garantir sua segurança e dos demais usuários da via?",
+        "question": "Quando o motorista encontra uma placa de advertência A-23, qual deve ser a atitude esperada para garantir sua segurança e dos demais usuários da via?",
         "image": "imagens/a-23.jpg",
         "answers": [
             "Diminuir a velocidade e estar preparado para parar caso a ponte esteja levantada para a passagem de embarcações.",
@@ -312,7 +312,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "27 - A sinalização A-26a é importante para evitar conflitos no tráfego. Como o motorista deve se comportar ao avistar essa placa?",
+        "question": "A sinalização A-26a é importante para evitar conflitos no tráfego. Como o motorista deve se comportar ao avistar essa placa?",
         "image": "imagens/a-26a.jpg",
         "answers": [
             "Realizar conversões à esquerda e à direita livremente, conforme desejar.",
@@ -324,7 +324,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "28 - Em uma estrada montanhosa, o motorista se depara com a placa A-27. O que essa sinalização alerta, e qual a atitude preventiva que deve ser adotada?",
+        "question": "Em uma estrada montanhosa, o motorista se depara com a placa A-27. O que essa sinalização alerta, e qual a atitude preventiva que deve ser adotada?",
         "image": "imagens/a-27.jpg",
         "answers": [
             "Continuar em alta velocidade para evitar possíveis quedas de rochas.",
@@ -336,7 +336,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "29 - Quando um motorista se aproxima de uma área sinalizada com a placa A-13b, o que ele deve antecipar em termos de tráfego e como deve se comportar?",
+        "question": "Quando um motorista se aproxima de uma área sinalizada com a placa A-13b, o que ele deve antecipar em termos de tráfego e como deve se comportar?",
         "image": "imagens/a-13b.jpg",
         "answers": [
             "Manter sua trajetória em linha reta sem considerar os outros veículos.",
@@ -348,7 +348,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "30 - A placa de advertência A-12 é comum antes de chegar em uma rotatória. Como o condutor deve se preparar ao visualizar essa sinalização?",
+        "question": "A placa de advertência A-12 é comum antes de chegar em uma rotatória. Como o condutor deve se preparar ao visualizar essa sinalização?",
         "image": "imagens/a-12.jpg",
         "answers": [
             "Ignorar a placa e atravessar a interseção em alta velocidade",

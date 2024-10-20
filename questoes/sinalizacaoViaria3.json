@@ -1,6 +1,6 @@
 [
     {
-        "question": "01 - Qual é a função das linhas brancas contínuas no centro (eixo) de uma via?",
+        "question": "Qual é a função das linhas brancas contínuas no centro (eixo) de uma via?",
         "image": "",
         "answers": [
             "Indicar a proibição de ultrapassagens e transposições.",
@@ -12,7 +12,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "02 - As linhas de bordo brancas contínuas ao longo da via indicam que o motorista deve",
+        "question": "As linhas de bordo brancas contínuas ao longo da via indicam que o motorista deve",
         "image": "",
         "answers": [
             "ultrapassar outros veículos pela direita;",
@@ -24,7 +24,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "03 - O que indica a linha amarela contínua no centro da pista?",
+        "question": "O que indica a linha amarela contínua no centro da pista?",
         "image": "imagens/linhaAmarelaContinua.jpg",
         "answers": [
             "Área de carga e descarga",
@@ -36,7 +36,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "04 - Linhas brancas tracejadas ou seccionadas são usadas para",
+        "question": "Linhas brancas tracejadas ou seccionadas são usadas para",
         "image": "imagens/linhaBrancaTracejada.jpg",
         "answers": [
             "dividir faixas de mesmo sentido e permissão de ultrapassagem;",
@@ -48,7 +48,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "05 - Qual é a cor das linhas que indicam uma ciclovia ou ciclofaixa?",
+        "question": "Qual é a cor das linhas que indicam uma ciclovia ou ciclofaixa?",
         "image": "",
         "answers": [
             "Verde.",
@@ -60,7 +60,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "06 - As setas pintadas no chão indicam",
+        "question": "As setas pintadas no chão indicam",
         "image": "imagens/setasNaVia.jpg",
         "answers": [
             "posição de semáforos.",
@@ -72,7 +72,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "07 - O que significa uma linha amarela tracejada ou seccionada no centro (eixo) da via?",
+        "question": "O que significa uma linha amarela tracejada ou seccionada no centro (eixo) da via?",
         "image": "imagens/linhaAmarelaTracejada.jpg",
         "answers": [
             "Ultrapassagem permitida",
@@ -84,7 +84,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "08 - As faixas de pedestres são pintadas de qual cor?",
+        "question": "As faixas de pedestres são pintadas de qual cor?",
         "image": "",
         "answers": [
             "Azul",
@@ -96,7 +96,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "09 - Observe a foto. O que uma linha de retenção indica para os motoristas?",
+        "question": "Observe a foto. O que uma linha de retenção indica para os motoristas?",
         "image": "imagens/linhaRetencao.jpg",
         "answers": [
             "Limite de estacionamento.",
@@ -108,7 +108,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "10 - Uma faixa azul no pavimento indica",
+        "question": "Uma faixa azul no pavimento indica",
         "image": "",
         "answers": [
             "área de pedestres;",
@@ -120,7 +120,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "11 - Qual é o objetivo de uma linha branca contínua entre faixas de tráfego no mesmo sentido?",
+        "question": "Qual é o objetivo de uma linha branca contínua entre faixas de tráfego no mesmo sentido?",
         "image": "imagens/linhaBrancaContinua.jpg",
         "answers": [
             "Dividir ciclovias",            
@@ -132,7 +132,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "12 - O que as linhas amarelas na borda da pista indicam?",
+        "question": "O que as linhas amarelas na borda da pista indicam?",
         "image": "imagens/linhaBordoAmarela.jpg",
         "answers": [
             "Ponto de ônibus.",
@@ -144,7 +144,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "13 - Linhas de demarcação para vagas de estacionamento geralmente são de que cor?",
+        "question": "Linhas de demarcação para vagas de estacionamento geralmente são de que cor?",
         "image": "",
         "answers": [
             "Vermelho.",
@@ -156,7 +156,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "14 - Uma linha de divisão de fluxos opostos é pintada em qual cor?",
+        "question": "Uma linha de divisão de fluxos opostos é pintada em qual cor?",
         "image": "",
         "answers": [
             "Branco.",
@@ -168,7 +168,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "15 - A palavra PARE escritas no pavimento servem para",
+        "question": "A palavra PARE escritas no pavimento servem para",
         "image": "",
         "answers": [
             "indicar fim de via;",
@@ -180,7 +180,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "16 - Uma linha dupla amarela contínua no centro da via significa",
+        "question": "Uma linha dupla amarela contínua no centro da via significa",
         "image": "imagens/linhaDuplaAmarela.jpg",
         "answers": [
             "área exclusiva para ônibus;",
@@ -192,7 +192,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "17 - O que a pintura de linhas zebradas no pavimento indica?",
+        "question": "O que a pintura de linhas zebradas no pavimento indica?",
         "image": "imagens/linhasZebradas.jpg",
         "answers": [
             "Local de parada obrigatória.",
@@ -204,7 +204,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "18 - Linhas diagonais pintadas em uma faixa indicam",
+        "question": "Linhas diagonais pintadas em uma faixa indicam",
         "image": "imagens/estacionamentoObliquo.jpg",
         "answers": [
             "travessia de pedestres;",
@@ -216,7 +216,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "19 - Qual é a principal função dos tachões ou tachas refletivas instaladas nas vias? ",
+        "question": "Qual é a principal função dos tachões ou tachas refletivas instaladas nas vias? ",
         "image": "imagens/tachaoTacha.jpg",
         "answers": [
             "Indicar áreas de estacionamento proibido",
@@ -228,7 +228,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "20 - Existem diversos dispositivos auxiliares no trânsito sendo que as barreiras de concreto conhecidas como 'New Jersey' são comumente usadas para: ",
+        "question": "Existem diversos dispositivos auxiliares no trânsito sendo que as barreiras de concreto conhecidas como 'New Jersey' são comumente usadas para: ",
         "image": "imagens/linhaBrancaTracejada.jpg",
         "answers": [
             "delimitar ciclovias e áreas de pedestres;",
@@ -240,7 +240,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "21 - Em trechos de rodovias onde são instalados sonorizadores no pavimento, qual é a principal função desse dispositivo e como ele influencia o comportamento do motorista? ",
+        "question": "Em trechos de rodovias onde são instalados sonorizadores no pavimento, qual é a principal função desse dispositivo e como ele influencia o comportamento do motorista? ",
         "image": "",
         "answers": [
             "Servir apenas como elemento estético para delimitar faixas de rodagem.",
@@ -252,7 +252,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "22 - Qual é a principal função dos gradis instalados ao longo das calçadas em áreas urbanas? ",
+        "question": "Qual é a principal função dos gradis instalados ao longo das calçadas em áreas urbanas? ",
         "image": "imagens/gradis.jpg",
         "answers": [
             "Delimitar áreas de estacionamento exclusivo.",
@@ -264,7 +264,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "23 - Qual é o objetivo principal da sinalização temporária em áreas de obras ou eventos no trânsito? ",
+        "question": "Qual é o objetivo principal da sinalização temporária em áreas de obras ou eventos no trânsito? ",
         "image": "",
         "answers": [
             "Melhorar a estética da via durante as obras.",
@@ -276,7 +276,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "24 - Quando um motorista encontra cones de sinalização na pista, qual deve ser a sua reação imediata? ",
+        "question": "Quando um motorista encontra cones de sinalização na pista, qual deve ser a sua reação imediata? ",
         "image": "imagens/conesSinalizacao.jpg",
         "answers": [
             "Aumentar a velocidade para passar rapidamente pela área.",
@@ -300,7 +300,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "26 - Qual é a diferença principal entre a sinalização permanente e a sinalização temporária no trânsito? ",
+        "question": "Qual é a diferença principal entre a sinalização permanente e a sinalização temporária no trânsito? ",
         "image": "",
         "answers": [
             "A sinalização permanente é usada apenas em zonas rurais, enquanto a temporária é usada em áreas urbanas.",
@@ -312,7 +312,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "27 - Qual é a principal função da sinalização de indicação? ",
+        "question": "Qual é a principal função da sinalização de indicação? ",
         "image": "imagens/linhaBrancaTracejada.jpg",
         "answers": [
             "Alertar sobre perigos na via.",
@@ -324,7 +324,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "28 - Quais cores são comumente usadas nas placas de sinalização de indicação? ",
+        "question": "Quais cores são comumente usadas nas placas de sinalização de indicação? ",
         "image": "imagens/linhaBrancaTracejada.jpg",
         "answers": [
             "Vermelha, azul e verde.",
@@ -336,7 +336,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "29 - Em uma rodovia, um motorista se depara com uma placa azul que indica a localização de um restaurante e um ícone de um banheiro. Qual é a importância dessa sinalização para a experiência do motorista em uma viagem longa, e como essa informação pode impactar a segurança no trânsito? ",
+        "question": "Em uma rodovia, um motorista se depara com uma placa azul que indica a localização de um restaurante e um ícone de um banheiro. Qual é a importância dessa sinalização para a experiência do motorista em uma viagem longa, e como essa informação pode impactar a segurança no trânsito? ",
         "image": "imagens/sanitarioRestaurante.jpg",
         "answers": [
             "Essa sinalização é apenas decorativa e não impacta a experiência do motorista.",
@@ -348,7 +348,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "30 - A placa com o pictograma SAU - 27, informa os motoristas sobre",
+        "question": "A placa com o pictograma SAU - 27, informa os motoristas sobre",
         "image": "imagens/sau27.jpg",
         "answers": [
             "a presença de um posto de gasolina nas proximidades;",

@@ -56,15 +56,15 @@ body {
 }
 
 .button, .button-exit {
-    padding: 10px 20px;
-    background-color: #ff8c00; /* Laranja */
+    padding: 8px 16px; /* Reduzi o padding para deixar o botão menor */
+    background-color: #ff0000; /* Laranja */
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
     margin-top: 20px;
-    min-width: 150px; /* Largura mínima para todos os botões */
+    min-width: 120px; /* Reduzi a largura mínima */
     text-align: center; /* Centraliza o texto */
     white-space: nowrap; /* Evita quebra de linha no texto */
 }
@@ -147,4 +147,40 @@ body {
 
 .contact-button:hover {
     background-color: #128C7E; /* Verde escuro do WhatsApp */
+}
+
+/* Estilo básico dos botões */
+.button {
+    background-color: #FF6600; /* Cor inicial dos botões */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.7s; /* Suaviza a transição da cor */
+}
+/* Estilo específico para o botão "ATÉ CANSAR" */
+.button-troca-cor {
+    animation: trocaCor 2s infinite alternate;
+}
+ /* Animação para alternar as cores do botão "ATÉ CANSAR" */
+ @keyframes trocaCor {
+    0% {
+        background-color: #03526c; /* Cor inicial */
+    }
+    100% {
+        background-color: #FF4500; /* Cor final */
+    }
+}
+/* Estilo específico para o botão "ATÉ CANSAR" */
+.button-troca-cor {
+    background-color: #008CBA; /* Cor inicial do botão "ATÉ CANSAR" */
+}
+
+/* Efeito de troca de cor para o botão "ATÉ CANSAR" ao ser pressionado */
+.button-troca-cor:active {
+    background-color: #005f7a; /* Cor do botão ao ser pressionado */
 }

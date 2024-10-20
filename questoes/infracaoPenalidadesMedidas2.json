@@ -1,6 +1,6 @@
 [
     {
-        "question": "01 - De acordo com a Lei 14.071/20, quais são as penas para os crimes de homicídio culposo e lesão corporal culposa praticados na direção sob efeito de álcool?",
+        "question": "De acordo com a Lei 14.071/20, quais são as penas para os crimes de homicídio culposo e lesão corporal culposa praticados na direção sob efeito de álcool?",
         "image": "",
         "answers": [
             "Privativas de liberdade e pecuniárias.",
@@ -12,7 +12,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "02 - Para qual das infrações abaixo está prevista a medida administrativa de remoção do veículo?",
+        "question": "Para qual das infrações abaixo está prevista a medida administrativa de remoção do veículo?",
         "image": "",
         "answers": [
             "Estacionar em local permitido, mas sem o uso do cinto de segurança.",
@@ -24,7 +24,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "03 - O condutor que ingere álcool pode estar cometendo infração ou crime de trânsito. A conduta é configurada como crime quando:",
+        "question": "O condutor que ingere álcool pode estar cometendo infração ou crime de trânsito. A conduta é configurada como crime quando:",
         "image": "",
         "answers": [
             "o condutor se recusa a fazer o teste do bafômetro;",
@@ -36,7 +36,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "04 - Caroline dirige seu automóvel em via pública e é parada na fiscalização. O agente de trânsito percebe que na sua CNH consta a observação da obrigatoriedade do uso de lentes corretivas. Nesse caso, ela está cometendo uma infração de trânsito gravíssima e fica sujeita a",
+        "question": "Caroline dirige seu automóvel em via pública e é parada na fiscalização. O agente de trânsito percebe que na sua CNH consta a observação da obrigatoriedade do uso de lentes corretivas. Nesse caso, ela está cometendo uma infração de trânsito gravíssima e fica sujeita a",
         "image": "",
         "answers": [
             "multa e apreensão do veículo;",
@@ -48,7 +48,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "05 - Segundo o CTB, é obrigatório o uso de capacete para:",
+        "question": "Segundo o CTB, é obrigatório o uso de capacete para:",
         "image": "",
         "answers": [
             "Apenas o piloto da motocicleta.",
@@ -60,7 +60,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "06 - Benjamim circula com o carro emprestado do amigo e fica sem combustível. Para não bloquear o trânsito, ele empurra o carro para a calçada para ir buscar combustível. Qual ou quais infrações ele estaria cometendo?",
+        "question": "Benjamim circula com o carro emprestado do amigo e fica sem combustível. Para não bloquear o trânsito, ele empurra o carro para a calçada para ir buscar combustível. Qual ou quais infrações ele estaria cometendo?",
         "image": "",
         "answers": [
             "Apenas estacionar em local proibido.",
@@ -72,7 +72,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "07 - Fagner está conduzindo seu veículo e decide parar em uma faixa de pedestres para atender uma ligação importante. Nesse caso, qual ou quais infrações ele estaria cometendo?",
+        "question": "Fagner está conduzindo seu veículo e decide parar em uma faixa de pedestres para atender uma ligação importante. Nesse caso, qual ou quais infrações ele estaria cometendo?",
         "image": "",
         "answers": [
             "Apenas estacionar em local proibido.",
@@ -84,7 +84,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "08 -Respeitadas as condições para a aplicação da penalidade de advertência por escrito, segundo a Lei 14.071/20, qual das infrações abaixo pode resultar nessa penalidade?",
+        "question": "Respeitadas as condições para a aplicação da penalidade de advertência por escrito, segundo a Lei 14.071/20, qual das infrações abaixo pode resultar nessa penalidade?",
         "image": "",
         "answers": [
             "Dirigir sem possuir CNH.",
@@ -96,7 +96,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "09 - Durante a condução em uma estrada bem iluminada, Ronaldo decide manter os faróis altos. Qual infração ele está cometendo?",
+        "question": "Durante a condução em uma estrada bem iluminada, Ronaldo decide manter os faróis altos. Qual infração ele está cometendo?",
         "image": "",
         "answers": [
             "Uso inadequado de faróis; infração leve.",
@@ -108,7 +108,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "10 - Eva utiliza a buzina de seu veículo de forma excessiva em um ambiente urbano, mesmo quando não há perigo iminente. Qual a infração que está cometendo?",
+        "question": "Eva utiliza a buzina de seu veículo de forma excessiva em um ambiente urbano, mesmo quando não há perigo iminente. Qual a infração que está cometendo?",
         "image": "",
         "answers": [
             "Infração leve.",
@@ -120,7 +120,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "11 - De acordo com a legislação, qual penalidade é aplicada ao condutor que acumula 40 pontos na CNH exercendo atividade remunerada em um período de 12 meses?",
+        "question": "De acordo com a legislação, qual penalidade é aplicada ao condutor que acumula 40 pontos na CNH exercendo atividade remunerada em um período de 12 meses?",
         "image": "",
         "answers": [
             "Multa.",
@@ -132,7 +132,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "12 - Qual das infrações a seguir pode resultar em penalidade de multa e apreensão do veículo?",
+        "question": "Qual das infrações a seguir pode resultar em penalidade de multa e apreensão do veículo?",
         "image": "",
         "answers": [
             "Conduzir o veículo com a CNH vencida há menos de 30 dias.",
@@ -144,7 +144,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "13 - Segundo a legislação de trânsito, qual das seguintes infrações resulta em penalidade de multa e é considerada gravíssima?",
+        "question": "Segundo a legislação de trânsito, qual das seguintes infrações resulta em penalidade de multa e é considerada gravíssima?",
         "image": "",
         "answers": [
             "Não usar cinto de segurança.",
@@ -156,7 +156,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "14 - Qual das infrações abaixo resulta em penalidade de suspensão do direito de dirigir, conforme a legislação de trânsito?",
+        "question": "Qual das infrações abaixo resulta em penalidade de suspensão do direito de dirigir, conforme a legislação de trânsito?",
         "image": "",
         "answers": [
             "Dirigir sob efeito de álcool.",
@@ -168,7 +168,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "15 - Ao estacionar à noite em um local permitido para desembarcar um passageiro, Júlio Cesar utiliza apenas as luzes de posição. Qual infração ele comete e qual é a penalidade correspondente?",
+        "question": "Ao estacionar à noite em um local permitido para desembarcar um passageiro, Júlio Cesar utiliza apenas as luzes de posição. Qual infração ele comete e qual é a penalidade correspondente?",
         "image": "",
         "answers": [
             "Uso inadequado de faróis; advertência por escrito.",
@@ -180,7 +180,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "16 - Fábio está dirigindo a 60 km/h em uma via onde a velocidade máxima permitida é de 50 km/h. Qual infração ele comete e qual a penalidade correspondente?",
+        "question": "Fábio está dirigindo a 60 km/h em uma via onde a velocidade máxima permitida é de 50 km/h. Qual infração ele comete e qual a penalidade correspondente?",
         "image": "",
         "answers": [
             "Excesso de velocidade; multa leve.",
@@ -192,7 +192,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "17 - Você transita na via com uma motocicleta usando capacete, mas sem viseira de proteção. Qual é a infração, penalidade e medida administrativa para esse comportamento?",
+        "question": "Você transita na via com uma motocicleta usando capacete, mas sem viseira de proteção. Qual é a infração, penalidade e medida administrativa para esse comportamento?",
         "image": "",
         "answers": [
             "Infração: Gravíssima; Penalidade: Multa gravíssima; Medida Administrativa: Apreensão do veículo.",
@@ -204,7 +204,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "18 - Transitar com veículo automotor com a CNH vencida há mais de trinta dias, o sujeito está cometendo:",
+        "question": "Transitar com veículo automotor com a CNH vencida há mais de trinta dias, o sujeito está cometendo:",
         "image": "",
         "answers": [
             "Infração: Gravíssima; Penalidade: Multa gravíssima; Medida Administrativa: Retenção do veículo até a regularização da CNH ou apresentação de condutor habilitado.",
@@ -216,7 +216,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "19 - Em que situação não é infração de trânsito a conversão à direita mesmo com o semáforo no sinal vermelho?",
+        "question": "Em que situação não é infração de trânsito a conversão à direita mesmo com o semáforo no sinal vermelho?",
         "image": "",
         "answers": [
             "Quando o condutor faz a conversão rapidamente, sem parar.",
@@ -228,7 +228,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "20 - Um veículo está estacionado sobre a faixa de pedestres, mesmo que apenas parte do veículo. O condutor está cometendo qual infração e sujeito a qual medida administrativa?",
+        "question": "Um veículo está estacionado sobre a faixa de pedestres, mesmo que apenas parte do veículo. O condutor está cometendo qual infração e sujeito a qual medida administrativa?",
         "image": "",
         "answers": [
             "Infração: Gravíssima; Penalidade: Multa gravíssima; Medida Administrativa: Remoção do veículo.",
@@ -240,7 +240,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "21 - Quando a infração por participar de exibição/demonstração de perícia em manobra de veículo, em desacordo com o CONTRAN, é considerada gravíssima, a penalidade pode ser agravada por quanto?",
+        "question": "Quando a infração por participar de exibição/demonstração de perícia em manobra de veículo, em desacordo com o CONTRAN, é considerada gravíssima, a penalidade pode ser agravada por quanto?",
         "image": "",
         "answers": [
             "2 vezes.",
@@ -252,7 +252,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "22 - Dirigir com a CNH cassada é uma infração de trânsito de natureza gravíssima em que o condutor fica sujeito a:",
+        "question": "Dirigir com a CNH cassada é uma infração de trânsito de natureza gravíssima em que o condutor fica sujeito a:",
         "image": "",
         "answers": [
             "Apreensão do veículo e suspensão do direito de dirigir.",
@@ -264,7 +264,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "23 - Caroline foi ao salão de beleza com sua motoneta, mas esqueceu de acender o farol (luz baixa). Nesse caso, ela cometeu uma infração de trânsito de natureza:",
+        "question": "Caroline foi ao salão de beleza com sua motoneta, mas esqueceu de acender o farol (luz baixa). Nesse caso, ela cometeu uma infração de trânsito de natureza:",
         "image": "",
         "answers": [
             "leve, passível de advertência por escrito;",
@@ -276,7 +276,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "24 - Ultrapassar outro veículo em local proibido pela sinalização, o condutor está cometendo uma infração de natureza gravíssima, sujeito a qual penalidade?",
+        "question": "Ultrapassar outro veículo em local proibido pela sinalização, o condutor está cometendo uma infração de natureza gravíssima, sujeito a qual penalidade?",
         "image": "",
         "answers": [
             "Multa x 2 e suspensão do direito de dirigir.",
@@ -288,7 +288,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "25 - Se você deixar passar mais de 30 dias para efetuar o registro de um veículo junto ao DETRAN, a qual infração e medida administrativa ficará sujeito?",
+        "question": "Se você deixar passar mais de 30 dias para efetuar o registro de um veículo junto ao DETRAN, a qual infração e medida administrativa ficará sujeito?",
         "image": "",
         "answers": [
             "Média; Penalidade: Multa média; Medida Administrativa: Retenção do veículo até regularização.",
@@ -300,7 +300,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "26 - Quando o condutor deixar de ligar a luz baixa (farol) durante o dia, constitui infração de trânsito em qual das situações?",
+        "question": "Quando o condutor deixar de ligar a luz baixa (farol) durante o dia, constitui infração de trânsito em qual das situações?",
         "image": "",
         "answers": [
             "Quando estiver transitando em vias urbanas durante o dia.",
@@ -312,7 +312,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "27 - Qual a idade mínima que uma criança deve ter para ser transportada em uma motocicleta para não ser configurado infração gravíssima, multa e suspensão do direito de dirigir?",
+        "question": "Qual a idade mínima que uma criança deve ter para ser transportada em uma motocicleta para não ser configurado infração gravíssima, multa e suspensão do direito de dirigir?",
         "image": "",
         "answers": [
             "5 anos.",
@@ -324,7 +324,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "28 - Lourenço trafega em velocidade superior à máxima permitida em mais de 50%, medida por instrumento regulador de velocidade. Ele está cometendo uma infração gravíssima e fica sujeito a:",
+        "question": "Lourenço trafega em velocidade superior à máxima permitida em mais de 50%, medida por instrumento regulador de velocidade. Ele está cometendo uma infração gravíssima e fica sujeito a:",
         "image": "",
         "answers": [
             "multa x 2  e remoção do veículo;",
@@ -336,7 +336,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "29 - Quando parado em uma fiscalização de trânsito e o agente imobiliza o veículo para sanar uma irregularidade, essa conduta é caracterizada como:",
+        "question": "Quando parado em uma fiscalização de trânsito e o agente imobiliza o veículo para sanar uma irregularidade, essa conduta é caracterizada como:",
         "image": "",
         "answers": [
             "Apreensão do veículo.",
@@ -348,7 +348,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "30 - Nas infrações listadas abaixo, qual delas deve resultar na medida administrativa de retenção do veículo, além da multa?",
+        "question": "Nas infrações listadas abaixo, qual delas deve resultar na medida administrativa de retenção do veículo, além da multa?",
         "image": "",
         "answers": [
             "Velocidade incompatível com a via.",
