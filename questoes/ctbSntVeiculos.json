@@ -1,6 +1,6 @@
 [
     {
-        "question": "01 - Segundo o código de trânsito, solicitar por escrito aos órgãos a implementação de sinalização, fiscalização e alteração é um direito",
+        "question": "Segundo o código de trânsito, solicitar por escrito aos órgãos a implementação de sinalização, fiscalização e alteração é um direito",
         "image": "",
         "answers": [
             "do advogado.",
@@ -12,7 +12,7 @@
         "correctAnswer": 2
     },   
     {
-        "question": "02 - Segundo o CTB, o cidadão NÃO tem direito",
+        "question": "Segundo o CTB, o cidadão NÃO tem direito",
         "image": "",
         "answers": [
             "sugerir por escrito alteração a normas do CTB",
@@ -24,7 +24,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "03 - O SNT ( Sistema Nacional de Trânsito) é um conjunto de entidades composto por",
+        "question": "O SNT ( Sistema Nacional de Trânsito) é um conjunto de entidades composto por",
         "image": "",
         "answers": [
             "Órgãos públicos e privados",
@@ -36,7 +36,7 @@
         "correctAnswer": 3
     }, 
     {
-        "question": "04 - Qual o órgão normativo máximo no SNT?",
+        "question": "Qual o órgão normativo máximo no SNT?",
         "image": "",
         "answers": [
             "DETRAN",
@@ -48,7 +48,7 @@
         "correctAnswer": 2
     }, 
     {
-        "question": "05 - As placas de identificação externa dos veículos, dianteira e traseira, são padrão Mercosul e convencional.  Assinale a alternativa incorreta.",
+        "question": "As placas de identificação externa dos veículos, dianteira e traseira, são padrão Mercosul e convencional.  Assinale a alternativa incorreta.",
         "image": "",
         "answers": [
             "É dispensada o lacre nas padrão Mercosul.",
@@ -60,7 +60,7 @@
         "correctAnswer": 4
     }, 
     {
-        "question": "06 - É correto afirmar que as placas padrão Mercosul",
+        "question": "É correto afirmar que as placas padrão Mercosul",
         "image": "",
         "answers": [
             "Tem seus caracteres com as mesmas cores para os diferentes usos: particular,  comercial, etc.",
@@ -72,7 +72,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "07 - O veículo deve ser registrado",
+        "question": "O veículo deve ser registrado",
         "image": "",
         "answers": [
             "Na federação de origem",
@@ -84,7 +84,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "08 - Por quantos dias consecutivos o veículo zero quilômetro pode transitar sem registro da concessionária ao DETRAN para registro?",
+        "question": "Por quantos dias consecutivos o veículo zero quilômetro pode transitar sem registro da concessionária ao DETRAN para registro?",
         "image": "",
         "answers": [
             "Quinze dias",
@@ -96,7 +96,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "09 - Registro de veículos de propulsão humana e tração animal é de responsabilidade",
+        "question": "Registro de veículos de propulsão humana e tração animal é de responsabilidade",
         "image": "",
         "answers": [
             "SENATRANs",
@@ -108,7 +108,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "10 - Assinale a alternativa que tenha veículos de propulsão humana, automotores e tração animal respectivamente.",
+        "question": "Assinale a alternativa que tenha veículos de propulsão humana, automotores e tração animal respectivamente.",
         "image": "",
         "answers": [
             "Bicicleta, caminhões,  carroça.",
@@ -120,7 +120,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "11 - Veículo que for pego transitando em via pública não registrado a mais de 15 dias da saída da concessionária está sujeito há ",
+        "question": "Veículo que for pego transitando em via pública não registrado a mais de 15 dias da saída da concessionária está sujeito há ",
         "image": "",
         "answers": [
             "Advertência por escrito",
@@ -132,7 +132,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "12 - Considere as afirmativas sobre o Certificado de Registro e Licenciamento de Veículo (CRLV-e) digital. 1 - É expedido mensalmente.  2 - Porte é obrigado.  3 - Pode ser expedido em formato impresso e/ou digital. 4 - Expedido pelo DETRAN. ",
+        "question": "Considere as afirmativas sobre o Certificado de Registro e Licenciamento de Veículo (CRLV-e) digital. 1 - É expedido mensalmente.  2 - Porte é obrigado.  3 - Pode ser expedido em formato impresso e/ou digital. 4 - Expedido pelo DETRAN. ",
         "image": "",
         "answers": [
             "2 - 3 - 4",
@@ -144,7 +144,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "13 - A ATPV-e (Autorização para Transferência de Propriedade de Veículo) preenchida e assinada pelo vendedor e comprador encaminhada para o DETRAN serve para ",
+        "question": "A ATPV-e (Autorização para Transferência de Propriedade de Veículo) preenchida e assinada pelo vendedor e comprador encaminhada para o DETRAN serve para ",
         "image": "",
         "answers": [
             "alterar as características do veículo.",
@@ -156,7 +156,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "14 - João deseja trocar a cor de seu veículo, antes de fazer isso ele deve solicitar autorização prévia ao",
+        "question": "João deseja trocar a cor de seu veículo, antes de fazer isso ele deve solicitar autorização prévia ao",
         "image": "",
         "answers": [
             "CETRAN",
@@ -168,7 +168,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "15 - Você deve licenciar seu veículo, como proprietário",
+        "question": "Você deve licenciar seu veículo, como proprietário",
         "image": "",
         "answers": [
             "a cada seis meses,",
@@ -180,7 +180,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "16 - Fábio viu que chegou o prazo para efetuar o licenciamento do veículo. Segundo o art. 131 do CTB, primeiramente ele deve",
+        "question": "Fábio viu que chegou o prazo para efetuar o licenciamento do veículo. Segundo o art. 131 do CTB, primeiramente ele deve",
         "image": "",
         "answers": [
             "pedir autorização para a prefeitura de domicilio do proprietário;",
@@ -192,7 +192,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "17 - O documento CRLV-e e CLA são documentos de porte obrigatório, mas em qual situação ele poderá ser dispensando pelo agente de trânsito?",
+        "question": "O documento CRLV-e e CLA são documentos de porte obrigatório, mas em qual situação ele poderá ser dispensando pelo agente de trânsito?",
         "image": "",
         "answers": [
             "Quando for apresentado recibo de pagamento de impostos;",
@@ -204,7 +204,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "18 - Para comprovar que o veículo está licenciado, de quanto em quanto tempo o CRLV-e ou CLA devem ser emitidos?",
+        "question": "Para comprovar que o veículo está licenciado, de quanto em quanto tempo o CRLV-e ou CLA devem ser emitidos?",
         "image": "",
         "answers": [
             "a cada dois anos;",
@@ -216,7 +216,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "19 - O CTB nos artigos 159 e 133 definem porte obrigatório de dois documentos, do condutor e do veículo, quais são eles?",
+        "question": "O CTB nos artigos 159 e 133 definem porte obrigatório de dois documentos, do condutor e do veículo, quais são eles?",
         "image": "",
         "answers": [
             "Documento de habilitação e recibo de pagamento de multas;",
@@ -228,7 +228,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "20 - categoria que habilita condutor a dirigir  veículos automotores utilizado em transporte de CARGA, cujo o PBT (peso bruto total) seja superior a 3.500 Kg",
+        "question": "Categoria que habilita condutor a dirigir  veículos automotores utilizado em transporte de CARGA, cujo o PBT (peso bruto total) seja superior a 3.500 Kg",
         "image": "",
         "answers": [
             "Categoria A",
@@ -240,7 +240,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "21 - Quais as etapas para o processo de primeira habilitação?",
+        "question": "Quais as etapas para o processo de primeira habilitação?",
         "image": "",
         "answers": [
             "Curso teórico,  prova teórica e exame prático;",
@@ -252,7 +252,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "22 - Para exame prático de veículos de duas ou mais rodas, o exame compreende que etapas respectivamente ",
+        "question": "Para exame prático de veículos de duas ou mais rodas, o exame compreende que etapas respectivamente ",
         "image": "",
         "answers": [
             "Duas etapas: baliza e condução em via pública;",
@@ -264,7 +264,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "23 - No exame prático de direção, o candidato é avaliado em função de faltas negativas. Quais são as faltas no exame?",
+        "question": "No exame prático de direção, o candidato é avaliado em função de faltas negativas. Quais são as faltas no exame?",
         "image": "",
         "answers": [
             "Eliminatórias, graves e leves;",
@@ -276,7 +276,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "24 - O primeiro ano de habilitação a CNH assume a forma de permissão (PPD), nesse período probatório, quais infrações que se cometidas perde a permissão?",
+        "question": "O primeiro ano de habilitação a CNH assume a forma de permissão (PPD), nesse período probatório, quais infrações que se cometidas perde a permissão?",
         "image": "",
         "answers": [
             "Grave, médias e leves;",
@@ -288,7 +288,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "25 - Para continuar habilitado, o condutor ou piloto, deve se submeter a exames de tempos em tempo. A periodicidade dos exames muda conforme a idade. Qual é a validade de condutores com idade inferior a 50 anos?",
+        "question": "Para continuar habilitado, o condutor ou piloto, deve se submeter a exames de tempos em tempo. A periodicidade dos exames muda conforme a idade. Qual é a validade de condutores com idade inferior a 50 anos?",
         "image": "",
         "answers": [
             "5 anos.",
@@ -300,7 +300,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "26 - Quantos dias após o vencimento da CNH o condutor tem para renovar a habilitação?",
+        "question": "Quantos dias após o vencimento da CNH o condutor tem para renovar a habilitação?",
         "image": "",
         "answers": [
             "nenhum dia;",
@@ -312,7 +312,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "27 - Todos temos deveres e proibições no trânsito. Qual das alternativas é uma proibição?",
+        "question": "Todos temos deveres e proibições no trânsito. Qual das alternativas é uma proibição?",
         "image": "",
         "answers": [
             "portar o documento de habilitação;",
@@ -324,7 +324,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "28 - O documento do veículo, CRV e o CRLV-e, de acordo com a lei 14.071/20 são expedidos",
+        "question": "O documento do veículo, CRV e o CRLV-e, de acordo com a lei 14.071/20 são expedidos",
         "image": "",
         "answers": [
             "no formato impresso obrigatoriamente e digital;",
@@ -336,7 +336,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "29 - Para dirigir veículos de transporte coletivo de passageiros,  de escolares,  de emergência ou de produtos perigosos, o condutor deve preencher também alguns requisitos",
+        "question": "Para dirigir veículos de transporte coletivo de passageiros,  de escolares,  de emergência ou de produtos perigosos, o condutor deve preencher também alguns requisitos",
         "image": "",
         "answers": [
             "ter no mínimo 22 anos completos:",
@@ -348,7 +348,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "30 - Resultado positivo em exame toxicológico acarretará a Suspensão do Direito de Dirigir pelo prazo de",
+        "question": "Resultado positivo em exame toxicológico acarretará a Suspensão do Direito de Dirigir pelo prazo de",
         "image": "",
         "answers": [
             "1 mês;",

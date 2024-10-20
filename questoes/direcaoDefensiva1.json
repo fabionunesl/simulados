@@ -1,6 +1,6 @@
 [   
     {
-        "question": "01 - Caracteriza-se direção defensiva...",
+        "question": "Caracteriza-se direção defensiva...",
         "image": "",
         "answers": [
             "Acidente de trânsito com terceiros",
@@ -12,7 +12,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "02 - Todo evento que resulte em dano ao veículo ou à sua carga e/ou lesões a pessoas e/ou animais, e que possa trazer dano material ou prejuízos ao trânsito, à via ou ao meio ambiente, é a definição de...",
+        "question": "Todo evento que resulte em dano ao veículo ou à sua carga e/ou lesões a pessoas e/ou animais, e que possa trazer dano material ou prejuízos ao trânsito, à via ou ao meio ambiente, é a definição de...",
         "image": "",
         "answers": [
             "Crime",
@@ -24,7 +24,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "03 - A responsabilidade de segurança no trânsito é dever...",
+        "question": "A responsabilidade de segurança no trânsito é dever...",
         "image": "",
         "answers": [
             "Dos condutores e passageiros",
@@ -36,7 +36,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "04 - Em qual circunstância é obrigatório o uso do cinto de segurança?",
+        "question": "Em qual circunstância é obrigatório o uso do cinto de segurança?",
         "image": "",
         "answers": [
             "Em grandes áreas urbanas",
@@ -48,7 +48,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "05 - Para reduzir a área do ponto cego, deve-se manter os espelhos retrovisores na inclinação de quantos graus?",
+        "question": "Para reduzir a área do ponto cego, deve-se manter os espelhos retrovisores na inclinação de quantos graus?",
         "image": "",
         "answers": [
             "50°",
@@ -60,7 +60,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "06 - Qual a velocidade ideal para transitar?",
+        "question": "Qual a velocidade ideal para transitar?",
         "image": "",
         "answers": [
             "A menor velocidade permitida",
@@ -72,7 +72,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "07 - Qual a distância única e padrão frontal de segurança de um veículo para outro?",
+        "question": "Qual a distância única e padrão frontal de segurança de um veículo para outro?",
         "image": "",
         "answers": [
             "Não existe uma distância padrão",
@@ -84,7 +84,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "08 - Conforme regulamentação do CONTRAN, o motociclista profissional deve...",
+        "question": "Conforme regulamentação do CONTRAN, o motociclista profissional deve...",
         "image": "",
         "answers": [
             "Usar somente viseira cristal",
@@ -96,7 +96,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "09 - Existem diversos tipos de atenção que o condutor utiliza enquanto está dirigindo. O que caracteriza a atenção difusa?",
+        "question": "Existem diversos tipos de atenção que o condutor utiliza enquanto está dirigindo. O que caracteriza a atenção difusa?",
         "image": "",
         "answers": [
             "A que mantém o condutor no foco de forma contínua no que está fazendo",
@@ -108,7 +108,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "10 - Quando tiver de utilizar o celular ao dirigir, você deve...",
+        "question": "Quando tiver de utilizar o celular ao dirigir, você deve...",
         "image": "",
         "answers": [
             "Colocar a ligação em modo alto-falante",
@@ -120,7 +120,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "11 - À medida que a concentração de álcool no sangue se torna mais elevada, o risco de envolvimento em sinistro aumenta rapidamente. Na literatura encontra-se a seguinte equivalência: uma taxa de alcoolemia de 1,20 g/l aumenta o risco em...",
+        "question": "À medida que a concentração de álcool no sangue se torna mais elevada, o risco de envolvimento em sinistro aumenta rapidamente. Na literatura encontra-se a seguinte equivalência: uma taxa de alcoolemia de 1,20 g/l aumenta o risco em...",
         "image": "",
         "answers": [
             "2 vezes",
@@ -132,7 +132,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "12 - Ao conduzir em situação adversa com ausência de luz solar, você deve...",
+        "question": "Ao conduzir em situação adversa com ausência de luz solar, você deve...",
         "image": "",
         "answers": [
             "Andar sempre em luz alta",
@@ -144,7 +144,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "13 - Durante uma aquaplanagem, qual atitude deve ser tomada?",
+        "question": "Durante uma aquaplanagem, qual atitude deve ser tomada?",
         "image": "",
         "answers": [
             "Frear bruscamente",
@@ -156,7 +156,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "14 - Quando o capacete deve ser trocado?",
+        "question": "Quando o capacete deve ser trocado?",
         "image": "",
         "answers": [
             "Quando a pintura estiver desbotada",
@@ -168,7 +168,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "15 - Ao utilizar o capacete sem viseira, é obrigatório o uso de qual item?",
+        "question": "Ao utilizar o capacete sem viseira, é obrigatório o uso de qual item?",
         "image": "",
         "answers": [
             "Óculos de sol",
@@ -180,7 +180,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "16 - Qual tipo de viseira é regulamentada para utilizar de dia e à noite?",
+        "question": "Qual tipo de viseira é regulamentada para utilizar de dia e à noite?",
         "image": "",
         "answers": [
             "Fumê",
@@ -192,7 +192,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "17 - Qual das opções a seguir é uma prática recomendada na direção defensiva?",
+        "question": "Qual das opções a seguir é uma prática recomendada na direção defensiva?",
         "image": "",
         "answers": [
             "Aumentar a velocidade ao aproximar-se de cruzamentos",
@@ -204,7 +204,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "18 - Durante a condução, qual atitude é considerada uma prática de direção defensiva?",
+        "question": "Durante a condução, qual atitude é considerada uma prática de direção defensiva?",
         "image": "",
         "answers": [
             "Conduzir com os faróis apagados durante o dia",
@@ -216,7 +216,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "19 - Qual é a principal finalidade da direção defensiva?",
+        "question": "Qual é a principal finalidade da direção defensiva?",
         "image": "",
         "answers": [
             "Aumentar a velocidade para chegar ao destino mais rápido",
@@ -228,7 +228,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "20 - Qual das seguintes ações é a mais adequada ao conduzir em condições de chuva intensa?",
+        "question": "Qual das seguintes ações é a mais adequada ao conduzir em condições de chuva intensa?",
         "image": "",
         "answers": [
             "Aumentar a velocidade para reduzir o tempo de exposição à pista molhada",
@@ -240,7 +240,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "21 - Qual das seguintes opções é a mais segura ao dirigir em uma estrada coberta de gelo?",
+        "question": "Qual das seguintes opções é a mais segura ao dirigir em uma estrada coberta de gelo?",
         "image": "",
         "answers": [
             "Acelerar rapidamente para ganhar tração.",
@@ -252,7 +252,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "22 - Qual é a melhor prática ao dirigir em uma estrada com neblina densa?",
+        "question": "Qual é a melhor prática ao dirigir em uma estrada com neblina densa?",
         "image": "",
         "answers": [
             "Usar apenas os faróis altos para maximizar a visibilidade.",
@@ -264,7 +264,7 @@
         "correctAnswer": 4
     },
     {
-        "question": "23 - Qual é a melhor estratégia ao descer um declive acentuado?",
+        "question": "Qual é a melhor estratégia ao descer um declive acentuado?",
         "image": "",
         "answers": [
             "Acelerar para ganhar velocidade e descer rapidamente.",
@@ -276,7 +276,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "24 - Qual das seguintes ações é a mais adequada ao conduzir em condições de chuva intensa?",
+        "question": "Qual das seguintes ações é a mais adequada ao conduzir em condições de chuva intensa?",
         "image": "",
         "answers": [
             "Aumentar a velocidade para reduzir o tempo de exposição à pista molhada.",
@@ -288,7 +288,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "25 - Qual é a consequência mais grave do uso de substâncias psicoativas ao dirigir?",
+        "question": "Qual é a consequência mais grave do uso de substâncias psicoativas ao dirigir?",
         "image": "",
         "answers": [
             "Aumento da confiança ao volante.",
@@ -300,7 +300,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "26 - Ao dirigir em via sem sinalização, qual medida defensiva deve ser adotada?",
+        "question": "Ao dirigir em via sem sinalização, qual medida defensiva deve ser adotada?",
         "image": "",
         "answers": [
             "Andar devagar e redobrar os cuidados ao dirigir, prestando atenção às curvas, aclives e declives.",
@@ -312,7 +312,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "27 - O passageiro de uma motocicleta deve manter uma postura correta. Qual a posição recomendada?",
+        "question": "O passageiro de uma motocicleta deve manter uma postura correta. Qual a posição recomendada?",
         "image": "",
         "answers": [
             "Sentar longe do piloto e manter postura reta.",
@@ -324,7 +324,7 @@
         "correctAnswer": 3
     },
     {
-        "question": "28 - Qual alternativa a seguir é uma preocupação importante ao dirigir à noite?",
+        "question": "Qual alternativa a seguir é uma preocupação importante ao dirigir à noite?",
         "image": "",
         "answers": [
             "Evitar usar farol alto.",
@@ -336,7 +336,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "29 - Ao dirigir sobre uma via com neblina intensa, o que você deve fazer?",
+        "question": "Ao dirigir sobre uma via com neblina intensa, o que você deve fazer?",
         "image": "",
         "answers": [
             "Aumentar a velocidade para sair rapidamente da neblina.",
@@ -348,7 +348,7 @@
         "correctAnswer": 1
     },
     {
-        "question": "30 - Ao dirigir na cidade e começar a chover, o que você deve fazer?",
+        "question": "Ao dirigir na cidade e começar a chover, o que você deve fazer?",
         "image": "",
         "answers": [
             "Acionar o desembaçador.",

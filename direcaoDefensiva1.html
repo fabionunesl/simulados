@@ -3,8 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulado 1</title>
+    <title>CTB SNT Veículos e Condutores</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilo para destacar as letras das opções de resposta */
+        .answer-label-letter {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #FF6600; /* Cor laranja para destacar as letras */
+            margin-right: 5px;
+        }
+    </style>
     <script>
         let questions = [];
         let currentQuestionIndex = 0;
@@ -29,21 +38,12 @@
             }, 1000);
         }
 
-        // Função para embaralhar as questões
-        function shuffleQuestions(array) {
-            for (let i = array.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [array[i], array[j]] = [array[j], array[i]];
-            }
-            return array;
-        }
-
         // Função para obter questões e iniciar o simulado
         function startSimulado() {
-            fetch('questoes/direcaoDefensiva1.json') // Nome do arquivo JSON com as perguntas
+            fetch('questoes/ctbSntVeiculos.json') // Nome do arquivo JSON com as perguntas
                 .then(response => response.json())
                 .then(data => {
-                    questions = shuffleQuestions(data); // Embaralha as perguntas
+                    questions = data;
                     currentQuestionIndex = 0;
                     answers = [];
                     document.getElementById('result-container').classList.add('hidden');
@@ -67,6 +67,8 @@
             if (questions.length === 0) return;
 
             let question = questions[currentQuestionIndex];
+            document.getElementById('question-number').textContent = `Pergunta ${currentQuestionIndex + 1}`;
+
             document.getElementById('question-text').textContent = question.question;
 
             // Adiciona a imagem, se existir
@@ -93,8 +95,14 @@
                 if (answers[currentQuestionIndex] === index) {
                     input.checked = true;
                 }
+
+                let letterSpan = document.createElement('span');
+                letterSpan.classList.add('answer-label-letter');
+                letterSpan.textContent = `${String.fromCharCode(65 + index)}.`;
+
                 label.appendChild(input);
-                label.appendChild(document.createTextNode(` ${String.fromCharCode(65 + index)}. ${answer}`));
+                label.appendChild(letterSpan);
+                label.appendChild(document.createTextNode(` ${answer}`));
                 answersContainer.appendChild(label);
             });
 
@@ -134,18 +142,14 @@
             document.getElementById('question-container').classList.add('hidden');
 
             let correctAnswers = 0;
-            let totalAnswered = 0;
-
             questions.forEach((question, index) => {
-                if (answers[index] !== undefined) {
-                    totalAnswered++;
-                    if (answers[index] === question.correctAnswer) {
-                        correctAnswers++;
-                    }
+                if (answers[index] === question.correctAnswer) {
+                    correctAnswers++;
                 }
             });
 
-            let percentage = (correctAnswers / totalAnswered) * 100;
+            let totalQuestions = questions.length;
+            let percentage = (correctAnswers / totalQuestions) * 100;
             let resultText = '';
             if (percentage >= 70) {
                 resultText = 'Aprovado! 🎉';
@@ -155,7 +159,7 @@
                 document.getElementById('result-text').classList.add('rejected');
             }
 
-            document.getElementById('result-text').textContent = `${resultText} Você acertou ${correctAnswers} de ${totalAnswered} perguntas (${percentage.toFixed(2)}% de acerto).`;
+            document.getElementById('result-text').textContent = `${resultText} Você acertou ${correctAnswers} de ${totalQuestions} perguntas (${percentage.toFixed(2)}% de acerto).`;
 
             let resultsDetails = document.getElementById('results-details');
             resultsDetails.innerHTML = `<h3>Detalhes:</h3>`;
@@ -178,19 +182,6 @@
             });
 
             document.getElementById('result-container').classList.remove('hidden');
-
-            let userName = "Nome do Usuário"; // Ajustar para obter o nome do usuário logado
-            let timeTaken = document.getElementById('timer').textContent; // Tempo restante
-
-            let userResult = {
-                name: userName,
-                correctAnswers: correctAnswers,
-                totalQuestions: totalAnswered,
-                percentage: percentage.toFixed(2),
-                timeTaken: timeTaken
-            };
-
-            localStorage.setItem('lastResult', JSON.stringify(userResult));
         }
 
         // Função para reiniciar o simulado
@@ -201,8 +192,7 @@
         // Função para cancelar o simulado
         function cancelSimulado() {
             if (confirm('Você tem certeza que deseja cancelar o simulado?')) {
-                showResult(); // Mostra o resultado
-                document.getElementById('result-container').classList.remove('hidden'); // Mostra a tela de resultados
+                window.location.href = 'user-dashboard.html'; // Redireciona para a página inicial
             }
         }
 
@@ -221,23 +211,29 @@
 </head>
 <body>
     <div class="container">
-        <div id="timer-container">
-            Tempo restante: <span id="timer">00:00</span>
+        <h2 id="question-number"></h2> <!-- Novo elemento para mostrar o número da pergunta -->
+        <div id="timer-container">            
+            Tempo restante: <span id="timer"></span>
         </div>
         <div id="question-container" class="hidden">
+            
             <h1 id="question-text"></h1>
             <div id="image-container" class="hidden">
-                <img src="" alt="Imagem da pergunta" class="question-image" id="image-element"> <!-- Contêiner da imagem -->
+                <img src="" alt="Imagem da pergunta" class="question-image" id="image-element">
             </div>
-            <div id="answers-container" class="answers"></div>
-            <button type="button" id="previous-button" class="button" onclick="previousQuestion()">Voltar</button>
-            <button type="button" id="next-button" class="button" onclick="nextQuestion()">Próxima Pergunta</button>
-            <button type="button" id="cancel-button" class="button" onclick="cancelSimulado()">Cancelar Simulado</button>
+            <form id="question-form">
+                <div id="answers-container" class="answers"></div>
+                <button type="button" id="previous-button" class="button" onclick="previousQuestion()">Voltar</button>
+                <button type="button" id="next-button" class="button" onclick="nextQuestion()">Próxima Pergunta</button>
+                <button type="button" id="cancel-button" class="button" onclick="cancelSimulado()">Cancelar</button>
+            </form>
         </div>
+        
         <div id="result-container" class="hidden">
             <h2 id="result-text"></h2>
             <div id="results-details"></div>
-            <button id="restart-button" class="button" onclick="restartSimulado()">Escolher Novo Simulado</button>
+            <button id="restart-button" class="button" onclick="restartSimulado()">Escolher Prova</button>
+            <h1><br></h1> 
         </div>
     </div>
 </body>
