@@ -313,7 +313,7 @@
     },
     {
         "question": "Você conduz em uma via onde um agente de trânsito na sua frente está com o braço estendido na horizontal, com a palma da mão para baixo, fazendo movimentos verticais com um silvo longo. Isso significa que você deve: ",
-        "image": "imagens/gestosAgente.jpg",
+        "image": "",
         "answers": [
             "acelerar e passar rapidamente pelo agente;",
             "parar e aguardar a sinalização do agente;",

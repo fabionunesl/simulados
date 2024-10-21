@@ -1,7 +1,7 @@
 [
     {
         "question": "Num sinistro de trânsito, o que deve ser feito em primeiro lugar?",
-        "image": "imagens/cruzamentoNaoSinalizado.jpg",
+        "image": "",
         "answers": [
             "socorrer a vítima.",
             "sinalizar o local.",
