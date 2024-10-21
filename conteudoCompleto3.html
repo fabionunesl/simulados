@@ -40,11 +40,11 @@
 
         // Função para obter questões e iniciar o simulado
         function startSimulado() {
-            fetch('questoes/simulado1.json') // Nome do arquivo JSON com as perguntas
+            fetch('questoes/conteudoCompleto3.json') // Nome do arquivo JSON com as perguntas
                 .then(response => response.json())
                 .then(data => {
                     questions = data;
-                    currentQuestionIndex = 0; 
+                    currentQuestionIndex = 0;
                     answers = [];
                     document.getElementById('result-container').classList.add('hidden');
                     showQuestion();

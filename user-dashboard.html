@@ -123,7 +123,7 @@
 
             // Verifica se os parâmetros foram encontrados e atualiza o texto e a imagem de boas-vindas
             if (params.name && params.logoImage) {
-                document.getElementById('welcomeText').textContent = `Bem-vindo, ${params.name}!`;
+                document.getElementById('welcomeText').textContent = `Bem-vindo ao CFC ${params.name}!`;
                 document.querySelector('.logo-img').src = params.logoImage;
             } else {
                 console.error('Parâmetros não encontrados: ', params);
@@ -131,6 +131,9 @@
             }
         };
     </script>
+        <p class="modern-text">
+            <span class="red-box">É necessário obter uma pontuação mínima de 70% para ser aprovado.</span>
+        </p>
 
         <h2>Escolha um simulado abaixo</h2>
 
@@ -146,15 +149,16 @@
             <button class="button button-troca-cor" onclick="location.href='legislacaoAleatorioCompleto.html'">9 - Legislação Aleatório Completo</button>                      
             <button class="button" onclick="location.href='direcaoDefensiva1.html'">9 - Direção Defensiva 1</button>
             <button class="button" onclick="location.href='direcaoDefensiva2.html'">10 - Direção Defensiva 2</button>
-            <button class="button" onclick="location.href='direcaoDefensiva3.html'">12 - Direção Defensiva 3</button>
-            <button class="button" onclick="location.href='direcaoDefensiva4.html'">13 - Direção Defensiva 4</button>
-            <button class="button button-troca-cor" onclick="location.href='direcaoDefensivaCompleto.html'">14 - Direção Defensiva Aleatório</button>            
-            <button class="button" onclick="location.href='primeirosSocorros1.html'">Primeiros Socorros</button>
-            <button class="button" onclick="location.href='simulado4.html'">Meio Ambiente e Convívio Social</button>
-            <button class="button" onclick="location.href='primeirosSocorros1.html'">Primeiros Socorros</button>
-            <button class="button" onclick="location.href='simulado1.html'">Todos módulos</button>
+            <button class="button" onclick="location.href='direcaoDefensiva3.html'">12 - Direção Defensiva 3</button>            
+            <button class="button button-troca-cor" onclick="location.href='direcaoDefensivaCompleto.html'">13 - Direção Defensiva Aleatório</button>            
+            <button class="button" onclick="location.href='primeirosSocorros1.html'">14 - Primeiros Socorros</button>
+            <button class="button" onclick="location.href='simulado4.html'">15 - Meio Ambiente e Convívio Social</button>
+            <button class="button" onclick="location.href='funcionamentoVeiculo.html'">16 - Funcionamento do veículo</button>
+            <button class="button" onclick="location.href='conteudoCompleto.html'">17 - Prova completa 1</button>
+            <button class="button" onclick="location.href='conteudoCompleto2.html'">18 - Prova completa 2</button>
+            <button class="button" onclick="location.href='conteudoCompleto3.html'">19 - Prova completa 3</button>
             <div>
-            <button class="button button-troca-cor" onclick="location.href='./ateCansar.html'">Todas as questões exibidas de forma aleatória</button>
+            <button class="button button-troca-cor" onclick="location.href='./ateCansar.html'">SEM LIMITES<br>Correção a cada questão</button>
             </div>
         </div>
 

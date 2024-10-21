@@ -162,10 +162,21 @@ body {
     cursor: pointer;
     transition: background-color 0.6s; /* Suaviza a transição da cor */
 }
+
 /* Estilo específico para o botão "ATÉ CANSAR" */
 .button-troca-cor {
     animation: trocaCor 2s infinite alternate;
-}
+    word-wrap: break-word; /* Permite quebra de palavra */
+    overflow-wrap: break-word; /* Garante quebra de palavra em navegadores compatíveis */
+    display: inline-block; /* Garante que o botão respeite a largura do texto */
+    max-width: 100%; /* Limite a largura do botão se necessário */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 20px; /* Adiciona padding para melhor aparência */
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #007BFF; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    cursor: pointer; /* Mão ao passar o mouse */
+} 
  /* Animação para alternar as cores do botão "ATÉ CANSAR" */
  @keyframes trocaCor {
     0% {
