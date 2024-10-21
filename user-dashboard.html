@@ -27,7 +27,7 @@
         }
 
         h1 {
-            font-size: 2.5em;
+            font-size: 1.5em;
             color: #f57c00; /* Laranja */
             margin-bottom: 20px;
             font-weight: 600;
@@ -93,13 +93,20 @@
                 font-size: 1em;
             }
         }
+
+        /* Estilo para a imagem centralizada */
+        .logo-img {
+            max-width: 300px; /* Tamanho pequeno da imagem */
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Bem-vindo ao <br> Simulado Fácil CNH!</h1>
+        <img src="imagens/logoCfcSaoJeronimo.jpg" alt="Logo do CFC São Jerônimo" class="logo-img">
+        <h1>Bem-vindo ao CFC São Jerônimo!</h1>
         <p class="modern-text">
-            <span class="red-box">É necessário acertar pelo menos 21 questões, ou seja, obter uma pontuação mínima de 70% para ser aprovado.</span>
+            <span class="red-box">É necessário obter uma pontuação mínima de 70% para ser aprovado.</span>
         </p>
 
         <h2>Escolha um simulado abaixo</h2>
@@ -125,16 +132,12 @@
             <button class="button" onclick="location.href='simulado1.html'">Todos módulos</button>
             <div>
             <button class="button button-troca-cor" onclick="location.href='./ateCansar.html'">Todas as questões exibidas de forma aleatória</button>
-            <!-- Acrescente mais simulados conforme necessário -->
             </div>
         </div>
 
-        <!-- Botão para voltar para a tela de login --> 
         <div>
-            
             <button class="button-exit" onclick="location.href='index.html'">SAIR</button>            
             <h1><br></h1>       
-
         </div>
     </div>
 </body>
