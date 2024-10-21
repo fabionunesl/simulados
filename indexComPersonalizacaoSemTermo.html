@@ -9,7 +9,7 @@
         /* Estilo geral do corpo */
         body {
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #f5f5f5, #e0e0e0);
+            background: linear-gradient(135deg, #f5f5f5, #e0e0e0); /* Gradiente de fundo */
             color: #333;
             margin: 0;
             padding: 0;
@@ -28,102 +28,65 @@
 
         h1 {
             font-size: 2.5em;
-            color: #f57c00;
+            color: #f57c00; /* Laranja */
             margin-bottom: 20px;
             font-weight: 600;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-        }            
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Sombra no texto */
+        }
 
         /* Estilos para o modal */
-        #termsModal {
-            position: fixed; 
-            z-index: 1000; 
-            top: 0; 
-            left: 0; 
-            width: 100%; 
-            height: 100%; 
-            background-color: rgba(0, 0, 0, 0.8);
-            display: flex; 
-            justify-content: center; 
-            align-items: center; 
+        .modal {
+            display: none; /* Oculto por padrão */
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
         }
 
-        /* Conteúdo do modal */
         .modal-content {
-            background-color: #ffffff; 
-            border-radius: 15px; 
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); 
-            width: 90%; 
-            max-width: 600px; 
-            max-height: 90%; 
-            padding: 30px; 
-            overflow-y: auto; 
-            position: relative; 
-            transition: transform 0.3s ease; 
-            animation: fadeIn 0.3s; 
+            background-color: #fff;
+            margin: auto;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: 0;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 500px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
         }
 
-        /* Animação de fade-in */
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(-20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+        .modal-header, .modal-footer {
+            padding: 20px;
         }
 
-        /* Estilos do botão "X" de fechar */
-        .close-button {
-            position: absolute; 
-            top: 15px; 
-            right: 15px; 
-            font-size: 28px; 
-            font-weight: bold; 
-            color: #aaa; 
-            cursor: pointer; 
-            transition: color 0.2s; 
+        .modal-body {
+            max-height: 60vh;
+            overflow-y: auto;
+            padding: 20px;
         }
 
-        .close-button:hover {
-            color: #ff5b5b; 
+        .modal-footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            border-top: 1px solid #ddd;
         }
 
-        /* Estilos do botão Aceitar */
-        .accept-button {
-            background-color: #007BFF; 
+        .modal-footer button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
             color: white;
-            padding: 12px 24px;
             border: none;
-            border-radius: 5px; 
+            border-radius: 5px;
             cursor: pointer;
-            font-size: 16px;
-            font-weight: bold; 
-            transition: background-color 0.3s, transform 0.2s; 
-            display: block; 
-            margin: 20px auto 0; 
         }
 
-        /* Efeitos no botão Aceitar */
-        .accept-button:hover {
-            background-color: #0056b3; 
-            transform: scale(1.05); 
-        }
-
-        /* Estilo do título */
-        h2 {
-            color: #333; 
-            font-size: 1.5em; 
-            margin-bottom: 15px; 
-        }
-
-        /* Estilo do texto */
-        p {
-            line-height: 1.6; 
-            color: #555; 
-            margin-bottom: 15px; 
+        .modal-footer button:hover {
+            background-color: #45a049;
         }
 
         .login-container {
@@ -160,6 +123,7 @@
             font-weight: bold;
         }
 
+        /* Estilos para a seção de contato */
         .contact-container {
             margin-top: 30px;
         }
@@ -178,6 +142,7 @@
             background-color: #128C7E;
         }
 
+        /* Adicionando responsividade */
         @media (max-width: 600px) {
             .button {
                 width: 90%;
@@ -189,60 +154,46 @@
 
     <script>
         function validateLogin(event) {
-            event.preventDefault();
+    event.preventDefault();
 
-            const cpf = document.getElementById('cpf').value;
+    const cpf = document.getElementById('cpf').value;
 
-            if (!/^\d{1,11}$/.test(cpf)) {
-                document.getElementById('error-message').textContent = 'O CPF deve conter de 1 a 11 números!';
-                return;
-            }
+    if (!/^\d{1,11}$/.test(cpf)) {
+        document.getElementById('error-message').textContent = 'O CPF deve conter de 1 a 11 números!';
+        return;
+    }
 
-            const users = {
-                // Usuários CFC Gramado
-                '123': { name: 'Gramado', logoImage: 'imagens/logos/cfcGramado.jpg' },
-                '001': { name: 'Gramado', logoImage: 'imagens/logos/cfcGramado.jpg' },
-                '002': { name: 'Gramado', logoImage: 'imagens/logos/cfcGramado.jpg' },
+    const users = {
+        // Usuários CFC Gramado
+        '123': { name: 'Gramado', logoImage: 'imagens/logos/cfcGramado.jpg' },
+        '001': { name: 'Gramado', logoImage: 'imagens/logos/cfcGramado.jpg' },
+        '002': { name: 'Gramado', logoImage: 'imagens/logos/cfcGramado.jpg' },
 
-                // Usuário CFC São Jerônimo
-                '321': { name: 'São Jerônimo', logoImage: 'imagens/logos/logoCfcSaoJeronimo.jpg' },
-                '003': { name: 'São Jerônimo', logoImage: 'imagens/logos/logoCfcSaoJeronimo.jpg' },
-                '004': { name: 'São Jerônimo', logoImage: 'imagens/logos/logoCfcSaoJeronimo.jpg' },
+        // Usuário CFC São Jerônimo
+        '321': { name: 'São Jerônimo', logoImage: 'imagens/logos/logoCfcSaoJeronimo.jpg' },
+        '003': { name: 'São Jerônimo', logoImage: 'imagens/logos/logoCfcSaoJeronimo.jpg' },
+        '004': { name: 'São Jerônimo', logoImage: 'imagens/logos/logoCfcSaoJeronimo.jpg' },
 
-                // Usuário CFC Nova Santa Rita
-                '456': { name: 'Nova Santa Rita', logoImage: 'imagens/logos/cfcNovaSantaRita.jpg' },
-                '005': { name: 'Nova Santa Rita', logoImage: 'imagens/logos/cfcNovaSantaRita.jpg' },
-                '006': { name: 'Nova Santa Rita', logoImage: 'imagens/logos/cfcNovaSantaRita.jpg' },
+        // Usuário CFC Nova Santa Rita
+        '456': { name: 'Nova Santa Rita', logoImage: 'imagens/logos/cfcNovaSantaRita.jpg' },
+        '005': { name: 'Nova Santa Rita', logoImage: 'imagens/logos/cfcNovaSantaRita.jpg' },
+        '006': { name: 'Nova Santa Rita', logoImage: 'imagens/logos/cfcNovaSantaRita.jpg' },
 
-                //Adicionar usuários aqui
-            };    
+        //Adicionar usuários aqui
+    };
 
-            const user = users[cpf];
+    const user = users[cpf];
 
-            if (user) {
-                // Armazena os dados do usuário em variáveis globais
-                window.userData = {
-                    name: user.name,
-                    logoImage: user.logoImage
-                };
-
-                // Abre o modal de termos de uso
-                document.getElementById('termsModal').style.display = 'flex'; // Alterar para 'flex'
-            } else {
-                document.getElementById('error-message').textContent = 'CPF não encontrado!';
-            } 
-        }
-
-        function closeModal() {
-            document.getElementById('termsModal').style.display = 'none';
-        }
+    if (user) {
+        // Redireciona para user-dashboard.html com parâmetros na URL
+        window.location.href = `user-dashboard.html?name=${encodeURIComponent(user.name)}&logoImage=${encodeURIComponent(user.logoImage)}`;
+    } else {
+        document.getElementById('error-message').textContent = 'CPF não encontrado!';
+    }
+}
 
         function acceptTerms() {
-            if (window.userData) {
-                window.location.href = `user-dashboard.html?name=${encodeURIComponent(window.userData.name)}&logoImage=${encodeURIComponent(window.userData.logoImage)}`;
-            } else {
-                console.error('Dados do usuário não encontrados!');
-            }
+            window.location.href = 'user-dashboard.html';
         }
     </script>
 </head>
@@ -259,13 +210,13 @@
             </form>
         </div>
 
-        <!-- Modal de Termos de Uso -->
-        <div id="termsModal" style="display:none;">
+        <div id="termsModal" class="modal">
             <div class="modal-content">
-                <span class="close-button" onclick="closeModal()">&times;</span>
-                <h2>Termos de Uso</h2>
-                <p>Leia atentamente os termos de uso.</p>
-                <p>Eu concordo com a coleta e o tratamento do meu CPF para fins de autenticação e acesso ao sistema, conforme descrito nos Termos de Uso e na Política de Privacidade.</p>
+                <div class="modal-header">
+                    <h2>Termos de Uso</h2>
+                </div>
+                <div class="modal-body">
+                    <p>Eu concordo com a coleta e o tratamento do meu CPF para fins de autenticação e acesso ao sistema, conforme descrito nos Termos de Uso e na Política de Privacidade.</p>
                     <h2>Acesso Pessoal e Intransferível</h2>
                     <p>O acesso ao sistema é pessoal e intransferível. O usuário concorda em não compartilhar seu nome de usuário e senha com terceiros. A violação desta condição poderá resultar no bloqueio imediato do acesso ao sistema e na exclusão da conta do usuário.</p>
                     <h2>Tratamento de Dados Pessoais</h2>
@@ -288,11 +239,13 @@
                     <p>Os usuários têm o direito de acessar, corrigir, excluir ou restringir o tratamento de seus dados pessoais, incluindo o CPF. Para exercer esses direitos, os usuários devem entrar em contato através dos canais de atendimento disponíveis no sistema.</p>
                     <h2>Alterações na Política de Privacidade</h2>
                     <p>Reservamo-nos o direito de atualizar ou modificar nossa Política de Privacidade a qualquer momento, de acordo com as exigências legais ou para atender a melhorias no sistema. Recomendamos que os usuários revisem esta página periodicamente para se manterem informados sobre como protegemos as informações pessoais.</p>
-                
-                <p>Ao clicar em "Aceitar", você concorda com os termos.</p>
-                <button class="accept-button" onclick="acceptTerms()">Aceitar</button>
+                </div>
+                <div class="modal-footer">
+                    <button onclick="acceptTerms()">Aceitar e Continuar</button>
+                </div>
             </div>
         </div>
+
         <div class="contact-container">
             <h2>Deseja adquirir as provas simuladas?</h2>
             <p>Entre em contato clicando no botão abaixo:</p>

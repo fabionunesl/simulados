@@ -103,34 +103,11 @@
 </head>
 <body>
     <div class="container">
-        <img src="" alt="Logo" class="logo-img">
-        <h1 id="welcomeText"></h1>
-        <!-- Outras partes do seu layout -->
-    </div>
-
-    <script>
-        function getQueryParams() {
-            const params = {};
-            window.location.search.substring(1).split("&").forEach(param => {
-                const [key, value] = param.split("=");
-                params[decodeURIComponent(key)] = decodeURIComponent(value);
-            });
-            return params;
-        }
-
-        window.onload = function() {
-            const params = getQueryParams();
-
-            // Verifica se os parâmetros foram encontrados e atualiza o texto e a imagem de boas-vindas
-            if (params.name && params.logoImage) {
-                document.getElementById('welcomeText').textContent = `Bem-vindo, ${params.name}!`;
-                document.querySelector('.logo-img').src = params.logoImage;
-            } else {
-                console.error('Parâmetros não encontrados: ', params);
-                document.getElementById('welcomeText').textContent = 'Bem-vindo!';
-            }
-        };
-    </script>
+        <img src="imagens/logoCfcSaoJeronimo.jpg" alt="Logo do CFC São Jerônimo" class="logo-img">
+        <h1>Bem-vindo ao CFC São Jerônimo!</h1>
+        <p class="modern-text">
+            <span class="red-box">É necessário obter uma pontuação mínima de 70% para ser aprovado.</span>
+        </p>
 
         <h2>Escolha um simulado abaixo</h2>
 
