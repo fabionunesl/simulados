@@ -1,14 +1,375 @@
 [   
     {
-        "question": "123",
-        "image": "imagens/xxxxxx.jpg",
+        "question": "Qual é a melhor prática ao dirigir sob chuva intensa, quando a visibilidade é reduzida?",
+        "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Aumentar a velocidade para chegar mais rápido ao destino.",
+            "Manter os faróis desligados, já que a luz da chuva pode ofuscar.",
+            "Usar limpadores de para-brisa e faróis baixos para melhorar a visibilidade.",
+            "Ignorar a distância de segurança, pois a chuva não afeta a frenagem.",
+            "Dirigir apenas com uma mão no volante para ter mais controle do rádio."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Qual é a prática adequada ao utilizar a marcha à ré em um veículo?",
+        "image": "",
+        "answers": [
+            "Sempre olhar pelo retrovisor, sem necessidade de verificar os lados.",
+            "Acelerar rapidamente para sair do local.",
+            "Fazer uma verificação completa do entorno antes de iniciar a manobra.",
+            "Usar apenas os espelhos laterais, ignorando o retrovisor central.",
+            "Direcionar o volante totalmente para um lado antes de engatar a marcha."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Qual é a prática correta ao realizar uma conversão à esquerda em uma via?",
+        "image": "",
+        "answers": [
+            "Acelerar rapidamente para cruzar a faixa oposta.",
+            "Verificar se há veículos e pedestres antes de iniciar a manobra.",
+            "Manter os faróis desligados, pois a conversão é rápida.",
+            "Ignorar as sinalizações de trânsito, já que a conversão é permitida.",
+            "Fazer a conversão sem usar o sinalizador, já que não há outros veículos."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "O veículo à sua frente freia bruscamente. O que você deve fazer?", 
+        "image": "",
+        "answers": [
+            "Buzinar para o condutor.",
+            "Sair do veículo e xingar o outro condutor.",
+            "Frear também bruscamente.",
+            "Reduzir a velocidade de modo seguro e sinalizar para os condutores que vêm atrás.",
+            "Desviar o veículo para a contramão."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Qual a principal função do cinto de segurança em um veículo?",
+        "image": "",
+        "answers": [
+            "Melhorar a aerodinâmica do veículo.",
+            "Reduzir o consumo de combustível.",
+            "Aumentar o conforto dos passageiros durante longas viagens.",
+            "Evitar que o condutor e os passageiros sejam arremessados em caso de colisão.",
+            "Garantir que o motor funcione corretamente durante a condução."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Qual a importância de manter uma distância de segurança lateral ao ultrapassar um ciclista?",
+        "image": "",
+        "answers": [
+            "Garantir que o veículo economize combustível durante a ultrapassagem.",
+            "Facilitar a ultrapassagem de outros veículos na via.",
+            "Melhorar a visibilidade do ciclista para outros motoristas.",
+            "Reduzir o risco de aquaplanagem durante a ultrapassagem.",
+            "Evitar colisões laterais e oferecer espaço para o ciclista em caso de desvios inesperados."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "Por que é importante que os motociclistas mantenham uma maior distância de frenagem em relação aos veículos à frente?",
+        "image": "",
+        "answers": [
+            "Para aumentar a velocidade de condução em vias rápidas.",
+            "Porque as motocicletas possuem pneus menores e mais aderentes.",
+            "Para evitar colisões, pois motocicletas são mais leves e podem perder estabilidade com frenagens bruscas.",
+            "Porque os freios das motocicletas são menos eficientes do que os de carros.",
+            "Para permitir que o motociclista utilize apenas o freio traseiro em emergências."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Qual é a posição mais segura para um motociclista na pista de rolamento?",
+        "image": "",
+        "answers": [
+            "Sempre andar no centro da pista, independentemente das condições.",
+            "Andar na faixa da direita o tempo todo, para permitir a passagem de outros veículos.",
+            "Circular o mais próximo possível do meio-fio, evitando o contato com outros veículos.",
+            "Ficar o mais próximo possível do veículo à frente para aproveitar o vácuo.",
+            "Permanecer na parte da faixa onde o motociclista seja mais visível pelos retrovisores dos outros motoristas."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "Por que é importante que os motociclistas utilizem capacetes certificados por órgãos de segurança?",
+        "image": "",
+        "answers": [
+            "Para reduzir o consumo de combustível durante a condução.",
+            "Porque capacetes certificados oferecem melhor ventilação interna.",
+            "Porque capacetes certificados atendem a padrões de segurança que protegem a cabeça em caso de acidente.",
+            "Para aumentar a velocidade máxima permitida nas vias.",
+            "Porque capacetes não certificados podem ser mais pesados e desconfortáveis."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Quais dos fatores abaixo podem interferir diretamente no tempo de ação e reação do condutor?",
+        "image": "",
+        "answers": [
+            "O estado físico e mental do condutor, como cansaço ou uso de álcool.",
+            "A cor do veículo conduzido.",
+            "A quantidade de passageiros no veículo.",
+            "A velocidade máxima permitida na via.",
+            "O tipo de combustível utilizado pelo veículo."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Por que o respeito mútuo entre condutores é essencial para a segurança no trânsito?",
+        "image": "",
+        "answers": [
+            "Porque evita multas e punições por infrações.",
+            "Porque permite que os veículos circulem mais rapidamente nas vias.",
+            "Porque diminui o risco de acidentes, promovendo a convivência pacífica e responsável entre todos os usuários da via.",
+            "Porque garante que apenas os veículos maiores tenham prioridade no trânsito.",
+            "Porque melhora a economia de combustível ao reduzir o número de freadas bruscas."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Qual das situações a seguir pode ser considerada uma condição adversa do veículo e comprometer a segurança no trânsito?",
+        "image": "",
+        "answers": [
+            "A pintura do veículo está levemente arranhada.",
+            "O sistema de freios está desgastado e demora a responder.",
+            "O veículo tem um motor potente, proporcionando maior velocidade.",
+            "O sistema de som do veículo não está funcionando corretamente.",
+            "O estofamento interno está levemente danificado."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Durante uma viagem em um veículo automotor, um passageiro começa a apresentar sinais de mal-estar, como náusea, tontura e suor frio. Qual deve ser a atitude correta do motorista para lidar com essa situação?",
+        "image": "",
+        "answers": [
+            "Aumentar a velocidade para chegar mais rápido ao destino.",
+            "Pedir ao passageiro que se concentre na estrada e tente se distrair.",
+            "Continuar dirigindo normalmente, já que essas condições não exigem cuidados imediatos.",
+            "Parar o veículo em um local seguro, permitir que o passageiro saia do carro para tomar ar fresco e oferecer água.",
+            "Abrir todas as janelas e aumentar o volume do rádio para tentar distrair o passageiro."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Durante uma forte tempestade, as condições do trânsito pioram significativamente devido à baixa visibilidade e às poças d'água nas vias. Qual é a atitude mais segura que o motorista deve adotar?",
+        "image": "",
+        "answers": [
+            "Aumentar a velocidade para sair mais rápido da área de risco.",
+            "Ligar o pisca-alerta enquanto continua dirigindo na velocidade normal.",
+            "Reduzir a velocidade, aumentar a distância entre os veículos e ligar os faróis baixos..",
+            "Parar o veículo no meio da via e esperar a tempestade passar.",
+            "Continuar dirigindo normalmente, pois os freios e os pneus podem lidar com essas condições."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Um motorista está dirigindo em uma estrada e, de repente, o veículo derrapa devido à presença de areia, cascalho ou óleo na pista. Qual é a melhor ação que o motorista deve tomar para recuperar o controle do veículo?",
+        "image": "",
+        "answers": [
+            "Manter a calma, soltar o acelerador e girar suavemente o volante na direção da derrapagem.",
+            "Frear bruscamente para tentar parar o veículo imediatamente.",
+            "Virar o volante na direção oposta à derrapagem para corrigir a trajetória.",
+            "Aumentar a aceleração para tentar sair rapidamente da área escorregadia.",
+            "Desviar para a pista oposta para evitar a derrapagem."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Durante uma viagem longa, um motorista percebe que está começando a sentir fadiga e sonolência. Qual atitude é a mais adequada que ele deve adotar para garantir a segurança no trânsito?",
+        "image": "",
+        "answers": [
+            "Ignorar a fadiga e continuar dirigindo, pois o destino está próximo.",
+            "Aumentar o volume do rádio para se manter alerta.",
+            "Fazer uma parada em um local seguro para descansar e se reidratar.",
+            "Tomar um café e seguir em frente, acreditando que a cafeína ajudará.",
+            "Dirigir mais rápido para chegar ao destino antes de ficar muito cansado."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Qual das seguintes afirmações sobre o uso do cinto de segurança é verdadeira e representa a forma correta de utilizá-lo?",
+        "image": "",
+        "answers": [
+            "O cinto de segurança deve ser sempre utilizado por todos os ocupantes do veículo, independentemente de onde estão sentados.",
+            "O cinto de segurança deve ser utilizado apenas em longas viagens, pois em trajetos curtos não é necessário.",
+            "O cinto de segurança deve ser colocado de forma que a parte diagonal passe pelo pescoço e a parte abdominal fique sobre a barriga.",
+            "O cinto de segurança deve ser ajustado de forma que fique frouxo para maior conforto durante a viagem.",
+            "O cinto de segurança pode ser utilizado de maneira improvisada, como por baixo do braço, se o passageiro estiver desconfortável."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "O que é um ponto cego em um veículo e qual é a melhor forma de lidar com essa condição ao dirigir?",
+        "image": "",
+        "answers": [
+            "É a área ao redor do veículo que pode ser vista através dos espelhos retrovisores; para lidar com isso, o motorista deve confiar apenas nos espelhos.",
+            "É a área onde a visibilidade do motorista é obstruída por estruturas do veículo; a melhor maneira de lidar é sempre sinalizar antes de mudar de faixa.",
+            "É a área que fica atrás do veículo; para evitar problemas, o motorista deve sempre olhar por cima do ombro ao reverter.",
+            "É a área em frente ao veículo; a melhor forma de lidar é aumentar a velocidade para superar rapidamente o ponto cego.",
+            "É uma área ao lado do veículo que não é visível nos espelhos; para lidar com isso, o motorista deve fazer verificações visuais e usar os espelhos antes de mudar de faixa."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "Ao dirigir em diferentes condições de estrada e clima, como o motorista deve ajustar a velocidade para garantir a segurança no trânsito?",
+        "image": "",
+        "answers": [
+            "Manter sempre a velocidade máxima permitida, independentemente das condições da via ou do clima.",
+            "Reduzir a velocidade em situações de pouca visibilidade, chuva intensa ou pistas escorregadias, mesmo que esteja abaixo do limite permitido.",
+            "Aumentar a velocidade em trechos urbanos para evitar congestionamentos e melhorar o fluxo.",
+            "Acelerar em curvas para evitar perder o controle do veículo.",
+            "Manter a velocidade constante, independentemente das condições, desde que o veículo tenha bom desempenho."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Excesso de lotação no veículo, crianças desacompanhadas, garupa da moto inesperiente, são fatores que mostram condição adversa de...v",
+        "image": "",
+        "answers": [
+            "Manter sempre a velocidade máxima permitida, independentemente das condições da via ou do clima.",
+            "Aumentar a velocidade em trechos urbanos para evitar congestionamentos e melhorar o fluxo.",
+            "Reduzir a velocidade em situações de pouca visibilidade, chuva intensa ou pistas escorregadias, mesmo que esteja abaixo do limite permitido.",
+            "Acelerar em curvas para evitar perder o controle do veículo.",
+            "Manter a velocidade constante, independentemente das condições, desde que o veículo tenha bom desempenho.v"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Excesso de lotação no veículo, crianças desacompanhadas, garupa da moto inesperiente, são fatores que mostram condição adversa de...",
+        "image": "",
+        "answers": [
+            "tempo;",
+            "veículo;",
+            "condutor e piloto;",
+            "via",
+            "passageiro."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "Para enfrentar condições adversas como passageiro, você deve...",
+        "image": "",
+        "answers": [
+            "deixar as crianças soltas no carro para não ficar te chamando;",
+            "atender o chamado da criança quando estiver na cadeirinha com o veículo em movimento;",
+            "atender idosos quando solicitarem sem a necessidade de parar o veículo de forma segura;",
+            "não deixar que desviem sua atenção de dirigir;",
+            "Ignorar os avisos sobre o excesso de lotação."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Para realizar curvas com a motocicleta, o piloto deve ter uma inclinação correta para diferentes tipos de curva. Assinale a alternativa correta:",
+        "image": "",
+        "answers": [
+            "curvas em situações normais, corpo mais inclinado que a moto.",
+            "curvas fechadas ou com mudança rápida de direção, corpo menos inclinado que a moto.",
+            "curvas rápidas ou com pista escorregadia, corpo menos inclinado que a moto.",
+            "curvas rápidas ou com pista escorregadia, corpo na mesma inclinação da moto.",
+            "curvas fechadas ou com mudança rápida de direção, corpo mesma inclinação da moto."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Quais os principais fatores que causam aquaplanagem?",
+        "image": "",
+        "answers": [
+            "Pneus com boa profundidade de sulcos e temperatura adequada.",
+            "Trajeto bem sinalizado e condições climáticas favoráveis.",
+            "Água acumulada na pista, velocidade excessiva e pneus desgastados.",
+            "Piso seco e sem irregularidades.",
+            "Ajuste adequado da suspensão do veículo."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Lourenço está conduzindo seu carro em velocidade excessiva com acúmulo de água na pista e pneus desgastados. O carro começa a aquaplanar. Nessa situação, o que se deve fazer?",
+        "image": "",
+        "answers": [
+            "Acelerar para tentar recuperar o controle do carro.",
+            "Virar o volante rapidamente para mudar de direção.",
+            "Frear com força para parar o veículo imediatamente.",
+            "Desacelerar suavemente, tirando o pé do acelerador, evitar movimentos bruscos no volante e não pisar no freio.",
+            "Desligar o motor para evitar danos ao carro."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Adotando uma atitude defensiva ao se deparar com condição adversa do tempo, como um condutor deve agir diante de enchentes?",
+        "image": "",
+        "answers": [
+            "Dirigir rapidamente para atravessar áreas alagadas e reduzir o tempo de exposição.",
+            "Evitar dirigir em áreas alagadas e buscar rotas alternativas.",
+            "Aumentar a velocidade para evitar ficar preso na água.",
+            "Parar no meio da enchente para avaliar a profundidade da água.",
+            "Ignorar os avisos de autoridades e seguir em frente."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Ventos muito fortes podem atingir a moto, provocando perda de estabilidade e descontrole. Qual deve ser a atitude de direção defensiva que o piloto deve adotar ao ver a sinalização vertical de advertência A-44 (vento lateral)? ",
+        "image": "imagens/a-44.jpg",
+        "answers": [
+            "Aumentar a velocidade para atravessar rapidamente a área afetada.",
+            "Ignorar a sinalização, já que é uma advertência comum.",
+            "Desviar o olhar para evitar distrações enquanto atravessa a área.",
+            "Manter uma posição firme e equilibrada, redobrar a atenção e reduza a velocidade.",
+            "Parar imediatamente e aguardar a passagem do vento."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Sobre a viseira do capacete, segundo as normas do CONTRAN, é correto afirmar que:",
+        "image": "",
+        "answers": [
+            "A viseira deve ser transparente e livre de arranhões ou distorções.",
+            "Dias quentes pode deixar a viseira aberta para entrar ar.",
+            "Não há regulamentação específica sobre a viseira do capacete.",
+            "A viseira deve ser removível para facilitar a limpeza.",
+            "A viseira pode ser substituída por óculos de sol."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Qual a distância lateral mínima que deve ser mantida ao passar por ciclistas?",
+        "image": "",
+        "answers": [
+            "0,5 metros.",
+            "1 metros.",
+            "1,5 metros.",
+            "metros.",
+            "Não há uma distância mínima estabelecida."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "O que é primeiro e segundo impacto em um sinistro de trânsito?",
+        "image": "",
+        "answers": [
+            "O primeiro impacto é o início do acidente, e o segundo impacto é a análise das consequências após o sinistro.",
+            "O primeiro impacto ocorre quando o veículo atinge um obstáculo fixo, e o segundo impacto é quando o veículo se desvia para outra direção.",
+            "O primeiro impacto é a primeira batida de um veículo, enquanto o segundo impacto se refere ao momento em que o veículo retorna à sua posição original.",
+            "O primeiro impacto é a velocidade máxima atingida antes da colisão, e o segundo impacto refere-se à desaceleração após a batida.",
+            "O primeiro impacto é a colisão entre veículos, enquanto o segundo impacto refere-se a ferimentos causados pelos passageiros colidindo com partes internas do veículo."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Para que o condutor consiga aplicar as técnicas de direção e pilotagem defensiva, é essencial que conheça os cinco elementos da direção defensiva. Quais são esses elementos?",
+        "image": "",
+        "answers": [
+            "Conhecimento, Habilidade, Atenção, Previsão e Ação.",
+            "Velocidade, frenagem, aceleração, manobras e manutenção do veículo.",
+            "Condução noturna, condução em pista molhada, uso de equipamentos de segurança, planejamento de rotas e habilidades de estacionamento.",
+            "Foco no motorista, estado emocional, temperatura do motor, combustível e direção assistida.",
+            "Uso de dispositivos móveis, entretenimento no veículo, conforto dos passageiros e estética do carro."
         ],
         "correctAnswer": 4
     }
+    
 ]
