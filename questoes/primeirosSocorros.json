@@ -1,111 +1,111 @@
 [
     {
-        "question": "123", 
+        "question": "O que NÃO deve ser feito a uma vítima de sinistro de trânsito?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Sinalizar o local, verificar a pulsação.",
+            "Conversar com a vítima, evitando passar informações chocantes.",
+            "Verificar a respiração, a pulsação e a temperatura.",
+            "Acionar o socorro, passando informações corretas.",
+            "Não movimentar, não dar líquidos e não retirar o capacete."
         ],
-        "correctAnswer": 3
+        "correctAnswer": 4
     },
     {
-        "question": "123", 
+        "question": "Em um sinistro com várias vítimas, qual dos ferimentos é MENOS importante para o socorro?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Ferimentos com sangramento profuso.",
+            "Fraturas expostas.",
+            "Entorses.",
+            "Lesões na cabeça.",
+            "Queimaduras de terceiro grau."
         ],
-        "correctAnswer": 3
+        "correctAnswer": 2
     },
     {
-        "question": "123", 
+        "question": "Ao chamar o socorro para atender a um sinistro, o que é MENOS importante informar?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "O tipo de sinistro: colisão, atropelamento, etc.",
+            "O local do sinistro: rua, rodovia, quilômetro, etc.",
+            "O número da placa dos veículos envolvidos.",
+            "O número aproximado de vítimas envolvidas.",
+            "Se existem vítimas presas nas ferragens."
         ],
-        "correctAnswer": 3
+        "correctAnswer": 2
     },
     {
-        "question": "123", 
+        "question": "Num sinistro de trânsito com vítimas presas nas ferragens, para qual número você deve ligar?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "192 (SAMU).",
+            "193 (Bombeiros).",
+            "191 (PRF).",
+            "190 (PM).",
+            "198 (PRE)."
         ],
-        "correctAnswer": 3
+        "correctAnswer": 1
     },
     {
-        "question": "123", 
+        "question": "O que deve ser feito se houver óleo ou fragmentos deixados pelos veículos acidentados na pista?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Acionar as equipes de emergência e deixar que elas cuidem de toda a limpeza e sinalização.",
+            "Ignorar os fragmentos e o óleo, pois não representam grande risco.",
+            "Sinalizar imediatamente o local e, se possível, remover os fragmentos e jogar terra sobre o óleo.",
+            "Sinalizar o local, mas não remover o óleo ou fragmentos.",
+            "Apenas esperar a chegada das autoridades, sem sinalizar o local."
         ],
-        "correctAnswer": 3
+        "correctAnswer": 2
     },
     {
-        "question": "123", 
+        "question": "Em um acidente (sinistro) com motos, o que você deve fazer ao prestar socorro?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Movimentar a vítima imediatamente para verificar se ela está consciente.",
+            "Sinalizar, chamar socorro e verificar a respiração e pulsação.",
+            "Tentar realizar a reanimação da vítima, mesmo sem treinamento.",
+            "Deixar a vítima onde está e aguardar a chegada das autoridades.",
+            "Retirar o capacete da vítima imediatamente."
         ],
-        "correctAnswer": 3
+        "correctAnswer": 1
     },
     {
-        "question": "123", 
+        "question": "Em sinistros com produtos perigosos, quais as ações corretas a serem tomadas no local?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Não se aproximar do local, não permitir que outros se aproximem e avisar as autoridades.",
+            "Tentar conter o vazamento ou derramamento do produto perigoso.",
+            "Aproximar-se do local para identificar o tipo de produto.",
+            "Ignorar a situação e deixar que as autoridades se responsabilizem.",
+            "Conduzir as vítimas afetadas para longe do local, sem informar os serviços de emergência."
         ],
-        "correctAnswer": 3
+        "correctAnswer": 0
     },
     {
-        "question": "123", 
+        "question": "O que NÃO se deve usar para sinalizar em caso de sinistro?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Tapumes e troncos de árvores.",
+            "Galhos de árvores.",
+            "Triângulo de segurança.",
+            "Pisca-alerta dos veículos.",
+            "Faróis dos veículos para sinistros ocorridos à noite."
         ],
-        "correctAnswer": 3
+        "correctAnswer": 0
     },
     {
-        "question": "123", 
+        "question": "O que fazer em caso de pessoas desmaiadas?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Colocar a pessoa em pé imediatamente para ajudar a circulação.",
+            "Agitar a pessoa ou jogar água fria em seu rosto para reanimá-la.",
+            "Manter a vítima deitada com a cabeça mais baixa que o tronco, erguendo as pernas.",
+            "Dar água ou alimentos à pessoa assim que ela acordar.",
+            "Remover a vítima para um local mais movimentado."
         ],
-        "correctAnswer": 3
+        "correctAnswer": 2
     },
     {
         "question": "123", 
@@ -359,5 +359,5 @@
         ],
         "correctAnswer": 3
     }
-    
+   
 ]

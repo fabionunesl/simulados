@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTB SNT Veículos e Condutores</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilo para destacar as letras das opções de resposta */
+        .answer-label-letter {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #FF6600; /* Cor laranja para destacar as letras */
+            margin-right: 5px;
+        }
+    </style>
+    <script>
+        let questions = [];
+        let currentQuestionIndex = 0;
+        let answers = [];
+
+        // Função para iniciar o cronômetro
+        function startTimer(duration, display) {
+            let timer = duration, minutes, seconds;
+            const interval = setInterval(function () {
+                minutes = parseInt(timer / 60, 10);
+                seconds = parseInt(timer % 60, 10);
+
+                minutes = minutes < 10 ? "0" + minutes : minutes;
+                seconds = seconds < 10 ? "0" + seconds : seconds;
+
+                display.textContent = minutes + ":" + seconds;
+
+                if (--timer < 0) {
+                    clearInterval(interval);
+                    submitAnswer();
+                }
+            }, 1000);
+        }
+
+        // Função para carregar questões de múltiplos arquivos e iniciar o simulado
+    function startSimulado() {
+        const questionFiles = [
+            'questoes/primeirosSocorros.json',
+            
+            ]; // Adicione mais arquivos conforme necessário
+        
+        Promise.all(questionFiles.map(file => fetch(file).then(response => response.json())))
+            .then(dataArrays => {
+                // Combina as questões de todos os arquivos em uma única lista
+                let allQuestions = dataArrays.flat();
+                // Embaralha as questões e seleciona as primeiras 30
+                questions = shuffleArray(allQuestions).slice(0, 30);
+                currentQuestionIndex = 0;
+                answers = [];
+                document.getElementById('result-container').classList.add('hidden');
+                showQuestion();
+                let time = 45 * 60; // 45 minutos
+                let display = document.querySelector('#timer');
+                startTimer(time, display);
+            });
+    }
+        // Função de embaralhamento usando o algoritmo de Fisher-Yates
+        function shuffleArray(array) {
+             for (let i = array.length - 1; i > 0; i--) {
+             const j = Math.floor(Math.random() * (i + 1));
+             [array[i], array[j]] = [array[j], array[i]]; // Troca de posições
+        }
+        return array;
+    }
+
+        window.addEventListener('beforeunload', function (e) {
+            if (questions.length > 0 && currentQuestionIndex < questions.length) {
+                var confirmationMessage = 'Tem certeza de que deseja sair? Suas respostas serão perdidas.';
+                e.returnValue = confirmationMessage;
+                return confirmationMessage;
+            }
+        });
+
+        // Função para exibir a pergunta atual
+        function showQuestion() {
+            if (questions.length === 0) return;
+
+            let question = questions[currentQuestionIndex];
+            document.getElementById('question-number').textContent = `Pergunta ${currentQuestionIndex + 1}`;
+
+            document.getElementById('question-text').textContent = question.question;
+
+            // Adiciona a imagem, se existir
+            let imageElement = document.getElementById('image-element');
+            let imageContainer = document.getElementById('image-container');
+
+            if (question.image) {
+                imageElement.src = question.image;
+                imageContainer.classList.remove('hidden'); // Mostra o contêiner da imagem
+            } else {
+                imageContainer.classList.add('hidden'); // Esconde o contêiner se não houver imagem
+            }
+
+            let answersContainer = document.getElementById('answers-container');
+            answersContainer.innerHTML = '';
+
+            question.answers.forEach((answer, index) => {
+                let label = document.createElement('label');
+                label.classList.add('answer-label');
+                let input = document.createElement('input');
+                input.type = 'radio';
+                input.name = 'answer';
+                input.value = index;
+                if (answers[currentQuestionIndex] === index) {
+                    input.checked = true;
+                }
+
+                let letterSpan = document.createElement('span');
+                letterSpan.classList.add('answer-label-letter');
+                letterSpan.textContent = `${String.fromCharCode(65 + index)}.`;
+
+                label.appendChild(input);
+                label.appendChild(letterSpan);
+                label.appendChild(document.createTextNode(` ${answer}`));
+                answersContainer.appendChild(label);
+            });
+
+            document.getElementById('question-container').classList.remove('hidden');
+            document.getElementById('result-container').classList.add('hidden');
+        }
+
+        // Função para ir para a próxima pergunta
+        function nextQuestion() {
+            let selectedOption = document.querySelector('input[name="answer"]:checked');
+            if (selectedOption) {
+                answers[currentQuestionIndex] = parseInt(selectedOption.value);
+                currentQuestionIndex++;
+                if (currentQuestionIndex >= questions.length) {
+                    showResult();
+                } else {
+                    showQuestion();
+                    window.scrollTo(0, 0); // Rola a página para o topo
+                }
+            } else {
+                alert('Por favor, selecione uma resposta.');
+            }
+        }
+
+        // Função para voltar à pergunta anterior
+        function previousQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                showQuestion();
+            } else {
+                alert('Você já está na primeira pergunta.');
+            }
+        }
+
+        // Função para mostrar o resultado
+        function showResult() {
+            document.getElementById('question-container').classList.add('hidden');
+
+            let correctAnswers = 0;
+            questions.forEach((question, index) => {
+                if (answers[index] === question.correctAnswer) {
+                    correctAnswers++;
+                }
+            });
+
+            let totalQuestions = questions.length;
+            let percentage = (correctAnswers / totalQuestions) * 100;
+            let resultText = '';
+            if (percentage >= 70) {
+                resultText = 'Aprovado! 🎉';
+                document.getElementById('result-text').classList.add('approved');
+            } else {
+                resultText = 'Reprovado! 😢';
+                document.getElementById('result-text').classList.add('rejected');
+            }
+
+            document.getElementById('result-text').textContent = `${resultText} Você acertou ${correctAnswers} de ${totalQuestions} perguntas (${percentage.toFixed(2)}% de acerto).`;
+
+            let resultsDetails = document.getElementById('results-details');
+            resultsDetails.innerHTML = `<h3>Detalhes:</h3>`;
+
+            questions.forEach((question, index) => {
+                let userAnswerIndex = answers[index];
+                let userAnswerText = userAnswerIndex !== undefined ? question.answers[userAnswerIndex] : 'Nenhuma';
+                let correctAnswerIndex = question.correctAnswer;
+                let correctAnswerText = question.answers[correctAnswerIndex];
+
+                let userAnswerClass = userAnswerIndex === correctAnswerIndex ? 'correct-answer' : 'incorrect-answer';
+
+                resultsDetails.innerHTML += `
+                    <p>
+                        <strong>Pergunta ${index + 1}:</strong> ${question.question}<br>
+                        <strong>Resposta Marcada:</strong> <span class="${userAnswerClass}">${userAnswerText}</span><br>
+                        <strong>Resposta Correta:</strong> <span class="correct-answer">${correctAnswerText}</span>
+                    </p>
+                `;
+            });
+
+            document.getElementById('result-container').classList.remove('hidden');
+        }
+
+        // Função para reiniciar o simulado
+        function restartSimulado() {
+            window.location.href = 'user-dashboard.html'; // Redireciona para a página inicial
+        }
+
+        // Função para mostrar resultados parciais, apenas as questões respondidas
+function showPartialResult() {
+    document.getElementById('question-container').classList.add('hidden');
+
+    let correctAnswers = 0;
+    let totalRespondidas = 0;
+    let resultsDetails = document.getElementById('results-details');
+    resultsDetails.innerHTML = `<h3>Detalhes:</h3>`;
+
+    questions.forEach((question, index) => {
+        let userAnswerIndex = answers[index];
+        if (userAnswerIndex !== undefined) { // Só exibe questões que foram respondidas
+            totalRespondidas++;
+            let userAnswerText = question.answers[userAnswerIndex];
+            let correctAnswerIndex = question.correctAnswer;
+            let correctAnswerText = question.answers[correctAnswerIndex];
+
+            let userAnswerClass = userAnswerIndex === correctAnswerIndex ? 'correct-answer' : 'incorrect-answer';
+            if (userAnswerIndex === correctAnswerIndex) {
+                correctAnswers++;
+            }
+
+            resultsDetails.innerHTML += `
+                <p>
+                    <strong>Pergunta ${index + 1}:</strong> ${question.question}<br>
+                    <strong>Resposta Marcada:</strong> <span class="${userAnswerClass}">${userAnswerText}</span><br>
+                    <strong>Resposta Correta:</strong> <span class="correct-answer">${correctAnswerText}</span>
+                </p>
+            `;
+        }
+    });
+
+    let percentage = (correctAnswers / totalRespondidas) * 100;
+    let resultText = '';
+    if (percentage >= 70) {
+        resultText = 'Aprovado! 🎉';
+        document.getElementById('result-text').classList.add('approved');
+    } else {
+        resultText = 'Reprovado! 😢';
+        document.getElementById('result-text').classList.add('rejected');
+    }
+
+    document.getElementById('result-text').textContent = `${resultText} Você acertou ${correctAnswers} de ${totalRespondidas} perguntas (${percentage.toFixed(2)}% de acerto).`;
+    document.getElementById('result-container').classList.remove('hidden');
+}
+
+// Função para cancelar o simulado e mostrar resultados parciais
+function cancelSimulado() {
+    if (confirm('Você tem certeza que deseja cancelar o simulado?')) {
+        showPartialResult(); // Mostra apenas as questões que foram respondidas
+        
+    }
+}
+
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+            startSimulado();
+
+            // Função para ouvir a tecla Enter e acionar a próxima pergunta
+            document.addEventListener('keydown', function(event) {
+                if (event.key === 'Enter') {
+                    event.preventDefault();
+                    nextQuestion(); 
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h2 id="question-number"></h2> <!-- Novo elemento para mostrar o número da pergunta -->
+        <div id="timer-container">            
+            Tempo restante: <span id="timer"></span>
+        </div>
+        <div id="question-container" class="hidden">
+            
+            <h1 id="question-text"></h1>
+            <div id="image-container" class="hidden">
+                <img src="" alt="Imagem da pergunta" class="question-image" id="image-element">
+            </div>
+            <form id="question-form">
+                <div id="answers-container" class="answers"></div>
+                <button type="button" id="previous-button" class="button" onclick="previousQuestion()">Voltar</button>
+                <button type="button" id="next-button" class="button" onclick="nextQuestion()">Próxima Pergunta</button>
+                <button type="button" id="cancel-button" class="button" onclick="cancelSimulado()">Cancelar</button>
+            </form>
+            <h1><br></h1> 
+        </div>
+        
+        <div id="result-container" class="hidden">
+            <h2 id="result-text"></h2>
+            <div id="results-details"></div>
+            <button id="restart-button" class="button" onclick="restartSimulado()">Escolher Prova</button>
+            <h1><br></h1>
+             
+        </div>
+    </div>
+</body>
+</html>

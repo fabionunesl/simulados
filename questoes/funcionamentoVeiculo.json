@@ -1,14 +1,362 @@
 [
     {
-        "question": "Funcionamento do veículo em construção...",
+        "question": "Fazer manutenção preventiva do veículo significa ", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Deixar estragar o veículo para depois consertar;",
+            "Manter o veículo sempre limpo.",
+            "Sempre tocar as peças mesmo em boas condições.",
+            "Fazer revisão periódica para conservar o veículo em bom estado de funcionamento.",
+            "Levar todos os meses em um mecânico de confiança"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "O que é importante verificar antes de colocar o veículo para transitar na via, pensando já segunda do trânsito?",
+        "image": "",
+        "answers": [
+            "Se o ar-condicionado está em perfeito estado. ",
+            "Se o veículo está limpo. ",
+            "Se o alarme e corta corrente estão em perfeitas condições ",
+            "Se há vazamentos de óleo ou água",
+            "Se o desembaçador traseiro funciona"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Existem três tipos de equipamentos nos veículos, os obrigatórios, os acessórios e os proibidos. Os obrigatórios servem para ",
+        "image": "",
+        "answers": [
+            "Confortos dos ocupantes.",
+            "Deixar o veículo mais bonito e chamativo.",
+            "Aumentar o valor de mercado.",
+            "Ter características próprias em relação aos demais veículos da via.",
+            "A segurança dos ocupantes"
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "Quais dos equipamentos a seguir são obrigatórios no veículo?",
+        "image": "",
+        "answers": [
+            "Cinto de segurança, triângulo de sinalização.",
+            "Faróis de neblina, câmera de ré.",
+            "Rodas de liga leve, chave reserva, película escura.",
+            "DVD player, kit de primeiros socorros, faróis de xenon.",
+            "Alto-falantes, adesivo refletivo, câmbio automático."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Ao chegar em uma concessionária, o vendedor te oferece um veículo com motor flex. Isso quer dizer que...",
+        "image": "",
+        "answers": [
+            "O veículo possui tração nas quatro rodas.",
+            "O veículo é mais resistente a impactos.",
+            "O veículo é equipado com um motor elétrico.",
+            "O veículo pode ser abastecido com gasolina e etanol.",
+            "O veículo possui um sistema de suspensão adaptável."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Qual órgão regulamenta a existência dos equipamentos obrigatórios de um veículo?",
+        "image": "",
+        "answers": [
+            "DETRAN (Departamento Estadual de Trânsito)",
+            "CONTRAN (Conselho Nacional de Trânsito)",
+            "DENATRAN (Departamento Nacional de Trânsito)",
+            "Polícia Rodoviária Federal",
+            "Ministério dos Transportes"
         ],
         "correctAnswer": 1
+    },
+    {
+        "question": "Para assegurar-se do bom funcionamento do veículo, o proprietário e condutor devem:",
+        "image": "",
+        "answers": [
+            "Apenas fazer revisões periódicas e abastecer com combustível adequado.",
+            "Levar o veículo à revisão apenas quando apresentar problemas ou ruídos anormais.",
+            "Verificar semanalmente o nível de combustível e checar apenas os equipamentos obrigatórios antes de viagens longas.",
+            "Ler o manual de instruções, fazer revisões periódicas, certificar-se do bom funcionamento dos equipamentos obrigatórios e do combustível suficiente.",
+            "Confiar no controle automático do veículo para monitorar o desempenho, sem a necessidade de revisões frequentes."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Assinale a alternativa que consta de forma correta alguns dos itens obrigatórios de um veículo de 4 rodas ou mais: ",
+        "image": "",
+        "answers": [
+            "Extintor de incêndio, velocímetro e cinto de segurança apenas para o motorista.",
+            "Retrovisores externos, buzina e câmeras de ré obrigatórias.",
+            "Triângulo de segurança, GPS integrado e faróis de LED.",
+            "Freios ABS, ar-condicionado e antena de rádio.",
+            "Pala interna, limpador de para-brisa, lavador de para-brisa."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "O veículo é uma máquina complexa que funciona através de sistemas. Assinale alguns desses principais sistemas:",
+        "image": "",
+        "answers": [
+            "Motor, sistema elétrico, lubrificação.",
+            "Direção hidráulica, sistema de som, rodas.",
+            "Suspensão, ar-condicionado, travamento central.",
+            "GPS integrado, vidros elétricos, sistema de navegação.",
+            "Freios ABS, assentos aquecidos, sensor de estacionamento."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "A bateria, nos automóveis movidos a combustão, além de outras coisas é responsável por acionar o motor de partida que coloca o motor a combustão em funcionamento. É correto afirmar que, para mantê-la em bom estado, você deve:",
+        "image": "",
+        "answers": [
+            "Abastecer o carro com combustível de alta qualidade e manter o radiador cheio.",
+            "Ligar o ar-condicionado e o sistema de som quando o veículo estiver desligado.",
+            "Manter os faróis e outros acessórios elétricos ligados quando o veículo não estiver em movimento.",
+            "Desligar as luzes ou equipamentos quando o veículo não estiver funcionando, evitar fazer o veículo pegar no tranco.",
+            "Verificar o nível do óleo do motor com frequência e trocar o filtro de ar regularmente."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Uma vez dentro de um automóvel, o sistema de sinalização é o meio pelo qual será sua comunicação com os demais integrantes do trânsito. Dessa forma, você deve certificar-se de que:",
+        "image": "",
+        "answers": [
+            "Somente as luzes de freio estejam funcionando corretamente, pois são as mais importantes.",
+            "As luzes de ré sejam substituídas a cada 6 meses, independente de estarem queimadas ou não.",
+            "Os faróis estejam sempre na posição alta, para garantir visibilidade máxima.",
+            "Todas as luzes do veículo estejam funcionando e substitua imediatamente as queimadas.",
+            "O sistema de som esteja ligado para alertar os pedestres da sua presença."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "O sistema de lubrificação tem por objetivo diminuir o atrito das peças móveis do motor e do câmbio. É fundamental para o bom funcionamento do veículo fazer:",
+        "image": "",
+        "answers": [
+            "Trocar o óleo do motor somente quando perceber ruídos estranhos.",
+            "Utilizar qualquer tipo de óleo lubrificante, sem se preocupar com as especificações.",
+            "Verificar o nível do óleo apenas antes de viagens longas.",
+            "Completar o nível de óleo apenas quando o motor estiver quente.",
+            "Efetuar a troca periódica conforme o recomendado pelo fabricante e cuidar de vazamentos."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "O sistema de refrigeração tem a finalidade de resfriar o motor e mantê-lo na sua temperatura de trabalho, evitando superaquecimento. É correto afirmar que alguns dos cuidados são:",
+        "image": "",
+        "answers": [
+            "Verificar o nível de água somente antes de viagens longas.",
+            "Usar água da torneira no radiador para evitar custos adicionais.",
+            "Completar o nível de água apenas quando o motor estiver quente.",
+            "Trocar o líquido de arrefecimento somente quando houver um problema de superaquecimento.",
+            "Verificar semanalmente o nível de água, trocar anualmente o líquido por completo ou a cada 30.000 km."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "Conduzindo em uma via, você percebe que a temperatura do motor começa a subir e lembra que faz tempo que não olha o nível da água no radiador. Então para em um posto de gasolina para verificar o nível. O que NÂO pode fazer?",
+        "image": "",
+        "answers": [
+            "Completar o nível de água com o motor desligado e frio.",
+            "Utilizar água potável para completar o radiador.",
+            "Abrir a tampa do radiador com o motor quente.",
+            "Colocar refrigerante no radiador em vez de água.",
+            "Verificar o nível de água após ter ligado o motor e antes de parar o veículo."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Qual a função dos filtros de ar e combustível?",
+        "image": "",
+        "answers": [
+            "Aumentar a pressão do combustível no sistema de injeção.",
+            "Melhorar a eficiência do sistema de ignição.",
+            "Reter as impurezas.",
+            "Aumentar a temperatura do ar que entra no motor.",
+            "Impedir a passagem de óleo para o sistema de arrefecimento."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "É correto afirmar que:",
+        "image": "",
+        "answers": [
+            "O filtro do óleo deve ser trocado apenas uma vez por ano, independentemente da troca de óleo.",
+            "O filtro do óleo não precisa ser trocado se o veículo estiver com baixo quilometragem.",
+            "O filtro do óleo deve ser trocado por ocasião da troca de óleo do motor.",
+            "O filtro do óleo é opcional e pode ser ignorado se o óleo estiver limpo.",
+            "O filtro do óleo deve ser trocado somente quando houver sinais de contaminação."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Em relação à bateria, é incorreto afirmar que:",
+        "image": "imagens/funcionamentoVeiculo/ledBateria.jpg",
+        "answers": [
+            "A bateria deve ser verificada regularmente para garantir seu bom funcionamento.",
+            "O desgaste da bateria é normal após alguns anos de uso.",
+            "Quando a luz da bateria aparecer no painel, significa que ela está sendo carregada normalmente.",
+            "A bateria pode descarregar se o veículo ficar parado por muito tempo.",
+            "A manutenção da bateria é importante para evitar problemas de partida."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Uma das luzes consideradas mais perigosas do painel, a luz do óleo aparece na cor vermelha e serve para mostrar ao motorista que há uma pane no sistema de lubrificação do motor. Nesse cenário, o que fazer?",
+        "image": "imagens/funcionamentoVeiculo/ledOleo.jpg",
+        "answers": [
+            "Ignorar a luz e continuar dirigindo, pois ela pode apagar sozinha.",
+            "Aumentar a velocidade para tentar forçar o óleo a circular.",
+            "O ideal é parar o veículo de forma imediata, pois sem ser lubrificado, o motor acaba sendo severamente danificado.",
+            "Verificar o nível de combustível, pois pode estar baixo.",
+            "Continuar dirigindo até chegar a um mecânico, mesmo que demore."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Ao perceber que um LED no painel de cor vermelha com a letra P está ligado, o recomendado é que você:",
+        "image": "imagens/funcionamentoVeiculo/ledFreioAbs.jpg",
+        "answers": [
+            "Continue dirigindo normalmente, pois é apenas um alerta temporário.",
+            "Verifique o sistema de freio ou se baixou a alavanca do freio de mão por completo.",
+            "Aumente a velocidade para tentar apagar a luz.",
+            "Desconecte a bateria do veículo para reiniciar o sistema.",
+            "Consulte o manual do proprietário apenas quando tiver tempo."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Um dos mais importantes LEDs do painel a reconhecer é o da injeção eletrônica, que costuma aparecer nas cores amarela ou laranja. Se, após dar partida no carro, essa luz permanecer acesa, é um sinal:",
+        "image": "imagens/funcionamentoVeiculo/ledInjecao.jpg",
+        "answers": [
+            "De que há algum defeito no motor ou em outros componentes, como catalisador, velas, bicos injetores, e mais.",
+            "De que o motor está funcionando perfeitamente e não há necessidade de verificação.",
+            "De que o combustível utilizado está muito sujo e precisa ser trocado.",
+            "De que a bateria está com carga baixa e precisa ser recarregada.",
+            "De que o veículo está em modo econômico e funciona de forma mais lenta."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "A calibragem dos pneus é o ajuste de ar dentro deles. É correto afirmar que:",
+        "image": "",
+        "answers": [
+            "Deve ser feito conforme o recomendado pelo fabricante.",
+            "Pode ser feito uma vez por ano, independentemente das condições de uso.",
+            "Não é necessário verificar a calibragem se os pneus parecem estar cheios.",
+            "Deve ser feita apenas quando se nota um desgaste irregular nos pneus.",
+            "Pode ser ignorada em veículos que utilizam pneus de perfil baixo."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "O balanceamento é o procedimento que distribui o peso de forma igual por toda a circunferência do pneu, evitando vibrações e aumentando a vida útil do pneu. Ele deve ser feito:",
+        "image": "",
+        "answers": [
+            "Apenas uma vez por ano, independentemente das condições dos pneus.",
+            "Sempre em ocasião da troca do pneu, quando há vibração na direção, após forte impacto com buraco ou obstáculo, ou quando recomendado pelo fabricante.",
+            "Somente se o carro for utilizado em estradas de terra.",
+            "Apenas quando se nota desgaste irregular nos pneus.",
+            "A cada 10.000 km, independentemente das condições de uso."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Quando devem ser substituídos os pneus?",
+        "image": "",
+        "answers": [
+            "Quando os sulcos atingirem 1,6 mm de altura ou quando atingir a marca TWI.",
+            "Somente quando houver danos visíveis, como cortes ou bolhas.",
+            "A cada 50.000 km, independentemente da condição dos pneus.",
+            "Apenas se houver um desgaste irregular ou anormal.",
+            "Quando a pressão dos pneus estiver abaixo do recomendado."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Quais das situações abaixo reduz a potência do motor?",
+        "image": "",
+        "answers": [
+            "Manter o nível de óleo do motor sempre adequado.",
+            "Utilizar combustível de alta qualidade.",
+            "Realizar manutenção regular no sistema de injeção.",
+            "Transitar com o filtro de ar sujo.",
+            "Acelerar suavemente durante a condução."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Sobre colocar o pé na embreagem, é correto afirmar que você:",
+        "image": "",
+        "answers": [
+            "Deve mantê-la pressionada durante toda a condução.",
+            "Pode acioná-la a qualquer momento, mesmo em velocidade alta.",
+            "Deve pressioná-la apenas quando estiver em uma subida.",
+            "Somente deve acioná-la quando for arrancar, trocar de marcha e parar.",
+            "Pode acioná-la para acelerar o veículo."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Alinhamento e geometria são processos que consistem em ajustar os ângulos das rodas do veículo para que fiquem retas em relação ao solo e paralelas entre si. Deve ser realizado:",
+        "image": "imagens/funcionamentoVeiculo/cambagem.jpg",
+        "answers": [
+            "A cada 10.000 km, independentemente das condições dos pneus.",
+            "Somente quando os pneus estiverem completamente desgastados.",
+            "Apenas se houver um acidente que afete a suspensão.",
+            "A cada 5.000 km, quando houver troca dos pneus, desgaste na banda de rodagem, desvio da trajetória, trepidação ou recomendação do fabricante.",
+            "Quando notar que a direção do veículo está leve."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Um dos principais componentes da transmissão em uma motocicleta é a corrente. Quais devem ser os cuidados com ela?",
+        "image": "",
+        "answers": [
+            "Apenas lubrificar a corrente a cada 1.000 km.",
+            "Substituir a corrente somente quando ela quebrar.",
+            "Não é necessário verificar a corrente regularmente, apenas quando houver barulho.",
+            "Verificar diariamente, manter limpa e lubrificada, ajustar a folga e trocar a relação quando desgastada.",
+            "Usar qualquer tipo de óleo para lubrificação, sem se preocupar com as recomendações do fabricante."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "O que significa o LED da imagem?",
+        "image": "imagens/funcionamentoVeiculo/ledTermometro.jpg",
+        "answers": [
+            "O motor está funcionando normalmente.",
+            "O nível de combustível está baixo.",
+            "A temperatura do motor está além do limite.",
+            "A bateria está descarregando.",
+            "O sistema de freios está com problemas."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Qual a finalidade do sistema de suspensão?",
+        "image": "",
+        "answers": [
+            "Aumentar a velocidade máxima do veículo.",
+            "Melhorar a eficiência do motor.",
+            "Proteger a carroceria e os ocupantes do veículo das oscilações provenientes das irregularidades do pavimento e dar estabilidade ao veículo.",
+            "Reduzir o consumo de combustível.",
+            "Ajustar automaticamente a pressão dos pneus."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "São equipamentos obrigatórios em uma motocicleta, exceto:",
+        "image": "",
+        "answers": [
+            "Farol de baixa e alta intensidade.",
+            "Retrovisores.",
+            "Campainha ou buzina.",
+            "Sistema de som.",
+            "Freios eficazes."
+        ],
+        "correctAnswer": 3
     }
 ]
