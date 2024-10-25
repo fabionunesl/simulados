@@ -1,255 +1,255 @@
 [
     {
-        "question": "123", 
+        "question": "O impacto do trânsito no meio ambiente é um dos maiores desafios das grandes cidades. Uma das maneiras mais eficazes de reduzir as emissões de gases poluentes e melhorar a qualidade do ar é por meio de mudanças nos hábitos de transporte. Qual das alternativas abaixo é a mais indicada para contribuir com a redução de impactos ambientais causados pelo trânsito?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Aumentar o uso de carros movidos a combustíveis fósseis, como gasolina e diesel.",
+            "Incentivar o uso de transportes coletivos, como ônibus e trens, além de opções como caronas solidárias.",
+            "Construir mais avenidas e rodovias para facilitar o tráfego de veículos.",
+            "Incentivar o uso de veículos de grande porte para o transporte individual.",
+            "Reduzir o número de ciclovias e incentivar o uso de carros particulares."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Os meios de transporte são responsáveis por uma grande parte da poluição nos centros urbanos. Entre os diferentes tipos de poluentes emitidos no trânsito, qual das opções abaixo não representa uma forma comum de poluição relacionada ao tráfego de veículos?", 
+        "image": "",
+        "answers": [
+            "Emissão de gases poluentes, como dióxido de carbono (CO₂) e monóxido de carbono (CO).",
+            "Poluição sonora causada por motores e buzinas.",
+            "Lançamento de resíduos sólidos diretamente na atmosfera.",
+            "Emissão de partículas finas, como poeira e fuligem, por motores a combustão.",
+            "Consumo de combustíveis fósseis, como gasolina e diesel, que gera poluição atmosférica."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "O Conselho Nacional do Meio Ambiente (CONAMA) estabelece normas para controlar a poluição causada por veículos automotores no Brasil. Qual das alternativas abaixo descreve corretamente uma das regulamentações do CONAMA para reduzir a poluição veicular?", 
+        "image": "",
+        "answers": [
+            "A obrigatoriedade de instalação de painéis solares em veículos para reduzir o consumo de combustíveis fósseis.",
+            "A imposição de limites máximos para a emissão de gases poluentes, como monóxido de carbono (CO) e óxidos de nitrogênio (NOx), por veículos automotores.",
+            "A proibição do uso de qualquer tipo de combustível fóssil em veículos a partir de 2025.",
+            "A exigência de que todos os veículos sejam movidos exclusivamente por eletricidade até 2030.",
+            "A liberação de veículos automotores a diesel sem qualquer controle de emissão de poluentes."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "A emissão de gases e partículas no ambiente, resultante do trânsito intenso nas grandes cidades, pode causar diversos impactos ambientais e à saúde. Qual das alternativas abaixo não é um resultado comum desse tipo de poluição?", 
+        "image": "",
+        "answers": [
+            "Aumento das doenças respiratórias na população exposta.",
+            "Formação de ilhas de calor nas regiões urbanas.",
+            "Redução da camada de ozônio diretamente sobre as áreas de trânsito.",
+            "Agravamento do efeito estufa, devido à emissão de gases como o dióxido de carbono (CO₂).",
+            "Diminuição da visibilidade nas ruas e estradas por causa do acúmulo de poluentes no ar."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "O Programa de Controle da Poluição do Ar por Veículos Automotores (PROCONVE) foi criado no Brasil com o objetivo de reduzir a poluição gerada pelos veículos. Qual das alternativas abaixo descreve um benefício não associado ao PROCONVE?", 
+        "image": "",
+        "answers": [
+            "Redução significativa da emissão de poluentes atmosféricos, como monóxido de carbono (CO) e dióxidos de nitrogênio (NOx).",
+            "Melhoria da qualidade do ar nos grandes centros urbanos.",
+            "Incentivo à adoção de tecnologias mais limpas e eficientes nos veículos automotores.",
+            "Redução imediata dos congestionamentos e aumento da fluidez no trânsito das cidades.",
+            "Diminuição da ocorrência de doenças respiratórias em decorrência da menor poluição atmosférica."
         ],
         "correctAnswer": 3
     },
     {
-        "question": "123", 
+        "question": "Nos últimos anos, diversas alternativas menos poluentes têm sido adotadas para reduzir os impactos ambientais no trânsito. Qual das opções abaixo não é considerada uma alternativa sustentável para diminuir a poluição no trânsito?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Uso de veículos elétricos, que não emitem gases poluentes durante o funcionamento.",
+            "Incentivo ao uso de bicicletas e meios de transporte não motorizados.",
+            "Adoção de sistemas de transporte público movidos a combustíveis fósseis, como diesel.",
+            "Implementação de políticas de carona solidária para reduzir o número de veículos nas ruas.",
+            "Utilização de biocombustíveis, como etanol, em substituição aos combustíveis fósseis."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "A poluição sonora no trânsito é um problema comum nas grandes cidades, causado por diversos fatores que afetam a saúde e o bem-estar das pessoas. Qual das alternativas abaixo não está diretamente relacionada à poluição sonora no trânsito?", 
+        "image": "",
+        "answers": [
+            "Barulho de buzinas, motores e sirenes.",
+            "Emissão de ruídos por veículos pesados, como caminhões e ônibus.",
+            "Sons produzidos por obras em vias públicas próximas ao trânsito.",
+            "Vibrações geradas pelo tráfego intenso de veículos.",
+            "Emissão de gases poluentes por veículos automotores."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "A exposição contínua à poluição sonora pode trazer diversos riscos para a saúde. Qual das alternativas abaixo não é um risco comum associado à poluição sonora?", 
+        "image": "",
+        "answers": [
+            "Perda auditiva temporária ou permanente.",
+            "Aumento dos níveis de estresse e ansiedade.",
+            "Desenvolvimento de problemas cardiovasculares, como hipertensão.",
+            "Dificuldade de concentração e redução do rendimento cognitivo.",
+            "Aumento direto da incidência de doenças respiratórias crônicas."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "O Programa de Mobilidade Urbana (PROMOT) foi criado para promover a mobilidade sustentável e melhorar a infraestrutura de transporte nas cidades brasileiras. Qual das alternativas abaixo melhor descreve um objetivo do PROMOT relacionado ao trânsito?", 
+        "image": "",
+        "answers": [
+            "Aumentar a quantidade de veículos particulares nas ruas para reduzir a poluição.",
+            "Promover o uso exclusivo de veículos elétricos em todas as vias urbanas.",
+            "Reduzir a emissão de gases poluentes por veículos novos de duas ou três rodas, estabelecendo limites para a emissão de gases.",
+            "Proibir a circulação de bicicletas e patinetes em áreas urbanas.",
+            "Reduzir a quantidade de faixas de pedestres para aumentar a fluidez do tráfego."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Os limites máximos de ruído para motocicletas são estabelecidos para minimizar o impacto da poluição sonora nas áreas urbanas. Qual das alternativas abaixo não representa um aspecto relacionado aos limites máximos de ruído para motocicletas?", 
+        "image": "",
+        "answers": [
+            "A definição de um nível máximo de decibéis permitido para motocicletas em operação.",
+            "A exigência de que todas as motocicletas sejam equipadas com dispositivos de controle de ruído.",
+            "A aplicação de multas para motocicletas que excedem os limites de ruído estabelecidos.",
+            "O incentivo ao uso de motocicletas equipadas com escapamentos modificados para aumentar o ruído.",
+            "O monitoramento do nível de ruído em áreas urbanas para garantir a conformidade com os padrões estabelecidos."
         ],
         "correctAnswer": 3
     },
     {
-        "question": "123", 
+        "question": "Qual das seguintes opções representa uma das principais medidas para reduzir a emissão de gases poluentes e partículas no trânsito urbano?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Incentivar o uso de combustíveis fósseis, como gasolina e diesel.",
+            "Aumentar a quantidade de veículos a diesel nas ruas.",
+            "Estimular o transporte público e o uso de veículos elétricos.",
+            "Eliminar ciclovias para ampliar a capacidade das vias para carros.",
+            "Desestimular o uso de transportes alternativos, como bicicletas e caronas."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Entre os seguintes tipos de veículos, qual é considerado o maior responsável pela emissão de gases poluentes no trânsito urbano?", 
+        "image": "",
+        "answers": [
+            "Carros elétricos.",
+            "Ônibus movidos a eletricidade.",
+            "Veículos a diesel, como caminhões e ônibus.",
+            "Bicicletas.",
+            "Motos elétricas."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Qual dos seguintes problemas de saúde está mais associado à exposição prolongada à poluição do ar?", 
+        "image": "",
+        "answers": [
+            "Alergias alimentares.",
+            "Problemas respiratórios, como asma e bronquite.",
+            "Infecções de pele.",
+            "Perda de visão temporária.",
+            "Cáries dentárias."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Qual é a principal função do escapamento de uma motocicleta em relação à poluição?", 
+        "image": "",
+        "answers": [
+            "Aumentar a potência do motor.",
+            "Reduzir o consumo de combustível.",
+            "Diminuir a emissão de gases poluentes e ruídos.",
+            "Impedir a entrada de poeira no motor.",
+            "Melhorar a estabilidade da motocicleta em alta velocidade."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Qual das seguintes afirmações é verdadeira sobre o uso de escapamento com descarga aberta em motocicletas?", 
+        "image": "",
+        "answers": [
+            "Reduz significativamente a emissão de gases poluentes.",
+            "É permitido em áreas urbanas para aumentar a segurança no trânsito.",
+            "Aumenta o nível de ruído e pode resultar em multas por violar leis de trânsito.",
+            "Melhora o desempenho do motor sem causar impacto no meio ambiente.",
+            "Reduz a emissão de ruídos e melhora a eficiência de combustível."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Qual dos seguintes veículos de duas rodas é considerado o menos poluente em termos de emissões de gases?", 
+        "image": "",
+        "answers": [
+            "Motocicleta a gasolina de baixa cilindrada.",
+            "Motocicleta elétrica.",
+            "Scooter a gasolina.",
+            "Motocicleta a diesel.",
+            "Motocicleta esportiva de alta cilindrada."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Qual das seguintes práticas de manutenção preventiva é essencial para aumentar a vida útil do motor e reduzir o consumo de combustível?", 
+        "image": "",
+        "answers": [
+            "Trocar os pneus a cada 6 meses, independentemente do desgaste.",
+            "Usar combustível de baixa qualidade para economizar dinheiro.",
+            "Realizar trocas regulares de óleo e filtro de ar conforme as recomendações do fabricante.",
+            "Lavar o carro frequentemente para evitar corrosão.",
+            "Dirigir em alta velocidade para manter o motor em alta rotação."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Qual das seguintes práticas de manutenção preventiva é essencial para aumentar a vida útil do motor e reduzir o consumo de combustível?", 
+        "image": "",
+        "answers": [
+            "Trocar os pneus a cada 6 meses, independentemente do desgaste.",
+            "Usar combustível de baixa qualidade para economizar dinheiro.",
+            "Realizar trocas regulares de óleo e filtro de ar conforme as recomendações do fabricante.",
+            "Lavar o carro frequentemente para evitar corrosão.",
+            "Dirigir em alta velocidade para manter o motor em alta rotação."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Luis Cesar deixa seu automóvel em casa e decide ir trabalhar usando transporte coletivo. Agindo assim, ele está:", 
+        "image": "",
+        "answers": [
+            "Deixando de aproveitar o conforto do seu automóvel.",
+            "Tendo que acordar mais cedo para ir à parada de ônibus.",
+            "Tirando lugar no transporte de quem não tem veículo.",
+            "Contribuindo para diminuir o congestionamento de trânsito e a poluição.",
+            "Lotando as paradas de ônibus."
         ],
         "correctAnswer": 3
     },
     {
-        "question": "123", 
+        "question": "Qual das seguintes atitudes é fundamental para garantir uma convivência harmoniosa no trânsito entre motoristas, motociclistas, ciclistas e pedestres?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Priorizar sempre o veículo maior nas vias.",
+            "Ignorar as faixas de pedestres se o trânsito estiver lento.",
+            "Ultrapassar ciclistas sem deixar espaço lateral de segurança.",
+            "Usar a buzina constantemente para apressar outros condutores.",
+            "Respeitar a sinalização e dar preferência ao pedestre nas faixas exclusivas."
         ],
-        "correctAnswer": 3
+        "correctAnswer": 4
     },
     {
-        "question": "123", 
+        "question": "Qual das seguintes atitudes caracteriza um condutor consciente e responsável no trânsito?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Respeitar os limites de velocidade e manter distância segura dos outros veículos.",
+            "Ultrapassar veículos em alta velocidade em qualquer situação.",
+            "Usar o celular enquanto dirige, desde que o trânsito esteja lento.",
+            "Buzinar repetidamente para abrir caminho em congestionamentos.",
+            "Estacionar em vagas destinadas a idosos ou pessoas com deficiência quando não houver outras vagas disponíveis."
         ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
+        "correctAnswer": 0
     },
     {
         "question": "123", 

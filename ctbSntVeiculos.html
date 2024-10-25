@@ -185,9 +185,15 @@
         }
 
         // Função para reiniciar o simulado
-        function restartSimulado() {
-            window.location.href = 'user-dashboard.html'; // Redireciona para a página inicial
-        }
+function restartSimulado() {
+    if (window.userData) {
+        // Redireciona para a página user-dashboard.html com os dados do usuário
+        window.location.href = `user-dashboard.html?name=${encodeURIComponent(window.userData.name)}&logoImage=${encodeURIComponent(window.userData.logoImage)}`;
+    } else {
+        // Se não houver dados do usuário, redireciona sem parâmetros
+        window.location.href = 'user-dashboard.html';
+    }
+}
 
         // Função para mostrar resultados parciais, apenas as questões respondidas
 function showPartialResult() {
