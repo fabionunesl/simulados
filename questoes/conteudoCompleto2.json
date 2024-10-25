@@ -1,361 +1,361 @@
 [
     {
-        "question": "123", 
+        "question": "A renovação do exame de sanidade física e mental obedecerá os seguintes prazos:", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "de 05 em 05 anos até completar 65 anos;       ",
+            "de 03 em 03 anos após completar 65 anos;",
+            "de 10 em 10 anos até os 49 anos;",
+            "de 07 em 07 anos até os 49 anos;",
+            "todas as alternativas estão incorretas;"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Penalidade aplicada ao candidato encontrado dirigindo sem a companhia do instrutor:", 
+        "image": "",
+        "answers": [
+            "suspensa da LADV por 06 meses",
+            "suspensão do direito de dirigir",
+            "cassação da LADV por 06 meses;",
+            "apreensão da LADV por 06 meses;",
+            "reinicio de todo processo de habilitação."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Qual concentração de álcool no sangue é permitido para o condutor dirigir?", 
+        "image": "",
+        "answers": [
+            "Quatro decigramas.",
+            "Três decigramas.",
+            "Seis decigramas.",
+            "1,5 decigramas.",
+            "Nenhuma."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "A obtenção da ACC obedecerá aos mesmos requisitos da prova pratica para a categoria:", 
+        "image": "",
+        "answers": [
+            "B;",
+            "D e E;",
+            "A;",
+            "C;",
+            "AB;"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "O candidato à habilitação deverá submeter-se aos exames:", 
+        "image": "",
+        "answers": [
+            "médico;",
+            "teórico-técnico;",
+            "de direção veicular;",
+            "psicotécnico;",
+            "todas as respostas estão corretas."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "O Sistema Nacional de Trânsito tem como objetivo:", 
+        "image": "",
+        "answers": [
+            "realizar ações em defesa da vida;",
+            "administração do trânsito;",
+            "policiamento ostensivo de trânsito;",
+            "educação no trânsito;",
+            "todas as afirmativas estão corretas."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "Qual a validade da Permissão para Dirigir?", 
+        "image": "",
+        "answers": [
+            "05 anos.",
+            "10 anos.",
+            "12 meses.",
+            "A mesma do exame médico.",
+            "03 anos."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Ao candidato aprovado na primeira habilitação será conferida:", 
+        "image": "",
+        "answers": [
+            "A CNH- categoria A;",
+            "A CNH- categoria B;",
+            "A Permissão para Dirigir com validade de um ano;",
+            "A LADV;",
+            "Provisória para Dirigir com validade de 6 meses."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Subsistema de sinalização que se utiliza de placas ao lado ou suspensas sobre a via:", 
+        "image": "",
+        "answers": [
+            "horizontal;",
+            "vertical;",
+            "indicação;",
+            "temporária;",
+            "todas respostas estão corretas."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "As placas indicativas são divididas nos seguintes grupos:", 
+        "image": "",
+        "answers": [
+            "de identificação, orientação de destino, serviços auxiliares, atrativos turísticos;",
+            "localização, sentido de direção e regulamentação;",
+            "identificação de destino, localização de cidades e advertência;",
+            "advertência, localização de cidades e informações complementares;",
+            "educação, advertência, posto de fiscalização."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "A única maneira de tirar algum proveito do sinistro de trânsito é:", 
+        "image": "",
+        "answers": [
+            "fazer ocorrência;",
+            "realizar perícia;",
+            "receber o seguro obrigatório;",
+            "aprender como agir para evitar que ele se repita;",
+            "retirar valores do seguro DPVAT."
         ],
         "correctAnswer": 3
     },
     {
-        "question": "123", 
+        "question": "O conjunto de técnicas que permitem evitar acidentes chamamos de:", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "direção defensiva;",
+            "eliminação de automatismos corretos;",
+            "direção ofensiva;",
+            "direção preventiva;",
+            "todas acima."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Estacionar o veículo sobre a faixa de pedestres é uma infração de trânsito de natureza:", 
+        "image": "",
+        "answers": [
+            "leve;",
+            "grave;",
+            "média;",
+            "gravíssima;",
+            "gravíssima x3."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ao socorrer uma vítima com estilhaços de vidro no olho, você deve:", 
+        "image": "",
+        "answers": [
+            "pingar colírio anestésico;",
+            "retirar com pinça os estilhaços de vidro;",
+            "tampar o olho da vítima e levar ao hospital;",
+            "lavar o olho com água e sabão;",
+            "pedir para vítima ficar olhando para cima e para baixo."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Qual é a prioridade ao socorrer uma vítima de Acidente?", 
+        "image": "",
+        "answers": [
+            "Sinalizar o local e chamar o resgate.",
+            "Verificar estado de choque.",
+            "Verificar fraturas.",
+            "Transportar a vítima.",
+            "Socorrer as vítimas."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Quais são os três Ês da segurança do trânsito?", 
+        "image": "",
+        "answers": [
+            "Espírito crítico; Esperança; Estado emocional.",
+            "Exposição; Equilíbrio; Educação.",
+            "Educação; Engenharia; Esforço legal.",
+            "Exigência; Esforço; Engenharia.",
+            "Educação; Esforço; Entusiasmo."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Qual o tipo de viseira do capacete que segundo o CONTRAN, pode ser utilizada pelo motociclista tanto de dia quanto a noite?", 
+        "image": "",
+        "answers": [
+            "Qualquer uma.",
+            "Fume.",
+            "Cinza.",
+            "Cristal.",
+            "Espelhada."
         ],
         "correctAnswer": 3
     },
     {
-        "question": "123", 
+        "question": "Dois silvos breves emitidos pelo agente de trânsito significam?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Siga.",
+            "Atenção.",
+            "Siga devagar.",
+            "Pare.",
+            "Estacione a frente."
         ],
         "correctAnswer": 3
     },
     {
-        "question": "123", 
+        "question": "O que o Código de Trânsito Brasileiro (CTB) prevê em relação ao meio ambiente?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Penalidades e infrações.",
+            "Infrações sem penalidades.",
+            "Penalidades sem infrações.",
+            "Nem penalidades nem infrações.",
+            "Penalidades, infrações e medidas educativas."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Parar o veículo na área de cruzamento de vias, prejudicando o trânsito de veículos e pedestres, é uma infração de natureza:", 
+        "image": "",
+        "answers": [
+            "Grave.",
+            "Média.",
+            "Leve.",
+            "Gravíssima.",
+            "Gravíssima com agravante."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Em relação ao veículo que vai à frente, o condutor deve manter distância?", 
+        "image": "",
+        "answers": [
+            "De frenagem.",
+            "De localização.",
+            "De frenagem.",
+            "De reação.",
+            "Segura de seguimento."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "Qual dos itens abaixo é equipamento obrigatório num veiculo?", 
+        "image": "",
+        "answers": [
+            "Farol de neblina.",
+            "Para choque dianteiro e traseiro.",
+            "Limpador de para-brisa traseiro.",
+            "Lanterna elevada de freio.",
+            "12Ar-condicionado.3"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "A ausência do espelho retrovisor interno no veículo caracteriza:", 
+        "image": "",
+        "answers": [
+            "a falta de um acessório;",
+            "um perigo apenas para os passageiros;",
+            "uma falta involuntária do proprietário;",
+            "uma infração de trânsito;",
+            "uma permissão já que não é equipamento obrigatório."
         ],
         "correctAnswer": 3
     },
     {
-        "question": "123", 
+        "question": "O cansaço e o estresse do condutor e do piloto são fatores:", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "normais na vida agitada dos dias de hoje, não exigindo, portanto, cuidados na direção;",
+            "tão graves que impedem o condutor de dirigir;",
+            "que diminuem a capacidade de concentração, exigindo mais cuidados ao dirigir;",
+            "que aumentam o risco de acidentes e exigem pausas regulares;",
+            "que afetam apenas a capacidade física, não prejudicando a atenção."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Cansaço, estresse e sono são condições adversas de:", 
+        "image": "",
+        "answers": [
+            "condutor;",
+            "via;",
+            "trânsito;",
+            "tempo;",
+            "veículo."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Para evitar que a banda de rodagem do pneu se desgaste de modo irregular, são colocados pequenos pesos na extremidade das rodas. Trata-se:", 
+        "image": "",
+        "answers": [
+            "da calibragem;",
+            "do rodízio;",
+            "da troca do pneu;",
+            "do balanceamento;",
+            "do alinhamento."
         ],
         "correctAnswer": 3
     },
     {
-        "question": "123", 
+        "question": "O veículo quebrou na via, e o condutor, diante da impossibilidade absoluta de remoção, providenciou reparo no local, sinalizando devidamente com o triângulo de segurança. Nesse caso, que tipo de infração ele cometeu?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Média.",
+            "Não cometeu infração.",
+            "Leve.",
+            "Grave.",
+            "Gravíssima."
         ],
-        "correctAnswer": 3
+        "correctAnswer": 1
     },
     {
-        "question": "123", 
+        "question": "'Imobilização do veículo pelo tempo superior ao embarque e desembarque de passageiros' é definição de:", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "parada;",
+            "operação de carga e descarga;",
+            "estacionamento;",
+            "parada prolongada;",
+            "bloqueio temporário."
         ],
-        "correctAnswer": 3
+        "correctAnswer": 2
     },
     {
-        "question": "123", 
+        "question": "Penalidade que retira temporariamente do condutor o seu direito de dirigir e que, após cumpridas as exigências legais, o documento é devolvido ao seu titular. É definição de:", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Recolhimento do documento de habilitação e suspensão do direito de dirigir",
+            "Suspensão do direito de dirigir",
+            "Cassação da CNH",
+            "Cassação da permissão para dirigir",
+            "Penalidade de retenção do veículo"
         ],
-        "correctAnswer": 3
+        "correctAnswer": 1
     },
     {
-        "question": "123", 
+        "question": "Uma motocicleta transita por um trecho de via arterial não sinalizada ou não abrangido pela sinalização. Qual é a velocidade mínima que pode desenvolver?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "20 km/h",
+            "40 km/h",
+            "15 km/h",
+            "30 km/h",
+            "50 km/h"
         ],
         "correctAnswer": 3
     }

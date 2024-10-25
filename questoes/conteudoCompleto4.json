@@ -1,0 +1,362 @@
+[
+    {
+        "question": "Segundo o Código de Trânsito Brasileiro, as vias urbanas classificam-se em:", 
+        "image": "",
+        "answers": [
+            "Vias de trânsito rápido, preferencial, secundária e de mão única",
+            "Vias rápidas, moderadas, lentas e locais",
+            "Estradas, rodovias, locais e principais",
+            "Locais, coletoras, arteriais e de trânsito rápido",
+            "Coletoras, arteriais, estrada e de trânsito rápido"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "O condutor, para poder dirigir veículos motorizados de 2 ou 3 rodas, deverá ser habilitado na categoria:", 
+        "image": "",
+        "answers": [
+            "A",
+            "AB",
+            "E",
+            "C",
+            "D"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Qual não é um equipamento obrigatório?", 
+        "image": "",
+        "answers": [
+            "Buzina",
+            "Velocímetro",
+            "Lanternas de freio de cor vermelha",
+            "Placa traseira",
+            "Pneus que ofereçam condições mínimas de segurança"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "O condutor terá sua CNH cassada quando:", 
+        "image": "",
+        "answers": [
+            "Cruzar duas vezes o sinal vermelho",
+            "Conduzir o veículo usando calçado que não se firme aos pés",
+            "Conduzir qualquer veículo sujeito a registro no DETRAN com o direito de dirigir suspenso",
+            "Dirigir seu veículo sem usar o aparelho de audição de que necessita",
+            "Usar indevidamente o alarme do veículo"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Qual é o telefone do Corpo de Bombeiros em todo o Brasil?", 
+        "image": "",
+        "answers": [
+            "190",
+            "192",
+            "193",
+            "191",
+            "198"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Estacionar o veículo, em locais sinalizados, em pontos de embarque e desembarque de passageiros de transportes coletivos, o condutor ficará sujeito a uma:", 
+        "image": "",
+        "answers": [
+            "Apreensão do veículo e multa",
+            "Suspensão do direito de dirigir e multa",
+            "Multa, apenas",
+            "Remoção do veículo e multa",
+            "Advertência por escrito e multa"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Conforme as normas de circulação, ao estacionar um automóvel, como o condutor deve posicioná-lo?", 
+        "image": "",
+        "answers": [
+            "No sentido contrário ao fluxo de veículos, na contramão de direção.",
+            "Em sentido oblíquo, em locais não sinalizados.",
+            "Junto à guia da calçada, a uma distância inferior a 50 cm.",
+            "A menos de cinco metros do bordo do alinhamento da via transversal.",
+            "Junto à guia da calçada, afastado do meio-fio a mais de 50 cm."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Você acaba de comprar um veículo. Quanto tempo poderá trafegar, portando a nota fiscal de compra, da concessionária de automóveis ao órgão de trânsito para registro?", 
+        "image": "",
+        "answers": [
+            "10 dias",
+            "20 dias",
+            "15 dias",
+            "25 dias",
+            "30 dias"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Segundo o Código de Trânsito Brasileiro, constitui uma infração de trânsito de natureza gravíssima:", 
+        "image": "",
+        "answers": [
+            "Deixar o passageiro ou condutor de usar o cinto de segurança.",
+            "Dirigir sem atenção ou os cuidados indispensáveis à segurança.",
+            "Atirar do veículo ou abandonar na via objetos ou substâncias.",
+            "Avançar o sinal vermelho do semáforo ou o de parada obrigatória.",
+            "Seguir veículo em serviço de urgência, estando este com prioridade de passagem devidamente identificada por dispositivos regulamentares de alarme sonoro e iluminação vermelha intermitente."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Ofuscamento e chuva são, respectivamente, condições adversas de:", 
+        "image": "",
+        "answers": [
+            "Tempo e trânsito",
+            "Trânsito e estrada",
+            "Luz e tempo",
+            "Luz e trânsito",
+            "Estrada e tempo "
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Transitar pela contramão de direção em vias com sinalização de regulamentação de sentido único de circulação é uma infração (CTB Art. 186, inciso II):", 
+        "image": "",
+        "answers": [
+            "Gravíssima",
+            "Média",
+            "Grave",
+            "Leve",
+            "Eliminatória"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "A linha simples contínua de divisão de fluxo, na cor amarela, dividindo a via em duas mãos direcionais indica que:", 
+        "image": "",
+        "answers": [
+            "Deslocamentos laterais permitidos",
+            "Ultrapassagens proibidas",
+            "Ultrapassagem é permitida",
+            "Ultrapassagem e deslocamentos laterais permitidos",
+            "Deslocamentos da esquerda para a direita permitidos"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "A estabilidade de um veículo nas retas e curvas é garantida pela manutenção dos seguintes sistemas:", 
+        "image": "",
+        "answers": [
+            "Direção e suspensão",
+            "Transmissão e direção",
+            "Freio e rodagem",
+            "Suspensão e transmissão",
+            "Refrigeração e tração"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Os requisitos necessários, dentre outros, para obter a Carteira Nacional de Habilitação (CNH) são:", 
+        "image": "",
+        "answers": [
+            "Ter concluído o ensino médio",
+            "Ter concluído o ensino fundamental",
+            "Saber ler e escrever",
+            "Estar matriculado no ensino fundamental",
+            "Saber ler"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "1) Para condutores de motocicletas e ciclomotores, é obrigatório o uso de viseiras ou óculos de proteção. 2) É permitida a circulação de ciclomotores nas vias urbanas de trânsito rápido. 3) Para condutores de motocicletas e ciclomotores, é obrigatório manter o farol aceso quando em circulação, durante o dia ou à noite. É correto o que consta em:", 
+        "image": "",
+        "answers": [
+            "1 e 2 apenas",
+            "1 apenas",
+            "1, 2 e 3",
+            "1 e 3 apenas",
+            "3 apenas"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "A imobilização de um veículo numa via para uma operação de carga e descarga de mercadorias é considerada pelo CTB como:", 
+        "image": "",
+        "answers": [
+            "Infração, em qualquer hipótese",
+            "Estacionamento, se houver cartão de estacionamento rotativo",
+            "Parada",
+            "Parada regulamentada",
+            "Estacionamento"
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "As vias rurais classificam-se em:", 
+        "image": "",
+        "answers": [
+            "Rodovias pavimentadas e rodovias rurais",
+            "Rodovias, vicinais e vias de trânsito rápido",
+            "Rodovias, estradas e estradas vicinais",
+            "Estradas, vias coletoras e locais",
+            "Rodovias e estradas"
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "A vítima com suspeita de fratura nas costelas pode apresentar o seguinte sintoma:", 
+        "image": "",
+        "answers": [
+            "Tontura progressiva, com desmaios",
+            "Lesões na cabeça",
+            "Dores no tórax ao tentar se movimentar ou respirar",
+            "Formigamentos e dormência nos braços e pernas",
+            "Dor na coluna cervical      "
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Em uma avenida com velocidade máxima permitida de 60 km/h, a distância correta para iniciar a sinalização em caso de acidente de trânsito é de:", 
+        "image": "",
+        "answers": [
+            "60 passos largos",
+            "80 passos largos",
+            "100 passos largos",
+            "20 passos largos",
+            "50 passos largos"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Para obter a categoria 'E', o condutor deverá estar habilitado, no mínimo, pelo período de:", 
+        "image": "",
+        "answers": [
+            "01 ano na categoria B",
+            "02 anos em qualquer categoria",
+            "02 anos na categoria A",
+            "01 ano na categoria D",
+            "02 anos na categoria D"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "O condutor defensivo, antes de realizar uma ultrapassagem, deve:", 
+        "image": "",
+        "answers": [
+            "Reduzir a velocidade e reduzir a distância de visibilidade",
+            "Esperar o outro veículo reduzir a velocidade",
+            "Indicar com antecedência seu propósito, por meio de sucessivos toques na buzina",
+            "Indicar com antecedência seu propósito, por meio de luz indicadora de direção",
+            "Indicar com sinal de braço"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "A Carteira Nacional de Habilitação, com foto, e a Permissão para Dirigir somente terão validade para a condução do veículo quando apresentadas:", 
+        "image": "",
+        "answers": [
+            "Em cópia autenticada por um cartório",
+            "Em original",
+            "Em cópia autenticada pelo Detran",
+            "Junto com a Carteira de Identidade",
+            "Em original"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "A principal finalidade do óleo no motor é:", 
+        "image": "",
+        "answers": [
+            "Ficar acondicionado no cárter",
+            "Permitir ao veículo andar mais rápido",
+            "Lubrificar as partes móveis",
+            "Dar impulso nas válvulas de admissão",
+            "Lubrificar o catalizador"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Qual a validade da Permissão para Dirigir?", 
+        "image": "",
+        "answers": [
+            "Dois anos",
+            "Seis meses",
+            "Três meses",
+            "Um ano",
+            "Um ano e meio"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "O Código de Trânsito Brasileiro (CTB) estabelece regras e normas válidas em todo o território nacional para:", 
+        "image": "",
+        "answers": [
+            "Ruas, avenidas, logradouros, rodovias e estradas",
+            "Ruas, avenidas, logradouros, caminhos, passagens, rodovias e estradas",
+            "Ruas, avenidas, rodovias e estradas",
+            "Rodovias e estradas",
+            "Ruas, avenidas, logradouros, caminhos, passagens, rodovias, estradas, praias abertas à circulação e vias internas de condomínios"
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "Os motoristas devem conhecer noções de primeiros socorros para:", 
+        "image": "",
+        "answers": [
+            "Dar um atendimento contínuo e definitivo",
+            "Dar um atendimento profissional",
+            "Prestar o atendimento inicial e temporário",
+            "Diagnosticar corretamente",
+            "Prestar atendimento inicial e definitivo"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Se ocorrer um sinistro de trânsito, o condutor ao solicitar o serviço de resgate para atender às vítimas, deve adotar o seguinte procedimento:", 
+        "image": "",
+        "answers": [
+            "Isolar a área e fazer mutirão com os demais condutores para atender às vítimas",
+            "Informar a gravidade do acidente, a localização, o estado das vítimas e o tipo de acidente",
+            "Informar a localização do acidente e adiantar o atendimento, liberando as vias aéreas da vítima",
+            "Informar o tipo de acidente e retirar imediatamente a vítima do local do acidente",
+            "Sinalizar e pedir ajuda aos outros condutores para retirar a vítima"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": " poluição do ar ocasionada pelos veículos tem como causa principal:", 
+        "image": "",
+        "answers": [
+            "O uso excessivo da buzina",
+            "A troca do óleo lubrificante",
+            "A troca do filtro de ar",
+            "A queima de combustíveis",
+            "A troca dos amortecedores"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Ao circular numa via, o condutor deverá saber que, respeitadas as normas de circulação, terão preferência de passagem os veículos que:", 
+        "image": "",
+        "answers": [
+            "Se deslocam sobre trilhos",
+            "Se deslocam sobre duas rodas",
+            "São de utilidade pública",
+            "Transportam escolares",
+            "Transportes coletivos"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Fagner parou seu veículo na pista de rolamento. Nesta situação, Carlos cometeu uma infração de natureza:", 
+        "image": "",
+        "answers": [
+            "Leve, com penalidade de multa",
+            "Gravíssima, com a penalidade de multa agravada em 3 vezes",
+            "Grave, com penalidade de multa",
+            "Média, com penalidade de multa",
+            "Gravíssima, com penalidade de multa e remoção do veículo"
+        ],
+        "correctAnswer": 2
+    }
+]

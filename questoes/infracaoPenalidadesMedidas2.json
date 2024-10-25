@@ -30,7 +30,7 @@
             "o condutor se recusa a fazer o teste do bafômetro;",
             "o nível de álcool no sangue é superior ao permitido para infração administrativa;",
             "o condutor se envolve em acidente com danos materiais;",
-            "Há risco de causar danos ao próprio veículo;",
+            "há risco de causar danos ao próprio veículo;",
             "o condutor, sob efeito de álcool, causa lesão corporal ou morte na direção do veículo;"
         ],
         "correctAnswer": 1
@@ -330,7 +330,7 @@
             "multa x 2  e remoção do veículo;",
             "multa x 3 e apreensão do veículo;",
             "multa x 5 e retenção do veículo.",
-            "lta x 3 e suspensão do direito de dirigir;",
+            "multa x 3 e suspensão do direito de dirigir;",
             "multa x 10 e cassação."
         ],
         "correctAnswer": 3

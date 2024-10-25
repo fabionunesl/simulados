@@ -1,362 +1,362 @@
 [
     {
-        "question": "123", 
+        "question": "Para habilitar-se na categoria AB ou para requerer a ACC, o candidato deve ter no mínimo:", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "16 anos completos",
+            "18 anos completos",
+            "19 anos completos",
+            "20 anos completos",
+            "21 anos completos"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Para dirigir tratores e máquinas agrícolas, o condutor deve estar habilitado na(s) categoria(s):", 
+        "image": "",
+        "answers": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "ACC"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Para habilitar-se nas categorias D e E, o condutor deve ter no mínimo:", 
+        "image": "",
+        "answers": [
+            "18 anos completos",
+            "19 anos completos",
+            "20 anos completos",
+            "21 anos completos",
+            "22 anos completos"
         ],
         "correctAnswer": 3
     },
     {
-        "question": "123", 
+        "question": "Qual a idade mínima exigida do condutor para dirigir cargas perigosas?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "18 anos",
+            "20 anos",
+            "21 anos",
+            "22 anos",
+            "23 anos"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Um condutor dirige veículos automotores há vários anos sem estar habilitado. A atitude correta desse condutor deve ser:", 
+        "image": "",
+        "answers": [
+            "Dirigir assim mesmo, sem se preocupar, pois já sabe dirigir.",
+            "Procurar um CFC e se habilitar conforme a lei.",
+            "Dirigir somente em companhia de um condutor habilitado.",
+            "Dirigir somente nas vias urbanas de menor movimento.",
+            "Ignorar a necessidade de habilitação, já que tem experiência."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Segundo a legislação, quando o condutor estiver na direção do veículo, a CNH deve ser portada:", 
+        "image": "",
+        "answers": [
+            "Somente no original.",
+            "Em cópia autenticada pelo DETRAN.",
+            "Em cópia simples.",
+            "Em cópia autenticada em cartório.",
+            "Em formato digital, acessível pelo celular."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Segundo as normas de legislação, como se deve estacionar uma motocicleta?", 
+        "image": "",
+        "answers": [
+            "Paralelo à guia da calçada e a uma distância inferior a 50 cm.",
+            "Próximo à calçada e no sentido contrário ao fluxo de trânsito.",
+            "Em posição perpendicular à guia da calçada e junto a ela.",
+            "Em sentido oblíquo, formando um ângulo de 25 graus em relação à guia da calçada.",
+            " qualquer posição, desde que não atrapalhe o trânsito."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Segundo as normas de trânsito, qual é a distância máxima que um veículo pode ficar em relação à guia da calçada quando estacionado paralelo a ela? ", 
+        "image": "",
+        "answers": [
+            "A menos de quinze centímetros.",
+            "A menos de vinte centímetros.",
+            "A menos de quarenta centímetros.",
+            "A menos de cinquenta centímetros.",
+            "A menos de sessenta centímetros."
         ],
         "correctAnswer": 3
     },
     {
-        "question": "123", 
+        "question": "Onde não existe sinalização regulamentadora, a velocidade deve ser desenvolvida conforme o tipo de via. Assinale a alternativa correta entre o tipo de via e a velocidade máxima que um condutor pode desenvolver ao trafegar por ela:", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Via de trânsito rápido - 100 km/h",
+            "ia arterial - 80 km/h",
+            "Via coletora - 60 km/h",
+            "Via local - 30 km/h",
+            "Via secundária - 40 km/h"
         ],
         "correctAnswer": 3
     },
     {
-        "question": "123", 
+        "question": "Assinale a alternativa correta entre o tipo de via e a velocidade mínima que um condutor pode desenvolver ao trafegar por um trecho não abrangido pela sinalização regulamentadora de velocidade:", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Estrada - 50 km/h",
+            "Via local - 20 km/h",
+            "Via arterial - 30 km/h",
+            "Via colateral - 40 km/h",
+            "Via de trânsito rápido - 60 km/h"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Uma motocicleta transita por um trecho de via arterial não abrangido pela sinalização. Qual é a velocidade mínima que pode desenvolver?", 
+        "image": "",
+        "answers": [
+            "15 km/h",
+            "20 km/h",
+            "30 km/h",
+            "40 km/h",
+            "50 km/h"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Qual é a velocidade máxima que uma motocicleta pode desenvolver numa rodovia de pista simples, não abrangida pela sinalização?", 
+        "image": "",
+        "answers": [
+            "Até 80 km/h",
+            "Até 10 km/h",
+            "Até 60 km/h",
+            "Até 100 km/h",
+            "Até 90 km/h"
         ],
         "correctAnswer": 3
     },
     {
-        "question": "123", 
+        "question": "O condutor que está atrás solicita passagem. Nessa situação, o que você deve fazer?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Diminuir a velocidade para impedir que ele passe à frente.",
+            "Dar passagem pela esquerda com segurança.",
+            "Fazer sinal para que ele diminua a velocidade.",
+            "Ir para o acostamento para lhe deixar passagem livre.",
+            "Aumentar a velocidade para não deixar passar."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Quando o condutor desobedecer a uma placa de regulamentação no trânsito, estará cometendo?", 
+        "image": "",
+        "answers": [
+            "Multa;",
+            "Penalidade;",
+            "Notificação;",
+            "Infração de trânsito;",
+            "Advertência."
         ],
         "correctAnswer": 3
     },
     {
-        "question": "123", 
+        "question": "Com a intenção de fazer uma conversão à esquerda, o condutor se aproxima da linha divisória da pista. Esse comportamento indica que a via pela qual ele trafega:", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "é de mão dupla;",
+            "é de mão única;",
+            "é uma rodovia;",
+            "é uma via local;",
+            "é uma via de trânsito rápido."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Para realizar uma conversão à esquerda, o condutor se aproxima do lado direito da via e aguarda no acostamento antes de finalizar a manobra. Esse comportamento indica que o condutor está trafegando por uma:", 
+        "image": "",
+        "answers": [
+            "Rodovia;",
+            "Via coletora;",
+            "Via local;",
+            "Via arterial;",
+            "Via de trânsito rápido."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Para realizar uma conversão à esquerda, o condutor efetua antes a transposição de faixa de trânsito e se aproxima o máximo do bordo esquerdo da via. Esse comportamento indica que a via pela qual está trafegando é:", 
+        "image": "",
+        "answers": [
+            "De mão dupla;",
+            "De mão única;",
+            "Uma via local;",
+            "Uma estrada;",
+            "Uma via arterial."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Quando, de dia ou de noite, o condutor entra num túnel provido de iluminação pública, deve usar:", 
+        "image": "",
+        "answers": [
+            "Luz alta;",
+            "Faroletes de posição;",
+            "Pisca-alerta;",
+            "Luz baixa;",
+            "Luz de neblina."
         ],
         "correctAnswer": 3
     },
     {
-        "question": "123", 
+        "question": "Segundo o código de trânsito, qual é a idade mínima que uma criança deve ter para que possa ser transportada numa motocicleta?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Seis anos;",
+            "Sete anos;",
+            "Dez anos;",
+            "Doze anos;",
+            "Quinze anos."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Deixar de sinalizar a intenção de mudança de faixa de trânsito mediante sinal de luz ou gesto regulamentar de braço com a devida antecedência é uma infração de trânsito de natureza:", 
+        "image": "",
+        "answers": [
+            "Leve;",
+            "Média;",
+            "Grave;",
+            "Gravíssima;",
+            "Eliminatória."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Dirigir veículo automotor sem estar devidamente habilitado é uma infração de trânsito de natureza:", 
+        "image": "",
+        "answers": [
+            "Leve;",
+            "Média;",
+            "Grave;",
+            "Gravíssima;",
+            "Eliminatória."
         ],
         "correctAnswer": 3
     },
     {
-        "question": "123", 
+        "question": "Dirigir um veículo sem portar o documento de habilitação é uma infração de trânsito de natureza:", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Gravíssima;",
+            "Média;",
+            "Leve;",
+            "Levíssima;",
+            "Eliminatória."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Desrespeitar o meio ambiente jogando objetos ou substâncias para fora do veículo é:", 
+        "image": "",
+        "answers": [
+            "Uma infração de trânsito;",
+            "Um crime de trânsito;",
+            "Uma atitude ecológica;",
+            "Uma ação higiênica;",
+            "Uma negligência ambiental."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Transportar crianças com menos de dez anos em motocicletas ou que não tenham, nas circunstâncias, condições de cuidar de sua própria segurança, é uma infração de natureza:", 
+        "image": "",
+        "answers": [
+            "Grave (4 pontos), que prevê multa e apreensão do veículo;",
+            "Leve (3 pontos), que prevê advertência por escrito e recolhimento do documento de habilitação;",
+            "Média (4 pontos), que prevê multa e suspensão do direito de dirigir;",
+            "Gravíssima (7 pontos), que prevê multa, suspensão do direito de dirigir e recolhimento do documento de habilitação;",
+            "Leve (5 pontos), que prevê multa e advertência por escrito."
         ],
         "correctAnswer": 3
     },
     {
-        "question": "123", 
+        "question": "Quando acontece a penumbra?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "No final da tarde, ao anoitecer e ao amanhecer.",
+            "No início da tarde.",
+            "Ao meio-dia.",
+            "A qualquer hora de um dia ensolarado.",
+            "Depois de uma chuva."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Para o condutor dirigir defensivamente, ele deve estar:", 
+        "image": "",
+        "answers": [
+            "Sob leve efeito de álcool.",
+            "Sob efeito de drogas.",
+            "Ansioso e apressado.",
+            "Descansado e sem sono.",
+            "Preocupado e com medo."
         ],
         "correctAnswer": 3
     },
     {
-        "question": "123", 
+        "question": "É equipamento obrigatório de um veículo:", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Rodas de liga leve.",
+            "Aerofólio.",
+            "Cinto de segurança.",
+            "Película.",
+            "Som automotivo."
         ],
-        "correctAnswer": 3
+        "correctAnswer": 2
     },
     {
-        "question": "123", 
+        "question": "Qual é o número de emergência da Polícia Rodoviária Federal?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "190",
+            "191",
+            "198",
+            "193",
+            "192"
         ],
-        "correctAnswer": 3
+        "correctAnswer": 1
     },
     {
-        "question": "123", 
+        "question": "Qual é o local mais adequado para verificar a pulsação da vítima?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "No pulso;",
+            "No rosto;",
+            "Sobre a artéria carótida, no pescoço;",
+            "Na palma da mão;",
+            "Atrás do joelho."
         ],
-        "correctAnswer": 3
+        "correctAnswer": 2
     },
     {
-        "question": "123", 
+        "question": "Se uma pessoa não tem pulso nem movimentos no peito, é sinal de que sofreu:", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Um ataque epilético;",
+            "Uma parada cardiorespiratória;",
+            "Uma paralisia;",
+            "Uma parada respiratória somente;",
+            "Um desmaio profundo."
         ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
+        "correctAnswer": 1
     }
 ]

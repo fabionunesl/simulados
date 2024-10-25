@@ -1,7 +1,7 @@
 [
     {
         "question": "Observe a figura abaixo. Um pedestre espera na faixa de pedestre com semáforo. Quem tem a preferência de passagem?",
-        "image": "imagens/faixaPedestreSemaforo.jpg",
+        "image": "imagens/sinalizacao/faixaPedestreSemaforo.jpg",
         "answers": [
             "O pedestre, pois está na faixa de pedestre.",
             "O veículo por estar na pista de rolamento.",
@@ -49,7 +49,7 @@
     },
     {
         "question": "Observando a figura, quais são as categorias que habilitam um condutor a dirigir os veículos, respectivamente?",
-        "image": "imagens/categoriasBAD.jpg",
+        "image": "imagens/condutor/categoriasBAD.jpg",
         "answers": [
             "A, B e C",
             "B, C e A.",
@@ -57,7 +57,7 @@
             "D, E e A.",
             "B, A e D."
         ],
-        "correctAnswer": 0
+        "correctAnswer": 4
     },
     {
         "question": "Uma motocicleta, um carro e um ônibus trafegam em uma rodovia de pista dupla em lugar não abrangido pela sinalização ou não sinalizado. Seguindo a norma, qual é a velocidade máxima que cada um pode desenvolver, respectivamente?",
@@ -85,7 +85,7 @@
     },
     {
         "question": "Observe as figuras 1, 2, 3, 4. Qual dos veículos um condutor habilitado somente na categoria D não pode dirigir?",
-        "image": "imagens/CategoriasABCD.jpg",
+        "image": "imagens/condutor/CategoriasABCD.jpg",
         "answers": [
             "Figuras 1 e 3.",
             "Somente figuras 3.",
@@ -138,7 +138,7 @@
             "em meio físico e digital;",
             "somente em meio físico;",
             "somente em meio digital;",
-            " meio físico e digital, à escolha do condutor;",
+            "meio físico e digital, à escolha do condutor;",
             "não é preciso ser expedida."
         ],
         "correctAnswer": 0
@@ -217,7 +217,7 @@
     },
     {
         "question": "Qual o significado da sinalização vertical de regulamentação R-20?",
-        "image": "imagens/r-20.jpg",
+        "image": "imagens/sinalizacao/r-20.jpg",
         "answers": [
             "Proibição de estacionar.",
             "Proibição de parar e estacionar.",
@@ -229,7 +229,7 @@
     },
     {
         "question": "A placa R-34 informa que no trecho abrangido pela sinalização é permitido apenas o trânsito de:",
-        "image": "imagens/r-34.jpg",
+        "image": "imagens/sinalizacao/r-34.jpg",
         "answers": [
             "Veículos motorizados de passeio;",
             "motocicletas;",
@@ -301,7 +301,7 @@
     },
     {
         "question": "Marcadores de obstáculo, marcadores de alinhamento e marcadores de perigo são dispositivos de sinalização: ",
-        "image": "imagens/dispositivoSinalizacaoAlerta.jpg",
+        "image": "imagens/sinalizacao/dispositivoSinalizacaoAlerta.jpg",
         "answers": [
             "temporária;",
             "regulamentadores;",

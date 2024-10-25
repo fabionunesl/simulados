@@ -25,7 +25,7 @@
     },
     {
         "question": "O que indica a linha amarela contínua no centro da pista?",
-        "image": "imagens/linhaAmarelaContinua.jpg",
+        "image": "imagens/sinalizacao/linhaAmarelaContinua.jpg",
         "answers": [
             "Área de carga e descarga",
             "Separar o trânsito de sentido contrário e proibição de ultrapassagem",
@@ -37,7 +37,7 @@
     },
     {
         "question": "Linhas brancas tracejadas ou seccionadas são usadas para",
-        "image": "imagens/linhaBrancaTracejada.jpg",
+        "image": "imagens/sinalizacao/linhaBrancaTracejada.jpg",
         "answers": [
             "dividir faixas de mesmo sentido e permissão de ultrapassagem;",
             "indicar estacionamento e limite de tráfego na lateral;",
@@ -61,7 +61,7 @@
     },
     {
         "question": "As setas pintadas no chão indicam",
-        "image": "imagens/setasNaVia.jpg",
+        "image": "imagens/sinalizacao/setasNaVia.jpg",
         "answers": [
             "posição de semáforos.",
             "direções permitidas na via.",
@@ -73,7 +73,7 @@
     },
     {
         "question": "O que significa uma linha amarela tracejada ou seccionada no centro (eixo) da via?",
-        "image": "imagens/linhaAmarelaTracejada.jpg",
+        "image": "imagens/sinalizacao/linhaAmarelaTracejada.jpg",
         "answers": [
             "Ultrapassagem permitida",
             "Proibição de estacionar.",
@@ -97,7 +97,7 @@
     },
     {
         "question": "Observe a foto. O que uma linha de retenção indica para os motoristas?",
-        "image": "imagens/linhaRetencao.jpg",
+        "image": "imagens/sinalizacao/linhaRetencao.jpg",
         "answers": [
             "Limite de estacionamento.",
             "Delimita o limite máximo que os veículos podem parar.",
@@ -121,7 +121,7 @@
     },
     {
         "question": "Qual é o objetivo de uma linha branca contínua entre faixas de tráfego no mesmo sentido?",
-        "image": "imagens/linhaBrancaContinua.jpg",
+        "image": "imagens/sinalizacao/linhaBrancaContinua.jpg",
         "answers": [
             "Dividir ciclovias",            
             "Marcar estacionamento",
@@ -133,7 +133,7 @@
     },
     {
         "question": "O que as linhas amarelas na borda da pista indicam?",
-        "image": "imagens/linhaBordoAmarela.jpg",
+        "image": "imagens/sinalizacao/linhaBordoAmarela.jpg",
         "answers": [
             "Ponto de ônibus.",
             "Proíbido estacionar.",
@@ -181,7 +181,7 @@
     },
     {
         "question": "Uma linha dupla amarela contínua no centro da via significa",
-        "image": "imagens/linhaDuplaAmarela.jpg",
+        "image": "imagens/sinalizacao/linhaDuplaAmarela.jpg",
         "answers": [
             "área exclusiva para ônibus;",
             "proibido ultrapassagem;",
@@ -193,7 +193,7 @@
     },
     {
         "question": "O que a pintura de linhas zebradas no pavimento indica?",
-        "image": "imagens/linhasZebradas.jpg",
+        "image": "imagens/sinalizacao/linhasZebradas.jpg",
         "answers": [
             "Local de parada obrigatória.",
             "Proibição de parada e estacionamento.",
@@ -205,7 +205,7 @@
     },
     {
         "question": "Linhas diagonais pintadas em uma faixa indicam",
-        "image": "imagens/estacionamentoObliquo.jpg",
+        "image": "imagens/sinalizacao/estacionamentoObliquo.jpg",
         "answers": [
             "travessia de pedestres;",
             "área de segurança que não deve ser utilizada para tráfego;",
@@ -217,7 +217,7 @@
     },
     {
         "question": "Qual é a principal função dos tachões ou tachas refletivas instaladas nas vias? ",
-        "image": "imagens/tachaoTacha.jpg",
+        "image": "imagens/sinalizacao/tachaoTacha.jpg",
         "answers": [
             "Indicar áreas de estacionamento proibido",
             "Melhorar a visibilidade das faixas de divisão de pista, especialmente à noite e em condições climáticas adversas.",
@@ -229,7 +229,7 @@
     },
     {
         "question": "Existem diversos dispositivos auxiliares no trânsito sendo que as barreiras de concreto conhecidas como 'New Jersey' são comumente usadas para: ",
-        "image": "imagens/linhaBrancaTracejada.jpg",
+        "image": "imagens/sinalizacao/linhaBrancaTracejada.jpg",
         "answers": [
             "delimitar ciclovias e áreas de pedestres;",
             "sinalizar a entrada em uma área de baixa velocidade;",
@@ -253,7 +253,7 @@
     },
     {
         "question": "Qual é a principal função dos gradis instalados ao longo das calçadas em áreas urbanas? ",
-        "image": "imagens/gradis.jpg",
+        "image": "imagens/sinalizacao/gradis.jpg",
         "answers": [
             "Delimitar áreas de estacionamento exclusivo.",
             "Sinalizar a entrada de uma rodovia.",
@@ -277,7 +277,7 @@
     },
     {
         "question": "Quando um motorista encontra cones de sinalização na pista, qual deve ser a sua reação imediata? ",
-        "image": "imagens/conesSinalizacao.jpg",
+        "image": "imagens/sinalizacao/conesSinalizacao.jpg",
         "answers": [
             "Aumentar a velocidade para passar rapidamente pela área.",
             "Manter a mesma velocidade e direção, ignorando os cones.",
@@ -313,7 +313,7 @@
     },
     {
         "question": "Qual é a principal função da sinalização de indicação? ",
-        "image": "imagens/linhaBrancaTracejada.jpg",
+        "image": "imagens/sinalizacao/linhaBrancaTracejada.jpg",
         "answers": [
             "Alertar sobre perigos na via.",
             "Sinalizar áreas de ultrapassagem.",
@@ -325,7 +325,7 @@
     },
     {
         "question": "Quais cores são comumente usadas nas placas de sinalização de indicação? ",
-        "image": "imagens/linhaBrancaTracejada.jpg",
+        "image": "imagens/sinalizacao/linhaBrancaTracejada.jpg",
         "answers": [
             "Vermelha, azul e verde.",
             "Amarela, branca e azul.",
@@ -337,7 +337,7 @@
     },
     {
         "question": "Em uma rodovia, um motorista se depara com uma placa azul que indica a localização de um restaurante e um ícone de um banheiro. Qual é a importância dessa sinalização para a experiência do motorista em uma viagem longa, e como essa informação pode impactar a segurança no trânsito? ",
-        "image": "imagens/sanitarioRestaurante.jpg",
+        "image": "imagens/sinalizacao/sanitarioRestaurante.jpg",
         "answers": [
             "Essa sinalização é apenas decorativa e não impacta a experiência do motorista.",
             "A placa fornece informações úteis sobre serviços disponíveis, permitindo que o motorista planeje paradas para refeições e descanso, o que pode ajudar a reduzir a fadiga e, consequentemente, o risco de acidentes durante a viagem.",
@@ -349,7 +349,7 @@
     },
     {
         "question": "A placa com o pictograma SAU - 27, informa os motoristas sobre",
-        "image": "imagens/sau27.jpg",
+        "image": "imagens/sinalizacao/sau27.jpg",
         "answers": [
             "a presença de um posto de gasolina nas proximidades;",
             "o trecho ter um dispositivo de cobrança automática de pedágio, evitando paradas e agilizando o fluxo de tráfego;",

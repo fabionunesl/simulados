@@ -1,14 +1,362 @@
 [   
     {
-        "question": "Direção Defensiva 3 em andamento!",
-        "image": "imagens/xxxxxx.jpg",
+        "question": "Qual é a posição correta que o condutor deve adotar ao sentar no veículo para garantir conforto e segurança ao dirigir?",
+        "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Sentar-se muito próximo ao volante para facilitar o acesso aos pedais.",
+            "Ajustar o banco de forma que as pernas fiquem completamente estendidas ao pisar nos pedais.",
+            "Manter os braços levemente dobrados e o banco inclinado para trás para maior conforto durante longas viagens.",
+            "Ajustar o banco e o volante de maneira que as costas fiquem apoiadas no encosto e as mãos segurem o volante na posição 9 horas e 15 min",
+            "Sentar-se o mais distante possível do volante, para reduzir o impacto em caso de acidente."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Qual é o procedimento mais indicado para manter uma distância frontal de segurança adequada entre o seu veículo e o veículo à frente?",
+        "image": "",
+        "answers": [
+            "Manter uma distância menor em vias rápidas para evitar que outros veículos entrem na sua frente.",
+            "Usar a regra dos dois segundos, observando um ponto fixo na estrada e contando o tempo até passar por ele após o veículo da frente.",
+            "Aproximar-se do veículo à frente em congestionamentos para evitar que outros motoristas mudem de faixa.",
+            "Manter uma distância constante de 1 metro, independentemente da velocidade, para economizar espaço na via.",
+            "Aumentar a distância apenas em situações de chuva intensa ou neblina, mas manter-se próximo em condições normais."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ao realizar uma ultrapassagem em uma estrada de mão dupla, qual é a atitude mais segura que o condutor deve adotar?",
+        "image": "",
+        "answers": [
+            "Iniciar a ultrapassagem mesmo em curvas, já que o veículo da frente provavelmente diminuirá a velocidade.",
+            "Ultrapassar sem sinalizar, para evitar que o motorista à frente tente bloquear a manobra.",
+            "Certificar-se de que há espaço suficiente à frente, sinalizar a intenção de ultrapassar e retornar à faixa original apenas quando puder ver o veículo ultrapassado no retrovisor interno.",
+            "Acelerar ao máximo e ultrapassar rapidamente, independentemente do tráfego contrário, para evitar ficar muito tempo na contramão.",
+            "Fazer a ultrapassagem mesmo com veículos se aproximando no sentido contrário, desde que a distância pareça segura."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Em uma via de mão dupla, qual é o procedimento mais seguro para realizar uma ultrapassagem?",
+        "image": "",
+        "answers": [
+            "Iniciar a ultrapassagem assim que surgir a oportunidade, sem necessidade de verificar o tráfego à frente.",
+            "Ultrapassar sempre que o veículo à frente estiver lento, mesmo em trechos de faixa contínua.",
+            "Sinalizar a intenção de ultrapassagem, verificar o retrovisor, garantir que não haja veículos no sentido contrário e ultrapassar apenas em trechos permitidos com linha seccionada.",
+            "Acelerar o máximo possível ao iniciar a ultrapassagem, independentemente das condições de visibilidade.",
+            "Iniciar a ultrapassagem sem usar a seta para evitar alertar o veículo à frente, garantindo mais rapidez."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Ao realizar uma manobra de marcha à ré, qual é a atitude mais segura que o condutor deve adotar?",
+        "image": "",
+        "answers": [
+            "Confiar apenas nos espelhos retrovisores laterais para observar a área atrás do veículo.",
+            "Realizar a manobra de marcha à ré rapidamente para evitar obstruir o tráfego.",
+            "Fazer a manobra de ré sem sinalizar, já que é uma manobra curta e sinalização é desnecessária.",
+            "Usar apenas sensores de estacionamento ou câmeras, sem necessidade de olhar para os lados.",
+            "Olhar para trás, utilizando o vidro traseiro, além de usar os espelhos retrovisores, e manobrar lentamente para ter controle total do veículo."
         ],
         "correctAnswer": 4
+    },
+    {
+        "question": "Qual é a atitude mais segura que o condutor deve adotar ao dirigir atrás de outro veículo?",
+        "image": "",
+        "answers": [
+            "Manter uma distância segura, considerando a velocidade e as condições da via, e estar preparado para frear suavemente caso o veículo à frente reduza a velocidade.",
+            "Manter uma curta distância para evitar que outros veículos entrem no espaço.",
+            "Focar apenas no veículo à frente, sem necessidade de observar o tráfego ao redor.",
+            "Aumentar a velocidade ao se aproximar do veículo à frente, para pressioná-lo a mudar de faixa.",
+            "Frear bruscamente toda vez que o veículo à frente diminuir a velocidade, para garantir que não haja colisão."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Qual é a atitude mais adequada que o condutor deve adotar ao perceber que um veículo está muito próximo de sua traseira?",
+        "image": "",
+        "answers": [
+            "Reduzir drasticamente a velocidade para forçar o veículo de trás a manter distância.",
+            "Aumentar a velocidade rapidamente para se distanciar do veículo que está muito próximo.",
+            "Frear bruscamente para alertar o motorista de trás sobre o risco de colisão.",
+            "Ignorar a presença do veículo de trás e continuar dirigindo normalmente, sem fazer alterações na velocidade ou direção.",
+            "Manter uma condução suave, sinalizar antecipadamente qualquer mudança de direção e, se possível, mudar de faixa ou permitir que o veículo de trás ultrapasse."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "Ao se aproximar de um veículo que vem em sentido contrário em uma via de mão dupla, qual é a atitude mais segura que o condutor deve adotar?",
+        "image": "",
+        "answers": [
+            "Aumentar a velocidade para passar rapidamente pelo veículo que vem em sentido contrário.",
+            "Manter-se o mais próximo possível da linha central para reduzir a distância percorrida.",
+            "Usar o farol alto para garantir que o veículo em sentido contrário o veja melhor.",
+            "Manter a direita da via, reduzir a velocidade e ficar atento a qualquer movimento inesperado do veículo que vem em sentido contrário.",
+            "Reduzir a velocidade e dirigir no meio da pista, para evitar buracos ou desníveis na lateral da via."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Ao compartilhar a estrada com veículos de grande porte, como caminhões ou ônibus, qual é a atitude mais segura que o condutor deve adotar?",
+        "image": "",
+        "answers": [
+            "Acelerar para ultrapassar rapidamente o veículo de grande porte e evitar ficar muito tempo em seu ponto cego.",
+            "Manter uma distância segura ao dirigir atrás de um veículo de grande porte, pois sua visibilidade é limitada e ele pode parar repentinamente.",
+            "Ignorar sinais de trânsito, pois as vias rurais costumam ter pouca sinalização.",
+            "Acelerar ao se aproximar de curvas, para garantir que o veículo não seja ultrapassado.",
+            "Conduzir sem prestar atenção ao tráfego, já que as vias rurais geralmente têm menos veículos."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Ao dirigir em vias rurais, quais são os cuidados que o condutor deve ter para garantir uma condução segura?",
+        "image": "",
+        "answers": [
+            "Manter a velocidade máxima permitida, independentemente das condições da estrada.",
+            "Ignorar sinais de trânsito, pois as vias rurais costumam ter pouca sinalização.",
+            "Acelerar ao se aproximar de curvas, para garantir que o veículo não seja ultrapassado.",
+            "Conduzir sem prestar atenção ao tráfego, já que as vias rurais geralmente têm menos veículos.",
+            "Conduzir dentro da velocidade permitida, prestar atenção em animais soltos, veículos lentos e buracos na pista, e sinalizar sempre ao realizar manobras."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "Quais dos seguintes cuidados são mais eficazes para evitar sinistros no trânsito?",
+        "image": "",
+        "answers": [
+            "Ultrapassar em curvas para economizar tempo",
+            "Manter a distância segura do veículo à frente",
+            "Dirigir acima da velocidade permitida em vias vazias",
+            "Usar o celular enquanto dirige para manter-se atualizado",
+            "Ignorar os limites de velocidade em áreas escolares"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Qual é a melhor prática ao dirigir próximo a ciclistas no trânsito?",
+        "image": "",
+        "answers": [
+            "Manter uma distância lateral segura de, no mínimo, 1,5 metros",
+            "Ultrapassar rapidamente para evitar ficar perto do ciclista por muito tempo",
+            "Dirigir o mais próximo possível do ciclista para facilitar a ultrapassagem",
+            "Usar a buzina para alertar o ciclista sempre que estiver se aproximando",
+            "Acelerar em áreas estreitas para evitar reduzir a velocidade"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Qual das atitudes a seguir é a mais adequada para garantir segurança ao atravessar cruzamentos no trânsito?",
+        "image": "",
+        "answers": [
+            "Aumentar a velocidade para cruzar rapidamente",
+            "Ignorar o semáforo se o cruzamento estiver vazio",
+            "Diminuir a atenção em cruzamentos sem sinalização",
+            "Redobrar a atenção, diminuir a velocidade e respeitar a sinalização",
+            "Confiar que outros veículos sempre seguirão as regras"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Qual dos seguintes cuidados é o mais importante para evitar atropelamentos no trânsito?",
+        "image": "",
+        "answers": [
+            "Acelerar em áreas com pedestres para cruzar rapidamente",
+            "Ultrapassar outros veículos em áreas escolares para evitar congestionamento",
+            "Reduzir a velocidade ao se aproximar de faixas de pedestres",
+            "Usar o celular enquanto dirige em áreas com grande fluxo de pedestres",
+            "Ignorar os sinais de trânsito se não houver muitos pedestres visíveis"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Qual das seguintes atitudes é a mais adequada ao avistar um animal na pista?",
+        "image": "",
+        "answers": [
+            "Acelerar para tentar passar antes que o animal se mova",
+            "Desviar bruscamente sem reduzir a velocidade",
+            "Reduzir a velocidade e sinalizar para os outros motoristas",
+            "Ignorar o animal e manter a trajetória",
+            "Usar a buzina para assustar o animal e fazê-lo sair da pista rapidamente"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "De conhecimento muito comum é que crianças agem como crianças, falam como crianças e fazem coisas de crianças; ou seja, uma criança não é um adulto. Pensando nisso, qual deve ser a atitude correta do condutor ao se aproximar de um escola e perceber que há crianças desacompanhadas de adultos próximas às calçadas?",
+        "image": "",
+        "answers": [
+            "Acelerar para passar rapidamente e evitar possíveis atrasos.",
+            "Fazer manobras de desvio para evitar passar perto das crianças, mesmo que isso implique desviar do trajeto.",
+            "Ignorar a situação, pois as crianças devem saber como se comportar nas calçadas.",
+            "Soar a buzina para alertar as crianças sobre a presença do veículo.",
+            "Reduzir a velocidade, prestar atenção às crianças e estar preparado para parar, se necessário."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "Você está andando em uma rodovia de pista simples de fluxo oposto de trânsito com caminhões na sua frente. Para ultrapassá-los, você deve...",
+        "image": "",
+        "answers": [
+            "Passar por vários caminhões ao mesmo tempo para não ficar no meio deles.",
+            "Ultrapassar imediatamente, acelerando ao máximo para evitar a colisão com veículos que vêm na direção oposta.",
+            "Sinalizar a intenção de ultrapassagem e proceder com cuidado, observando se a pista está livre.",
+            "Passar pela direita, se houver espaço, pois é mais seguro do que tentar ultrapassar pela esquerda.",
+            "Ignorar a presença dos caminhões e continuar na mesma velocidade, confiando que eles não vão mudar de faixa."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Ronaldo está ultrapassando um veículo de grande porte (caminhão) e percebe que está vindo um veículo no sentido contrário. Nessa situação, o que Ronaldo nunca deve fazer?",
+        "image": "",
+        "answers": [
+            "Tentar desistir da ultrapassagem, retornando para a faixa de origem.",
+            "Deslocar-se para a direita, aproximando-se ao máximo do veículo que está sendo ultrapassado.",
+            "Dar sinal com antecedência por meio de seta para a direita, informando que está tentando retornar à pista de origem.",
+            "Não tentar ultrapassar vários veículos ao mesmo tempo.",
+            "Ir para o acostamento contrário."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "Quais as atitudes dos seres humanos que são as principais causas dos sinistros de trânsito?",
+        "image": "",
+        "answers": [
+            "Desrespeito às leis de trânsito, uso de tecnologias modernas e velocidade adequada.",
+            "Imprudência, negligência e imperícia.",
+            "Consciência de segurança, atenção plena e respeito às sinalizações.",
+            "Experiência ao volante, manutenção regular do veículo e planejamento de rotas.",
+            "Uso de cinto de segurança, direção defensiva e condução sob condições adversas."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Em uma estrada sinuosa, as curvas representam um dos principais pontos de atenção para os motoristas, especialmente em situações de risco. Qual das alternativas abaixo descreve a melhor conduta ao se aproximar de uma curva perigosa, para garantir a segurança do motorista e dos passageiros?",
+        "image": "",
+        "answers": [
+            "Acelerar ao máximo para completar a curva mais rápido e reduzir o tempo de exposição ao risco.",
+            "Manter a mesma velocidade que estava antes de entrar na curva para não perder o ritmo da condução.",
+            "Reduzir a velocidade antes de entrar na curva, utilizar o freio de forma gradual e manter o veículo na pista correta.",
+            "Frear bruscamente ao perceber a aproximação da curva para evitar acidentes, mesmo que esteja muito próximo.",
+            "Fazer uso excessivo da direção ao entrar e sair da curva para garantir que o veículo se mantenha na trajetória correta."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Ao realizar a ultrapassagem de veículos pesados, como caminhões ou ônibus, o condutor deve tomar cuidados adicionais devido às características desses veículos. Qual das alternativas a seguir descreve a conduta mais adequada para realizar uma ultrapassagem segura?",
+        "image": "",
+        "answers": [
+            "Aproximar-se rapidamente do veículo pesado e iniciar a ultrapassagem imediatamente, sem sinalizar, para ser ágil.",
+            "Iniciar a ultrapassagem em curvas ou aclives, onde a visibilidade é limitada, aproveitando a redução de velocidade do veículo pesado.",
+            "Realizar a ultrapassagem apenas quando o veículo pesado estiver em alta velocidade, para não demorar muito tempo ao lado dele.",
+            "Manter uma distância segura, sinalizar com antecedência e verificar se há espaço suficiente e visibilidade antes de iniciar a manobra de ultrapassagem.",
+            "Utilizar o acostamento como uma área de apoio durante a ultrapassagem para facilitar o movimento e garantir a segurança."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Ultrapassar em situações de risco, como em pistas molhadas ou com pouca visibilidade, exige cuidado redobrado do motorista. Qual das alternativas abaixo descreve a conduta mais segura ao realizar uma ultrapassagem nessas condições?",
+        "image": "",
+        "answers": [
+            "Ultrapassar rapidamente, mesmo em situações de baixa visibilidade, pois a rapidez reduz o tempo de exposição ao risco.",
+            "Iniciar a ultrapassagem em curvas ou trechos sem visibilidade total, confiando na intuição e no conhecimento da estrada.",
+            "Forçar a ultrapassagem mesmo que a pista esteja molhada, pois os freios do veículo garantem a estabilidade durante a manobra.",
+            "Aguardar até ter total visibilidade da pista contrária, mesmo que isso implique em manter uma velocidade reduzida atrás do veículo à frente.",
+            "Ultrapassar sempre por dentro das faixas de pedestres, uma vez que a faixa oferece maior aderência em condições de pista molhada."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Derrapagens em curvas podem ocorrer quando o veículo perde aderência com a pista, especialmente em condições adversas, como chuva ou alta velocidade. Qual das alternativas abaixo descreve a ação mais adequada a ser tomada pelo motorista para evitar ou corrigir uma derrapagem em uma curva?",
+        "image": "",
+        "answers": [
+            "Acelerar ao máximo ao perceber que o veículo está derrapando, para ganhar controle rapidamente.",
+            "Frear bruscamente e virar o volante na direção oposta à derrapagem para tentar alinhar o veículo.",
+            "Ignorar as condições da pista e manter o veículo na mesma trajetória, pois qualquer alteração pode aumentar o risco de derrapagem.",
+            "Aumentar a velocidade dentro da curva para que o veículo recupere a tração com o aumento da força centrífuga.",
+            "Reduzir gradualmente a velocidade antes de entrar na curva e evitar movimentos bruscos no volante."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "Derrapagens com motocicletas podem ser perigosas, principalmente em condições de pista molhada ou com areia. Qual das alternativas a seguir descreve a ação mais segura que o motociclista deve adotar ao perceber que sua moto está derrapando?",
+        "image": "",
+        "answers": [
+            "Acelerar imediatamente para que a moto recupere a tração e retome a estabilidade.",
+            "Frear bruscamente com ambos os freios para tentar parar a moto o mais rápido possível.",
+            "Manter a calma, reduzir gradualmente a aceleração e tentar manter a moto na posição vertical, evitando movimentos bruscos.",
+            "Inclinar ainda mais a moto na curva para tentar ganhar aderência e recuperar o controle.",
+            "Usar apenas o freio traseiro para impedir que a roda dianteira derrape e cause um desequilíbrio maior."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Ondulações na via, como lombadas ou irregularidades no asfalto, podem afetar a estabilidade do veículo e causar perda de controle se não forem enfrentadas de maneira adequada. Qual das alternativas abaixo descreve a conduta mais segura ao trafegar por uma via com ondulações?",
+        "image": "",
+        "answers": [
+            "Acelerar ao máximo para passar rapidamente pelas ondulações, minimizando o impacto.",
+            "Reduzir a velocidade gradualmente e manter uma velocidade constante ao passar pelas ondulações, evitando frenagens bruscas.",
+            "Frear bruscamente ao se aproximar de uma ondulação para reduzir o impacto no veículo.",
+            "Desviar das ondulações, utilizando o acostamento, para evitar qualquer impacto no veículo.",
+            "Aumentar a pressão dos pneus antes de enfrentar uma via com ondulações, garantindo que os pneus absorvam melhor os impactos."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Buracos na via podem causar danos ao veículo e colocar a segurança dos ocupantes em risco. Qual das alternativas abaixo descreve a melhor conduta ao avistar um buraco na pista enquanto dirige?",
+        "image": "",
+        "answers": [
+            "Reduzir a velocidade com antecedência e desviar do buraco se possível, mantendo o controle e a segurança do veículo.",
+            "Desviar bruscamente do buraco, mesmo que seja necessário invadir a contramão, para evitar danos ao veículo.",
+            "Manter a velocidade e passar pelo buraco, confiando na suspensão do veículo para absorver o impacto.",
+            "Acelerar ao passar pelo buraco para diminuir o tempo de contato entre o pneu e a superfície irregular.",
+            "Frear bruscamente ao se aproximar do buraco para evitar danos, sem se preocupar com o trânsito ao redor."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Cruzamentos podem ser pontos críticos no trânsito, especialmente em situações de risco, como má visibilidade ou tráfego intenso. Qual das alternativas a seguir descreve a melhor conduta ao se aproximar de um cruzamento em situação de risco?",
+        "image": "",
+        "answers": [
+            "Acelerar para cruzar rapidamente, diminuindo o tempo de exposição ao perigo.",
+            "Confiar que os veículos nas outras vias irão parar e avançar sem hesitação para manter o fluxo de trânsito.",
+            "Frear bruscamente ao se aproximar do cruzamento, independentemente do sinal de trânsito, para evitar colisões.",
+            "eduzir a velocidade, observar atentamente o tráfego em todas as direções e só avançar quando tiver certeza de que é seguro.",
+            "Utilizar a buzina para avisar os outros motoristas da sua presença e atravessar o cruzamento sem diminuir a velocidade."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Em situações de frenagem de emergência, a reação do motorista é crucial para evitar acidentes graves. Qual das alternativas a seguir descreve a maneira mais adequada de realizar uma frenagem de emergência?",
+        "image": "",
+        "answers": [
+            "Pisar no freio de forma intermitente, alternando entre frear e soltar o pedal para reduzir a velocidade gradualmente.",
+            "Frear bruscamente e virar o volante em direção contrária ao obstáculo, garantindo o desvio imediato.",
+            "Pisar no freio com firmeza, mantendo as duas mãos no volante e, se o veículo possuir ABS, manter a pressão no freio até a parada total.",
+            "Acionar apenas o freio de mão para evitar o travamento das rodas e manter o controle do veículo.",
+            "Frear apenas com o pedal de embreagem, utilizando o freio principal apenas quando estiver muito próximo do obstáculo."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "A frenagem normal deve ser realizada de maneira suave e controlada para garantir a segurança no trânsito. Qual das alternativas abaixo descreve a técnica correta para realizar uma frenagem normal?",
+        "image": "",
+        "answers": [
+            "Pressionar o pedal de freio com força total de forma imediata para parar o veículo o mais rápido possível.",
+            "Manter o pé levemente pressionado no pedal de freio o tempo todo, para estar sempre preparado para frear.",
+            "Aplicar pressão suave e gradual no pedal de freio, antecipando a parada e permitindo que o veículo desacelere de forma controlada.",
+            "Frear apenas quando estiver muito próximo do obstáculo, utilizando o máximo da força para evitar a colisão.",
+            "Usar apenas o freio de mão para parar o veículo em situações de baixa velocidade, sem pressionar o pedal de freio."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "O sistema de freios ABS (Antilock Braking System) é projetado para ajudar a manter a estabilidade do veículo durante uma frenagem intensa. Qual das alternativas abaixo descreve a conduta mais adequada ao utilizar o sistema de freios ABS em uma situação de emergência?",
+        "image": "",
+        "answers": [
+            "Frear bruscamente e manter a pressão constante no pedal, permitindo que o sistema ABS funcione corretamente.",
+            "Frear rapidamente e soltar o pedal de freio várias vezes para evitar o travamento das rodas.",
+            "Acelerar antes de frear para aumentar a força de frenagem e melhorar a eficiência do sistema.",
+            "Frear suavemente, pois o sistema ABS não é necessário em situações de emergência.",
+            "Utilizar apenas o freio traseiro durante a frenagem para evitar que o sistema ABS entre em ação."
+        ],
+        "correctAnswer": 0
     }
 ]

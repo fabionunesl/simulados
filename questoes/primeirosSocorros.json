@@ -108,256 +108,256 @@
         "correctAnswer": 2
     },
     {
-        "question": "123", 
+        "question": "O que NÃO deve ser feito com uma vítima que está convulsionando?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Afastar do seu redor o que possa machucá-la.",
+            "Deitar a vítima.",
+            "Proteger a cabeça da vítima com algo macio.",
+            "Tentar impedir seus movimentos.",
+            "Retirar próteses, óculos, pulseiras."
         ],
         "correctAnswer": 3
     },
     {
-        "question": "123", 
+        "question": "Como você pode proceder ao avaliar se a vítima está respirando?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Verificar apenas a pulsação no pescoço.",
+            "Observar se há movimento no tórax e ouvir a respiração.",
+            "Tentar fazer a vítima tossir.",
+            "Colocar a mão na boca da vítima.",
+            "Avaliar a cor da pele da vítima."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "A distância do início da sinalização em relação ao local do sinistro depende de:", 
+        "image": "",
+        "answers": [
+            "Da urgência em sinalizar e do tempo para chamar as equipes de socorro.",
+            "Da pessoa que vai sinalizar.",
+            "Exclusivamente do tipo de sinistro.",
+            "Das características físicas do local e das condições climáticas.",
+            "Exclusivamente do número de vítimas."
         ],
         "correctAnswer": 3
     },
     {
-        "question": "123", 
+        "question": "Durante um sinistro, uma pessoa pode alertar os condutores. Essa pessoa deve ficar:", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "De costas para o fluxo de trânsito.",
+            "Na lateral da pista, de frente para o fluxo, acenando com um pano colorido.",
+            "Logo depois da curva mais próxima ao sinistro.",
+            "A poucos metros do local do sinistro.",
+            "Sobre a pista de rolamento, à direita."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Qual é o conceito dos primeiros socorros a uma vítima de sinistro de trânsito?", 
+        "image": "",
+        "answers": [
+            "Assistir rapidamente a vítima, realizando todas as intervenções necessárias.",
+            "Providências iniciais e temporárias tomadas no local para não agravar o estado da vítima.",
+            "Movimentar a vítima o mais rápido possível.",
+            "Realizar procedimentos avançados de reanimação.",
+            "Esperar o socorro especializado chegar."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "A sinalização pode ser usada com segurança durante o dia ou à noite em caso de sinistro?", 
+        "image": "",
+        "answers": [
+            "Galhos de árvores.",
+            "Pedaços de madeira.",
+            "Isqueiros e tochas de fogo.",
+            "Triângulo de segurança.",
+            "Capô erguido do veículo."
         ],
         "correctAnswer": 3
     },
     {
-        "question": "123", 
+        "question": "Ao realizar uma avaliação primária em uma vítima de sinistro de trânsito, deve-se verificar:", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Vias aéreas e possíveis traumas; respiração; circulação.",
+            "Vias aéreas; respiração; circulação; amputações.",
+            "Respiração; circulação.",
+            "Vias aéreas e amputações.",
+            "Vias aéreas."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Chegando a um local de sinistro de trânsito, você entra em contato com a vítima e percebe que ela parece estar bem, mas está com respiração rápida, agitação e enjoo. Esses são sintomas de:", 
+        "image": "",
+        "answers": [
+            "Hipotermia.",
+            "Intoxicação.",
+            "Desidratação.",
+            "Estado de choque.",
+            "Crise de ansiedade."
         ],
         "correctAnswer": 3
     },
     {
-        "question": "123", 
+        "question": "Quando se pressiona o dedo indicador e o dedo médio no pescoço, sobre a artéria carótida, você consegue verificar:", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Se o sangue está circulando.",
+            "A presença de fraturas na região cervical.",
+            "O nível de consciência da vítima.",
+            "A frequência respiratória da vítima.",
+            "A temperatura corporal da vítima."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "A movimentação e remoção da vítima deve ser sempre feita:", 
+        "image": "",
+        "answers": [
+            "Por qualquer pessoa presente no local.",
+            "A princípio, por profissionais especializados.",
+            "Imediatamente, para evitar que a vítima fique presa.",
+            "Apenas após a chegada das equipes de emergência.",
+            "Por amigos ou familiares da vítima."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Em caso de sinistro à noite, a sinalização segura deve ser feita com:", 
+        "image": "",
+        "answers": [
+            "Galhos de árvores e pedaços de madeira.",
+            "Pedaços de tecido e plástico.",
+            "Tochas de fogo, isqueiros e fósforos.",
+            "Lanternas, pisca-alerta e faróis dos veículos.",
+            "Cavaletes de obra, pedaços de plástico e tecido."
         ],
         "correctAnswer": 3
     },
     {
-        "question": "123", 
+        "question": "Num sinistro de trânsito, o que deve ser feito em primeiro lugar?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Socorrer a vítima.",
+            "Movimentar a vítima.",
+            "Afastar curiosos.",
+            "Acionar o socorro.",
+            "Sinalizar o local."
         ],
-        "correctAnswer": 3
+        "correctAnswer": 4
     },
     {
-        "question": "123", 
+        "question": "Em caso de sinistro, o que você deve evitar fazer com uma vítima?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Movimentá-la apenas em situações de risco extremo.",
+            "Verificar nível de consciência.",
+            "Verificar respiração.",
+            "Conversar com a vitima sendo solidário.",
+            "Oferecer água."
         ],
-        "correctAnswer": 3
+        "correctAnswer": 4
     },
     {
-        "question": "123", 
+        "question": "Em um acidente com um veículo que apresenta vazamento de gasolina, qual atitude você deve tomar?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Manter distância e sinalizar o local.",
+            "Acionar o socorro e permanecer perto do veículo.",
+            "Desligar o motor do veículo.",
+            "Ignorar o vazamento e continuar o socorro.",
+            "Tentar conter o vazamento."
         ],
-        "correctAnswer": 3
+        "correctAnswer": 0
     },
     {
-        "question": "123", 
+        "question": "O que se deve fazer com uma vítima consciente que apresenta sangramento intenso?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Comprimir o local do sangramento.",
+            "Oferecer água.",
+            "Colocar a vítima em posição de segurança.",
+            "Movimentar a vítima.",
+            "Verificar a frequência respiratória."
         ],
-        "correctAnswer": 3
+        "correctAnswer": 0
     },
     {
-        "question": "123", 
+        "question": "O que é necessário ao prestar os primeiros socorros em um sinistro?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Ter noções de técnicas avançadas de reanimação.",
+            "Ter um treinamento profissional.",
+            "Conhecer os conceitos básicos de primeiros socorros.",
+            "Sempre chamar o socorro, sem tentar ajudar.",
+            "Ter equipamentos de emergência."
         ],
-        "correctAnswer": 3
+        "correctAnswer": 2
     },
     {
-        "question": "123", 
+        "question": "Após um sinistro, o que deve ser feito para prestar socorro?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Chamar o socorro e não fazer mais nada.",
+            "Aguardar o socorro e não tocar em nada.",
+            "Avaliar a situação, sinalizar e acionar o socorro.",
+            "Falar com a vítima e tentar acalmá-la.",
+            "Remover a vítima imediatamente."
         ],
-        "correctAnswer": 3
+        "correctAnswer": 2
     },
     {
-        "question": "123", 
+        "question": "No caso de um sinistro de trânsito, o que deve ser feito ao se aproximar do local?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Aumentar a velocidade para chegar rápido.",
+            "Reduzir a velocidade e observar o que aconteceu.",
+            "Parar no meio da pista para ajudar.",
+            "Tentar passar entre os veículos.",
+            "Aguardar a chegada das autoridades."
         ],
-        "correctAnswer": 3
+        "correctAnswer": 1
     },
     {
-        "question": "123", 
+        "question": "Qual é a primeira ação ao identificar uma vítima inconsciente?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Movimentar a vítima para verificar lesões.",
+            "Oferecer água ou alimentos.",
+            "Verificar a respiração.",
+            "Chamar o socorro imediatamente.",
+            "Proteger a cabeça da vítima."
         ],
-        "correctAnswer": 3
+        "correctAnswer": 2
     },
     {
-        "question": "123", 
+        "question": "Em caso de queimadura, a primeira ação deve ser:", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Estourar as bolhas que se formam.",
+            "Colocar a área queimada sob água corrente fria.",
+            "Aplicar pomadas e cremes.",
+            "Cobrir a queimadura com um pano limpo.",
+            "Colocar gelo diretamente sobre a queimadura."
         ],
-        "correctAnswer": 3
+        "correctAnswer": 1
     },
     {
-        "question": "123", 
+        "question": "O que NÃO deve ser feito ao tratar uma fratura exposta?", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Manter a vítima imóvel.",
+            "Tentar realinhar o osso.",
+            "Cobrir a área afetada com um pano limpo.",
+            "Chamar o socorro.",
+            "Evitar que a vítima se mova."
         ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
+        "correctAnswer": 1
     }
    
 ]

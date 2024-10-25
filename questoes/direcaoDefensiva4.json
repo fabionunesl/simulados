@@ -1,14 +1,363 @@
 [   
     {
-        "question": "Direção Defensiva 4 em andamento!",
-        "image": "imagens/xxxxxx.jpg",
+        "question": "Se você estiver dirigindo sozinho, qual é a melhor maneira de lidar com o celular?",
+        "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Desligar o aparelho ou ignorar chamadas e mensagens.",
+            "Verificar quem está ligando e atender se for algo urgente.",
+            "Atender apenas as chamadas que você considera urgentes.",
+            "Colocar o celular em um local acessível para facilitar o uso.",
+            "Atender assim que o telefone tocar."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Em uma chuva tão forte que você não consegue ver nada, o que deve fazer?",
+        "image": "",
+        "answers": [
+            "Diminuir a velocidade e continuar dirigindo.",
+            "Parar em um lugar seguro e esperar por melhores condições para seguir.",
+            "Ligar os faróis e os limpadores de para-brisa e continuar a viagem.",
+            "Continuar dirigindo e usar a buzina para avisar os outros.",
+            "Aumentar a atenção e seguir em frente mesmo assim."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Dirigir sob a influência de álcool é perigoso, pois pode afetar o corpo do motorista. Quais efeitos o álcool pode causar?",
+        "image": "",
+        "answers": [
+            "Sensação de segurança e tranquilidade.",
+            "Redução do tempo de reação a estímulos.",
+            "Decisões tomadas com calma.",
+            "Aumento da atividade cerebral.",
+            "Melhor percepção de distâncias e velocidades."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ao dirigir à noite, como garantir boa visibilidade para você e para os outros?",
+        "image": "",
+        "answers": [
+            "Usar sempre luz alta.",
+            "Manter os faróis do carro sempre ligados e alterar para mais claras.",
+            "Manter os faróis limpos, alinhados e utilizá-los conforme as regras.",
+            "Ligar as lanternas de posição.",
+            "Manter a luz da placa sempre acesa."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Pilotando a motocicleta, quando passar por sonorizadores, como deve proceder?",
+        "image": "",
+        "answers": [
+            "Em zigue-zague.",
+            "Em um ângulo oblíquo.",
+            "Em um ângulo reto, formando 90 graus.",
+            "Paralelamente.",
+            "Em uma direção diagonal."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "O uso de substâncias psicoativas (como remédios, álcool e drogas) pode afetar o motociclista de que forma?",
+        "image": "",
+        "answers": [
+            "Trazendo benefícios ao corpo.",
+            "Com um impacto positivo em todos os sistemas do corpo.",
+            "Aumentando a capacidade de atenção.",
+            "Reduzindo a capacidade intelectual.",
+            "Alterando temporariamente o funcionamento do sistema nervoso central."
         ],
         "correctAnswer": 4
+    },
+    {
+        "question": "Um motorista que não tem controle emocional:",
+        "image": "",
+        "answers": [
+            "Pode ter reações inesperadas enquanto dirige.",
+            "Nunca será habilitado.",
+            "Não deve dirigir.",
+            "Conseguirá controlar suas emoções.",
+            "Não recebeu formação adequada."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Qual das seguintes opções NÃO é considerada uma condição adversa da via?",
+        "image": "",
+        "answers": [
+            "Falta de sinalização ou sinalização deficiente.",
+            "Inundações e grandes volumes de água na pista.",
+            "Pavimentação inadequada: buracos, valetas e ondulações.",
+            "Ausência de calçadas ou má conservação delas.",
+            "Declives acentuados e muitas curvas."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Por que é importante manter o controle emocional ao dirigir?",
+        "image": "",
+        "answers": [
+            "Porque é fundamental para a segurança no trânsito.",
+            "O condutor não deve ser influenciado por circunstâncias.",
+            "O condutor deve saber como se comportar em todas as situações.",
+            "O condutor deve ter habilidade para lidar com situações adversas.",
+            "As regras não se aplicam aos motoristas experientes."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Cansaço, estresse e sono são fatores que:",
+        "image": "",
+        "answers": [
+            "São normais na vida corrida e não precisam de cuidados ao dirigir.",
+            "São tão sérios que impedem o condutor de dirigir.",
+            "Reduzem a capacidade de concentração e exigem atenção redobrada ao dirigir.",
+            "Alteram a forma de dirigir, mas não necessitam de cuidados especiais.",
+            "Não requerem atenção especial ao volante."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Se você está dirigindo e começa a chover, o que deve fazer primeiro?",
+        "image": "",
+        "answers": [
+            "Ligar o rádio para ouvir a previsão do tempo.",
+            "Ativar os faróis de neblina.",
+            "Manter a velocidade atual.",
+            "Diminuir a velocidade e ligar o limpador de para-brisa.",
+            "Parar o carro até que a chuva passe."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Se um veículo em sentido contrário está com os faróis altos, prejudicando sua visão, qual deve ser sua atitude?",
+        "image": "",
+        "answers": [
+            "Usar também os faróis altos para devolver o favor.",
+            "Focar a visão no facho de luz alta do carro que se aproxima.",
+            "Desviar o olhar para a direita, guiando-se pelo bordo da pista, e manter os faróis baixos.",
+            "Dar sinal com os faróis.",
+            "Fechar os olhos até que o carro passe."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Se um motociclista é insultado por um motorista que passou muito perto, como deve reagir?",
+        "image": "",
+        "answers": [
+            "Responder ao insulto, ofendendo de volta.",
+            "Aproximar-se ainda mais do carro e ameaçar o motorista.",
+            "Fechar o caminho do motorista.",
+            "Parar no trânsito para deixar o motorista passar.",
+            "Ignorar o insulto e continuar dirigindo com segurança."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "O que você deve fazer se o carro atolar na areia?",
+        "image": "",
+        "answers": [
+            "Pedir a ajuda de pedestres para aumentar o peso do veículo.",
+            "Desinflar um pouco os pneus para melhorar a aderência.",
+            "Acelerar enquanto pisa na embreagem.",
+            "Virar o volante para os lados alternadamente.",
+            "Usar areia para calçar os pneus."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "O que causa a aquaplanagem?",
+        "image": "",
+        "answers": [
+            "Pneus desgastados e baixa velocidade.",
+            "Alta velocidade em pista molhada.",
+            "Água na pista e baixa velocidade.",
+            "Velocidade moderada com pneus em boas condições.",
+            "Baixa velocidade com pneus em boas condições."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Se um grupo de amigos decide ir a uma festa juntos, quem deve ser o motorista de volta?",
+        "image": "",
+        "answers": [
+            "O escolhido por sorteio.",
+            "O proprietário do carro.",
+            "A pessoa que não vai beber durante a festa.",
+            "O mais velho do grupo.",
+            "Qualquer um, mesmo que tenha bebido."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Ao dirigir sob chuva, o que todo motorista deve fazer?",
+        "image": "",
+        "answers": [
+            "Diminuir a distância de segurança.",
+            "Dirigir com os faróis apagados.",
+            "Não usar capa, botas e capacete.",
+            "Aumentar a atenção e reduzir a velocidade.",
+            "Focar apenas na chuva e esquecer o trânsito."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Ao dirigir em condições de pouca luz, como um motorista defensivo deve se comportar?",
+        "image": "",
+        "answers": [
+            "Manter os faróis altos ligados.",
+            "Aumentar a atenção e ligar os faróis baixos.",
+            "Olhar fixamente para os últimos raios de sol.",
+            "Acelerar, mantendo atenção redobrada.",
+            "Ficar atento apenas aos veículos atrás de você."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Se você estiver dirigindo à noite em um condomínio mal iluminado e se aproximar de um cruzamento, o que deve fazer?",
+        "image": "",
+        "answers": [
+            "Parar, olhar cuidadosamente e buzinar.",
+            "Buzinar para avisar e acelerar.",
+            "Reduzir a velocidade e entrar confiante.",
+            "Diminuir a velocidade, olhar atentamente e sinalizar antes de cruzar.",
+            "Buzinar e sinalizar antes de cruzar."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "O condutor que ingere álcool:",
+        "image": "",
+        "answers": [
+            "Tem seus reflexos prejudicados.",
+            "Pode dirigir sem mudanças em seu comportamento.",
+            "Representa perigo apenas para si.",
+            "Não comete infração ao dirigir.",
+            "Comporta-se normalmente."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "É correto afirmar que:",
+        "image": "",
+        "answers": [
+            "Todos os motoristas devem estar cientes da importância de proteger a vida.",
+            "A segurança de um condutor experiente pode ser ignorada.",
+            "Apenas motoristas novos precisam aprender a dirigir defensivamente.",
+            "omente motoristas com experiência podem dirigir de forma segura.",
+            "Apenas motociclistas devem adotar uma condução defensiva."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Por que algumas substâncias psicoativas são perigosas ao dirigir?",
+        "image": "",
+        "answers": [
+            "Porque diminuem, estimulam ou alteram a função cerebral.",
+            "Causam aumento da atividade cerebral e aumento da atenção.",
+            "Apenas os remédios são perigosos.",
+            "Apenas o álcool é perigoso.",
+            "Não têm impacto no comportamento do motorista."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "A direção defensiva é uma abordagem essencial para a segurança no trânsito. Qual das alternativas a seguir melhor descreve o conceito de direção defensiva?",
+        "image": "",
+        "answers": [
+            "A prática de dirigir rapidamente para evitar o congestionamento.",
+            "A atitude de antecipar possíveis riscos e agir de forma a minimizá-los.",
+            "A crença de que todos os motoristas ao redor são incompetentes.",
+            "A confiança de que a tecnologia do veículo pode evitar acidentes.",
+            "O hábito de dirigir sem prestar atenção ao comportamento dos outros motoristas."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Durante a condução, é fundamental manter a atenção e evitar distrações. Qual das opções a seguir é uma das principais distrações que podem levar a acidentes?",
+        "image": "",
+        "answers": [
+            "Usar os espelhos retrovisores com frequência.",
+            "Manter uma distância segura do veículo à frente.",
+            "Observar os sinais de trânsito.",
+            "Verificar a pressão dos pneus antes de iniciar a viagem.",
+            "Ajustar o ar-condicionado enquanto dirige."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "A manutenção do veículo é um aspecto importante da direção defensiva. Qual das alternativas abaixo é uma prática recomendada para garantir que o veículo esteja em boas condições de operação?",
+        "image": "",
+        "answers": [
+            "Ignorar luzes de alerta no painel.",
+            "Realizar verificações regulares nos freios e pneus.",
+            "Fazer a troca de óleo apenas quando o motor apresentar problemas.",
+            "Utilizar pneus que não atendem às especificações do fabricante.",
+            "Negligenciar os sistemas de iluminação do veículo."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ao dirigir em condições climáticas adversas, como chuva ou neblina, o condutor deve adotar cuidados especiais. Qual das opções a seguir é a conduta mais adequada nesses casos?",
+        "image": "",
+        "answers": [
+            "Aumentar a velocidade para passar rapidamente pelas áreas de baixa visibilidade.",
+            "Utilizar os faróis altos para melhorar a visibilidade.",
+            "Manter uma distância maior do veículo à frente e reduzir a velocidade.",
+            "Ignorar as condições da pista e dirigir normalmente.",
+            "Frear bruscamente ao avistar água acumulada na pista."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Ao se aproximar de uma interseção, é importante estar atento a outros veículos e pedestres. Qual das alternativas abaixo é uma boa prática ao se aproximar de um cruzamento?",
+        "image": "",
+        "answers": [
+            "Acelerar para cruzar rapidamente e evitar esperar.",
+            "Reduzir a velocidade, observar atentamente o tráfego e os sinais de trânsito.",
+            "Ignorar os sinais e avançar com confiança, supondo que os outros motoristas vão parar.",
+            "Usar a buzina para alertar os outros motoristas da sua presença.",
+            "Desviar do cruzamento, mesmo que isso signifique invadir a contramão."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "A distância de segurança entre veículos é crucial para evitar colisões. Qual é a regra geral para calcular a distância de seguimento adequada em relação ao veículo à frente?",
+        "image": "",
+        "answers": [
+            "Manter apenas um carro de distância a qualquer velocidade.",
+            "A proximidade permite melhor visibilidade e controle do veículo.",
+            "Acelerar e frear frequentemente para evitar manter a distância.",
+            "Usar a regra dos dois segundos, aumentando a distância em condições adversas.",
+            "Ignorar a distância de seguimento, confiando na capacidade de frenagem do veículo."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "A sinalização correta é uma parte essencial da comunicação no trânsito. Qual das alternativas abaixo representa uma conduta adequada em relação ao uso de sinalização?",
+        "image": "",
+        "answers": [
+            "Sinalizar apenas quando não houver outros veículos ao redor.",
+            "Ignorar a sinalização quando o trânsito estiver leve.",
+            "Utilizar as setas de sinalização com antecedência antes de mudar de faixa ou fazer curvas.",
+            "Sinalizar apenas em manobras complexas.",
+            "Usar a sinalização apenas em rodovias."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Em caso de um acidente de trânsito, a postura do condutor pode influenciar a segurança de todos os envolvidos. Qual das alternativas abaixo descreve a conduta mais adequada após um sinistro?",
+        "image": "",
+        "answers": [
+            "Deixar o local do acidente rapidamente para evitar problemas.",
+            "Discutir agressivamente com os outros motoristas sobre a responsabilidade.",
+            "Ligar para os serviços de emergência e prestar assistência às vítimas, se seguro fazê-lo.",
+            "Ignorar o acidente e seguir viagem.",
+            "Apenas registrar os danos para garantir o ressarcimento do seguro."
+        ],
+        "correctAnswer": 2
     }
+    
 ]
