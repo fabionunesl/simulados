@@ -192,16 +192,16 @@
         "correctAnswer": 1
     },
     {
-        "question": "Qual das seguintes práticas de manutenção preventiva é essencial para aumentar a vida útil do motor e reduzir o consumo de combustível?", 
+        "question": "Um veículo a combustão em funcionamento produz gases tóxicos. Em relação à emissão desses gases, quais cuidados devem ser tomados?", 
         "image": "",
         "answers": [
-            "Trocar os pneus a cada 6 meses, independentemente do desgaste.",
-            "Usar combustível de baixa qualidade para economizar dinheiro.",
-            "Realizar trocas regulares de óleo e filtro de ar conforme as recomendações do fabricante.",
-            "Lavar o carro frequentemente para evitar corrosão.",
-            "Dirigir em alta velocidade para manter o motor em alta rotação."
+            "Permanecer em ambientes fechados com o veículo em funcionamento.",
+            "Manter o veículo ligado apenas em ambientes amplos e bem ventilados.",
+            "Ignorar qualquer cheiro forte proveniente do escapamento do veículo.",
+            "Utilizar o veículo em marcha lenta por longos períodos em locais sem ventilação.",
+            "Não ficar em ambientes fechados com o veículo em funcionamento. "
         ],
-        "correctAnswer": 2
+        "correctAnswer": 4
     },
     {
         "question": "Qual das seguintes práticas de manutenção preventiva é essencial para aumentar a vida útil do motor e reduzir o consumo de combustível?", 
@@ -252,111 +252,123 @@
         "correctAnswer": 0
     },
     {
-        "question": "123", 
+        "question": "Veículos automotores causam os seguintes tipos de poluição:", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Apenas poluição do ar.",
+            "Poluição da água e do solo.",
+            "Poluição do ar e da água.",
+            "Poluição do ar e do som. ",
+            "Poluição do solo e do som."
         ],
         "correctAnswer": 3
     },
     {
-        "question": "123", 
+        "question": "Preocupado com a geração e gerenciamento de resíduos, a Política Nacional de Resíduos Sólidos visa:", 
         "image": "",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Apenas reduzir a quantidade de resíduos.",
+            "Aumentar a geração de resíduos sólidos.",
+            "Não gerar, reduzir, reutilizar, reciclar, tratar e dar destinação ambientalmente adequada aos dejetos. ",
+            "Descartar resíduos em qualquer local.",
+            "Priorizar a incineração de resíduos como única solução"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Por onde deve começar a reciclagem?", 
+        "image": "",
+        "answers": [
+            "Apenas pelos centros de reciclagem.",
+            "Pela conscientização em eventos públicos.",
+            "Pela redução da quantidade de lixo produzido.",
+            "Pela separação dos materiais orgânicos dos recicláveis.",
+            "Pela coleta seletiva do lixo na própria casa, edifícios e nas empresas."
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "O trânsito é formado por indivíduos, grupos sociais e sociedade. Ao sair no espaço público, nosso comportamento deve priorizar:", 
+        "image": "",
+        "answers": [
+            "A liberdade individual acima de qualquer regra.",
+            "O direito de todos e a segurança coletiva acima dos direitos individuais",
+            "O cumprimento das leis apenas quando conveniente.",
+            "O respeito apenas às normas de trânsito que consideramos adequadas.",
+            "A velocidade como prioridade nas vias públicas."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "No trânsito, que é um espaço coletivo onde convergem diferentes interesses e conflitos, cada um sai para satisfazer uma necessidade e interesse pessoal. Seja qual for sua situação, você no trânsito deve:", 
+        "image": "",
+        "answers": [
+            "Ignorar as prioridades de passagem se estiver com pressa.",
+            "Ultrapassar sempre que houver espaço, pois a legislação permite.",
+            "Fazer manobras arriscadas para chegar mais rápido quando for urgente.",
+            "Obstruir a via se não for perigoso, pois os outros devem entender.",
+            "Não fazer ultrapassagens de risco, não tirar fininho, dar a preferência, não insultar nem xingar. "
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "Parar ou estacionar em fila dupla é quando não há vaga em um lugar apropriado e o condutor para ao lado de outro veículo em cima da pista de rolamento. É permitido esse tipo de parada quando:", 
+        "image": "",
+        "answers": [
+            "Há um motivo de emergência que justifique a parada.",
+            "É apenas por alguns minutos e em um local pouco movimentado.",
+            "O veículo que está ao lado está estacionado de forma irregular.",
+            "Quando está chovendo e as pessoas devem ser compreensivas.",
+            "Em nenhuma situação, além de ser uma falta de respeito com os outros. "
+        ],
+        "correctAnswer": 4
+    },
+    {
+        "question": "Observe a imagem. Esse símbolo é colocado em:", 
+        "image": "imagens/meioAmbienteConvivio/simboloInternacionalAcesso.jpg",
+        "answers": [
+            "Apenas em veículos de transporte público.",
+            "Locais que não têm acessibilidade para pessoas com deficiência.",
+            "Serviços que oferecem prioridade apenas para idosos.",
+            "Todos os locais e serviços que permitem a utilização por pessoas portadoras de deficiência. ",
+            "Apenas em instituições de ensino especializadas."
         ],
         "correctAnswer": 3
     },
     {
-        "question": "123", 
-        "image": "",
+        "question": "Procurando um local para estacionar em um supermercado, Andrea observa que existem 3 vagas disponíveis, todas destinadas a pessoas com deficiência. Qual deve ser a atitude correta de Andrea?", 
+        "image": "imagens/meioAmbienteConvivio/simboloInternacionalAcesso.jpg",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Não estacionar nem parar na vaga, independentemente de haver mais de uma vaga disponível, pois essas são reservadas.",
+            "Estacionar em uma das vagas, já que não há ninguém usando.",
+            "Parar rapidamente para deixar alguém entrar.",
+            "Utilizar uma das vagas, pois não vai demorar.",
+            "Estacionar apenas por alguns minutos, já que é um absurdo ter tantas vagas vazias."
         ],
-        "correctAnswer": 3
+        "correctAnswer": 0
     },
     {
-        "question": "123", 
-        "image": "",
+        "question": "A imagem representa:", 
+        "image": "imagens/meioAmbienteConvivio/simboloInternacionalSurdez.jpg",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Proibido uso de telefone.",
+            "Locais que não são acessíveis para pessoas com deficiência auditiva.",
+            "Todos os indivíduos que utilizam aparelhos auditivos.",
+            "Somente aquelas pessoas que não conseguem ouvir nada.",
+            "Pessoas com deficiência auditiva, que podem ser identificadas pelo símbolo internacional de surdez."
         ],
-        "correctAnswer": 3
+        "correctAnswer": 4
     },
     {
-        "question": "123", 
-        "image": "",
+        "question": "Qual é o significado da imagem apresentada?", 
+        "image": "imagens/meioAmbienteConvivio/simboloInternacionalSurdez.jpg",
         "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
+            "Símbolo de acessibilidade para cadeirantes.",
+            "Símbolo internacional de surdez. ",
+            "Símbolo de inclusão para pessoas com deficiência visual.",
+            "Símbolo de atenção para crianças.",
+            "Símbolo de segurança no trânsito."
         ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
-    },
-    {
-        "question": "123", 
-        "image": "",
-        "answers": [
-            "123",
-            "123",
-            "123",
-            "123",
-            "123"
-        ],
-        "correctAnswer": 3
+        "correctAnswer": 1
     }
 ]
