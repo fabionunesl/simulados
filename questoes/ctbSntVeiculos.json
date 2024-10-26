@@ -1,5 +1,5 @@
 [
-    {
+    { 
         "question": "Segundo o código de trânsito, solicitar por escrito aos órgãos a implementação de sinalização, fiscalização e alteração é um direito",
         "image": "",
         "answers": [
@@ -220,7 +220,7 @@
         "image": "",
         "answers": [
             "Documento de habilitação e recibo de pagamento de multas;",
-            "Documento de habilitação e CRV;",
+            "Documento de habilitação e CNH;",
             "CNH e IPVA;",
             "Documento de habilitação e CRLV-e;",
             "Documento de habilitação e IPVA."
@@ -252,7 +252,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "Para exame prático de veículos de duas ou mais rodas, o exame compreende que etapas respectivamente ",
+        "question": "Para exame prático de veículos de quatro ou mais rodas, o exame compreende que etapas respectivamente ",
         "image": "",
         "answers": [
             "Duas etapas: baliza e condução em via pública;",
