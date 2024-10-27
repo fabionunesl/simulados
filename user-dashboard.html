@@ -124,7 +124,7 @@ window.onload = function() {
 
     // Verifica se os parâmetros foram encontrados e atualiza o texto e a imagem de boas-vindas
     if (params.name && params.logoImage) {
-        document.getElementById('welcomeText').textContent = `Bem-vindo ao CFC ${params.name}!`;
+        document.getElementById('welcomeText').textContent = `Bem-vindo ao ${params.name}!`;
         document.querySelector('.logo-img').src = params.logoImage;
     } else {
         console.error('Parâmetros não encontrados: ', params);
