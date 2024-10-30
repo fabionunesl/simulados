@@ -240,7 +240,7 @@
 
         function acceptTerms() {
             if (window.userData) {
-                window.location.href = `user-dashboard.html?name=${encodeURIComponent(window.userData.name)}&logoImage=${encodeURIComponent(window.userData.logoImage)}`;
+                window.location.href = `selectMode.html?name=${encodeURIComponent(window.userData.name)}&logoImage=${encodeURIComponent(window.userData.logoImage)}`;
             } else {
                 console.error('Dados do usuário não encontrados!');
             }

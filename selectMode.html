@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção do modo de estudo</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilo geral do corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f0f4f8, #cfd8dc); /* Gradiente suave de cinza claro para azul */
+    color: #444;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 1.6; /* Aumenta a altura da linha para melhor legibilidade */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 12px; /* Bordas mais arredondadas */
+    margin-top: 50px;
+    transition: transform 0.3s ease; /* Transição ao passar o mouse */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Eleva o contêiner ao passar o mouse */
+}
+
+h1 {
+    font-size: 2em;
+    color: #ff6f00; /* Laranja forte */
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra no texto mais forte */
+}
+
+.modern-text1 {
+    font-size: 1.3em;
+    color: #555;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+.button {
+    background: rgba(255, 87, 34, 0.9); /* Laranja escuro */
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; /* Transição para sombra */
+    width: 90%; /* Define a largura dos botões */
+    max-width: 800px; /* Define o tamanho máximo para não ficar muito grande em telas largas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para um efeito de elevação */
+}
+
+.button:hover {
+    background: rgba(255, 87, 34, 1); /* Aumenta a opacidade ao passar o mouse */
+    transform: translateY(-2px); /* Levanta ligeiramente o botão ao passar o mouse */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4); /* Aumenta a sombra ao passar o mouse */
+}
+
+.button-select {
+    background: rgba(33, 150, 243, 0.9); /* Azul forte */
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px; /* Bordas mais arredondadas */
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; /* Transição para sombra */
+    width: 90%; /* Define a largura dos botões */
+    max-width: 800px; /* Define o tamanho máximo para não ficar muito grande em telas largas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para um efeito de elevação */
+}
+
+.button-select:hover {
+    background: rgba(33, 150, 243, 1); /* Aumenta a opacidade ao passar o mouse */
+    transform: translateY(-2px); /* Levanta ligeiramente o botão ao passar o mouse */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4); /* Aumenta a sombra ao passar o mouse */
+}
+
+.simulados-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Adicionando responsividade */
+@media (max-width: 600px) {
+    .button {
+        width: 90%;
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+
+    .modern-text {
+        font-size: 1em;
+    }
+}
+
+/* Estilo para a imagem centralizada */
+.logo-img {
+    max-width: 300px; /* Tamanho pequeno da imagem */
+    margin-bottom: 20px;
+    border-radius: 8px; /* Bordas arredondadas para a imagem */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para a imagem */
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="" alt="Logo" class="logo-img">
+        <h1 id="welcomeText"></h1>
+        <!-- Outras partes do seu layout -->
+    </div>
+
+    <script>
+        function getQueryParams() {
+    const params = {};
+    window.location.search.substring(1).split("&").forEach(param => {
+        const [key, value] = param.split("=");
+        params[decodeURIComponent(key)] = decodeURIComponent(value);
+    });
+    return params;
+}
+
+window.onload = function() {
+    const params = getQueryParams();
+    const container = document.querySelector('.container'); // Define o contêiner
+
+    // Verifica se os parâmetros foram encontrados e atualiza o texto e a imagem de boas-vindas
+    if (params.name && params.logoImage) {
+        document.getElementById('welcomeText').textContent = `Bem-vindo ao CFC ${params.name}!`;
+        document.querySelector('.logo-img').src = params.logoImage;
+    } else {
+        console.error('Parâmetros não encontrados: ', params);
+        // Atualiza o texto para "Realize as provas quantas vezes desejar"
+        document.getElementById('welcomeText').textContent = '';
+        document.querySelector('.logo-img').style.display = 'none'; // Oculta a imagem se os parâmetros não forem encontrados
+        container.style.display = 'none'; // Esconde o contêiner
+    }
+};
+    </script>       
+
+        <h2>Selecione seu modo de estudo</h2>
+
+        <div class="simulados-lista">            
+            <button class="button" onclick="location.href='user-dashboard.html'">Provas simuladas</button>
+            <button class="button-select" onclick="location.href='selecionarExercicio.html'">Exercícios</button>
+            
+            </div>
+        </div>
+
+        <div>
+            <button class="button-exit" onclick="location.href='index.html'">SAIR</button>            
+            <h1><br></h1>       
+        </div>
+    </div>
+</body>
+</html>
