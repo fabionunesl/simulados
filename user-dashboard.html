@@ -8,41 +8,46 @@
     <style>
         /* Estilo geral do corpo */
         body {
-            font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #f5f5f5, #e0e0e0); /* Gradiente de fundo */
-            color: #333;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #ffe0b2); /* Gradiente suave de azul claro para amarelo suave */
+    color: #444; /* Cor do texto ajustada para um cinza mais escuro */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 1.6; /* Aumenta a altura da linha para melhor legibilidade */
+}
 
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 40px;
-            background: #fff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            margin-top: 50px;
-        }
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 19px; /* Bordas mais arredondadas */
+    margin-top: 50px;
+    transition: transform 0.3s ease; /* Transição ao passar o mouse */
+}
+.container:hover {
+    transform: translateY(-5px); /* Eleva o contêiner ao passar o mouse */
+}
 
-        h1 {
-            font-size: 1.5em;
-            color: #f57c00; /* Laranja */
-            margin-bottom: 20px;
-            font-weight: 600;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Sombra no texto */
-        }
+h1 {
+    font-size: 2em;
+    color: #ff9800; /* Laranja mais brilhante */
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra no texto mais forte */
+}
 
-        .modern-text {
-            font-size: 1.2em;
-            color: #333;
-            text-align: center;
-            margin-bottom: 30px;
-            letter-spacing: 0.5px;
-            line-height: 1.4;
-            font-weight: 300;
-        }
+.modern-text {
+    font-size: 1.2em;
+    color: #555; /* Ajuste para um tom de cinza mais claro */
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+    font-weight: 300;
+}
 
         .red-box {
             background-color: #837f69; /* Tom de vermelho da caixa */
@@ -55,7 +60,7 @@
             text-transform: uppercase;
         }
         .button {
-    background-color: #ff5722; /* Laranja escuro */
+    background: rgba(255, 87, 34, 0.9); /* Laranja escuro */
     border: none;
     color: white;
     padding: 15px 25px;
@@ -65,16 +70,19 @@
     font-size: 20px;
     margin: 10px;
     cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    border-radius: 10px; /* Bordas mais arredondadas */
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; /* Transição para sombra */
     width: 90%; /* Define a largura dos botões */
     max-width: 800px; /* Define o tamanho máximo para não ficar muito grande em telas largas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para um efeito de elevação */
 }
 
-              .button:hover {
-            background-color: #e64a19; /* Laranja mais escuro */
-            transform: scale(1.05); /* Efeito de aumento */
-        }
+.button:hover {
+    background: rgba(255, 87, 34, 1); /* Aumenta a opacidade ao passar o mouse */
+    transform: translateY(-2px); /* Levanta ligeiramente o botão ao passar o mouse */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4); /* Aumenta a sombra ao passar o mouse */
+}
+
 
         .simulados-lista {
             display: flex;
@@ -169,7 +177,7 @@ window.onload = function() {
         </div>
 
         <div>
-            <button class="button-exit" onclick="location.href='index.html'">SAIR</button>            
+            <button class="button-exit" onclick="location.href='selectMode.html'">Voltar para tela de seleção de estudo</button>            
             <h1><br></h1>       
         </div>
     </div>
