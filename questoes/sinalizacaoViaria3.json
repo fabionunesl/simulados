@@ -12,7 +12,7 @@
         "correctAnswer": 0
     },
     {
-        "question": "As linhas de bordo brancas contínuas ao longo da via indicam que o motorista deve",
+        "question": "As linhas de bordo brancas contínuas ao longo da via indicam que o motorista pode",
         "image": "",
         "answers": [
             "ultrapassar outros veículos pela direita;",
@@ -33,7 +33,7 @@
             "Zona de pedestres",
             "Travessia de animais"
         ],
-        "correctAnswer": 4
+        "correctAnswer": 1
     },
     {
         "question": "Linhas brancas tracejadas ou seccionadas são usadas para",
@@ -135,11 +135,11 @@
         "question": "O que as linhas amarelas na borda da pista indicam?",
         "image": "imagens/sinalizacao/linhaBordoAmarela.jpg",
         "answers": [
-            "Ponto de ônibus.",
-            "Proíbido estacionar.",
+            "Ponto de ônibus regulamentado.",
+            "Delimita o espaço em que é proíbido estacionar.",
             "Divisão de fluxos opostos.",
             "Delimitar controle de áreas onde é proibido ou regulamentado o estacionamento quando associadas a sinalização verfical de regulamentação.",
-            "Proibido parar."
+            "Delimita o espaço em que é proibido parar."
         ],
         "correctAnswer": 3
     },
