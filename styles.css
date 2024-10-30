@@ -1,13 +1,13 @@
 /* Estilo geral do corpo */
 body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #e0f7fa, #ffe0b2); /* Gradiente suave de azul claro para amarelo suave */
-    color: #444; /* Cor do texto ajustada para um cinza mais escuro */
+    /* Define a fonte geral, cor de fundo com um degradê sutil, cor de texto, margens e alinhamento do texto */
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    color: #444;
     margin: 0;
     padding: 0;
     text-align: center;
-    line-height: 1.6; /* Aumenta a altura da linha para melhor legibilidade */
-
+    line-height: 1.6;
 }
 
 .container {
@@ -57,18 +57,24 @@ body {
     margin-right: 10px;
 }
 
-.button, .button-exit {
-    padding: 8px 16px; /* Reduzi o padding para deixar o botão menor */
-    background-color: #ff0000; /* Laranja */
+.button-exit {
+    /* Estilo para o botão de saída com um fundo em degradê em tons de roxo-azulado */
+    background: linear-gradient(135deg, #9fa8da, #7986cb);
     color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    margin: 20px 0;
+    padding: 10px 20px;
     font-size: 16px;
-    margin-top: 20px;
-    min-width: 120px; /* Reduzi a largura mínima */
-    text-align: center; /* Centraliza o texto */
-    white-space: nowrap; /* Evita quebra de linha no texto */
+    width: auto;
+    max-width: 300px;
+    /* Arredondamento e transição suave no efeito */
+    border-radius: 8px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.button-exit:hover {
+    /* Efeito de elevação ao passar o mouse no botão de saída */
+    background: linear-gradient(135deg, #7986cb, #5c6bc0);
+    transform: translateY(-3px);
 }
 
 .button:hover {
@@ -134,9 +140,6 @@ body {
     color: white; /* Cor do texto para melhor contraste */
 }
 
-.button-exit:hover {
-    background-color: #c62828; /* Vermelho mais escuro ao passar o mouse */
-}
 .contact-button {
     background-color: #25D366; /* Verde do WhatsApp */
     color: white;

@@ -17,23 +17,32 @@
             font-family: Arial, sans-serif;
         }
         #crossword-container {
-            display: grid;
-            grid-template-columns: repeat(15, 40px);
-            gap: 2px;
+            display: flex; /* Flexbox para centralizar a grade */
+            align-items: center; /* Centraliza verticalmente */
+            justify-content: center; /* Centraliza horizontalmente */
             background-color: #ccc;
             padding: 10px;
             border-radius: 10px;
-            width: fit-content; /* Ajusta a largura do contêiner com base no conteúdo */
-            max-width: 100%; /* Impede que o contêiner ultrapasse a largura da tela */
-            margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+            width: 90vw; /* Largura do contêiner em relação à largura da tela */
+            max-width: 800px; /* Largura máxima */
+            margin: 0 auto; /* Centraliza o contêiner */
+            transform: scale(0.5); /* Reduz a escala da grade */
+            transform-origin: top; /* Define o ponto de origem para a transformação */
+        }
+        #grid {
+            display: grid; /* Usar grid para a grade de palavras cruzadas */
+            grid-template-columns: repeat(15, 1fr); /* 15 colunas */
+            gap: 2px;
+            width: fit-content; /* A largura da grade se ajusta ao seu conteúdo */
         }
         .cell {
-            width: 40px;
-            height: 40px;
+            width: 70px; /* Largura fixa das células */
+            height: 70px; /* Altura fixa das células */
+            padding: 0; /* Remove espaço interno */
             text-transform: uppercase;
             text-align: center;
             vertical-align: middle;
-            font-size: 18px;
+            font-size: 1.5em; /* Tamanho da fonte */
             font-weight: bold;
             border: 1px solid #333;
         }
@@ -66,12 +75,20 @@
         .hints p {
             margin: 5px 0;
         }
+
+        /* Media Queries para ajustar a aparência em telas menores */
+        @media (max-width: 600px) {
+            .cell {
+                font-size: 2em; /* Aumenta o tamanho da fonte em telas menores */
+            }
+        }
     </style>
-    
 </head>
 <body>
-    <h2>Palavras Cruzadas - Órgãos Normativos e Executivos</h2>
-    <div id="crossword-container"></div>
+    <h2>Palavras Cruzadas - Orgãos Normativos e Executivos</h2>
+    <div id="crossword-container">
+        <div id="grid"></div> <!-- Grade aninhada aqui -->
+    </div>
     <div class="button-container">
         <button class="button" onclick="checkAnswers()">Corrigir</button>
         <button class="button" onclick="showAnswers()">Mostrar Respostas</button>
@@ -89,21 +106,21 @@
 
     <script>
         const words = [
-            { word: "CONTRAN", row: 0, col: 0, direction: "horizontal" }, // 1
-            { word: "CETRAN", row: 0, col: 0, direction: "vertical" }, // 2
-            { word: "SENATRAN", row: 0, col: 8, direction: "vertical" }, // 3
-            { word: "PM", row: 4, col: 2, direction: "vertical" }, // 4            
-            { word: "DETRAN", row: 2, col: 13, direction: "vertical" }, // 6
-            { word: "DNIT", row: 7, col: 7, direction: "horizontal" }, // 7
-            { word: "PRF", row: 11, col: 8, direction: "horizontal" }, // 8
-            { word: "CONTRANDIFE", row: 3, col: 3, direction: "horizontal" }, // 9
-            { word: "PREFEITURA", row: 4, col: 2, direction: "horizontal" }, // 10
-            { word: "CIRETRAN", row: 6, col: 9, direction: "vertical" }, // 10
-            { word: "DER", row: 9, col: 8, direction: "horizontal" }, // 10
+            { word: "CONTRAN", row: 0, col: 0, direction: "horizontal" },
+            { word: "CETRAN", row: 0, col: 0, direction: "vertical" },
+            { word: "SENATRAN", row: 0, col: 8, direction: "vertical" },
+            { word: "PM", row: 4, col: 2, direction: "vertical" },
+            { word: "DETRAN", row: 2, col: 13, direction: "vertical" },
+            { word: "DNIT", row: 7, col: 7, direction: "horizontal" },
+            { word: "PRF", row: 11, col: 8, direction: "horizontal" },
+            { word: "CONTRANDIFE", row: 3, col: 3, direction: "horizontal" },
+            { word: "PREFEITURA", row: 4, col: 2, direction: "horizontal" },
+            { word: "CIRETRAN", row: 6, col: 9, direction: "vertical" },
+            { word: "DER", row: 9, col: 8, direction: "horizontal" },
         ];
 
         const gridSize = 15;
-        const crosswordContainer = document.getElementById('crossword-container');
+        const gridContainer = document.getElementById('grid');
 
         // Criação da grade
         for (let i = 0; i < gridSize; i++) {
@@ -112,7 +129,7 @@
                 cell.setAttribute('maxlength', '1');
                 cell.classList.add('cell', 'empty');
                 cell.id = `cell-${i}-${j}`;
-                crosswordContainer.appendChild(cell);
+                gridContainer.appendChild(cell);
 
                 // Limpeza de campo ao clicar novamente
                 cell.addEventListener('focus', (e) => {
@@ -185,7 +202,7 @@
             });
         }
     </script>
-     <div>
+    <div>
         <button class="button-exit" onclick="location.href='selectMode.html'">SAIR</button>            
         <h1><br></h1>       
     </div>

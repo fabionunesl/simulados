@@ -99,6 +99,26 @@ h1 {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4); /* Aumenta a sombra ao passar o mouse */
 }
 
+.button-exit {
+    /* Estilo para o botão de saída com um fundo em degradê em tons de roxo-azulado */
+    background: linear-gradient(135deg, #9fa8da, #7986cb);
+    color: #fff;
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: auto;
+    max-width: 300px;
+    /* Arredondamento e transição suave no efeito */
+    border-radius: 8px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.button-exit:hover {
+    /* Efeito de elevação ao passar o mouse no botão de saída */
+    background: linear-gradient(135deg, #7986cb, #5c6bc0);
+    transform: translateY(-3px);
+}
+
 .simulados-lista {
     display: flex;
     flex-direction: column;
@@ -168,6 +188,9 @@ window.onload = function() {
         <div class="simulados-lista">            
             <button class="button" onclick="location.href='user-dashboard.html'">Provas simuladas</button>
             <button class="button-select" onclick="location.href='selecionarExercicio.html'">Exercícios</button>
+            <button class="button" onclick="location.href='user-dashboard.html'">Conteúdo</button>
+            <button class="button-select" onclick="location.href='user-dashboard.html'">Slides e apresentações</button>
+            <button class="button" onclick="location.href='user-dashboard.html'">Vídeos</button>
             
             </div>
         </div>

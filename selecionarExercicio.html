@@ -3,178 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seleção do modo de estudo</title>
+    <title>Seleção de Módulos de Exercícios</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <style>
-       /* Estilo geral do corpo */
-body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #e0f7fa, #ffe0b2); /* Gradiente suave de azul claro para amarelo suave */
-    color: #444; /* Cor do texto ajustada para um cinza mais escuro */
+       body {
+    /* Define a fonte geral, cor de fundo com um degradê sutil, cor de texto, margens e alinhamento do texto */
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    color: #444;
     margin: 0;
     padding: 0;
     text-align: center;
-    line-height: 1.6; /* Aumenta a altura da linha para melhor legibilidade */
+    line-height: 1.6;
 }
 
 .container {
+    /* Define a largura máxima do contêiner, margens automáticas para centralizar, espaçamento interno e estilização do fundo */
     max-width: 800px;
-    margin: auto;
-    padding: 40px;
-    background: #ffffff;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    border-radius: 12px; /* Bordas mais arredondadas */
-    margin-top: 50px;
-    transition: transform 0.3s ease; /* Transição ao passar o mouse */
+    margin: 50px auto;
+    padding: 40px 25px;
+    background: #fff;
+    /* Aplica uma sombra leve e um arredondamento nos cantos */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    /* Adiciona uma transição suave na transformação e na sombra ao passar o mouse */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .container:hover {
-    transform: translateY(-5px); /* Eleva o contêiner ao passar o mouse */
+    /* Efeito de elevação ao passar o mouse, aumentando a sombra e movendo levemente para cima */
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 h1 {
-    font-size: 2em;
-    color: #ff9800; /* Laranja mais brilhante */
+    /* Define o estilo do título principal, tamanho, cor, margens e um efeito de sombra no texto */
+    font-size: 2.3em;
+    color: #f57f17;
     margin-bottom: 20px;
-    font-weight: 700;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra no texto mais forte */
+    font-weight: 600;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .modern-text {
-    font-size: 1.2em;
-    color: #555; /* Ajuste para um tom de cinza mais claro */
-    text-align: center;
-    margin-bottom: 30px;
-    letter-spacing: 0.5px;
-    line-height: 1.4;
+    /* Define o estilo de textos informativos ou descritivos com tamanho, cor e espaçamento */
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.5;
     font-weight: 300;
 }
 
-.button {
-    background: rgba(255, 87, 34, 0.9); /* Laranja escuro */
-    border: none;
-    color: white;
-    padding: 15px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 10px;
-    cursor: pointer;
-    border-radius: 10px; /* Bordas mais arredondadas */
-    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; /* Transição para sombra */
-    width: 90%; /* Define a largura dos botões */
-    max-width: 800px; /* Define o tamanho máximo para não ficar muito grande em telas largas */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para um efeito de elevação */
-}
-
-.button:hover {
-    background: rgba(255, 87, 34, 1); /* Aumenta a opacidade ao passar o mouse */
-    transform: translateY(-2px); /* Levanta ligeiramente o botão ao passar o mouse */
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4); /* Aumenta a sombra ao passar o mouse */
-}
-
-.button-select {
-    background: rgba(33, 150, 243, 0.9); /* Azul forte */
-    border: none;
-    color: white;
-    padding: 15px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 10px;
-    cursor: pointer;
-    border-radius: 10px; /* Bordas mais arredondadas */
-    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; /* Transição para sombra */
-    width: 90%; /* Define a largura dos botões */
-    max-width: 800px; /* Define o tamanho máximo para não ficar muito grande em telas largas */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para um efeito de elevação */
-}
-
-.button-select:hover {
-    background: rgba(33, 150, 243, 1); /* Aumenta a opacidade ao passar o mouse */
-    transform: translateY(-2px); /* Levanta ligeiramente o botão ao passar o mouse */
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4); /* Aumenta a sombra ao passar o mouse */
-}
-
 .simulados-lista {
+    /* Cria uma lista de botões em coluna, centralizados e com espaçamento entre eles */
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
 }
 
-/* Adicionando responsividade */
+button {
+    /* Estilo padrão para todos os botões: sem borda, cor de texto branca, espaçamento interno e arredondamento */
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 12px;
+    /* Adiciona uma transição suave para transformações e sombras */
+    transition: transform 0.2s, box-shadow 0.3s ease;
+    width: 90%;
+    max-width: 800px;
+    /* Adiciona uma sombra padrão aos botões */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    /* Fundo padrão em degradê para os botões */
+    background: linear-gradient(135deg, #42a5f5, #1e88e5);
+}
+
+button:hover {
+    /* Efeito de elevação ao passar o mouse, aumentando a sombra e movendo levemente para cima */
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.button-legis {
+    /* Botão de legislação com um fundo em degradê em tons de verde */
+    background: linear-gradient(200deg, #2196F3, #f57f17);
+}
+
+.button-def {
+    /* Botão de direção defensiva com um fundo em degradê em tons de amarelo */
+    background: linear-gradient(135deg, #ffca28, #f57f17);
+}
+
+.button-primeiros {
+    /* Botão de primeiros socorros com um fundo em degradê em tons de vermelho */
+    background: linear-gradient(200deg, #dd0b08, #f57f17);
+}
+
+.button-meio {
+    /* Botão de meio ambiente com um fundo em degradê em tons de verde-água */
+    background: linear-gradient(135deg, #08a702, #f57f17);
+}
+
+.button-veiculo {
+    /* Botão de funcionamento do veículo com um fundo em degradê em tons de marrom */
+    background: linear-gradient(200deg, #472e24,#f57f17);
+}
+
+.button-exit {
+    /* Estilo para o botão de saída com um fundo em degradê em tons de roxo-azulado */
+    background: linear-gradient(135deg, #9fa8da, #7986cb);
+    color: #fff;
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: auto;
+    max-width: 300px;
+    /* Arredondamento e transição suave no efeito */
+    border-radius: 8px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.button-exit:hover {
+    /* Efeito de elevação ao passar o mouse no botão de saída */
+    background: linear-gradient(135deg, #7986cb, #5c6bc0);
+    transform: translateY(-3px);
+}
+
 @media (max-width: 600px) {
-    .button {
-        width: 90%;
-        font-size: 16px; /* Aumentando um pouco o tamanho da fonte para melhor legibilidade */
+    /* Ajustes de responsividade para botões em telas pequenas */
+    button {
+        font-size: 16px;
         padding: 12px 20px;
     }
-
-    .modern-text {
-        font-size: 1em;
-    }
-}
-
-/* Estilo para a imagem centralizada */
-.logo-img {
-    max-width: 300px; /* Tamanho pequeno da imagem */
-    margin-bottom: 20px;
-    border-radius: 8px; /* Bordas arredondadas para a imagem */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para a imagem */
 }
 
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="" alt="Logo" class="logo-img">
-        <h1 id="welcomeText"></h1>
-        <!-- Outras partes do seu layout -->
-    </div>
-
-    <script>
-        function getQueryParams() {
-    const params = {};
-    window.location.search.substring(1).split("&").forEach(param => {
-        const [key, value] = param.split("=");
-        params[decodeURIComponent(key)] = decodeURIComponent(value);
-    });
-    return params;
-}
-
-window.onload = function() {
-    const params = getQueryParams();
-    const container = document.querySelector('.container'); // Define o contêiner
-
-    // Verifica se os parâmetros foram encontrados e atualiza o texto e a imagem de boas-vindas
-    if (params.name && params.logoImage) {
-        document.getElementById('welcomeText').textContent = `Bem-vindo ao CFC ${params.name}!`;
-        document.querySelector('.logo-img').src = params.logoImage;
-    } else {
-        console.error('Parâmetros não encontrados: ', params);
-        // Atualiza o texto para "Realize as provas quantas vezes desejar"
-        document.getElementById('welcomeText').textContent = '';
-        document.querySelector('.logo-img').style.display = 'none'; // Oculta a imagem se os parâmetros não forem encontrados
-        container.style.display = 'none'; // Esconde o contêiner
-    }
-};
-    </script>       
-
-        <h2>Selecione seu modo de estudo</h2>
+        <h1 id="welcomeText">Selecione o Módulo do curso que deseja fazer exercícios</h1>
+        
 
         <div class="simulados-lista">            
-            <button class="button" onclick="location.href='cacaPalavra.html'">Palavras cruzadas paginas 3 e 4</button>
-            <button class="button" onclick="location.href='selecionarExercicio.html'">Exercícios</button>
-            
-            </div>
+            <button class="button-legis" onclick="location.href='exercicioLegislacao.html'">LEGISLAÇÃO</button>
+            <button class="button-def" onclick="location.href='exercicioLegislacao.html'">DIREÇÃO DEFENSIVA</button>
+            <button class="button-primeiros" onclick="location.href='exercicioLegislacao.html'">PRIMEIROS SOCORROS</button>
+            <button class="button-meio" onclick="location.href='exercicioLegislacao.html'">MEIO AMBIENTE E CONVIVÊNCIA SOCIAL<br> NO TRÂNSITO (CTB)</button>
+            <button class="button-veiculo" onclick="location.href='exercicioLegislacao.html'">FUNCIONAMENTO DE VEÍCULO</button>
         </div>
 
-        <div>
-            <button class="button-exit" onclick="location.href='selectMode.html'">Voltar para tela de seleção de estudo</button>            
-            <h1><br></h1>       
-        </div>
+        <button class="button-exit" onclick="location.href='selectMode.html'">Voltar para tela de seleção de estudo</button>
     </div>
 </body>
 </html>
