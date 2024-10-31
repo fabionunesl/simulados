@@ -1,0 +1,22 @@
+[
+    {
+        "pergunta": "A direção defensiva é uma prática que visa evitar acidentes de trânsito.",
+        "resposta": true
+    },
+    {
+        "pergunta": "É seguro usar o celular enquanto dirige.",
+        "resposta": false
+    },
+    {
+        "pergunta": "Manter uma distância segura do veículo da frente é importante para a segurança.",
+        "resposta": true
+    },
+    {
+        "pergunta": "Dirigir sob efeito de álcool é aceitável em pequenas quantidades.",
+        "resposta": false
+    },
+    {
+        "pergunta": "Usar cinto de segurança é opcional.",
+        "resposta": false
+    }
+]

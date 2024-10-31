@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Direção Defensiva</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            color: #444;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 40px 25px;
+            background: #fff;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            border-radius: 18px;
+        }
+        h1 {
+            font-size: 2.3em;
+            color: #f57f17;
+            margin-bottom: 20px;
+        }
+        .pergunta {
+            margin: 20px 0;
+            font-size: 1.2em;
+        }
+        .button {
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            background: #42a5f5;
+        }
+        .correta {
+            color: blue; /* Azul para respostas corretas */
+        }
+        .errada {
+            color: red; /* Vermelho para respostas erradas */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Exercício de Direção Defensiva</h1>
+        <div id="pergunta" class="pergunta"></div>
+        <div>
+            <button class="button" onclick="validarResposta(true)">Verdadeiro</button>
+            <button class="button" onclick="validarResposta(false)">Falso</button>
+        </div>
+        <div id="resultado" style="margin-top: 20px;"></div>
+        <button class="button" onclick="reiniciarExercicio()" style="display: none;" id="reiniciar">Reiniciar</button>
+    </div>
+
+    <script>
+        let questoes = [];
+        let indiceAtual = 0;
+        let acertos = 0;
+        let respostasUsuario = []; // Armazenar as respostas do usuário
+    
+        fetch('questoes/exercicios/questoesDirecaoDefensiva.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Erro ao carregar o arquivo JSON');
+                }
+                return response.json();
+            })
+            .then(data => {
+                questoes = data;
+                mostrarPergunta();
+            })
+            .catch(error => {
+                console.error('Erro:', error);
+                document.getElementById('pergunta').textContent = 'Erro ao carregar as questões. Tente novamente mais tarde.';
+            });
+    
+        function mostrarPergunta() {
+            if (indiceAtual < questoes.length) {
+                document.getElementById('pergunta').textContent = questoes[indiceAtual].pergunta;
+                document.getElementById('resultado').textContent = '';
+            } else {
+                mostrarResultado();
+            }
+        }
+    
+        function validarResposta(respostaUsuario) {
+            respostasUsuario[indiceAtual] = {
+                pergunta: questoes[indiceAtual].pergunta,
+                respostaUsuario: respostaUsuario,
+                respostaCorreta: questoes[indiceAtual].resposta
+            };
+
+            if (respostaUsuario === questoes[indiceAtual].resposta) {
+                acertos++;
+            }
+            indiceAtual++;
+            mostrarPergunta();
+        }
+    
+        function mostrarResultado() {
+            document.getElementById('pergunta').textContent = '';
+            let resultadoHTML = `Você acertou ${acertos} de ${questoes.length} perguntas.<br><br>`;
+            
+            respostasUsuario.forEach((item, index) => {
+                resultadoHTML += `<strong>Pergunta ${index + 1}:</strong> ${item.pergunta}<br>`;
+                resultadoHTML += `Sua resposta: <span class="${item.respostaUsuario === item.respostaCorreta ? 'correta' : 'errada'}">${item.respostaUsuario ? 'Verdadeiro' : 'Falso'}</span><br>`;
+                resultadoHTML += `Resposta correta: <span class="${item.respostaUsuario === item.respostaCorreta ? 'correta' : 'errada'}">${item.respostaCorreta ? 'Verdadeiro' : 'Falso'}</span><br><br>`;
+            });
+            
+            document.getElementById('resultado').innerHTML = resultadoHTML;
+            document.getElementById('reiniciar').style.display = 'block';
+        }
+    
+        function reiniciarExercicio() {
+            indiceAtual = 0;
+            acertos = 0;
+            respostasUsuario = []; // Limpar as respostas do usuário
+            document.getElementById('reiniciar').style.display = 'none';
+            mostrarPergunta();
+        }
+    </script>
+    
+</body>
+</html>

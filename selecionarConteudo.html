@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seleção de Módulos de Exercícios</title>
+    <title>Seleção Conteúdo Módulos</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <style>
@@ -89,7 +89,7 @@ button:hover {
 
 .button-legis {
     /* Botão de legislação com um fundo em degradê em tons de verde */
-    background: linear-gradient(200deg, #1784dd, #d0d3d4,);
+    background: linear-gradient(200deg, #2196F3, #f57f17);
 }
 
 .button-def {
@@ -99,17 +99,17 @@ button:hover {
 
 .button-primeiros {
     /* Botão de primeiros socorros com um fundo em degradê em tons de vermelho */
-    background: linear-gradient(200deg, #dd0b08, #c77c7c);
+    background: linear-gradient(200deg, #dd0b08, #f57f17);
 }
 
 .button-meio {
     /* Botão de meio ambiente com um fundo em degradê em tons de verde-água */
-    background: linear-gradient(135deg, #08a702, #b1da95);
+    background: linear-gradient(135deg, #08a702, #f57f17);
 }
 
 .button-veiculo {
     /* Botão de funcionamento do veículo com um fundo em degradê em tons de marrom */
-    background: linear-gradient(200deg, #472e24,#817875);
+    background: linear-gradient(200deg, #472e24,#f57f17);
 }
 
 .button-exit {
@@ -144,22 +144,19 @@ button:hover {
 </head>
 <body>
     <div class="container">
-        <h1 id="welcomeText">Exercícios!</h1>
+        <h1 id="welcomeText">Conteúdo da Prova Teórica</h1>
         <h2> Ecolha o módulo</h2>
         
 
         <div class="simulados-lista">            
             <button class="button-legis" onclick="location.href='exercicioLegislacao.html'">LEGISLAÇÃO</button>
-            <button class="button-def" onclick="location.href='selecionarExercicioDirecao.html'">DIREÇÃO DEFENSIVA</button>
-            <button class="button-primeiros" onclick="location.href='selecionarExercicioPrimeiros.html'">PRIMEIROS SOCORROS</button>
+            <button class="button-def" onclick="location.href='exercicioLegislacao.html'">DIREÇÃO DEFENSIVA</button>
+            <button class="button-primeiros" onclick="location.href='exercicioLegislacao.html'">PRIMEIROS SOCORROS</button>
             <button class="button-meio" onclick="location.href='exercicioLegislacao.html'">MEIO AMBIENTE E CONVIVÊNCIA SOCIAL<br> NO TRÂNSITO (CTB)</button>
             <button class="button-veiculo" onclick="location.href='exercicioLegislacao.html'">FUNCIONAMENTO DE VEÍCULO</button>
         </div>
 
         <button class="button-exit" onclick="location.href='selectMode.html'">Voltar para tela de seleção de estudo</button>
-        <br>
-        <br>
-        <br>
     </div>
 </body>
 </html>
