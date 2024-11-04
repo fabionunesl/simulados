@@ -40,7 +40,7 @@
 
         // Função para obter questões e iniciar o simulado
         function startSimulado() {
-            fetch('questoes/viasNormas.json') // Nome do arquivo JSON com as perguntas
+            fetch('../questoes/sinalizacaoViaria2.json') // Nome do arquivo JSON com as perguntas
                 .then(response => response.json())
                 .then(data => {
                     questions = data;
@@ -186,7 +186,7 @@
 
         // Função para reiniciar o simulado
         function restartSimulado() {
-            window.location.href = 'user-dashboard.html'; // Redireciona para a página inicial
+            window.location.href = '../user-dashboard.html'; // Redireciona para a página inicial
         }
 
         // Função para mostrar resultados parciais, apenas as questões respondidas

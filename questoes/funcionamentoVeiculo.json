@@ -193,7 +193,7 @@
     },
     {
         "question": "Em relação à bateria, é incorreto afirmar que:",
-        "image": "imagens/funcionamentoVeiculo/ledBateria.jpg",
+        "image": "../imagens/funcionamentoVeiculo/ledBateria.jpg",
         "answers": [
             "A bateria deve ser verificada regularmente para garantir seu bom funcionamento.",
             "O desgaste da bateria é normal após alguns anos de uso.",
@@ -205,7 +205,7 @@
     },
     {
         "question": "Uma das luzes consideradas mais perigosas do painel, a luz do óleo aparece na cor vermelha e serve para mostrar ao motorista que há uma pane no sistema de lubrificação do motor. Nesse cenário, o que fazer?",
-        "image": "imagens/funcionamentoVeiculo/ledOleo.jpg",
+        "image": "../imagens/funcionamentoVeiculo/ledOleo.jpg",
         "answers": [
             "Ignorar a luz e continuar dirigindo, pois ela pode apagar sozinha.",
             "Aumentar a velocidade para tentar forçar o óleo a circular.",
@@ -217,7 +217,7 @@
     },
     {
         "question": "Ao perceber que um LED no painel de cor vermelha com a letra P está ligado, o recomendado é que você:",
-        "image": "imagens/funcionamentoVeiculo/ledFreioAbs.jpg",
+        "image": "../imagens/funcionamentoVeiculo/ledFreioAbs.jpg",
         "answers": [
             "Continue dirigindo normalmente, pois é apenas um alerta temporário.",
             "Verifique o sistema de freio ou se baixou a alavanca do freio de mão por completo.",
@@ -229,7 +229,7 @@
     },
     {
         "question": "Um dos mais importantes LEDs do painel a reconhecer é o da injeção eletrônica, que costuma aparecer nas cores amarela ou laranja. Se, após dar partida no carro, essa luz permanecer acesa, é um sinal:",
-        "image": "imagens/funcionamentoVeiculo/ledInjecao.jpg",
+        "image": "../imagens/funcionamentoVeiculo/ledInjecao.jpg",
         "answers": [
             "De que há algum defeito no motor ou em outros componentes, como catalisador, velas, bicos injetores, e mais.",
             "De que o motor está funcionando perfeitamente e não há necessidade de verificação.",
@@ -297,11 +297,11 @@
             "Somente deve acioná-la quando for arrancar, trocar de marcha e parar.",
             "Pode acioná-la para acelerar o veículo."
         ],
-        "correctAnswer": 1
+        "correctAnswer": 3
     },
     {
         "question": "Alinhamento e geometria são processos que consistem em ajustar os ângulos das rodas do veículo para que fiquem retas em relação ao solo e paralelas entre si. Deve ser realizado:",
-        "image": "imagens/funcionamentoVeiculo/cambagem.jpg",
+        "image": "../imagens/funcionamentoVeiculo/cambagem.jpg",
         "answers": [
             "A cada 10.000 km, independentemente das condições dos pneus.",
             "Somente quando os pneus estiverem completamente desgastados.",
@@ -325,7 +325,7 @@
     },
     {
         "question": "O que significa o LED da imagem?",
-        "image": "imagens/funcionamentoVeiculo/ledTermometro.jpg",
+        "image": "../imagens/funcionamentoVeiculo/ledTermometro.jpg",
         "answers": [
             "O motor está funcionando normalmente.",
             "O nível de combustível está baixo.",

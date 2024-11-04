@@ -25,7 +25,7 @@
     },
     {
         "question": "A placa R-1 regulamenta que o condutor deve",
-        "image": "imagens/sinalizacao/r-1.jpg",
+        "image": "../imagens/sinalizacao/r-1.jpg",
         "answers": [
             "dar a preferência de passagem;",
             "parar o veículo completamente e prestar atenção no trânsito;",
@@ -37,7 +37,7 @@
     },
     {
         "question": "Assinale a alternativa correta em relação à placa R-6c",
-        "image": "imagens/sinalizacao/r-6c.jpg",
+        "image": "../imagens/sinalizacao/r-6c.jpg",
         "answers": [
             "proibido estacionar o veículo;",
             "proibido estacionar, embarque e desembarque permitido;",
@@ -49,7 +49,7 @@
     },
     {
         "question": "Qual o significado da placa de regulamentação R-2?",
-        "image": "imagens/sinalizacao/r-2.jpg",
+        "image": "../imagens/sinalizacao/r-2.jpg",
         "answers": [
             "Obrigação de o condutor parar;",
             "Orienta o condutor de pista dividida;",
@@ -61,7 +61,7 @@
     },
     {
         "question": "Devido a condições técnicas de uma via, no trecho abrangido pela placa R-14, só podem circular na via veículos com",
-        "image": "imagens/sinalizacao/r-14.jpg",
+        "image": "../imagens/sinalizacao/r-14.jpg",
         "answers": [
             "peso bruto total (PBT) de até dez toneladas;",
             "altura máxima permitida;",
@@ -73,7 +73,7 @@
     },
     {
         "question": "Você está procurando um lugar para estacionar em uma quadra, então percebe que a frente tem a placa R-6b. Isso significa que",
-        "image": "imagens/sinalizacao/r-6b.jpg",
+        "image": "../imagens/sinalizacao/r-6b.jpg",
         "answers": [
             "você não pode estacionar;",
             "você não pode parar;",
@@ -85,7 +85,7 @@
     },
     {
         "question": "O condutor ao chegar a um cruzamento percebe que na via transversal existe uma sinalização vertical de regulamentação R-24a, assim ele entende que",
-        "image": "imagens/sinalizacao/r-24a.jpg",
+        "image": "../imagens/sinalizacao/r-24a.jpg",
         "answers": [
             "é proibido virar para direita;",
             "é proibido seguir em frente;",
@@ -97,7 +97,7 @@
     },
     {
         "question": "Qual significado da placa R-26?",
-        "image": "imagens/sinalizacao/r-26.jpg",
+        "image": "../imagens/sinalizacao/r-26.jpg",
         "answers": [
             "Sentido único de circulação.",
             "Siga em frente.",
@@ -109,7 +109,7 @@
     },
     {
         "question": "Você precisa pegar uma passageiro, ao circular pela via percebe que em toda sua extensão está sinalizado com a placa R-6a, isso quer dizer que",
-        "image": "imagens/sinalizacao/r-6a.jpg",
+        "image": "../imagens/sinalizacao/r-6a.jpg",
         "answers": [
             "deve obrigatoriamente procurar um lugar que não tenha a placa;",
             "só pode parar no local sinalizado para embarcar o passageiro ou desembarcar;",
@@ -121,7 +121,7 @@
     },
     {
         "question": "Ao observar a figura abaixo, percebemos que são duas sinalizações verticais, quais são elas respectivamente?",
-        "image": "imagens/sinalizacao/r1R2Costas.jpg",
+        "image": "../imagens/sinalizacao/r1R2Costas.jpg",
         "answers": [
             "Parada obrigatória; Passagem sinalizada de pedestre.",
             "Dê a preferência; Parada obrigatória.",
@@ -133,7 +133,7 @@
     },
     {
         "question": "Na Figura abaixo mostra uma sinalização vertical de costas. Quando chegar a um cruzamento e perceber que essa sinalização está na via transversal, o que deve fazer?",
-        "image": "imagens/sinalizacao/r1Costas.jpg",
+        "image": "../imagens/sinalizacao/r1Costas.jpg",
         "answers": [
             "Parar obrigatoriamente, pois a sinalização é para todos no cruzamento.",
             "Dar preferência ao veículo que vier na via transversal.",
@@ -145,7 +145,7 @@
     },
     {
         "question": "Ao se aproximar de um cruzamento e perceber que na via transversal existe uma sinalização vertical com o mesmo formato da figura abaixo, o que deve ser feito pelo condutor?",
-        "image": "imagens/sinalizacao/r2Costas.jpg",
+        "image": "../imagens/sinalizacao/r2Costas.jpg",
         "answers": [
             "Passar sem diminuir a velocidade nem se importar, pois o veículo que tiver na transversal é obrigado a dar a preferência.",
             "Dar preferência ao veículo que vier na via transversal.",
@@ -157,7 +157,7 @@
     },
     {
         "question": "As placas R-1 e R-2 são as únicas que não tem formato redondo, por quê?",
-        "image": "imagens/sinalizacao/r1R2Costas.jpg",
+        "image": "../imagens/sinalizacao/r1R2Costas.jpg",
         "answers": [
             "Porque fica diferente das placas de advertência.",
             "Porque mostrar a todos no cruzamento que devem parar.",
@@ -169,7 +169,7 @@
     },
     {
         "question": "Cumprindo a legislação, diante da placa R-19, o condutor",
-        "image": "imagens/sinalizacao/r-19.jpg",
+        "image": "../imagens/sinalizacao/r-19.jpg",
         "answers": [
             "deve trafegar na velocidade indicada;",
             "não pode trafegar em velocidade inferior ao indicado;",
@@ -181,7 +181,7 @@
     },
     {
         "question": "Observe a figura abaixo. Qual o significado das placas respectivamente?",
-        "image": "imagens/sinalizacao/r24bR24a.jpg",
+        "image": "../imagens/sinalizacao/r24bR24a.jpg",
         "answers": [
             "Passagem obrigatória; Sentido de circulação da via.",
             "Passagem obrigatória; Vira à direita.",
@@ -193,7 +193,7 @@
     },
     {
         "question": "Qual o significado da placa R-21?",
-        "image": "imagens/sinalizacao/r-21.jpg",
+        "image": "../imagens/sinalizacao/r-21.jpg",
         "answers": [
             "Informando ao condutor o sentido contrário;",
             "Informar os veículos que a existência de ponte à frente;",
@@ -205,7 +205,7 @@
     },
     {
         "question": "O que não se deve fazer depois da sinalização vertical de regulamentação R-7?",
-        "image": "imagens/sinalizacao/r-7.jpg",
+        "image": "../imagens/sinalizacao/r-7.jpg",
         "answers": [
             "Proibido andar um carro ao lado do outro.",
             "Proibido ultrapassagens.",
@@ -217,7 +217,7 @@
     },
     {
         "question": "No trecho abrangido pela sinalização vertical de regulamentação R-10 são proibidos o trânsito de",
-        "image": "imagens/sinalizacao/r-10.jpg",
+        "image": "../imagens/sinalizacao/r-10.jpg",
         "answers": [
             "motocicletas, motonetas e ciclomotores;",
             "qualquer tipo de veículo de pequeno porte;",
@@ -229,7 +229,7 @@
     },
     {
         "question": "Ao conduzir seu carro em uma via, você se depara com a sinalização vertical de regulamentação R-39, o que a placa está sinalizando? ",
-        "image": "imagens/sinalizacao/r-39.jpg",
+        "image": "../imagens/sinalizacao/r-39.jpg",
         "answers": [
             "Proibido trânsito de veículos automotores. ",
             "Permitido caminhões, carretas e caminhão trator",
@@ -253,7 +253,7 @@
     },
     {
         "question": "A sinalização vertical de regulamentação R-32 permite",
-        "image": "imagens/sinalizacao/r-32.jpg",
+        "image": "../imagens/sinalizacao/r-32.jpg",
         "answers": [
             "A circulação exclusiva de veículos de tração animal.",
             "A circulação exclusiva de ônibus. ",
@@ -265,7 +265,7 @@
     },
     {
         "question": "Quando estamos na via e vemos que nela está situada a sinalização vertical de regulamentação R-34 devemos",
-        "image": "imagens/sinalizacao/r-34.jpg",
+        "image": "../imagens/sinalizacao/r-34.jpg",
         "answers": [
             "circular apenas de a pé. ",
             "circular apenas com veículo de tração humana",
@@ -277,7 +277,7 @@
     },
     {
         "question": "Qual o significa das placas R-25a e R-25b respectivamente? ",
-        "image": "imagens/sinalizacao/r25aR25b.jpg",
+        "image": "../imagens/sinalizacao/r25aR25b.jpg",
         "answers": [
             "Proibido virar a esquerda;  Proibido virar a direita. ",
             "Vire à esquerda; Vire à direita. ",
@@ -289,7 +289,7 @@
     },
     {
         "question": "A placa R-8b indica ao condutor que, no trecho abrangido pela sinalização, é proibido",
-        "image": "imagens/sinalizacao/r-8b.jpg",
+        "image": "../imagens/sinalizacao/r-8b.jpg",
         "answers": [
             "mudar de faixa de trânsito da direita para esquerda;",
             "usar a faixa da esquerda para ultrapassar outro veículo;",
@@ -313,7 +313,7 @@
     },
     {
         "question": "Observe as figuras A, B, C e D abaixo. Qual delas obriga o condutor a manter o veículo à direita da pista de rolamento, deixando livre(s) a(s) faixa(s) da esquerda?",
-        "image": "imagens/sinalizacao/r23R25bR24aA2bR24b.jpg",
+        "image": "../imagens/sinalizacao/r23R25bR24aA2bR24b.jpg",
         "answers": [
             "E",
             "D",
@@ -337,7 +337,7 @@
     },
     {
         "question": "Na gravura abaixo vimos à placa R-31, o que ela está orientado o pedestre a fazer?",
-        "image": "imagens/sinalizacao/r-31.jpg",
+        "image": "../imagens/sinalizacao/r-31.jpg",
         "answers": [
             "Pedestre, andar na calçada.",
             "Pedestre, andar a direita.",
@@ -349,7 +349,7 @@
     },
     {
         "question": "A placa R-18 indica ao condutor que, o trecho abrangido pela sinalização",
-        "image": "imagens/sinalizacao/r-18.jpg",
+        "image": "../imagens/sinalizacao/r-18.jpg",
         "answers": [
             "é para circulação apenas para caminhões;",
             "regulamenta o comprimento máximo do veículo ou combinação de veículo;",

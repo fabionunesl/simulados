@@ -249,7 +249,7 @@
     },
     {
         "question": "Observe a figura. Os condutores trafegam por um cruzamento não sinalizado. Nessa situação, respeitada a norma, quem tem a preferencia de passagem?",
-        "image": "imagens/normas/cruzamentoNaoSinalizado.jpg",
+        "image": "../imagens/normas/cruzamentoNaoSinalizado.jpg",
         "answers": [
             "Do condutor do carro azul, porque está à esquerda do outro condutor.",
             "Do condutor do carro azul, porque segue em frente.",
@@ -262,7 +262,7 @@
     },
     {
         "question": "Observe a situação abaixo, para entrar na rodovia o que o veículo A (amarelo) deve fazer?",
-        "image": "imagens/normas/preferenciaRodovia.jpg",
+        "image": "../imagens/normas/preferenciaRodovia.jpg",
         "answers": [
             "Entrar na rodovia, pois tem preferencia sobre o outro condutor.",
             "Buzinar intensamente para avisar que está entrando na rodovia.",

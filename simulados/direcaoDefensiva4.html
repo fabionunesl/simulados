@@ -38,39 +38,21 @@
             }, 1000);
         }
 
-        // Função para carregar questões de múltiplos arquivos e iniciar o simulado
-    function startSimulado() {
-        const questionFiles = [
-            'questoes/direcaoDefensiva1.json',
-            'questoes/direcaoDefensiva2.json',
-            'questoes/direcaoDefensiva3.json',
-            'questoes/direcaoDefensiva4.json',
-            
-            ]; // Adicione mais arquivos conforme necessário
-        
-        Promise.all(questionFiles.map(file => fetch(file).then(response => response.json())))
-            .then(dataArrays => {
-                // Combina as questões de todos os arquivos em uma única lista
-                let allQuestions = dataArrays.flat();
-                // Embaralha as questões e seleciona as primeiras 30
-                questions = shuffleArray(allQuestions).slice(0, 30);
-                currentQuestionIndex = 0;
-                answers = [];
-                document.getElementById('result-container').classList.add('hidden');
-                showQuestion();
-                let time = 45 * 60; // 45 minutos
-                let display = document.querySelector('#timer');
-                startTimer(time, display);
-            });
-    }
-        // Função de embaralhamento usando o algoritmo de Fisher-Yates
-        function shuffleArray(array) {
-             for (let i = array.length - 1; i > 0; i--) {
-             const j = Math.floor(Math.random() * (i + 1));
-             [array[i], array[j]] = [array[j], array[i]]; // Troca de posições
+        // Função para obter questões e iniciar o simulado
+        function startSimulado() {
+            fetch('../questoes/direcaoDefensiva3.json') // Nome do arquivo JSON com as perguntas
+                .then(response => response.json())
+                .then(data => {
+                    questions = data;
+                    currentQuestionIndex = 0;
+                    answers = [];
+                    document.getElementById('result-container').classList.add('hidden');
+                    showQuestion();
+                    let time = 45 * 60; // 45 minutos
+                    let display = document.querySelector('#timer');
+                    startTimer(time, display);
+                });
         }
-        return array;
-    }
 
         window.addEventListener('beforeunload', function (e) {
             if (questions.length > 0 && currentQuestionIndex < questions.length) {
@@ -204,7 +186,7 @@
 
         // Função para reiniciar o simulado
         function restartSimulado() {
-            window.location.href = 'user-dashboard.html'; // Redireciona para a página inicial
+            window.location.href = '../user-dashboard.html'; // Redireciona para a página inicial
         }
 
         // Função para mostrar resultados parciais, apenas as questões respondidas
@@ -300,8 +282,7 @@ function cancelSimulado() {
             <h2 id="result-text"></h2>
             <div id="results-details"></div>
             <button id="restart-button" class="button" onclick="restartSimulado()">Escolher Prova</button>
-            <h1><br></h1>
-             
+            <h1><br></h1> 
         </div>
     </div>
 </body>

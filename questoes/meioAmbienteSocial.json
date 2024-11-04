@@ -325,7 +325,7 @@
     },
     {
         "question": "Observe a imagem. Esse símbolo é colocado em:", 
-        "image": "imagens/meioAmbienteConvivio/simboloInternacionalAcesso.jpg",
+        "image": "../imagens/meioAmbienteConvivio/simboloInternacionalAcesso.jpg",
         "answers": [
             "Apenas em veículos de transporte público.",
             "Locais que não têm acessibilidade para pessoas com deficiência.",
@@ -337,7 +337,7 @@
     },
     {
         "question": "Procurando um local para estacionar em um supermercado, Andrea observa que existem 3 vagas disponíveis, todas destinadas a pessoas com deficiência. Qual deve ser a atitude correta de Andrea?", 
-        "image": "imagens/meioAmbienteConvivio/simboloInternacionalAcesso.jpg",
+        "image": "../imagens/meioAmbienteConvivio/simboloInternacionalAcesso.jpg",
         "answers": [
             "Não estacionar nem parar na vaga, independentemente de haver mais de uma vaga disponível, pois essas são reservadas.",
             "Estacionar em uma das vagas, já que não há ninguém usando.",
@@ -349,7 +349,7 @@
     },
     {
         "question": "A imagem representa:", 
-        "image": "imagens/meioAmbienteConvivio/simboloInternacionalSurdez.jpg",
+        "image": "../imagens/meioAmbienteConvivio/simboloInternacionalSurdez.jpg",
         "answers": [
             "Proibido uso de telefone.",
             "Locais que não são acessíveis para pessoas com deficiência auditiva.",
@@ -361,7 +361,7 @@
     },
     {
         "question": "Qual é o significado da imagem apresentada?", 
-        "image": "imagens/meioAmbienteConvivio/simboloInternacionalSurdez.jpg",
+        "image": "../imagens/meioAmbienteConvivio/simboloInternacionalSurdez.jpg",
         "answers": [
             "Símbolo de acessibilidade para cadeirantes.",
             "Símbolo internacional de surdez. ",

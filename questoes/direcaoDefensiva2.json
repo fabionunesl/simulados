@@ -313,7 +313,7 @@
     },
     {
         "question": "Ventos muito fortes podem atingir a moto, provocando perda de estabilidade e descontrole. Qual deve ser a atitude de direção defensiva que o piloto deve adotar ao ver a sinalização vertical de advertência A-44 (vento lateral)? ",
-        "image": "imagens/sinalizacao/a-44.jpg",
+        "image": "../imagens/sinalizacao/a-44.jpg",
         "answers": [
             "Aumentar a velocidade para atravessar rapidamente a área afetada.",
             "Ignorar a sinalização, já que é uma advertência comum.",

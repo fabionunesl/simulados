@@ -40,7 +40,7 @@
 
         // Função para obter questões e iniciar o simulado
         function startSimulado() {
-            fetch('questoes/ctbSntVeiculos.json') // Nome do arquivo JSON com as perguntas
+            fetch('../questoes/direcaoDefensiva2.json') // Nome do arquivo JSON com as perguntas
                 .then(response => response.json())
                 .then(data => {
                     questions = data;
@@ -185,15 +185,9 @@
         }
 
         // Função para reiniciar o simulado
-function restartSimulado() {
-    if (window.userData) {
-        // Redireciona para a página user-dashboard.html com os dados do usuário
-        window.location.href = `user-dashboard.html?name=${encodeURIComponent(window.userData.name)}&logoImage=${encodeURIComponent(window.userData.logoImage)}`;
-    } else {
-        // Se não houver dados do usuário, redireciona sem parâmetros
-        window.location.href = 'user-dashboard.html';
-    }
-}
+        function restartSimulado() {
+            window.location.href = '../user-dashboard.html'; // Redireciona para a página inicial
+        }
 
         // Função para mostrar resultados parciais, apenas as questões respondidas
 function showPartialResult() {
@@ -288,8 +282,7 @@ function cancelSimulado() {
             <h2 id="result-text"></h2>
             <div id="results-details"></div>
             <button id="restart-button" class="button" onclick="restartSimulado()">Escolher Prova</button>
-            <h1><br></h1>
-             
+            <h1><br></h1> 
         </div>
     </div>
 </body>
