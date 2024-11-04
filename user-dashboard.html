@@ -18,25 +18,28 @@
 }
 
 .container {
-    max-width: 800px;
-    margin: auto;
-    padding: 40px;
-    background: #ffffff;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    border-radius: 19px; /* Bordas mais arredondadas */
-    margin-top: 50px;
-    transition: transform 0.3s ease; /* Transição ao passar o mouse */
+    max-width: 600px; /* Reduzido ainda mais para ocupar menos espaço */
+    margin: 20px auto; /* Margem superior e inferior reduzida */
+    padding: 20px; /* Padding menor */
+    background: #fff3e0; /* Tom suave de laranja claro que complementa o laranja */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve para profundidade */
+    border-radius: 12px; /* Bordas arredondadas */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+    
 }
+
 .container:hover {
-    transform: translateY(-5px); /* Eleva o contêiner ao passar o mouse */
+    transform: translateY(-2px); /* Elevação menor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra mais pronunciada */
 }
 
 h1 {
-    font-size: 2em;
-    color: #ff9800; /* Laranja mais brilhante */
-    margin-bottom: 20px;
-    font-weight: 700;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra no texto mais forte */
+    font-size: 1.4em; /* Fonte um pouco menor */
+    color: #1669bb; /* Azul moderno */
+    margin-bottom: 15px; /* Margem menor */
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Sombra sutil no texto */
+    line-height: 1.2; /* Diminuindo o espaço entre as linhas */
 }
 
 .modern-text {
@@ -50,14 +53,14 @@ h1 {
 }
 
         .red-box {
-            background-color: #837f69; /* Tom de vermelho da caixa */
+            background-color: #949079; /* Tom de vermelho da caixa */
             color: #fff; /* Cor do texto dentro da caixa */
             padding: 20px; /* Espaço interno da caixa */
-            border-radius: 8px; /* Arredonda os cantos da caixa */
+            border-radius: 12px; /* Arredonda os cantos da caixa */
             display: inline-block; /* Ajusta a caixa ao tamanho do texto */
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar um efeito de profundidade */
             font-weight: bold;
-            text-transform: uppercase;
+            text-transform: uppercase; /*deixa tudo maiusculo*/
         }
         .button {
     background: rgba(255, 87, 34, 0.9); /* Laranja escuro */
@@ -123,46 +126,14 @@ h1 {
             }
         }
 
-        /* Estilo para a imagem centralizada */
-        .logo-img {
-            max-width: 300px; /* Tamanho pequeno da imagem */
-            margin-bottom: 20px;
-        }
     </style>
+    
 </head>
 <body>
     <div class="container">
-        <img src="" alt="Logo" class="logo-img">
-        <h1 id="welcomeText"></h1>
-        <!-- Outras partes do seu layout -->
-    </div>
-
-    <script>
-        function getQueryParams() {
-    const params = {};
-    window.location.search.substring(1).split("&").forEach(param => {
-        const [key, value] = param.split("=");
-        params[decodeURIComponent(key)] = decodeURIComponent(value);
-    });
-    return params;
-}
-
-window.onload = function() {
-    const params = getQueryParams();
-    const container = document.querySelector('.container'); // Define o contêiner
-
-    // Verifica se os parâmetros foram encontrados e atualiza o texto e a imagem de boas-vindas
-    if (params.name && params.logoImage) {
-        document.getElementById('welcomeText').textContent = `Bem-vindo ao CFC ${params.name}!`;
-        document.querySelector('.logo-img').src = params.logoImage;
-    } else {
-        console.error('Parâmetros não encontrados: ', params);
-        // Atualiza o texto para "Realize as provas quantas vezes desejar"
-        document.getElementById('welcomeText').textContent = 'Aproveite e faça as provas quantas vezes desejar! As provas em verde mudam a cada acesso, garantindo uma experiência única sempre!';
-        document.querySelector('.logo-img').style.display = 'none'; // Opcional: oculta a imagem se os parâmetros não forem encontrados
-    }
-};
-    </script>
+        <h1>Aproveite e faça as provas quantas vezes desejar! As provas em verde mudam a cada acesso, garantindo uma experiência única sempre!</h1>
+    </div>   
+    
         <p class="modern-text">
             <span class="red-box">É necessário obter uma pontuação mínima de 70% para ser aprovado.</span>
         </p>
@@ -197,8 +168,13 @@ window.onload = function() {
         </div>
 
         <div>
-            <button class="button-exit" onclick="location.href='selectMode.html'">Voltar para tela de seleção de estudo</button>            
-            <h1><br></h1>       
+            <button class="button-exit" onclick="location.href='selectMode.html'">Voltar para tela de seleção de estudo </button>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
         </div>
     </div>
 </body>
