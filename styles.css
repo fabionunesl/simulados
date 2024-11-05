@@ -18,6 +18,10 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 30px;
 }
+.container:hover {
+    transform: translateY(-2px); /* Elevação menor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra mais pronunciada */
+}
 
 #timer-container {
     font-size: 18px;
@@ -135,10 +139,77 @@ body {
     padding: 10px 0; /* Adiciona um pequeno espaço em volta da imagem */
 }
 
+
+/* Botões de voltar - proxima pergunta - cancelar */
+
 #next-button {
     background-color: green;
-    color: white; /* Cor do texto para melhor contraste */
+    color: white;
+    padding: 10px 20px; /* Tamanho do botão */
+    border: none; /* Remover borda */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Indicador de clique */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transições suaves */
 }
+
+#next-button:hover {
+    background-color: darkgreen; /* Cor mais escura ao passar o mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
+}
+
+#next-button:active {
+    transform: scale(0.98); /* Efeito de clique */
+}
+
+#previous-button {
+    background-color: #ff8c00;
+    color: white;
+    padding: 10px 20px; /* Tamanho do botão */
+    border: none; /* Remover borda */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Indicador de clique */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transições suaves */
+}
+
+#previous-button:hover {
+    background-color: #ff8c00; /* Cor mais escura ao passar o mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
+}
+
+#previous-button:active {
+    transform: scale(0.98); /* Efeito de clique */
+}
+
+
+#cancel-button {
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 20px; /* Tamanho do botão */
+    border: none; /* Remover borda */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Indicador de clique */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transições suaves */
+}
+
+#cancel-button:hover {
+    background-color: #ff0000; /* Cor mais escura ao passar o mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
+}
+
+#cancel-button:active {
+    transform: scale(0.98); /* Efeito de clique */
+}
+
+
+
+
+
 
 .contact-button {
     background-color: #25D366; /* Verde do WhatsApp */

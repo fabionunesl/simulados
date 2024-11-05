@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CTB SNT Veículos e Condutores</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
     <style>
         /* Estilo para destacar as letras das opções de resposta */
         .answer-label-letter {
@@ -187,11 +187,11 @@
         // Função para reiniciar o simulado
 function restartSimulado() {
     if (window.userData) {
-        // Redireciona para a página user-dashboard.html com os dados do usuário
-        window.location.href = `../user-dashboard.html?name=${encodeURIComponent(window.userData.name)}&logoImage=${encodeURIComponent(window.userData.logoImage)}`;
+        // Redireciona para a página simulados.html com os dados do usuário
+        window.location.href = `simulados.html?name=${encodeURIComponent(window.userData.name)}&logoImage=${encodeURIComponent(window.userData.logoImage)}`;
     } else {
         // Se não houver dados do usuário, redireciona sem parâmetros
-        window.location.href = '../user-dashboard.html';
+        window.location.href = 'simulados.html';
     }
 }
 
