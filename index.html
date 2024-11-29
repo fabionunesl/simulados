@@ -293,6 +293,17 @@
 
         // Chama a função ao carregar a página
         window.onload = countTotalQuestions;
+
+// Função para abrir o WhatsApp
+function openWhatsApp() {
+            const numero = '5551999100145';  // Substitua pelo número desejado
+            const mensagem = 'Olá, gostaria de saber mais sobre o simulado!';
+            const mensagemCodificada = encodeURIComponent(mensagem);
+            const link = `https://wa.me/${numero}?text=${mensagemCodificada}`;
+            window.open(link, '_blank');
+        }
+
+
     </script>
 </head>
 <body>
@@ -307,6 +318,10 @@
                 <p id="error-message" class="error-message"></p>
             </form>
         </div>
+
+        <!-- Botão para enviar mensagem no WhatsApp -->
+        <button class="contact-button" onclick="openWhatsApp()">Para comprar o simulado envie uma mensagem no WhatsApp</button>
+
 
         <!-- Modal de Termos de Uso -->
         <div id="termsModal" style="display:none;">
