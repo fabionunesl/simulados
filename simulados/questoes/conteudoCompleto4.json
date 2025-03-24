@@ -30,7 +30,7 @@
             "Buzina",
             "Velocímetro",
             "Lanternas de freio de cor vermelha",
-            "Placa traseira",
+            "Marcador de combustível",
             "Pneus que ofereçam condições mínimas de segurança"
         ],
         "correctAnswer": 3
@@ -48,7 +48,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "Qual é o telefone do Corpo de Bombeiros em todo o Brasil?", 
+        "question": "Qual é o número de telefone do Corpo de Bombeiros no Brasil?", 
         "image": "",
         "answers": [
             "190",
