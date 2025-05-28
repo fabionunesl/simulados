@@ -276,8 +276,8 @@
         "correctAnswer": 1
     },
     {
-        "question": "Ao encontrar a placa A-15, como o condutor deve interpretar essa sinalização em relação ao seu destino?",
-        "image": "../imagens/sinalizacao/a-15.jpg",
+        "question": "Ao encontrar a placa A-45, como o condutor deve interpretar essa sinalização em relação ao seu destino?",
+        "image": "../imagens/sinalizacao/a-45.jpg",
         "answers": [
             "Planejar rotas alternativas, já que a rua termina sem conexão com outras vias.",
             "Continuar em frente para seu destino ou realizar retorno de três pontas.",
