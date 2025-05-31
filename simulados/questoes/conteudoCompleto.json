@@ -33,11 +33,11 @@
         "correctAnswer": 3
     },
     {
-        "question": "Ficou provado que o acidente de trânsito aconteceu na via devido à falta de sinalização. De quem é a responsabilidade pelo acidente?", 
+        "question": "Ficou provado que o sinistro de trânsito aconteceu na via devido à falta de sinalização. De quem é a responsabilidade pelo sinistro?", 
         "answers": [
             "Do DETRAN.",
             "Do órgão com jurisdição sobre a via.",
-            "Do condutor do veículo que provocou o acidente.",
+            "Do condutor do veículo que provocou o sinistro.",
             "Da Circunscrição Regional de Trânsito - CIRETRAN.",
             "Sempre do Departamento de Infraestrutura de Transportes - DNIT."
         ],
@@ -217,7 +217,7 @@
             "queixeira removível;",
             "máscara."
         ],
-        "correctAnswer": 4
+        "correctAnswer": 0
     },
     {
         "question": "É proibido colocar película", 
@@ -297,7 +297,7 @@
         "correctAnswer": 2
     },
     {
-        "question": "Ao realizar uma avaliação primária numa vítima de acidente de trânsito, o PRIMEIRO item que deve ser avaliado é", 
+        "question": "Ao realizar uma avaliação primária numa vítima de sinistro de trânsito, o PRIMEIRO item que deve ser avaliado é", 
         "answers": [
             "circulação e proteção da vitima; ",
             "vias aéreas e coluna cervical;",
@@ -319,11 +319,11 @@
         "correctAnswer": 0
     },
     {
-        "question": "Um acidente de trânsito aconteceu numa via de mão única, com várias faixas no mesmo sentido. Nesse caso, a sinalização, deve ser feita", 
+        "question": "Um sinistro de trânsito aconteceu numa via de mão única, com várias faixas no mesmo sentido. Nesse caso, a sinalização, deve ser feita", 
         "answers": [
             "em ambos os lados da via;",
-            "no lado da via mais próximo de onde o acidente aconteceu; ",
-            "no lado oposto da via ao qual o acidente aconteceu;",
+            "no lado da via mais próximo de onde o sinistro aconteceu; ",
+            "no lado oposto da via ao qual o sinistro aconteceu;",
             "somente no lado esquerdo da pista;",
             "somente no lado direito da pista."
         ],
